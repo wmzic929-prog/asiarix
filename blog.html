@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>娛樂攻略 | 新手指南 · 優惠攻略 · 平台評測</title>
+  <meta name="description" content="完整娛樂平台攻略：迎新獎勵領取教學、PayMe FPS 入款指南、提款流程詳解、新手常見問題一文搞掂。">
+
+  <link rel="canonical" href="https://YOUR-DOMAIN.com/blog.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="娛樂攻略 | 新手指南 · 優惠攻略 · 平台評測">
+  <meta property="og:description" content="完整娛樂平台攻略：迎新獎勵領取教學、PayMe FPS 入款指南、提款流程詳解。">
+  <meta property="og:url" content="https://YOUR-DOMAIN.com/blog.html">
+  <meta property="og:locale" content="zh_HK">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "@id": "https://YOUR-DOMAIN.com/blog.html#blog",
+        "name": "娛樂攻略",
+        "description": "完整娛樂平台新手指南、優惠攻略、入款提款教學",
+        "url": "https://YOUR-DOMAIN.com/blog.html",
+        "inLanguage": "zh-Hant-HK",
+        "publisher": {
+          "@type": "Organization",
+          "name": "YOUR-BRAND",
+          "url": "https://YOUR-DOMAIN.com/"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": "娛樂攻略文章列表",
+        "url": "https://YOUR-DOMAIN.com/blog.html",
+        "numberOfItems": 8,
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"新手必讀：迎新獎勵點樣領？5分鐘入門指南","url":"https://YOUR-DOMAIN.com/blog/welcome-bonus-guide.html"},
+          {"@type":"ListItem","position":2,"name":"PayMe 入款教學：秒速到帳零手續費完整攻略","url":"https://YOUR-DOMAIN.com/blog/payme-deposit-guide.html"},
+          {"@type":"ListItem","position":3,"name":"FPS 轉數快 vs USDT：哪種付款方式最適合你？","url":"https://YOUR-DOMAIN.com/blog/fps-vs-usdt.html"},
+          {"@type":"ListItem","position":4,"name":"新用戶常見問題 Q&A：迎新禮遇、提款、安全全解答","url":"https://YOUR-DOMAIN.com/blog/new-user-faq.html"},
+          {"@type":"ListItem","position":5,"name":"手機玩娛樂平台攻略：唔使下載，網頁直接開","url":"https://YOUR-DOMAIN.com/blog/mobile-guide.html"},
+          {"@type":"ListItem","position":6,"name":"娛樂平台牌照係咩？點解正規牌照咁重要？","url":"https://YOUR-DOMAIN.com/blog/what-is-license.html"},
+          {"@type":"ListItem","position":7,"name":"提款最快幾耐？完整出款流程時間詳解","url":"https://YOUR-DOMAIN.com/blog/withdrawal-guide.html"},
+          {"@type":"ListItem","position":8,"name":"限時優惠攻略：點樣唔錯過每日最筍著數","url":"https://YOUR-DOMAIN.com/blog/daily-bonus-tips.html"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- GTM Head -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:       #f0b429;
+      --gold-dark:  #d4960f;
+      --gold-light: #ffd166;
+      --bg:         #0a0e1a;
+      --bg-card:    #111827;
+      --bg-card2:   #0f1c35;
+      --text:       #ffffff;
+      --text-muted: #9ca3af;
+      --text-light: #e5e7eb;
+      --border:     rgba(255,255,255,0.08);
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      background: linear-gradient(90deg, #0d1f3c 0%, #122044 100%);
+      border-bottom: 1px solid rgba(240,180,41,.2);
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .site-logo {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: -.01em;
+    }
+    .site-logo span { color: var(--text-light); font-weight: 400; }
+    .header-cta {
+      background: linear-gradient(135deg, var(--gold-light), var(--gold-dark));
+      color: #000;
+      font-size: 13px;
+      font-weight: 800;
+      padding: 9px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      white-space: nowrap;
+      animation: pulseGlow 2.5s ease-in-out infinite;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 3px 18px rgba(240,180,41,.38); }
+      50%       { box-shadow: 0 5px 32px rgba(240,180,41,.72); }
+    }
+
+    /* ── HERO BANNER ── */
+    .blog-hero {
+      background: linear-gradient(160deg, #0a0e1a 0%, #0f2040 60%, #0a0e1a 100%);
+      padding: 44px 20px 36px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .blog-hero h1 {
+      font-size: clamp(22px, 6vw, 36px);
+      font-weight: 800;
+      margin-bottom: 10px;
+      line-height: 1.25;
+    }
+    .blog-hero h1 em { font-style: normal; color: var(--gold); }
+    .blog-hero p {
+      font-size: 14px;
+      color: var(--text-muted);
+      max-width: 440px;
+      margin: 0 auto 24px;
+    }
+    .blog-hero .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--gold-light), var(--gold), var(--gold-dark));
+      color: #000;
+      font-size: 16px;
+      font-weight: 800;
+      padding: 15px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 2px solid rgba(255,255,255,.3);
+      animation: pulseGlow 2.2s ease-in-out infinite;
+    }
+
+    /* ── CATEGORY FILTER ── */
+    .cat-bar {
+      padding: 18px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-card);
+    }
+    .cat-pill {
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      transition: all .2s;
+      font-family: inherit;
+    }
+    .cat-pill:hover,
+    .cat-pill.active {
+      background: rgba(240,180,41,.12);
+      border-color: rgba(240,180,41,.4);
+      color: var(--gold);
+    }
+
+    /* ── ARTICLE GRID ── */
+    .articles {
+      padding: 32px 20px 48px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .articles-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    @media (min-width: 600px) {
+      .articles-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .articles-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color .2s, transform .2s;
+    }
+    .article-card:hover {
+      border-color: rgba(240,180,41,.35);
+      transform: translateY(-2px);
+    }
+    .article-thumb {
+      height: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 44px;
+    }
+    .article-body { padding: 18px 18px 20px; flex: 1; display: flex; flex-direction: column; }
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .article-cat {
+      display: inline-block;
+      background: rgba(240,180,41,.1);
+      border: 1px solid rgba(240,180,41,.22);
+      color: var(--gold);
+      font-size: 10.5px;
+      font-weight: 700;
+      padding: 2px 9px;
+      border-radius: 20px;
+    }
+    .article-date { font-size: 10.5px; color: var(--text-muted); }
+    .article-read { font-size: 10.5px; color: var(--text-muted); }
+    .article-card h2 {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.45;
+      margin-bottom: 9px;
+      color: var(--text);
+    }
+    .article-excerpt {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      flex: 1;
+      margin-bottom: 16px;
+    }
+    .article-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      text-decoration: none;
+    }
+    .article-link:hover { color: var(--gold-light); }
+
+    /* Featured article (first item, full width) */
+    .article-card.featured {
+      grid-column: 1 / -1;
+      flex-direction: row;
+    }
+    .article-card.featured .article-thumb {
+      width: 200px;
+      min-width: 200px;
+      height: auto;
+      font-size: 64px;
+      border-right: 1px solid var(--border);
+    }
+    @media (max-width: 599px) {
+      .article-card.featured { flex-direction: column; }
+      .article-card.featured .article-thumb { width: 100%; height: 120px; border-right: none; border-bottom: 1px solid var(--border); }
+    }
+
+    /* ── BOTTOM CTA BANNER ── */
+    .bottom-banner {
+      background: linear-gradient(160deg, #0f2040 0%, #0a0e1a 100%);
+      border-top: 1px solid rgba(240,180,41,.15);
+      padding: 48px 20px;
+      text-align: center;
+    }
+    .bottom-banner h2 {
+      font-size: clamp(20px, 5vw, 28px);
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    .bottom-banner h2 em { font-style: normal; color: var(--gold); }
+    .bottom-banner p { font-size: 14px; color: var(--text-muted); margin-bottom: 26px; }
+    .bottom-banner .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--gold-light), var(--gold), var(--gold-dark));
+      color: #000;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 19px 44px;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 2px solid rgba(255,255,255,.3);
+      animation: pulseGlow 2.2s ease-in-out infinite;
+    }
+
+    /* ── COMPLIANCE + FOOTER ── */
+    .compliance {
+      background: #06090f;
+      border-top: 1px solid rgba(255,255,255,.05);
+      padding: 22px 24px;
+    }
+    .compliance p {
+      font-size: 10.5px;
+      color: #4b5563;
+      line-height: 1.75;
+      margin-bottom: 8px;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .compliance strong { color: #6b7280; }
+    footer {
+      padding: 14px 20px;
+      text-align: center;
+      font-size: 11px;
+      color: #4b5563;
+      background: #06090f;
+      border-top: 1px solid rgba(255,255,255,.04);
+    }
+    footer a { color: #4b5563; text-decoration: none; margin: 0 7px; }
+    footer a:hover { color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<!-- GTM Body -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- ═══ HEADER ═══ -->
+<header class="site-header">
+  <a href="index.html" class="site-logo">YOUR-BRAND <span>攻略中心</span></a>
+  <a href="index.html" class="header-cta" onclick="trackCta('header')">🎁 領取禮遇</a>
+</header>
+
+<!-- ═══ BLOG HERO ═══ -->
+<section class="blog-hero">
+  <h1>娛樂平台<em>完整攻略</em></h1>
+  <p>新手指南、入款提款教學、優惠攻略，一站式搞掂所有疑問</p>
+  <a href="index.html" class="cta-btn" onclick="trackCta('hero')">🎁 立即領取迎新禮遇</a>
+</section>
+
+<!-- ═══ CATEGORY BAR ═══ -->
+<div class="cat-bar">
+  <button class="cat-pill active" onclick="filterCat('all',this)">全部</button>
+  <button class="cat-pill" onclick="filterCat('新手指南',this)">新手指南</button>
+  <button class="cat-pill" onclick="filterCat('入款攻略',this)">入款攻略</button>
+  <button class="cat-pill" onclick="filterCat('優惠資訊',this)">優惠資訊</button>
+  <button class="cat-pill" onclick="filterCat('平台評測',this)">平台評測</button>
+  <button class="cat-pill" onclick="filterCat('提款教學',this)">提款教學</button>
+</div>
+
+<!-- ═══ ARTICLES GRID ═══ -->
+<!-- AI_INJECT_START — n8n 自動插入新文章於此行下方 -->
+<section class="articles">
+  <div class="articles-grid" id="articles-grid">
+
+    <!-- FEATURED: 新手指南 -->
+    <article class="article-card featured" data-cat="新手指南">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#0f2040,#1a3060);">🎁</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">新手指南</span>
+          <span class="article-date">2026-04-24</span>
+          <span class="article-read">· 5 分鐘</span>
+        </div>
+        <h2>新手必讀：迎新獎勵點樣領？完整 5 分鐘入門指南</h2>
+        <p class="article-excerpt">第一次接觸娛樂平台，唔知點樣開始？呢篇文章幫你由零開始，一步一步教你完成登記、領取迎新獎勵，仲有常見錯誤提醒，確保你順利完成每一個步驟，唔會走寶。</p>
+        <a href="blog/welcome-bonus-guide.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+    <!-- 入款攻略 -->
+    <article class="article-card" data-cat="入款攻略">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#0a1f0a,#0f3020);">💳</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">入款攻略</span>
+          <span class="article-date">2026-04-23</span>
+          <span class="article-read">· 4 分鐘</span>
+        </div>
+        <h2>PayMe 入款教學：秒速到帳、零手續費完整攻略</h2>
+        <p class="article-excerpt">PayMe 係香港最方便嘅付款工具之一，入款快、簡單、免手續費。呢篇詳細教你每一個步驟，仲有常見問題解答，確保你每次入款都順暢無阻。</p>
+        <a href="blog/payme-deposit-guide.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+    <!-- 入款攻略 -->
+    <article class="article-card" data-cat="入款攻略">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#1a0a2e,#2d1060);">₮</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">入款攻略</span>
+          <span class="article-date">2026-04-22</span>
+          <span class="article-read">· 3 分鐘</span>
+        </div>
+        <h2>FPS 轉數快 vs USDT：哪種付款方式最適合你？</h2>
+        <p class="article-excerpt">FPS 即時結算、無需帳戶；USDT 匿名快速、全球通用。兩種方式各有優劣，呢篇幫你根據自己需求選擇最適合嘅入款方式，省時省錢。</p>
+        <a href="blog/fps-vs-usdt.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+    <!-- 新手指南 -->
+    <article class="article-card" data-cat="新手指南">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#0a1a2e,#0f2848);">❓</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">新手指南</span>
+          <span class="article-date">2026-04-21</span>
+          <span class="article-read">· 6 分鐘</span>
+        </div>
+        <h2>新用戶常見問題 Q&amp;A：迎新禮遇、提款、安全全解答</h2>
+        <p class="article-excerpt">整合最多新用戶問過嘅問題，包括：迎新獎勵係咪真實？提款要幾耐？帳號安唔安全？一篇文章解答你所有疑慮，放心使用。</p>
+        <a href="blog/new-user-faq.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+    <!-- 平台評測 -->
+    <article class="article-card" data-cat="平台評測">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#1a1a0a,#2e2e0f);">📱</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">平台評測</span>
+          <span class="article-date">2026-04-20</span>
+          <span class="article-read">· 4 分鐘</span>
+        </div>
+        <h2>手機玩娛樂平台攻略：唔使下載，網頁直接開體驗分享</h2>
+        <p class="article-excerpt">唔需要下載 App 係呢個平台嘅最大優點之一。呢篇分享手機直接用瀏覽器開嘅實際體驗，包括流暢程度、介面設計、功能完整性，全方位評測。</p>
+        <a href="blog/mobile-guide.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+    <!-- 平台評測 -->
+    <article class="article-card" data-cat="平台評測">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#0a1a0a,#103820);">🏆</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">平台評測</span>
+          <span class="article-date">2026-04-19</span>
+          <span class="article-read">· 5 分鐘</span>
+        </div>
+        <h2>娛樂平台牌照係咩？點解正規牌照係選擇平台最重要嘅標準</h2>
+        <p class="article-excerpt">好多人問：牌照有咩用？呢篇文章解釋正規牌照點樣保障你嘅資金安全、個人資料私隱，以及點樣分辨正規同非正規平台，幫你做出最安全嘅選擇。</p>
+        <a href="blog/what-is-license.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+    <!-- 提款教學 -->
+    <article class="article-card" data-cat="提款教學">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#0a0a1a,#10103a);">⚡</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">提款教學</span>
+          <span class="article-date">2026-04-18</span>
+          <span class="article-read">· 4 分鐘</span>
+        </div>
+        <h2>提款最快幾耐到帳？完整出款流程同各方式時間詳解</h2>
+        <p class="article-excerpt">不同提款方式、不同時段，到帳時間各有不同。呢篇詳細拆解 PayMe、FPS、銀行轉帳、USDT 各自嘅到帳時間，幫你選擇最快出款方式。</p>
+        <a href="blog/withdrawal-guide.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+    <!-- 優惠資訊 -->
+    <article class="article-card" data-cat="優惠資訊">
+      <div class="article-thumb" style="background:linear-gradient(135deg,#1a0a0a,#3a1010);">🔥</div>
+      <div class="article-body">
+        <div class="article-meta">
+          <span class="article-cat">優惠資訊</span>
+          <span class="article-date">2026-04-17</span>
+          <span class="article-read">· 3 分鐘</span>
+        </div>
+        <h2>限時優惠攻略：點樣唔錯過每日最筍著數完全指南</h2>
+        <p class="article-excerpt">平台定期推出限時優惠，好多用戶都唔知點樣第一時間知道。呢篇教你幾個方法確保唔錯過任何著數，包括通知設定、最佳登入時間同優惠類型解析。</p>
+        <a href="blog/daily-bonus-tips.html" class="article-link">閱讀全文 →</a>
+      </div>
+    </article>
+
+  </div><!-- /articles-grid -->
+</section>
+<!-- AI_INJECT_END -->
+
+<!-- ═══ BOTTOM CTA BANNER ═══ -->
+<section class="bottom-banner">
+  <h2>睇完攻略，而家係時候<em>行動！</em></h2>
+  <p>新用戶迎新禮遇限時開放，立即登記即享，唔好再等</p>
+  <a href="index.html" class="cta-btn" onclick="trackCta('bottom')">🎁 立即領取迎新禮遇</a>
+</section>
+
+<!-- ═══ COMPLIANCE ═══ -->
+<div class="compliance">
+  <p><strong>【娛樂服務聲明】</strong>本平台所提供之服務屬娛樂性質，所有獎勵積分及虛擬物品均為平台虛擬道具，不可兌換現金，非現金交易賭博。平台為免費使用，另可選購虛擬積分等付費服務。</p>
+  <p><strong>【年齡限制】</strong>🔞 本服務只供年滿 18 歲或以上人士使用。未滿 18 歲人士請勿使用本服務。</p>
+  <p><strong>【負責任娛樂】</strong>請注意個人娛樂時間，適可而止，避免沉迷。如有需要請尋求專業協助。</p>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <p>
+    <a href="index.html">首頁</a>
+    <a href="privacy.html">私隱政策</a>
+    <a href="terms.html">使用條款</a>
+  </p>
+  <p>&copy; 2026 YOUR-BRAND. All rights reserved. &nbsp;|&nbsp; 18+ only</p>
+</footer>
+
+<script>
+  const DESTINATION_URL = 'https://betrix.biz';
+
+  function trackCta(loc) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'cta_click', button_location: 'blog_' + loc });
+    setTimeout(() => { window.location.href = 'index.html'; }, 120);
+  }
+
+  // Category filter
+  function filterCat(cat, btn) {
+    document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.article-card').forEach(card => {
+      const show = cat === 'all' || card.dataset.cat === cat;
+      card.style.display = show ? '' : 'none';
+      if (show && cat !== 'all') card.classList.remove('featured');
+    });
+    if (cat === 'all') {
+      const first = document.querySelector('.article-card');
+      if (first) first.classList.add('featured');
+    }
+  }
+
+  // Scroll depth tracking
+  (function () {
+    const milestones = [25, 50, 75, 100];
+    const fired = new Set();
+    window.dataLayer = window.dataLayer || [];
+    window.addEventListener('scroll', function () {
+      const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
+      milestones.forEach(m => {
+        if (pct >= m && !fired.has(m)) {
+          fired.add(m);
+          window.dataLayer.push({ event: 'blog_scroll_depth', depth_percent: m });
+        }
+      });
+    }, { passive: true });
+  })();
+</script>
+
+</body>
+</html>
