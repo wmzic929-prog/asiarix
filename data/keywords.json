@@ -157,9 +157,9 @@
       "category": "新手指南",
       "angle": "娛樂平台 KYC 認證全流程",
       "image_theme": "identity verification KYC document process",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "kyc-verification-guide",
+      "used_date": "2026-04-29"
     },
     {
       "id": 17,
