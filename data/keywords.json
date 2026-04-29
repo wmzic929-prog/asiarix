@@ -107,9 +107,9 @@
       "category": "提款教學",
       "angle": "分析常見提款失敗原因及解決方法",
       "image_theme": "withdrawal rejected problem solution money",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "withdrawal-rejected-reasons",
+      "used_date": "2026-04-29"
     },
     {
       "id": 12,
