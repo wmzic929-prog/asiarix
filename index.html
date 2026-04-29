@@ -16,7 +16,7 @@
   <meta property="og:url" content="https://YOUR-DOMAIN.com/">
   <meta property="og:image" content="https://YOUR-DOMAIN.com/og-image.jpg">
   <meta property="og:locale" content="zh_HK">
-  <meta property="og:site_name" content="YOUR-BRAND">
+  <meta property="og:site_name" content="全城娛樂情報站">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="新用戶專享禮遇 | 限時迎新獎勵等緊你領">
@@ -38,14 +38,14 @@
           "@type": "WebSite",
           "@id": "https://YOUR-DOMAIN.com/#website",
           "url": "https://YOUR-DOMAIN.com/",
-          "name": "YOUR-BRAND",
+          "name": "全城娛樂情報站",
           "publisher": { "@id": "https://YOUR-DOMAIN.com/#organization" }
         }
       },
       {
         "@type": "Organization",
         "@id": "https://YOUR-DOMAIN.com/#organization",
-        "name": "YOUR-BRAND",
+        "name": "全城娛樂情報站",
         "url": "https://YOUR-DOMAIN.com/",
         "description": "提供豐富娛樂體驗及獎勵計劃的正規平台"
       },
@@ -1097,6 +1097,13 @@
     @media (min-width: 768px) {
       .hero h1 { font-size: 50px; }
     }
+  
+    /* dark sections — placed last so cascading wins over earlier rules */
+    .site-header,.blog-hero,.bottom-banner,.bb,.acb,.compliance,footer{color:#fff}
+    .blog-hero p,.bottom-banner p,.bb p,.acb p,.compliance p{color:rgba(255,255,255,.72)}
+    .compliance strong{color:rgba(255,255,255,.85)}
+    footer,footer a{color:rgba(255,255,255,.55)}
+    footer a:hover{color:#9ca3af}
   </style>
 </head>
 <body>
@@ -1107,7 +1114,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ═══ SITE HEADER ═══ -->
 <header style="background:linear-gradient(90deg,#0d1f3c 0%,#122044 100%);border-bottom:1px solid rgba(240,180,41,.2);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:200;">
-  <a href="index.html" style="font-size:15px;font-weight:800;color:var(--gold);text-decoration:none;letter-spacing:-.01em;flex-shrink:0;">YOUR-BRAND</a>
+  <a href="index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;"><img src="logo.webp" alt="全城娛樂情報站" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;"></a>
   <a href="blog.html" class="header-nav">📖 新手攻略</a>
   <a href="#" class="btn-sm" onclick="handleCTA(event,'header')" style="padding:10px 18px;font-size:13px;">領取禮遇 🎁</a>
 </header>
@@ -1605,7 +1612,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="privacy.html">私隱政策</a>
     <a href="terms.html">使用條款</a>
   </p>
-  <p>&copy; 2026 YOUR-BRAND. All rights reserved. &nbsp;|&nbsp; 18+ only</p>
+  <p>&copy; 2026 全城娛樂情報站. All rights reserved. &nbsp;|&nbsp; 18+ only</p>
 </footer>
 
 <!-- ═══ STICKY BAR (mobile) ═══ -->

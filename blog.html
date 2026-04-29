@@ -14,7 +14,7 @@
   <meta property="og:description" content="完整娛樂平台攻略：迎新獎勵領取教學、PayMe FPS 入款指南、提款流程詳解。">
   <meta property="og:url" content="https://YOUR-DOMAIN.com/blog.html">
   <meta property="og:locale" content="zh_HK">
-  <meta property="og:site_name" content="YOUR-BRAND">
+  <meta property="og:site_name" content="全城娛樂情報站">
   <meta property="og:image" content="https://YOUR-DOMAIN.com/og-image.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="娛樂攻略 | 新手指南 · 優惠攻略 · 平台評測">
@@ -34,7 +34,7 @@
         "inLanguage": "zh-Hant-HK",
         "publisher": {
           "@type": "Organization",
-          "name": "YOUR-BRAND",
+          "name": "全城娛樂情報站",
           "url": "https://YOUR-DOMAIN.com/"
         }
       },
@@ -72,14 +72,15 @@
       --gold:       #f0b429;
       --gold-dark:  #d4960f;
       --gold-light: #ffd166;
-      --bg:         #0a0e1a;
-      --bg-card:    #111827;
-      --bg-card2:   #0f1c35;
-      --text:       #ffffff;
-      --text-muted: #9ca3af;
-      --text-light: #e5e7eb;
-      --border:     rgba(255,255,255,0.08);
+      --bg:         #faf7f2;
+      --bg-card:    #ffffff;
+      --bg-card2:   #fbf6ec;
+      --text:       #1a1d24;
+      --text-muted: #6b7280;
+      --text-light: #2d3340;
+      --border:     rgba(0,0,0,0.08);
     }
+
 
     html { scroll-behavior: smooth; }
     body {
@@ -93,7 +94,7 @@
     .site-header {
       background: linear-gradient(90deg, #0d1f3c 0%, #122044 100%);
       border-bottom: 1px solid rgba(240,180,41,.2);
-      padding: 14px 20px;
+      padding: 10px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -103,13 +104,18 @@
       z-index: 100;
     }
     .site-logo {
-      font-size: 16px;
-      font-weight: 800;
-      color: var(--gold);
+      display: inline-flex;
+      align-items: center;
       text-decoration: none;
-      letter-spacing: -.01em;
     }
-    .site-logo span { color: var(--text-light); font-weight: 400; }
+    .site-logo img {
+      height: 40px;
+      width: auto;
+      max-width: 160px;
+      object-fit: contain;
+      display: block;
+    }
+    @media (max-width: 480px) { .site-logo img { height: 32px; } }
     .header-cta {
       background: linear-gradient(135deg, var(--gold-light), var(--gold-dark));
       color: #000;
@@ -215,12 +221,30 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      transition: border-color .2s, transform .2s;
+      transition: border-color .2s, transform .2s, box-shadow .2s;
+      position: relative;
+      box-shadow: 0 1px 3px rgba(0,0,0,.04);
     }
     .article-card:hover {
-      border-color: rgba(240,180,41,.35);
+      border-color: rgba(240,180,41,.55);
       transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,.08);
     }
+    .card-link {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      text-indent: -9999px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .card-link:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: -2px;
+      border-radius: 16px;
+    }
+    .article-body > * { position: relative; z-index: 2; pointer-events: none; }
+    .article-body .article-link { pointer-events: auto; }
     .article-thumb {
       height: 130px;
       display: flex;
@@ -344,6 +368,13 @@
     }
     footer a { color: #4b5563; text-decoration: none; margin: 0 7px; }
     footer a:hover { color: var(--text-muted); }
+  
+    /* dark sections — placed last so cascading wins over earlier rules */
+    .site-header,.blog-hero,.bottom-banner,.bb,.acb,.compliance,footer{color:#fff}
+    .blog-hero p,.bottom-banner p,.bb p,.acb p,.compliance p{color:rgba(255,255,255,.72)}
+    .compliance strong{color:rgba(255,255,255,.85)}
+    footer,footer a{color:rgba(255,255,255,.55)}
+    footer a:hover{color:#9ca3af}
   </style>
 </head>
 <body>
@@ -354,7 +385,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ═══ HEADER ═══ -->
 <header class="site-header">
-  <a href="index.html" class="site-logo">YOUR-BRAND <span>攻略中心</span></a>
+  <a href="index.html" class="site-logo"><img src="logo.webp" alt="全城娛樂情報站" width="40" height="40"></a>
   <a href="index.html" class="header-cta" onclick="trackCta('header')">🎁 領取禮遇</a>
 </header>
 
@@ -381,6 +412,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- FEATURED: 新手指南 -->
     <article class="article-card featured" data-cat="新手指南">
+      <a href="blog/welcome-bonus-guide.html" class="card-link" aria-label="新手必讀：迎新獎勵點樣領？完整 5 分鐘入門指南">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#0f2040,#1a3060);">🎁</div>
       <div class="article-body">
         <div class="article-meta">
@@ -438,6 +470,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- 入款攻略 -->
     <article class="article-card" data-cat="入款攻略">
+      <a href="blog/payme-deposit-guide.html" class="card-link" aria-label="PayMe 入款教學：秒速到帳、零手續費完整攻略">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#0a1f0a,#0f3020);">💳</div>
       <div class="article-body">
         <div class="article-meta">
@@ -453,6 +486,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- 入款攻略 -->
     <article class="article-card" data-cat="入款攻略">
+      <a href="blog/fps-vs-usdt.html" class="card-link" aria-label="FPS 轉數快 vs USDT：哪種付款方式最適合你？">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#1a0a2e,#2d1060);">₮</div>
       <div class="article-body">
         <div class="article-meta">
@@ -468,6 +502,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- 新手指南 -->
     <article class="article-card" data-cat="新手指南">
+      <a href="blog/new-user-faq.html" class="card-link" aria-label="新用戶常見問題 Q&A：迎新禮遇、提款、安全全解答">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#0a1a2e,#0f2848);">❓</div>
       <div class="article-body">
         <div class="article-meta">
@@ -483,6 +518,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- 平台評測 -->
     <article class="article-card" data-cat="平台評測">
+      <a href="blog/mobile-guide.html" class="card-link" aria-label="手機玩娛樂平台攻略：唔使下載，網頁直接開體驗分享">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#1a1a0a,#2e2e0f);">📱</div>
       <div class="article-body">
         <div class="article-meta">
@@ -498,6 +534,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- 平台評測 -->
     <article class="article-card" data-cat="平台評測">
+      <a href="blog/what-is-license.html" class="card-link" aria-label="娛樂平台牌照係咩？點解正規牌照係選擇平台最重要嘅標準">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#0a1a0a,#103820);">🏆</div>
       <div class="article-body">
         <div class="article-meta">
@@ -513,6 +550,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- 提款教學 -->
     <article class="article-card" data-cat="提款教學">
+      <a href="blog/withdrawal-guide.html" class="card-link" aria-label="提款最快幾耐到帳？完整出款流程同各方式時間詳解">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#0a0a1a,#10103a);">⚡</div>
       <div class="article-body">
         <div class="article-meta">
@@ -528,6 +566,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- 優惠資訊 -->
     <article class="article-card" data-cat="優惠資訊">
+      <a href="blog/daily-bonus-tips.html" class="card-link" aria-label="限時優惠攻略：點樣唔錯過每日最筍著數完全指南">閱讀全文</a>
       <div class="article-thumb" style="background:linear-gradient(135deg,#1a0a0a,#3a1010);">🔥</div>
       <div class="article-body">
         <div class="article-meta">
@@ -565,7 +604,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="privacy.html">私隱政策</a>
     <a href="terms.html">使用條款</a>
   </p>
-  <p>&copy; 2026 YOUR-BRAND. All rights reserved. &nbsp;|&nbsp; 18+ only</p>
+  <p>&copy; 2026 全城娛樂情報站. All rights reserved. &nbsp;|&nbsp; 18+ only</p>
 </footer>
 
 <script>
@@ -591,6 +630,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       if (first) first.classList.add('featured');
     }
   }
+
+  // Auto-inject overlay link for any card missing one (handles n8n-injected cards)
+  (function () {
+    document.querySelectorAll('.article-card').forEach(card => {
+      if (card.querySelector(':scope > .card-link')) return;
+      const link = card.querySelector('.article-link');
+      if (!link) return;
+      const overlay = document.createElement('a');
+      overlay.href = link.getAttribute('href');
+      overlay.className = 'card-link';
+      const h = card.querySelector('h2');
+      overlay.setAttribute('aria-label', h ? h.textContent.trim() : '閱讀全文');
+      overlay.textContent = '閱讀全文';
+      card.insertBefore(overlay, card.firstChild);
+    });
+  })();
 
   // Scroll depth tracking
   (function () {
