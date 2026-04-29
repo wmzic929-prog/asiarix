@@ -177,9 +177,9 @@
       "category": "平台評測",
       "angle": "香港法律環境下娛樂平台的合規問題",
       "image_theme": "law gavel Hong Kong skyline regulation dark",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "hk-platform-legal-issues",
+      "used_date": "2026-04-29"
     },
     {
       "id": 19,
