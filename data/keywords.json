@@ -167,9 +167,9 @@
       "category": "優惠資訊",
       "angle": "比較兩種獎勵形式優劣及適合場景",
       "image_theme": "cash rebate vs points reward comparison casino gold",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "cashback-vs-points-rewards",
+      "used_date": "2026-04-29"
     },
     {
       "id": 18,
