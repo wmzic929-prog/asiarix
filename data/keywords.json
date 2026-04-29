@@ -147,9 +147,9 @@
       "category": "優惠資訊",
       "angle": "VIP 等級制度及積分換算詳解",
       "image_theme": "VIP gold card luxury casino exclusive dark",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "vip-program-guide",
+      "used_date": "2026-04-29"
     },
     {
       "id": 16,
