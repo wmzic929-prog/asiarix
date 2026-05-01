@@ -207,9 +207,9 @@
       "category": "提款教學",
       "angle": "比較各平台提款速度及手續費",
       "image_theme": "fast withdrawal speed comparison money transfer",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "fast-withdrawal-platform-comparison",
+      "used_date": "2026-05-01"
     },
     {
       "id": 22,
