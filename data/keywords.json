@@ -217,9 +217,9 @@
       "category": "入款攻略",
       "angle": "首次入款前必知的條款陷阱及技巧",
       "image_theme": "first deposit new player tips casino gold",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "new-player-first-deposit-tips",
+      "used_date": "2026-05-02"
     },
     {
       "id": 23,
