@@ -227,9 +227,9 @@
       "category": "平台評測",
       "angle": "測試各平台客服回應速度及質量",
       "image_theme": "customer service chat support casino dark",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "entertainment-platform-customer-service-review",
+      "used_date": "2026-05-03"
     },
     {
       "id": 24,
