@@ -805,8 +805,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
   const DESTINATION_URL = 'https://asiarix.com/';
+  const TRACK_URL = 'https://blues-machine-alto-jeff.trycloudflare.com/webhook/track';
+
+  function getSessionId() {
+    let sid = sessionStorage.getItem('_sid');
+    if (!sid) { sid = Math.random().toString(36).slice(2) + Date.now().toString(36); sessionStorage.setItem('_sid', sid); }
+    return sid;
+  }
+  function trackEvent(type, extra) {
+    try {
+      const p = new URLSearchParams({
+        event:      type,
+        session_id: getSessionId(),
+        ref:        (extra && extra.ref) || '',
+        page:       window.location.pathname,
+        referrer:   document.referrer || ''
+      });
+      fetch(TRACK_URL + '?' + p.toString(), { mode: 'no-cors', keepalive: true }).catch(() => {});
+    } catch(e) {}
+  }
+  trackEvent('pageview', {});
 
   function trackCta(loc) {
+    trackEvent('click', { ref: 'blog_' + loc });
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: 'cta_click', button_location: 'blog_' + loc });
     setTimeout(() => { window.location.href = 'index.html'; }, 120);

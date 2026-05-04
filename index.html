@@ -1630,8 +1630,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
   // ── CONFIG ──────────────────────────────────────────────
-  // TODO: 接 Keitaro 時只改呢一行
   const DESTINATION_URL = 'https://asiarix.com/';
+  const TRACK_URL = 'https://blues-machine-alto-jeff.trycloudflare.com/webhook/track';
+
+  // ── SESSION + TRACKING ──────────────────────────────────
+  function getSessionId() {
+    let sid = sessionStorage.getItem('_sid');
+    if (!sid) { sid = Math.random().toString(36).slice(2) + Date.now().toString(36); sessionStorage.setItem('_sid', sid); }
+    return sid;
+  }
+  function trackEvent(type, extra) {
+    try {
+      const utms = getUtmParams ? getUtmParams() : {};
+      const p = new URLSearchParams({
+        event:        type,
+        session_id:   getSessionId(),
+        ref:          (extra && extra.ref) || '',
+        page:         window.location.pathname,
+        utm_source:   utms.utm_source   || '',
+        utm_medium:   utms.utm_medium   || '',
+        utm_campaign: utms.utm_campaign || '',
+        referrer:     document.referrer || ''
+      });
+      fetch(TRACK_URL + '?' + p.toString(), { mode: 'no-cors', keepalive: true }).catch(() => {});
+    } catch(e) {}
+  }
 
   // ── BONUS TEXT（聯盟活動更新時只改呢一行，留空 = 不顯示）──
   const BONUS_TEXT = '';
@@ -1659,6 +1682,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   // ── CTA HANDLER ─────────────────────────────────────────
   function handleCTA(e, ref) {
     e.preventDefault();
+    trackEvent('click', { ref: ref });
     const dest = buildDestUrl(ref);
     const utm  = getUtmParams();
     window.dataLayer = window.dataLayer || [];
@@ -1751,6 +1775,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       });
     }, { passive: true });
   })();
+
+  // ── PAGE VIEW TRACKING ───────────────────────────────────
+  trackEvent('pageview', {});
 </script>
 
 </body>
