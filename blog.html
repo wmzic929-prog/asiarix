@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TQCSL891XL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TQCSL891XL');
+  </script>
+
   <title>娛樂攻略 | 新手指南 · 優惠攻略 · 平台評測</title>
   <meta name="description" content="完整娛樂平台攻略：迎新獎勵領取教學、PayMe FPS 入款指南、提款流程詳解、新手常見問題一文搞掂。">
 
@@ -831,32 +840,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
   const DESTINATION_URL = 'https://asiarix.com/';
-  const TRACK_URL = 'https://track.asiarix.com/webhook/track';
-
   function getSessionId() {
     let sid = sessionStorage.getItem('_sid');
     if (!sid) { sid = Math.random().toString(36).slice(2) + Date.now().toString(36); sessionStorage.setItem('_sid', sid); }
     return sid;
   }
-  function trackEvent(type, extra) {
-    try {
-      const p = new URLSearchParams({
-        event:      type,
-        session_id: getSessionId(),
-        ref:        (extra && extra.ref) || '',
-        page:       window.location.pathname,
-        referrer:   document.referrer || ''
-      });
-      fetch(TRACK_URL + '?' + p.toString(), { mode: 'no-cors', keepalive: true }).catch(() => {});
-    } catch(e) {}
-  }
-  trackEvent('pageview', {});
 
   function trackCta(loc) {
-    trackEvent('click', { ref: 'blog_' + loc });
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'cta_click', button_location: 'blog_' + loc });
-    setTimeout(() => { window.location.href = 'index.html'; }, 120);
+    const label = 'blog_' + loc;
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'cta_click', { button_location: label, page: window.location.pathname });
+    }
+    setTimeout(() => { window.location.href = 'index.html'; }, 150);
   }
 
   // Category filter
