@@ -1,42 +1,4 @@
 ﻿<!DOCTYPE html>
-<!--
-  BLOG POST TEMPLATE — 自動化發文用
-  n8n 流程：讀此檔 → 替換所有 %%PLACEHOLDER%% → 寫出新 .html → push GitLab
-
-  必填 Placeholders（共 20 個）：
-  ── Meta ──────────────────────────────────────────────────────
-  反水返水係咩？娛樂平台返水計算方法同領取攻略2026        文章完整標題（<title> + og:title）
-  反水返水係娛樂平台最常見恆常優惠，本文詳解返水係咩意思、點計算、幾時派發、唔同遊戲比例幾多，幫你唔錯過每日返水！    Meta description，<155 字
-  cashback-rebate-guide         URL slug，純英數字連字號，e.g. fps-vs-usdt
-  2026-05-04         ISO 日期，e.g. 2026-04-27
-  https://asiarix24.pages.dev/og-default.jpg     OG 圖片完整 URL，預設 https://asiarix24.pages.dev/og-image.jpg
-  ── 內容 ──────────────────────────────────────────────────────
-  優惠資訊     分類標籤文字，e.g. 入款攻略
-  反水返水係咩？<br>計算方法同領取完全攻略           H1 標題（可含 <br>），e.g. FPS vs USDT：<br>邊種付款最適合你？
-  5     閱讀分鐘數，純數字，e.g. 3
-  反水返水係娛樂平台最常見嘅恆常優惠之一，唔少玩家唔知自己每日有返水未領，識得計算同領取，每個月可以多賺唔少！         導言段落文字（純文字，無 HTML tag）
-  <p>玩娛樂平台，「反水」同「返水」係你<strong>絕對要識</strong>嘅概念 💰。簡單講，返水就係平台根據你嘅<strong>投注總額</strong>，返番一定百分比俾你作為獎勵。好多玩家唔知道自己每日都有返水未收，白白錯過著數！</p><h2>反水同返水有咩分別？</h2><p>其實「反水」同「返水」係同一樣嘢，只係唔同地區講法有異 📊。香港多用「返水」，台灣慣叫「反水」。平台官方通常寫作「每日返水優惠」，意思完全相同，唔使混淆。</p><h2>返水點計算？</h2><p>公式係：<strong>投注總額 × 返水比例 = 返水金額</strong>。舉例：今日投注 $10,000，返水比例 1%，即可收 <strong>$100 返水</strong> 💵。各遊戲返水比例有別：</p><ul><li>🎰 老虎機：0.8%–1.5%</li><li>🃏 真人百家樂：0.5%–1%</li><li>⚽ 體育投注：0.3%–0.8%</li></ul><p>重點係按<strong>投注額</strong>計，唔係輸贏金額，即使輸錢都照有返水收！</p><h2>幾時可以領取返水？</h2><p>大部分平台<strong>每日自動結算一次</strong>，通常凌晨12點後自動派發到帳戶 ⏰。部分平台係每週結算，逢星期一派上週返水。最正係返水一般<strong>免流水</strong>，領取後即可提款，唔使打碼！</p><h2>最大化返水回報嘅技巧 🔥</h2><ul><li>✅ 集中玩返水比例最高嘅遊戲（老虎機首選）</li><li>✅ 每日登入確認返水有冇自動到帳</li><li>✅ VIP 等級越高，返水比例越高，值得升級</li><li>✅ 部分平台需手動申請，記得去優惠頁面攞</li></ul>         文章主體完整 HTML（h2/h3/p/ul/table/compare-grid/hb）
-  ── CTA ───────────────────────────────────────────────────────
-  立即登入領取你嘅每日返水著數       行內 CTA 標題，e.g. 立即登記，享受便利入款體驗！
-  投注總額自動計算返水，每日凌晨派發，免流水即時提款，唔錯過一分一毫！        行內 CTA 副文字
-  立即加入，享受<em>每日免流水返水優惠</em>    底部 Banner 標題，用 <em> 標記金色字，e.g. 睇完攻略，<em>即刻行動！</em>
-  每日投注自動賺取返水，比例最高達1.5%，免流水即時提款，最抵玩嘅恆常優惠！     底部 Banner 副文字
-  ── Related（固定 3 篇）──────────────────────────────────────
-  daily-bonus-tips.html    相關文章 1 href（相對路徑，e.g. payme-deposit-guide.html）
-  優惠資訊     相關文章 1 分類
-  限時優惠攻略：點樣唔錯過每日最筍著數完全指南   相關文章 1 標題
-  max-deposit-bonus-breakdown.html    相關文章 2 href
-  優惠資訊     相關文章 2 分類
-  娛樂平台最高入款優惠完整拆解：回贈金額、流水條件一次睇晒   相關文章 2 標題
-  welcome-bonus-guide.html    相關文章 3 href
-  新手指南     相關文章 3 分類
-  新手必讀：迎新獎勵點樣領？完整5分鐘入門指南   相關文章 3 標題
-  ── Schema ────────────────────────────────────────────────────
-  [object Object],[object Object],[object Object],[object Object],[object Object]     FAQPage mainEntity JSON 陣列（不含外層 wrapper），格式：
-                   [{"@type":"Question","name":"問題？","acceptedAnswer":{"@type":"Answer","text":"答案"}}]
-  ── 追蹤 ───────────────────────────────────────────────────────
-  cashback_rebate_guide   GA 事件短 ID，純英數字底線，e.g. fps_usdt
--->
 <html lang="zh-Hant-HK">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">

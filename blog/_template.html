@@ -1,42 +1,4 @@
 ﻿<!DOCTYPE html>
-<!--
-  BLOG POST TEMPLATE — 自動化發文用
-  n8n 流程：讀此檔 → 替換所有 %%PLACEHOLDER%% → 寫出新 .html → push GitLab
-
-  必填 Placeholders（共 20 個）：
-  ── Meta ──────────────────────────────────────────────────────
-  %%TITLE%%        文章完整標題（<title> + og:title）
-  %%META_DESC%%    Meta description，<155 字
-  %%SLUG%%         URL slug，純英數字連字號，e.g. fps-vs-usdt
-  %%DATE%%         ISO 日期，e.g. 2026-04-27
-  %%OG_IMAGE%%     OG 圖片完整 URL，預設 https://asiarix24.pages.dev/og-image.jpg
-  ── 內容 ──────────────────────────────────────────────────────
-  %%CATEGORY%%     分類標籤文字，e.g. 入款攻略
-  %%H1%%           H1 標題（可含 <br>），e.g. FPS vs USDT：<br>邊種付款最適合你？
-  %%READ_MIN%%     閱讀分鐘數，純數字，e.g. 3
-  %%LEAD%%         導言段落文字（純文字，無 HTML tag）
-  %%BODY%%         文章主體完整 HTML（h2/h3/p/ul/table/compare-grid/hb）
-  ── CTA ───────────────────────────────────────────────────────
-  %%CTA_H3%%       行內 CTA 標題，e.g. 立即登記，享受便利入款體驗！
-  %%CTA_P%%        行內 CTA 副文字
-  %%BANNER_H2%%    底部 Banner 標題，用 <em> 標記金色字，e.g. 睇完攻略，<em>即刻行動！</em>
-  %%BANNER_P%%     底部 Banner 副文字
-  ── Related（固定 3 篇）──────────────────────────────────────
-  %%REL1_HREF%%    相關文章 1 href（相對路徑，e.g. payme-deposit-guide.html）
-  %%REL1_CAT%%     相關文章 1 分類
-  %%REL1_TITLE%%   相關文章 1 標題
-  %%REL2_HREF%%    相關文章 2 href
-  %%REL2_CAT%%     相關文章 2 分類
-  %%REL2_TITLE%%   相關文章 2 標題
-  %%REL3_HREF%%    相關文章 3 href
-  %%REL3_CAT%%     相關文章 3 分類
-  %%REL3_TITLE%%   相關文章 3 標題
-  ── Schema ────────────────────────────────────────────────────
-  %%FAQ_JSON%%     FAQPage mainEntity JSON 陣列（不含外層 wrapper），格式：
-                   [{"@type":"Question","name":"問題？","acceptedAnswer":{"@type":"Answer","text":"答案"}}]
-  ── 追蹤 ───────────────────────────────────────────────────────
-  %%EVENT_SLUG%%   GA 事件短 ID，純英數字底線，e.g. fps_usdt
--->
 <html lang="zh-Hant-HK">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
