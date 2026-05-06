@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asiarix24.pages.dev/sitemap.xml
