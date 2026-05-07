@@ -277,9 +277,9 @@
       "category": "入款攻略",
       "angle": "銀行轉帳入款流程及注意事項",
       "image_theme": "bank transfer deposit Hong Kong casino dark gold",
-      "status": "available",
-      "slug": null,
-      "used_date": null
+      "status": "used",
+      "slug": "bank-transfer-deposit-guide",
+      "used_date": "2026-05-07"
     }
   ]
 }
