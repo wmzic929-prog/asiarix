@@ -301,8 +301,9 @@
       "id": 31,
       "keyword": "USDT TRC20 vs ERC20 入款分別",
       "category": "入款教學",
-      "slug": "usdt-trc20-erc20",
-      "status": "available"
+      "slug": "usdt-trc20-vs-erc20-deposit",
+      "status": "used",
+      "used_date": "2026-05-09"
     },
     {
       "id": 32,
