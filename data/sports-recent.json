@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-10-hong-kong-sports-planning-consultation",
+      "headline": "體育界共商五年規劃 霍啟剛推動全民運動",
+      "category": "綜合",
+      "emoji": "🏃‍♂️",
+      "date": "2026-05-10",
+      "lead": "為規劃香港未來五年的體育發展藍圖，體育界諮詢會日前盛大舉行，業界翹楚匯聚一堂，就如何提升香港體育水平及推廣全民運動，集思廣益，為香港體育注入新動力。",
+      "imageUrl": "",
+      "imageAlt": "體育界共商五年規劃 霍啟剛推動全民運動"
+    },
+    {
       "slug": "2026-05-10-hk-sports-planning-consultation",
       "headline": "體育界集思廣益 規劃香港未來五年體育發展",
       "category": "綜合",
@@ -29,16 +39,6 @@
       "lead": "香港網球手王雋晞在江西公開賽奪得個人首個ATP巡迴賽冠軍，成為歷史上首位贏得ATP單打冠軍的香港球手。",
       "imageUrl": "https://www.sportsroad.hk/wp-content/uploads/2026/05/ColemanWong_tennis_20260503_cover.jpeg",
       "imageAlt": "王雋晞奪ATP冠軍"
-    },
-    {
-      "slug": "2026-05-09-football-eastern-fc-five-players-depart-rodrigues-century",
-      "headline": "傑志5將離隊 羅里格斯百場里程碑大花筒",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-09",
-      "lead": "香港足球代表隊隊長羅里格斯在傑志效力迎來百場里程碑，同時傑志宣布5名球員約滿離隊，球隊陣容迎來重大變化。",
-      "imageUrl": "https://www.sportsroad.hk/wp-content/uploads/2026/05/20260508_COV2.jpg",
-      "imageAlt": "傑志5將離隊 羅里格斯百場"
     }
   ]
 }
