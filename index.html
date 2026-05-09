@@ -152,7 +152,14 @@
       transition: color .2s, border-color .2s;
     }
     .header-nav:hover { color: var(--purple-ultra); border-color: var(--purple-light); }
-    @media (max-width: 380px) { .header-nav { display: none; } }
+    .header-nav-sports { background: rgba(107,63,246,.18); border-color: rgba(107,63,246,.45); color: var(--purple-ultra); }
+    .header-nav-group {
+      flex: 1; min-width: 0;
+      display: flex; gap: 6px; align-items: center;
+      overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      padding: 0 4px;
+    }
+    .header-nav-group::-webkit-scrollbar { display: none; }
     .btn-sm {
       background: var(--purple);
       color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px;
@@ -162,30 +169,6 @@
       transition: box-shadow .2s, transform .15s;
     }
     .btn-sm:hover { box-shadow: 0 6px 24px var(--purple-glow); transform: scale(1.03); }
-
-    /* ── QUICK NAV ── */
-    .quick-nav {
-      background: var(--bg-alt);
-      border-bottom: 1px solid var(--border);
-      padding: 10px 16px;
-      display: flex;
-      gap: 8px;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: none;
-    }
-    .quick-nav::-webkit-scrollbar { display: none; }
-    .qnav-pill {
-      display: inline-flex; align-items: center; gap: 5px;
-      padding: 7px 15px; border-radius: 20px;
-      font-size: 12.5px; font-weight: 600;
-      border: 1px solid var(--border);
-      background: #fff; color: var(--text-muted);
-      text-decoration: none; white-space: nowrap;
-      transition: all .2s; flex-shrink: 0;
-    }
-    .qnav-pill:hover { background: rgba(107,63,246,.08); border-color: rgba(107,63,246,.35); color: var(--purple); }
-    .qnav-pill.sports { background: rgba(107,63,246,.1); border-color: rgba(107,63,246,.35); color: var(--purple); font-weight: 700; }
 
     /* ── HERO ── */
     .hero {
@@ -947,19 +930,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
     <img src="logo.webp" alt="全城娛樂情報站" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
   </a>
-  <a href="blog.html" class="header-nav">📖 新手攻略</a>
-  <a href="#" class="btn-sm" onclick="handleCTA(event,'header')">領取禮遇 🎁</a>
+  <nav class="header-nav-group" aria-label="快捷分類">
+    <a href="blog.html?cat=新手指南" class="header-nav">📖 新手指南</a>
+    <a href="blog.html?cat=入款攻略" class="header-nav">💰 入款攻略</a>
+    <a href="blog.html?cat=優惠資訊" class="header-nav">🎁 優惠資訊</a>
+    <a href="blog.html?cat=平台評測" class="header-nav">📊 平台評測</a>
+    <a href="blog.html?cat=提款教學" class="header-nav">💸 提款教學</a>
+    <a href="sports.html" class="header-nav header-nav-sports">⚽ 體育新聞</a>
+  </nav>
+  <a href="#" class="btn-sm" onclick="handleCTA(event,'header')" style="flex-shrink:0;">領取禮遇 🎁</a>
 </header>
-
-<!-- ═══ QUICK NAV ═══ -->
-<nav class="quick-nav" aria-label="快捷分類">
-  <a href="blog.html?cat=新手指南" class="qnav-pill">📖 新手指南</a>
-  <a href="blog.html?cat=入款攻略" class="qnav-pill">💰 入款攻略</a>
-  <a href="blog.html?cat=優惠資訊" class="qnav-pill">🎁 優惠資訊</a>
-  <a href="blog.html?cat=平台評測" class="qnav-pill">📊 平台評測</a>
-  <a href="blog.html?cat=提款教學" class="qnav-pill">💸 提款教學</a>
-  <a href="sports.html" class="qnav-pill sports">⚽ 體育新聞</a>
-</nav>
 
 <!-- ═══ HERO ═══ -->
 <section class="hero">
