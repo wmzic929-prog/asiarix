@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-10-hong-kong-five-year-plan-sports-consultation",
+      "headline": "霍啟剛辦體育諮詢會 共商五年大計",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-10",
+      "lead": "「香港五年規劃」體育界諮詢會日前圓滿舉行，逾百名業界代表雲集獻策，圍繞全民運動、精英培訓及體育產業化展開深入討論，為本港未來五年體育藍圖揭開新篇章。",
+      "imageUrl": "",
+      "imageAlt": "霍啟剛辦體育諮詢會 共商五年大計"
+    },
+    {
       "slug": "2026-05-10-hong-kong-sports-planning-consultation",
       "headline": "體育界共商五年規劃 霍啟剛推動全民運動",
       "category": "綜合",
@@ -29,16 +39,6 @@
       "lead": "香港體育界就「香港五年規劃」展開重要諮詢，多位體育界翹楚聚首一堂，共同為未來五年的體育發展藍圖獻計獻策，特別著重推動全民運動。",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "slug": "2026-05-09-tennis-wong-chun-hei-first-atp-title-jiangxi",
-      "headline": "王雋晞摘得首個ATP冠軍 香港網球歷史性突破",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-05-09",
-      "lead": "香港網球手王雋晞在江西公開賽奪得個人首個ATP巡迴賽冠軍，成為歷史上首位贏得ATP單打冠軍的香港球手。",
-      "imageUrl": "https://www.sportsroad.hk/wp-content/uploads/2026/05/ColemanWong_tennis_20260503_cover.jpeg",
-      "imageAlt": "王雋晞奪ATP冠軍"
     }
   ]
 }
