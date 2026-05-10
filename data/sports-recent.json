@@ -2,6 +2,16 @@
   "articles": [
     {
       "slug": "2026-05-10-hong-kong-five-year-plan-sports-consultation",
+      "headline": "霍啟剛辦體育諮詢會 百人共商五年規劃",
+      "category": "綜合",
+      "emoji": "🏆",
+      "date": "2026-05-10",
+      "lead": "立法會體育界議員霍啟剛日前舉辦「香港五年規劃」體育界諮詢會，逾百名業界代表雲集出席，就推動全民運動、精英運動員培訓、體育產業化等多個範疇深入討論，為香港體育未來",
+      "imageUrl": "",
+      "imageAlt": "霍啟剛辦體育諮詢會 百人共商五年規劃"
+    },
+    {
+      "slug": "2026-05-10-hong-kong-five-year-plan-sports-consultation",
       "headline": "霍啟剛辦體育諮詢會 共商五年大計",
       "category": "綜合",
       "emoji": "🏅",
@@ -29,16 +39,6 @@
       "lead": "為勾劃香港未來五年的體育發展藍圖，「香港五年規劃」體育界諮詢會已圓滿舉行，業界代表積極獻策，冀能推動香港體育邁向新高峰。",
       "imageUrl": "",
       "imageAlt": "體育界集思廣益 規劃香港未來五年體育發展"
-    },
-    {
-      "slug": "2026-05-10-hong-kong-sports-planning-consultation",
-      "headline": "五年規劃體育界諮詢會 聚焦全民運動",
-      "category": "綜合",
-      "emoji": "🏃‍♂️",
-      "date": "2026-05-10",
-      "lead": "香港體育界就「香港五年規劃」展開重要諮詢，多位體育界翹楚聚首一堂，共同為未來五年的體育發展藍圖獻計獻策，特別著重推動全民運動。",
-      "imageUrl": "",
-      "imageAlt": ""
     }
   ]
 }
