@@ -237,9 +237,9 @@
       "category": "入款教學",
       "angle": "TRC20 與 ERC20 手續費及速度比較",
       "image_theme": "USDT TRC20 ERC20 blockchain comparison crypto",
-      "status": "available",
-      "slug": "usdt-trc20-erc20",
-      "used_date": null
+      "status": "used",
+      "slug": "usdt-trc20-vs-erc20-deposit",
+      "used_date": "2026-05-10"
     },
     {
       "id": 32,
