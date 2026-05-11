@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-11-hk-sports-five-year-plan",
+      "title": "香港體育五年規劃啟動 諮詢會高層參與共謀發展",
+      "category": "綜合",
+      "emoji": "📋",
+      "date": "2026-05-11",
+      "excerpt": "體育界人士齊聚討論2026-2030年發展計劃，涵蓋基層體育、精英訓練、產業發展等多個領域。",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+      "imageAlt": "體育會議場景"
+    },
+    {
       "slug": "2026-05-11-hkjc-67b-donation",
       "title": "香港賽馬會十年投資逾67億 體育發展持續領航",
       "category": "賽馬",
@@ -19,16 +29,6 @@
       "excerpt": "兵工廠作客以1比0擊敗西漢姆聯，Trossard尾段破網加上VAR取消對方均衡球，砲手重奪英超榜首。香港球迷徹夜守候，見證奪冠大計再踏關鍵一步。",
       "imageUrl": "https://cdn.ftvnews.com.tw/manasystem/FileData/News/a9a28a5f-9939-494f-97f2-23bb8f2dfdba.jpg",
       "imageAlt": "兵工廠對西漢姆聯英超賽事"
-    },
-    {
-      "slug": "2026-05-10-hk-sports-planning-consultation",
-      "title": "體育界集思廣益 規劃香港未來五年體育發展",
-      "category": "綜合",
-      "emoji": "🏃‍♂️",
-      "date": "2026-05-10",
-      "excerpt": "為勾劃香港未來五年的體育發展藍圖，體育界諮詢會圓滿舉行，業界代表積極獻策，冀能推動香港體育邁向新高峰。",
-      "imageUrl": "",
-      "imageAlt": "綜合"
     }
   ]
 }
