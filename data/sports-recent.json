@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-11-chan-pui-ki-100m-record",
+      "title": "港將突破百米紀錄 陳佩琦成新一代田徑女飛人",
+      "category": "田徑",
+      "emoji": "🏃",
+      "date": "2026-05-11",
+      "excerpt": "陳佩琦以11.25秒成績刷新香港女子百米紀錄，創造個人最佳成績，展現港將進步動能。",
+      "imageUrl": "https://images.unsplash.com/photo-1532107149324-0fbbc08e826e?w=800",
+      "imageAlt": "田徑比賽"
+    },
+    {
       "slug": "2026-05-11-hk-sports-five-year-plan",
       "title": "香港體育五年規劃啟動 諮詢會高層參與共謀發展",
       "category": "綜合",
@@ -19,16 +29,6 @@
       "excerpt": "馬會十年投資超67億港元支持香港體育，涵蓋基層培訓、場館建設、運動員發展等多方面。",
       "imageUrl": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?w=800",
       "imageAlt": "賽馬場景"
-    },
-    {
-      "slug": "2026-05-11-football-arsenal-west-ham-trossard-var",
-      "title": "兵工廠力克西漢姆聯登頂！Trossard制勝球VAR爭議成英超奪冠分水嶺",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-11",
-      "excerpt": "兵工廠作客以1比0擊敗西漢姆聯，Trossard尾段破網加上VAR取消對方均衡球，砲手重奪英超榜首。香港球迷徹夜守候，見證奪冠大計再踏關鍵一步。",
-      "imageUrl": "https://cdn.ftvnews.com.tw/manasystem/FileData/News/a9a28a5f-9939-494f-97f2-23bb8f2dfdba.jpg",
-      "imageAlt": "兵工廠對西漢姆聯英超賽事"
     }
   ]
 }
