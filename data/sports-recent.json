@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-11-chan-pui-ki-100m-record",
+      "title": "港將突破百米紀錄 陳佩琦成新一代田徑女飛人",
+      "category": "田徑",
+      "emoji": "🏃",
+      "date": "2026-05-11",
+      "excerpt": "陳佩琦以11.25秒成績刷新香港女子百米紀錄，創造個人最佳成績，展現港將進步動能。",
+      "imageUrl": "https://www.sportsroad.hk/wp-content/uploads/2026/05/20260510_100M_Cover.jpg",
+      "imageAlt": "田徑比賽"
+    },
+    {
       "slug": "2026-05-11-hk-basketball-league-finals",
       "title": "香港職業籃球聯賽衝刺 豪強爭冠關鍵週開戰",
       "category": "籃球",
@@ -19,16 +29,6 @@
       "excerpt": "港羽年輕混雙組合鄧俊文/黃紀欣晉級亞洲錦標賽八強，打破香港八年國際大賽進展瓶頸。",
       "imageUrl": "https://images.unsplash.com/photo-1621224971218-469c3a3564e9?w=800",
       "imageAlt": "羽毛球比賽"
-    },
-    {
-      "slug": "2026-05-11-chan-pui-ki-100m-record",
-      "title": "港將突破百米紀錄 陳佩琦成新一代田徑女飛人",
-      "category": "田徑",
-      "emoji": "🏃",
-      "date": "2026-05-11",
-      "excerpt": "陳佩琦以11.25秒成績刷新香港女子百米紀錄，創造個人最佳成績，展現港將進步動能。",
-      "imageUrl": "https://images.unsplash.com/photo-1532107149324-0fbbc08e826e?w=800",
-      "imageAlt": "田徑比賽"
     }
   ]
 }
