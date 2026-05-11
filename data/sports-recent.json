@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-11-hk-badminton-asia-top8",
+      "title": "香港羽毛球新血迸發 混雙組合晉級亞洲top8",
+      "category": "羽毛球",
+      "emoji": "🏸",
+      "date": "2026-05-11",
+      "excerpt": "港羽年輕混雙組合鄧俊文/黃紀欣晉級亞洲錦標賽八強，打破香港八年國際大賽進展瓶頸。",
+      "imageUrl": "",
+      "imageAlt": "羽毛球比賽"
+    },
+    {
       "slug": "2026-05-11-chan-pui-ki-100m-record",
       "title": "港將突破百米紀錄 陳佩琦成新一代田徑女飛人",
       "category": "田徑",
@@ -19,16 +29,6 @@
       "excerpt": "港籃職業聯賽進入衝刺期，三支豪強互相追趕，本週關鍵對陣將決定冠軍歸屬，比賽精彩度創新高。",
       "imageUrl": "https://images.unsplash.com/photo-1546519638-68711109d298?w=800",
       "imageAlt": "籃球比賽"
-    },
-    {
-      "slug": "2026-05-11-hk-badminton-asia-top8",
-      "title": "香港羽毛球新血迸發 混雙組合晉級亞洲top8",
-      "category": "羽毛球",
-      "emoji": "🏸",
-      "date": "2026-05-11",
-      "excerpt": "港羽年輕混雙組合鄧俊文/黃紀欣晉級亞洲錦標賽八強，打破香港八年國際大賽進展瓶頸。",
-      "imageUrl": "https://images.unsplash.com/photo-1621224971218-469c3a3564e9?w=800",
-      "imageAlt": "羽毛球比賽"
     }
   ]
 }
