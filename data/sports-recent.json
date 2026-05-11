@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-11-football-arsenal-west-ham-trossard-var",
+      "title": "兵工廠力克西漢姆聯登頂！Trossard制勝球VAR爭議成英超奪冠分水嶺",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-11",
+      "excerpt": "兵工廠作客以1比0擊敗西漢姆聯，Trossard尾段破網加上VAR取消對方均衡球，砲手重奪英超榜首。香港球迷徹夜守候，見證奪冠大計再踏關鍵一步。",
+      "imageUrl": "",
+      "imageAlt": "足球"
+    },
+    {
       "slug": "2026-05-10-hk-sports-planning-consultation",
       "headline": "體育界集思廣益 規劃香港未來五年體育發展",
       "category": "綜合",
@@ -19,26 +29,6 @@
       "lead": "香港網球手王雋晞在江西公開賽力壓群雄，勇奪個人首個ATP巡迴賽冠軍，成為香港網球史上劃時代的歷史時刻。",
       "imageUrl": "https://spheretap.com/og-image.jpg",
       "imageAlt": "王雋晞奪ATP冠軍香港網球歷史性突破"
-    },
-    {
-      "slug": "2026-05-09-rugby-jockey-club-community-sevens-15000-participants",
-      "headline": "賽馬會社區欖球七人賽逾15,000參與者創歷史新高",
-      "category": "欖球",
-      "emoji": "🏉",
-      "date": "2026-05-09",
-      "lead": "由香港賽馬會冠名贊助的社區欖球七人賽今屆盛況空前，逾15,000名球員及愛好者熱情參與，創下歷屆最高參與人數紀錄。",
-      "imageUrl": "https://spheretap.com/og-image.jpg",
-      "imageAlt": "賽馬會社區欖球七人賽逾15,000參與者創歷史新高"
-    },
-    {
-      "slug": "2026-05-09-football-eastern-fc-five-players-depart-rodrigues-century",
-      "headline": "傑志5名球員約滿離隊羅里格斯出席百場紀念儀式",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-09",
-      "lead": "香港頂級球隊傑志迎來人事大洗牌，5名球員確認約滿離隊，而隊長羅里格斯則於此時迎來個人百場里程碑，為球會寫下重要一頁。",
-      "imageUrl": "https://spheretap.com/og-image.jpg",
-      "imageAlt": "傑志5名球員約滿離隊羅里格斯出席百場紀念儀式"
     }
   ]
 }
