@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-11-hk-basketball-league-finals",
+      "title": "香港職業籃球聯賽衝刺 豪強爭冠關鍵週開戰",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-11",
+      "excerpt": "港籃職業聯賽進入衝刺期，三支豪強互相追趕，本週關鍵對陣將決定冠軍歸屬，比賽精彩度創新高。",
+      "imageUrl": "https://images.unsplash.com/photo-1546519638-68711109d298?w=800",
+      "imageAlt": "籃球比賽"
+    },
+    {
       "slug": "2026-05-11-hk-badminton-asia-top8",
       "title": "香港羽毛球新血迸發 混雙組合晉級亞洲top8",
       "category": "羽毛球",
@@ -19,16 +29,6 @@
       "excerpt": "陳佩琦以11.25秒成績刷新香港女子百米紀錄，創造個人最佳成績，展現港將進步動能。",
       "imageUrl": "https://images.unsplash.com/photo-1532107149324-0fbbc08e826e?w=800",
       "imageAlt": "田徑比賽"
-    },
-    {
-      "slug": "2026-05-11-hk-basketball-league-finals",
-      "title": "香港職業籃球聯賽衝刺 豪強爭冠關鍵週開戰",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-11",
-      "excerpt": "港籃職業聯賽進入衝刺期，三支豪強互相追趕，本週關鍵對陣將決定冠軍歸屬，比賽精彩度創新高。",
-      "imageUrl": "",
-      "imageAlt": "籃球比賽"
     }
   ]
 }
