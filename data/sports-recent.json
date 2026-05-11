@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-11-barcelona-real-madrid-laliga-title",
+      "title": "巴塞隆納電掣2:0擊敗皇馬 蟬聯西甲寶座第29次封王",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-11",
+      "excerpt": "巴塞隆納2:0勝皇馬奪西甲冠軍，Rashford和Ferran Torres建功，連鎖西甲寶座，皇馬失落本賽季全部獎項。",
+      "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800",
+      "imageAlt": "巴塞隆納足球隊慶祝"
+    },
+    {
       "slug": "2026-05-11-nba-knicks-76ers-sweep",
       "title": "尼克斯零封76人橫掃殺入東區決賽 投籃火力無敵",
       "category": "籃球",
@@ -19,16 +29,6 @@
       "excerpt": "陳佩琦以11.25秒成績刷新香港女子百米紀錄，創造個人最佳成績，展現港將進步動能。",
       "imageUrl": "https://www.sportsroad.hk/wp-content/uploads/2026/05/20260510_100M_Cover.jpg",
       "imageAlt": "田徑比賽"
-    },
-    {
-      "slug": "2026-05-11-hk-badminton-asia-top8",
-      "title": "香港羽毛球新血迸發 混雙組合晉級亞洲top8",
-      "category": "羽毛球",
-      "emoji": "🏸",
-      "date": "2026-05-11",
-      "excerpt": "港羽年輕混雙組合鄧俊文/黃紀欣晉級亞洲錦標賽八強，打破香港八年國際大賽進展瓶頸。",
-      "imageUrl": "https://www.sportsroad.hk/wp-content/uploads/2025/04/TangChunMan_TseYingSuet_badminton_20250413_cover10.jpg",
-      "imageAlt": "羽毛球比賽"
     }
   ]
 }
