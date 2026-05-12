@@ -277,9 +277,9 @@
       "category": "入款教學",
       "angle": "FPS 入款即時到帳的操作要點",
       "image_theme": "FPS instant deposit Hong Kong payment fast gold",
-      "status": "available",
-      "slug": "fps-instant-deposit",
-      "used_date": null
+      "status": "used",
+      "slug": "fps-instant-deposit-tips",
+      "used_date": "2026-05-12"
     },
     {
       "id": 40,
