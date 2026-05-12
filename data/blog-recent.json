@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "weekly-rebate-guide",
+      "title": "娛樂平台週回贈活動攻略2026|最大化領取技巧大公開",
+      "category": "優惠攻略",
+      "date": "2026-05-12",
+      "excerpt": "玩開娛樂平台嘅你,係咪每星期都净係知有週回贈但唔識點攞到最多?今次教你用啱方法,每週回贈最高可以拎到 1.5%!",
+      "imageUrl": "https://pixabay.com/get/g467c82d48bc258825496b38787ea6a413007703d81ac8bd2d8c83cb2020b34284b5643090eabfe236c08e2e7d7d651399098e4892afb19f0e4a7d2b261dc24bf_640.jpg"
+    },
+    {
       "slug": "fps-instant-deposit-tips",
       "title": "FPS 即時到帳秘訣2026|轉數快入款3秒到賬完整攻略",
       "category": "入款教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-11",
       "excerpt": "玩娛樂平台最驚就係遇到黑店，今次教你由牌照、出金到客服全方位識別不可靠平台，避免血汗錢一去無回頭！",
       "imageUrl": "https://pixabay.com/get/g691f238a810379212472d43dcb637536b108adab4ed4f2e964d587bdb4e741d7a681238e8c6b26d1ce380d5a6b08077889fff8ee3de2a87586dda64cf443bed5_640.jpg"
-    },
-    {
-      "slug": "hk-gambling-tax-guide",
-      "title": "香港娛樂平台稅務問題完整解答｜博彩收益要唔要課稅2026",
-      "category": "法律合規",
-      "date": "2026-05-10",
-      "excerpt": "好多香港玩家都會問：喺娛樂平台贏咗錢究竟要唔要課稅？今篇一次過幫你拆解香港稅務制度同實際操作。",
-      "imageUrl": "https://pixabay.com/get/gf81fbdd2ea03cea805fcaa5e7dbb7e3081777be715301e8ab945c797d5dfa290d70904fd1d0dfb703f7ca7392f60fabc2f53e99fdb53f7d2ed56c2df10053e9e_640.jpg"
     }
   ]
 }
