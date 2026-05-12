@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "fps-instant-deposit-tips",
+      "title": "FPS 即時到帳秘訣2026|轉數快入款3秒到賬完整攻略",
+      "category": "入款教學",
+      "date": "2026-05-12",
+      "excerpt": "FPS 轉數快理論上即時到賬,但係實際操作中經常有玩家話等十幾分鐘都未入到數,呢篇教你避雷。",
+      "imageUrl": "https://pixabay.com/get/g6f3c38aebd3c2d2d54061af9bb989da1a563cca4c1ba65711b3f602f81516c9822e5c5e91a7305945ac297c90e652298bb7d14e8f9b292c93b779e4967b1ac55_640.jpg"
+    },
+    {
       "slug": "avoid-blacklist-platforms",
       "title": "娛樂平台黑名單點避免？5大識別不可靠平台技巧2026",
       "category": "平台選擇",
@@ -15,14 +23,6 @@
       "date": "2026-05-10",
       "excerpt": "好多香港玩家都會問：喺娛樂平台贏咗錢究竟要唔要課稅？今篇一次過幫你拆解香港稅務制度同實際操作。",
       "imageUrl": "https://pixabay.com/get/gf81fbdd2ea03cea805fcaa5e7dbb7e3081777be715301e8ab945c797d5dfa290d70904fd1d0dfb703f7ca7392f60fabc2f53e99fdb53f7d2ed56c2df10053e9e_640.jpg"
-    },
-    {
-      "slug": "deposit-limit-guide",
-      "title": "娛樂平台存款上限係幾多？2026各大平台入款限額一覽",
-      "category": "常見問題",
-      "date": "2026-05-10",
-      "excerpt": "想入大額但唔知平台限唔限？呢篇文幫你睇清各大娛樂平台存款上限同點樣突破限制。",
-      "imageUrl": "https://pixabay.com/get/gd1569964d756b1b83c32e38ad0b444e0058a359960286df874ac37112443e175171adc551f39b51cf2ab49fe7f3ec6c7_640.jpg"
     }
   ]
 }
