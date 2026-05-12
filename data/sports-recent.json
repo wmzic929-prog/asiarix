@@ -1,34 +1,34 @@
 {
   "articles": [
     {
-      "slug": "2026-05-12-test-image-hosting",
-      "title": "圖片自託管測試文章",
-      "category": "測試",
+      "slug": "2026-05-11-nba-knicks-76ers-sweep",
+      "title": "尼克斯零封76人橫掃殺入東區決賽 投籃火力無敵",
+      "category": "籃球",
       "emoji": "🏀",
-      "date": "2026-05-12",
-      "excerpt": "測試圖片自託管功能",
-      "imageUrl": "/sports/img/2026-05-12-test-image-hosting.jpg",
-      "imageAlt": "籃球賽事測試圖"
+      "date": "2026-05-11",
+      "excerpt": "紐約尼克斯以144:114大勝費城76人，4:0橫掃晉級東區決賽，全場投進25個三分球創季後賽隊史新紀錄。",
+      "imageUrl": "/sports/img/2026-05-11-nba-knicks-76ers-sweep.jpg",
+      "imageAlt": "籃球賽事"
     },
     {
-      "slug": "2026-05-12-test-image-hosting",
-      "title": "圖片自託管測試文章",
-      "category": "測試",
-      "emoji": "🏀",
-      "date": "2026-05-12",
-      "excerpt": "測試圖片自託管功能",
-      "imageUrl": "/sports/img/2026-05-12-test-image-hosting.jpg",
-      "imageAlt": "籃球賽事測試圖"
+      "slug": "2026-05-11-barcelona-real-madrid-laliga-title",
+      "title": "巴塞隆納電掣2:0擊敗皇馬 蟬聯西甲寶座第29次封王",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-11",
+      "excerpt": "巴塞隆納坎普諾球場以2:0擊敗宿敵皇家馬德里，成功蟬聯西甲冠軍寶座，奪得球隊歷史第29個西甲聯賽冠軍。",
+      "imageUrl": "/sports/img/2026-05-11-barcelona-real-madrid-laliga-title.jpg",
+      "imageAlt": "足球賽事"
     },
     {
-      "slug": "2026-05-12-test-image-hosting",
-      "title": "圖片自託管測試文章",
-      "category": "測試",
-      "emoji": "🏀",
-      "date": "2026-05-12",
-      "excerpt": "測試圖片自託管功能",
-      "imageUrl": "",
-      "imageAlt": "籃球賽事測試圖"
+      "slug": "2026-05-11-hkjc-67b-donation",
+      "title": "香港賽馬會十年投資逾67億 體育發展持續領航",
+      "category": "賽馬",
+      "emoji": "🏇",
+      "date": "2026-05-11",
+      "excerpt": "香港賽馬會近十年來捐獻逾67億港元支持體育發展，創造亞洲最大規模企業體育投資案例。",
+      "imageUrl": "/sports/img/2026-05-11-hkjc-67b-donation.jpg",
+      "imageAlt": "賽馬場景"
     }
   ]
 }
