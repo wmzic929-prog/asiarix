@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-12-test-image-hosting",
+      "title": "圖片自託管測試文章",
+      "category": "測試",
+      "emoji": "🏀",
+      "date": "2026-05-12",
+      "excerpt": "測試圖片自託管功能",
+      "imageUrl": "",
+      "imageAlt": "籃球賽事測試圖"
+    },
+    {
       "slug": "2026-05-12-tottenham-vs-leeds-united-premier-league-relegation",
       "headline": "熱刺1比1賽和里茲聯 保級戰升溫",
       "category": "足球",
@@ -19,26 +29,6 @@
       "excerpt": "巴塞隆納2:0勝皇馬奪西甲冠軍，Rashford和Ferran Torres建功，連鎖西甲寶座，皇馬失落本賽季全部獎項。",
       "imageUrl": "",
       "imageAlt": ""
-    },
-    {
-      "slug": "2026-05-11-nba-knicks-76ers-sweep",
-      "title": "尼克斯零封76人橫掃殺入東區決賽 投籃火力無敵",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-11",
-      "excerpt": "尼克斯144:114擊敗76人完成4:0橫掃，Deuce McBride得分25分，全隊投進25個三分球創季後賽隊史記錄。",
-      "imageUrl": "",
-      "imageAlt": ""
-    },
-    {
-      "slug": "2026-05-11-chan-pui-ki-100m-record",
-      "title": "港將突破百米紀錄 陳佩琦成新一代田徑女飛人",
-      "category": "田徑",
-      "emoji": "🏃",
-      "date": "2026-05-11",
-      "excerpt": "陳佩琦以11.25秒成績刷新香港女子百米紀錄，創造個人最佳成績，展現港將進步動能。",
-      "imageUrl": "https://www.sportsroad.hk/wp-content/uploads/2026/05/20260510_100M_Cover.jpg",
-      "imageAlt": "田徑比賽"
     }
   ]
 }
