@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-12-tottenham-vs-leeds-united-preview",
+      "headline": "熱刺對里茲聯前瞻 7月訪港在即",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-12",
+      "lead": "英超季尾大戰一觸即發，熱刺主場迎戰升班馬里茲聯，兩軍各有所求。白鹿巷球隊力爭歐洲賽資格，里茲聯則為護級背水一戰，戰況勢必激烈。",
+      "imageUrl": "/sports/img/2026-05-12-tottenham-vs-leeds-united-preview.png",
+      "imageAlt": "熱刺對里茲聯前瞻 7月訪港在即"
+    },
+    {
       "slug": "2026-05-11-nba-knicks-76ers-sweep",
       "title": "尼克斯零封76人橫掃殺入東區決賽 投籃火力無敵",
       "category": "籃球",
