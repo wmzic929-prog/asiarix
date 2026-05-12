@@ -408,4 +408,12 @@
     <priority>0.8</priority>
   </url>
 
+
+  <url>
+    <loc>https://spheretap.com/sports/2026-05-13-tottenham-vs-leeds-united-hong-kong-tour</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
