@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-12-tottenham-vs-leeds-united-premier-league-relegation",
+      "headline": "熱刺1比1賽和里茲聯 保級戰升溫",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-12",
+      "lead": "英超焦點戰熱刺主場1比1賽和里茲聯，里茲聯保住領先降班區兩分優勢，保級戰進入最後白熱化階段，吸引大批香港波迷通宵收看。",
+      "imageUrl": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "imageAlt": "熱刺1比1賽和里茲聯 保級戰升溫"
+    },
+    {
       "slug": "2026-05-11-barcelona-real-madrid-laliga-title",
       "title": "巴塞隆納電掣2:0擊敗皇馬 蟬聯西甲寶座第29次封王",
       "category": "足球",
