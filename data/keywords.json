@@ -317,9 +317,9 @@
       "category": "優惠攻略",
       "angle": "生日優惠領取流程及條件詳解",
       "image_theme": "birthday bonus casino gift celebration gold",
-      "status": "available",
-      "slug": "birthday-bonus",
-      "used_date": null
+      "status": "used",
+      "slug": "article",
+      "used_date": "2026-05-13"
     },
     {
       "id": 45,
