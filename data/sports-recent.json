@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-13-hong-kong-football-festival-2026-tickets",
+      "title": "香港足球盛會2026門票今開售｜曼城戰國際米蘭 車路士對祖雲達斯啟德激戰",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-13",
+      "excerpt": "香港足球盛會2026門票今日起預售，曼城對國際米蘭（8月1日）及車路士對祖雲達斯（8月5日）將於啟德體育園主場館上演，票價由399至2,999港元，明日正式公開發售。",
+      "imageUrl": "/sports/img/2026-05-13-hong-kong-football-festival-2026-tickets.jpg",
+      "imageAlt": "香港足球盛會2026啟德體育園"
+    },
+    {
       "slug": "2026-05-13-tottenham-vs-leeds-united-hong-kong-tour",
       "headline": "熱刺對里茲聯訪港熱身　港足戰意濃",
       "category": "足球",
@@ -19,26 +29,6 @@
       "lead": "英超季尾大戰一觸即發，熱刺主場迎戰升班馬里茲聯，兩軍各有所求。白鹿巷球隊力爭歐洲賽資格，里茲聯則為護級背水一戰，戰況勢必激烈。",
       "imageUrl": "/sports/img/2026-05-12-tottenham-vs-leeds-united-preview.png",
       "imageAlt": "熱刺對里茲聯前瞻 7月訪港在即"
-    },
-    {
-      "slug": "2026-05-11-nba-knicks-76ers-sweep",
-      "title": "尼克斯零封76人橫掃殺入東區決賽 投籃火力無敵",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-11",
-      "excerpt": "紐約尼克斯以144:114大勝費城76人，4:0橫掃晉級東區決賽，全場投進25個三分球創季後賽隊史新紀錄。",
-      "imageUrl": "/sports/img/2026-05-11-nba-knicks-76ers-sweep.jpg",
-      "imageAlt": "籃球賽事"
-    },
-    {
-      "slug": "2026-05-11-barcelona-real-madrid-laliga-title",
-      "title": "巴塞隆納電掣2:0擊敗皇馬 蟬聯西甲寶座第29次封王",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-11",
-      "excerpt": "巴塞隆納坎普諾球場以2:0擊敗宿敵皇家馬德里，成功蟬聯西甲冠軍寶座，奪得球隊歷史第29個西甲聯賽冠軍。",
-      "imageUrl": "/sports/img/2026-05-11-barcelona-real-madrid-laliga-title.jpg",
-      "imageAlt": "足球賽事"
     }
   ]
 }
