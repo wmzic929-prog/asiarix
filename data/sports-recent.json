@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-13-nba-spurs-timberwolves-g5-wembanyama",
+      "title": "文班亞馬27分17板主宰禁區！馬刺G5大勝灰狼126:97 晉級西區決賽戰雷霆",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-13",
+      "excerpt": "文班亞馬半場22分11籃板、全場27分17板，馬刺G5以126:97大勝灰狼，系列賽3:2晉級西區決賽。下一關將面對剛橫掃詹皇湖人的雷霆，SGA對文班世代對決引爆全球球迷期待。",
+      "imageUrl": "/sports/img/2026-05-13-nba-spurs-timberwolves-g5-wembanyama.jpg",
+      "imageAlt": "文班亞馬NBA季後賽表現"
+    },
+    {
       "slug": "2026-05-13-hong-kong-football-festival-2026-tickets",
       "title": "香港足球盛會2026門票今開售｜曼城戰國際米蘭 車路士對祖雲達斯啟德激戰",
       "category": "足球",
@@ -19,16 +29,6 @@
       "lead": "英超勁旅熱刺確定夏季再度訪港，將與升班馬里茲聯交鋒，同時挑戰本地球會傑志，香港球迷有福了。",
       "imageUrl": "/sports/img/2026-05-13-tottenham-vs-leeds-united-hong-kong-tour.jpg",
       "imageAlt": "熱刺對里茲聯訪港熱身　港足戰意濃"
-    },
-    {
-      "slug": "2026-05-12-tottenham-vs-leeds-united-preview",
-      "headline": "熱刺對里茲聯前瞻 7月訪港在即",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-12",
-      "lead": "英超季尾大戰一觸即發，熱刺主場迎戰升班馬里茲聯，兩軍各有所求。白鹿巷球隊力爭歐洲賽資格，里茲聯則為護級背水一戰，戰況勢必激烈。",
-      "imageUrl": "/sports/img/2026-05-12-tottenham-vs-leeds-united-preview.png",
-      "imageAlt": "熱刺對里茲聯前瞻 7月訪港在即"
     }
   ]
 }
