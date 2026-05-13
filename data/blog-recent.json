@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "article",
+      "title": "article",
+      "category": "General",
+      "date": "2026-05-13",
+      "excerpt": "{",
+      "imageUrl": "https://pixabay.com/get/gb3e2caa9134eac77b4cb15beac46e6687c8ed366f3b9d82e2de99915bf46738c1f79d95cfdf1bcc476727b6436a3f8b082587d58e24fb678e2c381d5994227ac_640.jpg"
+    },
+    {
       "slug": "withdrawal-fee-comparison",
       "title": "娛樂平台提款手續費比較2026｜各方式收費一覽＋慳錢攻略",
       "category": "提款教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-13",
       "excerpt": "2025 年手機娛樂平台百花齊放，邊個最啱港人玩？今篇幫你拆解揀平台嘅關鍵指標。",
       "imageUrl": "https://pixabay.com/get/gffbb3efce7cbd93c383623a5ad942fd20ef7f12ed4ffc7d95101b34eea5ee3a364fd7c0ac2b7b5460874b61d616a6a93_640.jpg"
-    },
-    {
-      "slug": "weekly-rebate-guide",
-      "title": "娛樂平台週回贈活動攻略2026|最大化領取技巧大公開",
-      "category": "優惠攻略",
-      "date": "2026-05-12",
-      "excerpt": "玩開娛樂平台嘅你,係咪每星期都净係知有週回贈但唔識點攞到最多?今次教你用啱方法,每週回贈最高可以拎到 1.5%!",
-      "imageUrl": "https://pixabay.com/get/g467c82d48bc258825496b38787ea6a413007703d81ac8bd2d8c83cb2020b34284b5643090eabfe236c08e2e7d7d651399098e4892afb19f0e4a7d2b261dc24bf_640.jpg"
     }
   ]
 }
