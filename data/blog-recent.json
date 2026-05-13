@@ -1,28 +1,12 @@
 {
-  "articles": [
-    {
-      "slug": "article",
-      "title": "article",
-      "category": "General",
-      "date": "2026-05-13",
-      "excerpt": "{",
-      "imageUrl": "https://pixabay.com/get/gb3e2caa9134eac77b4cb15beac46e6687c8ed366f3b9d82e2de99915bf46738c1f79d95cfdf1bcc476727b6436a3f8b082587d58e24fb678e2c381d5994227ac_640.jpg"
-    },
-    {
-      "slug": "withdrawal-fee-comparison",
-      "title": "娛樂平台提款手續費比較2026｜各方式收費一覽＋慳錢攻略",
-      "category": "提款教學",
-      "date": "2026-05-13",
-      "excerpt": "提款手續費食水深？等我幫你比較晒各大娛樂平台收費，仲教埋你點樣零手續費攞錢！",
-      "imageUrl": "https://pixabay.com/get/ge5460b001b7d45f42e581fce222db804fc6a0c85a268cc853833bed67e2c39fe9ee6229120b08ed4515f4ce61788b5671c7fdd0e198eedc2372269bb4d0ed45e_640.jpg"
-    },
-    {
-      "slug": "mobile-platform-recommendation-2025",
-      "title": "手機版娛樂平台推薦 2025｜最佳手機博彩體驗平台",
-      "category": "平台推薦",
-      "date": "2026-05-13",
-      "excerpt": "2025 年手機娛樂平台百花齊放，邊個最啱港人玩？今篇幫你拆解揀平台嘅關鍵指標。",
-      "imageUrl": "https://pixabay.com/get/gffbb3efce7cbd93c383623a5ad942fd20ef7f12ed4ffc7d95101b34eea5ee3a364fd7c0ac2b7b5460874b61d616a6a93_640.jpg"
-    }
-  ]
+    "articles":  [
+                     {
+                         "slug":  "mobile-platform-recommendation-2025",
+                         "imageUrl":  "https://pixabay.com/get/gffbb3efce7cbd93c383623a5ad942fd20ef7f12ed4ffc7d95101b34eea5ee3a364fd7c0ac2b7b5460874b61d616a6a93_640.jpg",
+                         "date":  "2026-05-13",
+                         "category":  "平台推薦",
+                         "title":  "手機版娛樂平台推薦 2025｜最佳手機博彩體驗平台",
+                         "excerpt":  "2025 年手機娛樂平台百花齊放，邊個最啱港人玩？今篇幫你拆解揀平台嘅關鍵指標。"
+                     }
+                 ]
 }
