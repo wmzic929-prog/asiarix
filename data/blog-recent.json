@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "real-user-platform-reviews",
+      "title": "娛樂平台真實用戶評測 2026：10位玩家親身體驗及評分大公開",
+      "category": "平台評測",
+      "date": "2026-05-14",
+      "excerpt": "睇廣告吹到天上有地下無？真實玩家點評先係最有參考價值，10位港人實測分享。",
+      "imageUrl": "https://pixabay.com/get/gb8935b72ae643a8a8c68dc5223a46e01401e61c0606f9a18f9e5ad3bbecbfa41811abd5bcb5a7cbb21a95ad04fc5822370c05909ffb49587213503229e2bb4f9_640.jpg"
+    },
+    {
       "slug": "withdrawal-fee-comparison",
       "title": "娛樂平台提款手續費比較 2026｜慳費攻略全方位指南",
       "category": "提款教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-13",
       "excerpt": "2025 年手機娛樂平台選擇多到眼花？呢篇評測 5 大港人常用平台，比較介面流暢度、入提款速度、App 穩定性，幫你一次搵到最適合手機玩嘅平台。",
       "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/asiarix/main/blog/img/mobile-platform-2025.jpg"
-    },
-    {
-      "slug": "mobile-platform-recommendation-2025",
-      "imageUrl": "https://pixabay.com/get/gffbb3efce7cbd93c383623a5ad942fd20ef7f12ed4ffc7d95101b34eea5ee3a364fd7c0ac2b7b5460874b61d616a6a93_640.jpg",
-      "date": "2026-05-13",
-      "category": "平台推薦",
-      "title": "手機版娛樂平台推薦 2025｜最佳手機博彩體驗平台",
-      "excerpt": "2025 年手機娛樂平台百花齊放，邊個最啱港人玩？今篇幫你拆解揀平台嘅關鍵指標。"
     }
   ]
 }
