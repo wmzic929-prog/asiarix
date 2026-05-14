@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-14-cavaliers-detroit-pistons-game5-eastern-semifinals",
+      "title": "騎士OT客場滅活塞 季後賽東部半決賽3:2領先叫糊｜2026 NBA Playoffs",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-14",
+      "excerpt": "騎士東部半決賽第五場客場OT力挫活塞117:113，Harden 30分Mobley最後2分鐘追平，米切爾OT發功，系列賽3:2領先，下場即可叫糊晉東決。",
+      "imageUrl": "/sports/img/2026-05-14-cavaliers-detroit-pistons-game5-eastern-semifinals.jpg",
+      "imageAlt": "克里夫蘭騎士季後賽加時擊敗底特律活塞"
+    },
+    {
       "slug": "2026-05-14-inter-milan-coppa-italia-double-champion",
       "title": "國際米蘭2:0拒拉素奪意大利盃！賽季完成意甲+意盃雙料冠軍偉業",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "9歲港隊代表陳芸曦出戰2026年女子桌球世錦賽，成全場最年輕選手。E組對陣中國選手取得首個局分60比43，以中國世一白雨露為偶像。吳安儀率17人港隊分組賽三連勝，衝擊冠軍寶座。",
       "imageUrl": "/sports/img/2026-05-14-snooker-chan-yun-hei-world-championship.jpg",
       "imageAlt": "香港桌球代表出戰女子桌球世界錦標賽"
-    },
-    {
-      "slug": "2026-05-14-man-city-vs-crystal-palace-premier-league",
-      "headline": "曼城3:1炒水晶宮 緊追阿仙奴",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-14",
-      "lead": "曼城作客施寶咸頓公園球場以3:1擊敗水晶宮，賽季尾段繼續貼住榜首阿仙奴爭奪英超錦標，藍月亮死戰到底唔放棄。",
-      "imageUrl": "/sports/img/2026-05-14-man-city-vs-crystal-palace-premier-league.jpg",
-      "imageAlt": "曼城3:1炒水晶宮 緊追阿仙奴"
     }
   ]
 }
