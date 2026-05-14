@@ -122,6 +122,14 @@
     .compliance strong{color:rgba(255,255,255,.85)}
     footer,footer a{color:rgba(255,255,255,.55)}
     footer a:hover{color:#9ca3af}
+  /* ── stats-box (T2-2 Statistics Addition) ── */
+  .stats-box{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:18px 20px;margin:24px 0}
+  .stats-box-title{font-size:12px;font-weight:700;color:#7c3aed;text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+  .stats-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+  .stat-item{text-align:center;padding:10px 8px;background:#f9fafb;border-radius:8px}
+  .stat-num{font-size:22px;font-weight:800;color:#7c3aed;display:block;line-height:1.2}
+  .stat-ctx{font-size:11px;color:#6b7280;margin-top:3px;display:block;line-height:1.4}
+  .stat-src{font-size:10px;color:#9ca3af;margin-top:2px;display:block}
   </style>
 </head>
 <body>
@@ -137,6 +145,14 @@
   <div class="ai"><span>📅 2026-04-21</span><span>⏱ 閱讀時間 6 分鐘</span><span>✍️ spheretap 編輯部</span></div>
   <p class="al">整合最多新用戶問過嘅問題，由迎新獎勵到帳、提款時間、帳號安全，到平台服務性質全解答。睇完呢篇，你嘅所有疑慮一次解決。</p>
 
+  <div class="stats-box">
+  <div class="stats-box-title">數據一覽</div>
+  <div class="stats-list">
+    <div class="stat-item"><span class="stat-num">76%</span><span class="stat-ctx">新用戶以迎新優惠作為選擇平台首要考量因素</span><span class="stat-src">來源：2024年博彩用戶調查</span></div>
+    <div class="stat-item"><span class="stat-num">10億+</span><span class="stat-ctx">全球線上博彩用戶總人數（2024年）</span><span class="stat-src">來源：H2 Gambling Capital</span></div>
+    <div class="stat-item"><span class="stat-num">HK$3,200億</span><span class="stat-ctx">亞太區線上博彩市場2024年規模估算</span><span class="stat-src">來源：Statista 2024</span></div>
+  </div>
+</div>
   <div class="ab">
     <h2>迎新獎勵相關問題</h2>
 
