@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-14-man-city-vs-crystal-palace-premier-league",
+      "headline": "曼城3:1炒水晶宮 緊追阿仙奴",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-14",
+      "lead": "曼城作客施寶咸頓公園球場以3:1擊敗水晶宮，賽季尾段繼續貼住榜首阿仙奴爭奪英超錦標，藍月亮死戰到底唔放棄。",
+      "imageUrl": "/sports/img/2026-05-14-man-city-vs-crystal-palace-premier-league.jpg",
+      "imageAlt": "曼城3:1炒水晶宮 緊追阿仙奴"
+    },
+    {
       "slug": "2026-05-12-mlb-giants-dodgers-sasaki-ohtani-streak",
       "title": "巨人3:1擊敗道奇！佐佐木朗希160公里自認生涯最佳 大谷53場上壘紀錄終止",
       "category": "棒球",
