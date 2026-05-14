@@ -327,9 +327,9 @@
       "category": "平台評測",
       "angle": "真實玩家體驗分享及評分",
       "image_theme": "user review casino rating star dark gold",
-      "status": "available",
-      "slug": "user-review-platform",
-      "used_date": null
+      "status": "used",
+      "slug": "real-user-platform-reviews",
+      "used_date": "2026-05-14"
     },
     {
       "id": 47,
