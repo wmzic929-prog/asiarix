@@ -2,6 +2,9 @@
 <html lang="zh-Hant-HK">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TQCSL891XL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-TQCSL891XL');</script>
   <title>%%TITLE%% | spheretap 攻略</title>
   <meta name="description" content="%%META_DESC%%">
   <link rel="canonical" href="https://spheretap.com/blog/%%SLUG%%">
@@ -24,35 +27,45 @@
         "@type": "BlogPosting",
         "headline": "%%TITLE%%",
         "datePublished": "%%DATE%%",
-        "dateModified": "%%DATE%%",
-        "author": {"@type": "Person", "name": "spheretap 編輯部", "url": "https://spheretap.com/about.html"},
-        "publisher": {"@type": "Organization", "name": "spheretap", "url": "https://spheretap.com/"},
+        "dateModified": "%%DATE_MODIFIED%%",
+        "articleSection": "%%CATEGORY%%",
+        "mainEntityOfPage": "https://spheretap.com/blog/%%SLUG%%/",
+        "author": {"@type": "Person", "@id": "https://spheretap.com/about.html#author", "name": "spheretap 編輯部"},
+        "publisher": {"@type": "Organization", "@id": "https://spheretap.com/#organization", "name": "spheretap", "url": "https://spheretap.com/", "logo": {"@type": "ImageObject", "url": "https://spheretap.com/LOGO.svg"}},
         "description": "%%META_DESC%%",
         "url": "https://spheretap.com/blog/%%SLUG%%/",
-        "inLanguage": "zh-Hant-HK"
+        "inLanguage": "zh-Hant-HK",
+        "image": "%%OG_IMAGE%%"
       },
       {
         "@type": "FAQPage",
         "mainEntity": %%FAQ_JSON%%
       },
       {
+        "@type": "Person",
+        "@id": "https://spheretap.com/about.html#author",
+        "name": "spheretap 編輯部",
+        "url": "https://spheretap.com/about.html",
+        "worksFor": {"@id": "https://spheretap.com/#organization"}
+      },
+      {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://spheretap.com/"},
           {"@type": "ListItem", "position": 2, "name": "攻略中心", "item": "https://spheretap.com/blog.html"},
-          {"@type": "ListItem", "position": 3, "name": "%%TITLE%%"}
+          {"@type": "ListItem", "position": 3, "name": "%%TITLE%%", "item": "https://spheretap.com/blog/%%SLUG%%/"}
         ]
       }
     ]
   }
   </script>
   <!-- GTM Head -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KHMKPNV9');</script>
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}:root{--gold:#f0b429;--gold-dark:#d4960f;--gold-light:#ffd166;--bg:#faf7f2;--bg-card:#fff;--bg-card2:#fbf6ec;--text:#1a1d24;--text-muted:#6b7280;--text-light:#2d3340;--border:rgba(0,0,0,.08)}
     html{scroll-behavior:smooth}body{font-family:-apple-system,'PingFang HK','Noto Sans TC','Microsoft JhengHei',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
     .site-header{background:linear-gradient(90deg,#0d1f3c,#122044);border-bottom:1px solid rgba(240,180,41,.2);padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;position:sticky;top:0;z-index:100}
-    .site-logo{display:inline-flex;align-items:center;text-decoration:none}.site-logo img{height:40px;width:auto;max-width:160px;object-fit:contain;display:block}@media(max-width:480px){.site-logo img{height:32px}}
+    .site-logo{display:inline-flex;align-items:center;text-decoration:none}.site-logo img{height:64px;width:auto;max-width:160px;object-fit:contain;display:block}@media(max-width:480px){.site-logo img{height:48px}}
     .header-cta{background:linear-gradient(135deg,var(--gold-light),var(--gold-dark));color:#000;font-size:13px;font-weight:800;padding:9px 18px;border-radius:50px;text-decoration:none;white-space:nowrap;animation:pulseGlow 2.5s ease-in-out infinite}
     @keyframes pulseGlow{0%,100%{box-shadow:0 3px 18px rgba(240,180,41,.38)}50%{box-shadow:0 5px 32px rgba(240,180,41,.72)}}
     .bc{padding:12px 20px;font-size:12px;color:var(--text-muted);border-bottom:1px solid var(--border);background:var(--bg-card)}.bc a{color:var(--text-muted);text-decoration:none}.bc a:hover{color:var(--gold)}.bc-s{margin:0 6px;opacity:.4}
@@ -91,9 +104,6 @@
     footer{padding:14px 20px;text-align:center;font-size:11px;color:#4b5563;background:#06090f;border-top:1px solid rgba(255,255,255,.04)}
     footer a{color:#4b5563;text-decoration:none;margin:0 7px}footer a:hover{color:var(--text-muted)}
   
-    .qa-box{background:rgba(240,180,41,.07);border:1px solid rgba(240,180,41,.3);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:18px 20px;margin-bottom:32px}
-    .qa-label{display:block;font-size:11px;font-weight:700;color:var(--gold);margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-    .qa-box p{font-size:15px;color:var(--text-light);line-height:1.75;margin-bottom:0}
     /* dark sections — placed last so cascading wins over earlier rules */
     .site-header,.blog-hero,.bottom-banner,.bb,.acb,.compliance,footer{color:#fff}
     .blog-hero p,.bottom-banner p,.bb p,.acb p,.compliance p{color:rgba(255,255,255,.72)}
@@ -102,14 +112,17 @@
     footer a:hover{color:#9ca3af}
   .blog-banner{margin:24px 0}
   .blog-banner img{width:100%;border-radius:12px;display:block;max-height:400px;object-fit:cover}
+  .qa-block{background:linear-gradient(135deg,rgba(240,180,41,.07),rgba(240,180,41,.02));border:1px solid rgba(240,180,41,.28);border-left:3px solid var(--gold);border-radius:0 14px 14px 0;padding:18px 20px;margin:20px 0}
+  .qa-block-label{display:inline-block;background:rgba(240,180,41,.12);color:var(--gold);font-size:10px;font-weight:800;padding:2px 9px;border-radius:10px;margin-bottom:10px;letter-spacing:.05em;text-transform:uppercase}
+  .qa-block p{font-size:15px;color:var(--text-light);line-height:1.78;margin-bottom:0}
   </style>
 </head>
 <body>
 <!-- GTM Body -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHMKPNV9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <header class="site-header">
-  <a href="../index.html" class="site-logo"><img src="../logo.webp" alt="spheretap" width="40" height="40"></a>
+  <a href="../index.html" class="site-logo"><img src="../logo.webp" alt="spheretap" width="64" height="64"></a>
   <a href="../index.html" class="header-cta" onclick="tc('header')">🎁 領取禮遇</a>
 </header>
 <div class="bc"><a href="../index.html">首頁</a><span class="bc-s">›</span><a href="../blog.html">攻略中心</a><span class="bc-s">›</span>%%CATEGORY%%</div>
@@ -117,11 +130,10 @@
 <div class="aw">
   <span class="ac-label">%%CATEGORY%%</span>
   <h1>%%H1%%</h1>
-  <div class="ai"><span>📅 %%DATE%%</span><span>⏱ 閱讀時間 %%READ_MIN%% 分鐘</span><span>✍️ spheretap 編輯部</span></div>
-  <div class="qa-box">
-    <span class="qa-label">📌 快速解答</span>
-    <p>%%LEAD%%</p>
-  </div>
+  <div class="ai"><span>📅 %%DATE%%</span><span>⏱ 閱讀時間 %%READ_MIN%% 分鐘</span><span>✍️ <a href="../about.html" style="color:inherit;text-decoration:none">spheretap 編輯部</a></span></div>
+  <p class="al">%%LEAD%%</p>
+
+  <div class="qa-block"><span class="qa-block-label">快速解答</span>%%QA_SECTION%%</div>
 
   %%BANNER_HTML%%
 
@@ -155,7 +167,7 @@
   <p><strong>【年齡限制】</strong>🔞 本服務只供年滿 18 歲或以上人士使用。未滿 18 歲人士請勿使用本服務。</p>
   <p><strong>【負責任娛樂】</strong>請注意個人娛樂時間，適可而止，避免沉迷。如有需要請尋求專業協助。</p>
 </div>
-<footer><p><a href="../index.html">首頁</a><a href="../blog.html">攻略中心</a><a href="../privacy.html">私隱政策</a><a href="../terms.html">使用條款</a></p><p>&copy; 2026 spheretap. All rights reserved. | 18+ only</p></footer>
+<footer><p><a href="../index.html">首頁</a><a href="../blog.html">攻略中心</a><a href="../about.html">關於我們</a><a href="../privacy.html">私隱政策</a><a href="../terms.html">使用條款</a></p><p>&copy; 2026 spheretap. All rights reserved. | 18+ only</p></footer>
 <script>function tc(l){window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'cta_click',button_location:'art_%%EVENT_SLUG%%_'+l});setTimeout(()=>{window.location.href='../index.html'},120);}</script>
 </body>
 </html>
