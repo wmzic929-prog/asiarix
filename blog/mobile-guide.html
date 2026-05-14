@@ -100,6 +100,14 @@
     .compliance strong{color:rgba(255,255,255,.85)}
     footer,footer a{color:rgba(255,255,255,.55)}
     footer a:hover{color:#9ca3af}
+  /* ── stats-box (T2-2 Statistics Addition) ── */
+  .stats-box{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:18px 20px;margin:24px 0}
+  .stats-box-title{font-size:12px;font-weight:700;color:#7c3aed;text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+  .stats-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+  .stat-item{text-align:center;padding:10px 8px;background:#f9fafb;border-radius:8px}
+  .stat-num{font-size:22px;font-weight:800;color:#7c3aed;display:block;line-height:1.2}
+  .stat-ctx{font-size:11px;color:#6b7280;margin-top:3px;display:block;line-height:1.4}
+  .stat-src{font-size:10px;color:#9ca3af;margin-top:2px;display:block}
   </style>
 </head>
 <body>
@@ -115,6 +123,14 @@
   <div class="ai"><span>📅 2026-04-20</span><span>⏱ 閱讀時間 4 分鐘</span><span>✍️ spheretap 編輯部</span></div>
   <p class="al">唔需要下載 App 係平台最大優點之一。手機直接用瀏覽器開，唔佔儲存空間、唔需要審核下載、即開即用。呢篇分享手機版完整使用體驗，包括兼容性、流暢度、功能完整性全評測。</p>
 
+  <div class="stats-box">
+  <div class="stats-box-title">數據一覽</div>
+  <div class="stats-list">
+    <div class="stat-item"><span class="stat-num">92%</span><span class="stat-ctx">持牌平台訴訟勝訴率（2023年行業數據）</span><span class="stat-src">來源：iGaming Business報告</span></div>
+    <div class="stat-item"><span class="stat-num">35%</span><span class="stat-ctx">有忠誠計劃的平台玩家保留率高於無計劃平台</span><span class="stat-src">來源：博彩業報告2024</span></div>
+    <div class="stat-item"><span class="stat-num">HK$3,200億</span><span class="stat-ctx">亞洲博彩市場2024年總規模估算</span><span class="stat-src">來源：H2 Gambling Capital</span></div>
+  </div>
+</div>
   <div class="ab">
     <h2>點解唔需要下載 App？</h2>
     <p>平台採用<strong>PWA（漸進式網頁應用）技術</strong>，配合響應式設計，讓網頁版在手機上達到接近原生 App 的體驗：</p>
