@@ -556,4 +556,12 @@
     <priority>0.7</priority>
   </url>
 
+
+  <url>
+    <loc>https://spheretap.com/sports/2026-05-15-man-city-crystal-palace-3-0</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
