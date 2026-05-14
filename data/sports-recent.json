@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-14-inter-milan-coppa-italia-double-champion",
+      "title": "國際米蘭2:0拒拉素奪意大利盃！賽季完成意甲+意盃雙料冠軍偉業",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-14",
+      "excerpt": "國際米蘭意大利盃決賽2:0擊敗拉素，繼意甲冠軍後再奪意盃，完成本賽季雙料冠軍。馬路錫烏龍及馬天尼斯入球奠定勝局，藍黑王朝書寫隊史第10次意盃奪冠。",
+      "imageUrl": "/sports/img/2026-05-14-inter-milan-coppa-italia-double-champion.jpg",
+      "imageAlt": "國際米蘭奪意大利盃雙料冠軍"
+    },
+    {
       "slug": "2026-05-14-snooker-chan-yun-hei-world-championship",
       "title": "9歲陳芸曦出戰女子桌球世錦賽！成最年輕港隊代表 以中國世一白雨露為偶像",
       "category": "桌球",
@@ -19,16 +29,6 @@
       "lead": "曼城作客施寶咸頓公園球場以3:1擊敗水晶宮，賽季尾段繼續貼住榜首阿仙奴爭奪英超錦標，藍月亮死戰到底唔放棄。",
       "imageUrl": "/sports/img/2026-05-14-man-city-vs-crystal-palace-premier-league.jpg",
       "imageAlt": "曼城3:1炒水晶宮 緊追阿仙奴"
-    },
-    {
-      "slug": "2026-05-12-mlb-giants-dodgers-sasaki-ohtani-streak",
-      "title": "巨人3:1擊敗道奇！佐佐木朗希160公里自認生涯最佳 大谷53場上壘紀錄終止",
-      "category": "棒球",
-      "emoji": "⚾",
-      "date": "2026-05-12",
-      "excerpt": "巨人3:1擊敗道奇，山本由伸7局零失分好投仍吞敗；道奇佐佐木朗希5局失3分、球速160公里自評本季最佳；大谷翔平53場連續上壘紀錄同場告終，日系三大巨星同台製造全球話題。",
-      "imageUrl": "/sports/img/2026-05-12-mlb-giants-dodgers-sasaki-ohtani-streak.jpg",
-      "imageAlt": "MLB道奇巨人世仇對決"
     }
   ]
 }
