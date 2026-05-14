@@ -1,0 +1,125 @@
+{
+  "_comment": "Single source of truth for all %%PLACEHOLDER%% in blog/_template.html. NEVER add a new placeholder without updating this file first.",
+  "_version": "1.0.0",
+  "_lastUpdated": "2026-05-14",
+  "placeholders": {
+    "TITLE": {
+      "source": "ai",
+      "desc": "Meta title 40-60 chars SEO"
+    },
+    "META_DESC": {
+      "source": "ai",
+      "desc": "Meta description"
+    },
+    "SLUG": {
+      "source": "ai",
+      "desc": "URL slug lowercase hyphens"
+    },
+    "H1": {
+      "source": "ai",
+      "desc": "Page H1 heading"
+    },
+    "CATEGORY": {
+      "source": "ai",
+      "desc": "Article category"
+    },
+    "DATE": {
+      "source": "ai",
+      "desc": "Publish date YYYY-MM-DD"
+    },
+    "DATE_MODIFIED": {
+      "source": "computed",
+      "fill": "DATE_MODIFIED || DATE — Fill Template node"
+    },
+    "READ_MIN": {
+      "source": "ai+parse",
+      "fill": "AI field or fallback 5 — Parse Article JSON"
+    },
+    "LEAD": {
+      "source": "ai",
+      "desc": "Lead paragraph 50-80 chars"
+    },
+    "BANNER_HTML": {
+      "source": "computed",
+      "fill": "build <img> or emoji gradient from BANNER_IMAGE_URL+EMOJI — Fill Template node & publish-blog.js"
+    },
+    "BODY": {
+      "source": "ai",
+      "desc": "Full article HTML content"
+    },
+    "OG_IMAGE": {
+      "source": "ai",
+      "desc": "OG image URL"
+    },
+    "CTA_H3": {
+      "source": "ai",
+      "desc": "Inline CTA heading"
+    },
+    "CTA_P": {
+      "source": "ai",
+      "desc": "Inline CTA subtext"
+    },
+    "BANNER_H2": {
+      "source": "ai",
+      "desc": "Bottom banner heading"
+    },
+    "BANNER_P": {
+      "source": "ai",
+      "desc": "Bottom banner subtext"
+    },
+    "REL1_HREF": {
+      "source": "ai",
+      "desc": "Related article 1 href"
+    },
+    "REL1_CAT": {
+      "source": "ai",
+      "desc": "Related article 1 category"
+    },
+    "REL1_TITLE": {
+      "source": "ai",
+      "desc": "Related article 1 title verbatim"
+    },
+    "REL2_HREF": {
+      "source": "ai",
+      "desc": "Related article 2 href"
+    },
+    "REL2_CAT": {
+      "source": "ai",
+      "desc": "Related article 2 category"
+    },
+    "REL2_TITLE": {
+      "source": "ai",
+      "desc": "Related article 2 title verbatim"
+    },
+    "REL3_HREF": {
+      "source": "ai",
+      "desc": "Related article 3 href"
+    },
+    "REL3_CAT": {
+      "source": "ai",
+      "desc": "Related article 3 category"
+    },
+    "REL3_TITLE": {
+      "source": "ai",
+      "desc": "Related article 3 title verbatim"
+    },
+    "QA_SECTION": {
+      "source": "computed",
+      "fill": "AI QA_SECTION field → fallback FAQ_JSON[0].answer — Fill Template node & publish-blog.js"
+    },
+    "FAQ_JSON": {
+      "source": "ai+parse",
+      "fill": "AI FAQ array JSON.stringify, fallback [] — Parse Article JSON"
+    },
+    "EVENT_SLUG": {
+      "source": "ai",
+      "desc": "Event tracking slug underscore_id"
+    }
+  },
+  "rules": [
+    "NEVER add %%PLACEHOLDER%% to _template.html without adding it here first",
+    "Every 'computed' source needs fill logic in BOTH Fill Template node AND publish-blog.js",
+    "Fill Template guard: throws if any %%[A-Z0-9_]+%% remains after substitution",
+    "publish-blog.js buildArticleHtml(): throws if any %%[A-Z0-9_]+%% remains after map"
+  ]
+}
