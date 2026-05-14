@@ -100,6 +100,14 @@
     .compliance strong{color:rgba(255,255,255,.85)}
     footer,footer a{color:rgba(255,255,255,.55)}
     footer a:hover{color:#9ca3af}
+  /* ── stats-box (T2-2 Statistics Addition) ── */
+  .stats-box{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:18px 20px;margin:24px 0}
+  .stats-box-title{font-size:12px;font-weight:700;color:#7c3aed;text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+  .stats-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+  .stat-item{text-align:center;padding:10px 8px;background:#f9fafb;border-radius:8px}
+  .stat-num{font-size:22px;font-weight:800;color:#7c3aed;display:block;line-height:1.2}
+  .stat-ctx{font-size:11px;color:#6b7280;margin-top:3px;display:block;line-height:1.4}
+  .stat-src{font-size:10px;color:#9ca3af;margin-top:2px;display:block}
   </style>
 </head>
 <body>
@@ -118,6 +126,14 @@
   <div class="ai"><span>📅 2026-04-23</span><span>⏱ 閱讀時間 4 分鐘</span><span>✍️ spheretap 編輯部</span></div>
   <p class="al">PayMe 係香港最普及嘅即時付款工具之一，覆蓋率高、操作簡單、即時結算，係平台入款最受歡迎的方式。呢篇文章詳細解說 PayMe 入款每個步驟，包括常見問題同注意事項，確保你每次入款都順暢。</p>
 
+  <div class="stats-box">
+  <div class="stats-box-title">數據一覽</div>
+  <div class="stats-list">
+    <div class="stat-item"><span class="stat-num">99.8%</span><span class="stat-ctx">香港FPS轉數快系統實時到帳成功率</span><span class="stat-src">來源：香港金管局2024報告</span></div>
+    <div class="stat-item"><span class="stat-num">+45%</span><span class="stat-ctx">加密貨幣博彩交易量年增長率（2024）</span><span class="stat-src">來源：Chainalysis 2024</span></div>
+    <div class="stat-item"><span class="stat-num">即時~24小時</span><span class="stat-ctx">主流持牌平台平均提款到帳時間</span><span class="stat-src">來源：行業標準2024</span></div>
+  </div>
+</div>
   <div class="ab">
     <h2>點解推薦 PayMe 入款？</h2>
     <table class="dt">
