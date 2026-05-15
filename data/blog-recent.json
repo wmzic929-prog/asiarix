@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "hk-crypto-entertainment-platform-comparison",
+      "title": "香港加密貨幣娛樂平台比較2026｜USDT比特幣入款推薦",
+      "category": "平台比較",
+      "date": "2026-05-15",
+      "excerpt": "2026年香港支援加密貨幣嘅娛樂平台已超過十個，USDT入款普及率大幅提升，但各平台條件差異明顯，揀錯容易白蝕手續費同時間。",
+      "imageUrl": ""
+    },
+    {
       "slug": "account-security-settings-guide",
       "title": "娛樂平台帳戶安全設定教學｜強密碼、2FA 及防盜完整攻略 2026",
       "category": "安全教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-14",
       "excerpt": "全面比較香港娛樂平台各提款方式手續費，FPS、PayMe、USDT TRC20至銀行電匯一覽，附實戰慳費技巧，幫你每次出金都盡量零損耗。",
       "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/asiarix/main/blog/img/withdrawal-fee-comparison.jpg"
-    },
-    {
-      "slug": "real-user-platform-reviews",
-      "title": "娛樂平台真實用戶評測 2026：10位玩家親身體驗及評分大公開",
-      "category": "平台評測",
-      "date": "2026-05-14",
-      "excerpt": "睇廣告吹到天上有地下無？真實玩家點評先係最有參考價值，10位港人實測分享。",
-      "imageUrl": "https://pixabay.com/get/gb8935b72ae643a8a8c68dc5223a46e01401e61c0606f9a18f9e5ad3bbecbfa41811abd5bcb5a7cbb21a95ad04fc5822370c05909ffb49587213503229e2bb4f9_640.jpg"
     }
   ]
 }
