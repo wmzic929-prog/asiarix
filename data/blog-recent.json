@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "deposit-not-received-troubleshooting",
+      "title": "娛樂平台入款唔到帳點算？完整排查及解決步驟",
+      "category": "疑難排解",
+      "date": "2026-05-15",
+      "excerpt": "入款轉咗錢但係平台唔顯示到帳？唔使驚，大部分入款問題係操作失誤或銀行延遲引起，按步驟排查通常30分鐘內可以解決。",
+      "imageUrl": ""
+    },
+    {
       "slug": "hk-crypto-entertainment-platform-comparison",
       "title": "香港加密貨幣娛樂平台比較2026｜USDT比特幣入款推薦",
       "category": "平台比較",
@@ -15,14 +23,6 @@
       "date": "2026-05-15",
       "excerpt": "超過 70% 嘅娛樂平台帳戶被盜，都係因為密碼太弱同冇開 2FA，學識正確安全設定先係保護帳戶最有效嘅方法。",
       "imageUrl": "https://pixabay.com/get/g58389efaf0461d7a3bd47f9f9de2e1f57b0eee950ccf3f51fb477db1d1332ab93a02694912804cbc90137c0d7bf296db7579b57e734b9bd1eaeb8b948a2d76c2_640.jpg"
-    },
-    {
-      "slug": "withdrawal-fee-comparison",
-      "title": "娛樂平台提款手續費比較 2025：邊種方式最慳錢？",
-      "category": "提款教學",
-      "date": "2026-05-14",
-      "excerpt": "全面比較香港娛樂平台各提款方式手續費，FPS、PayMe、USDT TRC20至銀行電匯一覽，附實戰慳費技巧，幫你每次出金都盡量零損耗。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/asiarix/main/blog/img/withdrawal-fee-comparison.jpg"
     }
   ]
 }
