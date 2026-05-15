@@ -426,14 +426,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 function trackCta(source) {
   if (typeof gtag !== 'undefined') gtag('event', 'cta_click', { source });
 }
+function sortCards(grid) {
+  const cards = Array.from(grid.querySelectorAll('.article-card'));
+  cards.sort((a, b) => {
+    const dA = a.querySelector('.article-date')?.textContent.trim() || '';
+    const dB = b.querySelector('.article-date')?.textContent.trim() || '';
+    return dB.localeCompare(dA);
+  });
+  cards.forEach(c => grid.appendChild(c));
+  return cards;
+}
 function filterCat(cat, btn) {
   document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
   btn.classList.add('active');
-  document.querySelectorAll('#articles-grid .article-card').forEach(card => {
-    if (cat === 'all') { card.style.display = ''; return; }
-    card.style.display = card.dataset.cat === cat ? '' : 'none';
+  const grid = document.getElementById('articles-grid');
+  grid.querySelectorAll('.article-card').forEach(card => {
+    card.style.display = (cat === 'all' || card.dataset.cat === cat) ? '' : 'none';
   });
+  sortCards(grid);
 }
+// Initial sort on page load
+(function () {
+  const grid = document.getElementById('articles-grid');
+  if (grid) sortCards(grid);
+})();
 </script>
 </body>
 </html>

@@ -873,20 +873,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     setTimeout(() => { window.location.href = 'index.html'; }, 150);
   }
 
+  // Sort cards by date descending and reorder in DOM
+  function sortCards(grid) {
+    const cards = Array.from(grid.querySelectorAll('.article-card'));
+    cards.sort((a, b) => {
+      const dA = a.querySelector('.article-date')?.textContent.trim() || '';
+      const dB = b.querySelector('.article-date')?.textContent.trim() || '';
+      return dB.localeCompare(dA);
+    });
+    cards.forEach(c => grid.appendChild(c));
+    return cards;
+  }
+
   // Category filter
   function filterCat(cat, btn) {
     document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
     btn.classList.add('active');
-    document.querySelectorAll('.article-card').forEach(card => {
-      const show = cat === 'all' || card.dataset.cat === cat;
-      card.style.display = show ? '' : 'none';
-      if (show && cat !== 'all') card.classList.remove('featured');
+    const grid = document.getElementById('articles-grid');
+    const cards = Array.from(grid.querySelectorAll('.article-card'));
+    cards.forEach(card => {
+      card.classList.remove('featured');
+      card.style.display = (cat === 'all' || card.dataset.cat === cat) ? '' : 'none';
     });
-    if (cat === 'all') {
-      const first = document.querySelector('.article-card');
-      if (first) first.classList.add('featured');
-    }
+    sortCards(grid);
+    const first = Array.from(grid.querySelectorAll('.article-card')).find(c => c.style.display !== 'none');
+    if (first) first.classList.add('featured');
   }
+
+  // Initial sort on page load
+  (function () {
+    const grid = document.getElementById('articles-grid');
+    if (!grid) return;
+    const cards = sortCards(grid);
+    let firstSet = false;
+    cards.forEach(c => {
+      c.classList.remove('featured');
+      if (!firstSet && c.style.display !== 'none') { c.classList.add('featured'); firstSet = true; }
+    });
+  })();
 
   // Auto-filter from ?cat= URL param (used by index.html quick nav links)
   (function () {
