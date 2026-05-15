@@ -1,44 +1,34 @@
 {
   "articles": [
     {
-      "slug": "2026-05-15-man-city-crystal-palace-3-0",
-      "headline": "曼城3:0屠水晶宮 落後阿仙奴2分",
+      "slug": "2026-05-15-medvedev-sinner-italian-open-semifinal",
+      "title": "麥維迪夫豪言：冼拿始終會輸！意大利公開賽四強挑戰32連勝王者",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-05-15",
+      "excerpt": "意大利公開賽四強，麥維迪夫豪言冼拿始終會輸，冼拿32連勝令球壇震驚，俄羅斯老將強調需巔峰狀態主動出擊才有機會打破連勝紀錄。",
+      "imageUrl": "/sports/img/2026-05-15-medvedev-sinner-italian-open-semifinal.jpg",
+      "imageAlt": "意大利公開賽四強 麥維迪夫對冼拿"
+    },
+    {
+      "slug": "2026-05-15-japan-world-cup-squad-mitoma-injured",
+      "title": "三笘薰因傷落選！日本公布2026世界盃26人名單 久保建英率隊衝擊16強",
       "category": "足球",
       "emoji": "⚽",
       "date": "2026-05-15",
-      "lead": "曼城作客施維治公園3:0完勝水晶宮，繼續死咬榜首阿仙奴，兩隊分差收窄至2分，英超爭標戰進入最後白熱化階段。",
-      "imageUrl": "/sports/img/2026-05-15-man-city-crystal-palace-3-0.jpg",
-      "imageAlt": "曼城3:0屠水晶宮 落後阿仙奴2分"
+      "excerpt": "日本公布世界盃26人名單，三笘薰因腿筋傷勢落選，南野拓實亦缺席，久保建英領軍F組迎戰荷蘭、瑞典、突尼西亞，首戰6月14日德州阿靈頓。",
+      "imageUrl": "/sports/img/2026-05-15-japan-world-cup-squad-mitoma-injured.jpg",
+      "imageAlt": "三笘薰效力白禮頓身穿藍白球衣上陣"
     },
     {
-      "slug": "2026-05-14-cavaliers-detroit-pistons-game5-eastern-semifinals",
-      "title": "騎士OT客場滅活塞 季後賽東部半決賽3:2領先叫糊｜2026 NBA Playoffs",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-14",
-      "excerpt": "騎士東部半決賽第五場客場OT力挫活塞117:113，Harden 30分Mobley最後2分鐘追平，米切爾OT發功，系列賽3:2領先，下場即可叫糊晉東決。",
-      "imageUrl": "/sports/img/2026-05-14-cavaliers-detroit-pistons-game5-eastern-semifinals.jpg",
-      "imageAlt": "克里夫蘭騎士季後賽加時擊敗底特律活塞"
-    },
-    {
-      "slug": "2026-05-14-inter-milan-coppa-italia-double-champion",
-      "title": "國際米蘭2:0拒拉素奪意大利盃！賽季完成意甲+意盃雙料冠軍偉業",
+      "slug": "2026-05-15-france-world-cup-squad-2026",
+      "title": "法國公布2026世界盃26人大軍 馬巴比帶傷出征迪甘最後一戰",
       "category": "足球",
       "emoji": "⚽",
-      "date": "2026-05-14",
-      "excerpt": "國際米蘭意大利盃決賽2:0擊敗拉素，繼意甲冠軍後再奪意盃，完成本賽季雙料冠軍。馬路錫烏龍及馬天尼斯入球奠定勝局，藍黑王朝書寫隊史第10次意盃奪冠。",
-      "imageUrl": "/sports/img/2026-05-14-inter-milan-coppa-italia-double-champion.jpg",
-      "imageAlt": "國際米蘭奪意大利盃雙料冠軍"
-    },
-    {
-      "slug": "2026-05-14-snooker-chan-yun-hei-world-championship",
-      "title": "9歲陳芸曦出戰女子桌球世錦賽！成最年輕港隊代表 以中國世一白雨露為偶像",
-      "category": "桌球",
-      "emoji": "🎱",
-      "date": "2026-05-14",
-      "excerpt": "9歲港隊代表陳芸曦出戰2026年女子桌球世錦賽，成全場最年輕選手。E組對陣中國選手取得首個局分60比43，以中國世一白雨露為偶像。吳安儀率17人港隊分組賽三連勝，衝擊冠軍寶座。",
-      "imageUrl": "/sports/img/2026-05-14-snooker-chan-yun-hei-world-championship.jpg",
-      "imageAlt": "香港桌球代表出戰女子桌球世界錦標賽"
+      "date": "2026-05-15",
+      "excerpt": "法國公布2026世界盃26人名單，馬巴比帶傷出征，登比利、托察米尼等主力悉數在列，迪甘確認本屆後離任，I組對手為塞內加爾、伊拉克及挪威。",
+      "imageUrl": "/sports/img/2026-05-15-france-world-cup-squad-2026.jpg",
+      "imageAlt": "法國國家隊合照 FRANCE ROAD TO 26"
     }
   ]
 }
