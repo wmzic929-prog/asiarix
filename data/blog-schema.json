@@ -1,6 +1,6 @@
 {
   "_comment": "Single source of truth for all %%PLACEHOLDER%% in blog/_template.html. NEVER add a new placeholder without updating this file first.",
-  "_version": "1.1.0",
+  "_version": "1.1.1",
   "_lastUpdated": "2026-05-15",
   "placeholders": {
     "TITLE": {
@@ -140,6 +140,11 @@
     "IMAGE_QUERY": {
       "source": "ai",
       "desc": "English keywords for Pixabay/Pexels image search"
+    },
+    "FAQ_HTML": {
+      "source": "computed",
+      "fill": "built from FAQ_JSON by Fill Template / publish-blog.js",
+      "desc": "Rendered FAQ accordion HTML (also used in JSON-LD FAQPage mainEntity)"
     }
   },
   "rules": [
