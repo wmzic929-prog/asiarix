@@ -337,9 +337,9 @@
       "category": "安全教學",
       "angle": "帳戶密碼、2FA 及防盜設定教學",
       "image_theme": "account security casino password 2FA protection dark",
-      "status": "available",
-      "slug": "account-security",
-      "used_date": null
+      "status": "used",
+      "slug": "account-security-settings-guide",
+      "used_date": "2026-05-15"
     },
     {
       "id": 48,
