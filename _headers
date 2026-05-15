@@ -4,12 +4,12 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
 
-# HTML pages — always fresh (deploy instant; crawlers always get latest)
+# HTML pages — no-store prevents both browser and CF edge from caching
 /*.html
-  Cache-Control: no-cache, must-revalidate
+  Cache-Control: no-store
 
 /
-  Cache-Control: no-cache, must-revalidate
+  Cache-Control: no-store
 
 # Images — immutable long-term cache (Core Web Vitals LCP on repeat visits)
 /blog/img/*
