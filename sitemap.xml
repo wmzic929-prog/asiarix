@@ -1,237 +1,480 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- ═══ HOMEPAGE ═══ -->
   <url>
     <loc>https://spheretap.com/</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  <!-- ═══ HUB PAGES ═══ -->
   <url>
     <loc>https://spheretap.com/blog</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
+    <loc>https://spheretap.com/sports</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/about</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══ BLOG CATEGORY PAGES ═══ -->
+  <url>
+    <loc>https://spheretap.com/blog/newbie-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/deposit-tips</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/bonuses</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/platform-review</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/withdrawal-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/deposit-tutorial</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/bonus-tips</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/game-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/platform-picks</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/faq</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/security-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/platform-selection</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/legal-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/platform-compare</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══ BLOG ARTICLES ═══ -->
+  <url>
+    <loc>https://spheretap.com/blog/account-security-settings-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/avoid-blacklist-platforms</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://spheretap.com/blog/baccarat-basics-beginner-guide</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/blog/baccarat-beginner-guide</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://spheretap.com/blog/cashback-rebate-guide</loc>
-    <lastmod>2026-05-05</lastmod>
+    <loc>https://spheretap.com/blog/baccarat-one-change-second-night</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://spheretap.com/blog/cashback-vs-points-rewards</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/daily-bonus-tips</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/entertainment-app-download-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/entertainment-platform-customer-service-review</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/fast-withdrawal-platform-comparison</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/football-betting-beginner-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/fps-vs-usdt</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/hk-platform-legal-issues</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/how-to-check-platform-credibility</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/kyc-verification-guide</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/live-casino-live-dealer-guide</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/max-deposit-bonus-breakdown</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/max-deposit-bonus-conditions</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/max-deposit-bonus-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/mobile-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/new-player-first-deposit-tips</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/new-user-faq</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/payme-deposit-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/referral-code-bonus-guide</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/usdt-deposit-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/vip-program-guide</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/welcome-bonus-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/what-is-license</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/withdrawal-guide</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/withdrawal-rejected-reasons</loc>
-    <lastmod>2026-05-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/slot-rtp-guide</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://spheretap.com/blog/bonus-terms-wagering-guide</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://spheretap.com/blog/baccarat-winning-tips</loc>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/blog/bank-transfer-deposit-guide</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://spheretap.com/blog/bonus-terms-wagering-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/cashback-rebate-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/cashback-vs-points-rewards</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/daily-bonus-tips</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/deposit-limit-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/entertainment-app-download-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/entertainment-platform-customer-service-review</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/entertainment-platform-promo-codes-2025</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/fast-withdrawal-platform-comparison</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/football-betting-beginner-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/fps-instant-deposit-story</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/fps-instant-deposit-tips</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/fps-vs-usdt-platform-comparison</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/fps-vs-usdt</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/hk-crypto-entertainment-platform-comparison</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/hk-gambling-tax-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/hk-platform-legal-issues</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/how-to-check-platform-credibility</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/kyc-trap-withdrawal-rejected</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/kyc-verification-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/live-casino-live-dealer-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/max-deposit-bonus-breakdown</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/max-deposit-bonus-conditions</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/max-deposit-bonus-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/mobile-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/mobile-platform-2025</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/mobile-platform-recommendation-2025</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/new-player-first-deposit-tips</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/new-user-faq</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/payme-deposit-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/promo-codes-2025</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/real-user-platform-reviews</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/referral-code-bonus-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/slot-rtp-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/usdt-deposit-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/usdt-trc20-vs-erc20-deposit</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/vip-program-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/weekly-rebate-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/welcome-bonus-guide</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/what-is-license</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/withdrawal-fee-comparison</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/blog/withdrawal-rejected-reasons</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══ LEGAL ═══ -->
   <url>
     <loc>https://spheretap.com/privacy</loc>
     <lastmod>2026-05-04</lastmod>
@@ -246,338 +489,180 @@
     <priority>0.3</priority>
   </url>
 
-
-  <url>
-    <loc>https://spheretap.com/sports</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+  <!-- ═══ SPORTS ARTICLES ═══ -->
   <url>
     <loc>https://spheretap.com/sports/2026-05-09-basketball-hk-fiba-asia-cup-qualifiers-malaysia</loc>
     <lastmod>2026-05-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-09-football-eastern-fc-five-players-depart-rodrigues-century</loc>
     <lastmod>2026-05-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-09-rugby-jockey-club-community-sevens-15000-participants</loc>
     <lastmod>2026-05-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-09-table-tennis-world-championship-china-korea</loc>
     <lastmod>2026-05-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-09-tennis-wong-chun-hei-first-atp-title-jiangxi</loc>
     <lastmod>2026-05-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-10-hong-kong-sports-planning-consultation</loc>
     <lastmod>2026-05-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
-
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-10-hk-sports-planning-consultation</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/promo-codes-2025</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/baccarat-winning-tips</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/usdt-trc20-vs-erc20-deposit</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/entertainment-platform-promo-codes-2025</loc>
     <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
-
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-10-hong-kong-five-year-plan-sports-consultation</loc>
     <lastmod>2026-05-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/deposit-limit-guide</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/hk-gambling-tax-guide</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/sports/2026-05-11-hong-kong-sports-five-year-plan-consultation</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/avoid-blacklist-platforms</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/fps-instant-deposit-tips</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/weekly-rebate-guide</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/sports/2026-05-12-tottenham-vs-leeds-united-premier-league-relegation</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/sports/2026-05-12-tottenham-vs-leeds-united-preview</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/sports/2026-05-13-tottenham-vs-leeds-united-hong-kong-tour</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/mobile-platform-recommendation-2025</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/withdrawal-fee-comparison</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/article</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/sports/2026-05-14-man-city-vs-crystal-palace-premier-league</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-
-  <url>
-    <loc>https://spheretap.com/about</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-barcelona-real-madrid-laliga-title</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-chan-pui-ki-100m-record</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-football-arsenal-west-ham-trossard-var</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-hk-badminton-asia-top8</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-hk-basketball-league-finals</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-hk-sports-five-year-plan</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-hkjc-67b-donation</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/sports/2026-05-11-hong-kong-sports-five-year-plan-consultation</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-11-nba-knicks-76ers-sweep</loc>
     <lastmod>2026-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-12-mlb-giants-dodgers-sasaki-ohtani-streak</loc>
     <lastmod>2026-05-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/sports/2026-05-12-tottenham-vs-leeds-united-premier-league-relegation</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://spheretap.com/sports/2026-05-12-tottenham-vs-leeds-united-preview</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-13-hong-kong-football-festival-2026-tickets</loc>
     <lastmod>2026-05-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-13-nba-spurs-timberwolves-g5-wembanyama</loc>
     <lastmod>2026-05-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://spheretap.com/blog/mobile-platform-2025</loc>
+    <loc>https://spheretap.com/sports/2026-05-13-tottenham-vs-leeds-united-hong-kong-tour</loc>
     <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://spheretap.com/blog/withdrawal-fee-comparison</loc>
+    <loc>https://spheretap.com/sports/2026-05-14-man-city-vs-crystal-palace-premier-league</loc>
     <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/real-user-platform-reviews</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
 
   <url>
     <loc>https://spheretap.com/sports/2026-05-15-man-city-crystal-palace-3-0</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/account-security-settings-guide</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://spheretap.com/blog/hk-crypto-entertainment-platform-comparison</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
