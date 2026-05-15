@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-man-city-youth-fa-cup-victory",
+      "headline": "藍月絕殺紅魔 捧青年英足盃",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "lead": "曼城青年軍喺青年英足盃決賽絕殺死敵曼聯，名將之後一箭定江山，為藍月再添一座青年錦標，香港球迷反應熱烈。",
+      "imageUrl": "/sports/img/2026-05-16-man-city-youth-fa-cup-victory.jpg",
+      "imageAlt": "藍月絕殺紅魔 捧青年英足盃"
+    },
+    {
       "slug": "2026-05-15-medvedev-sinner-italian-open-semifinal",
       "title": "麥維迪夫豪言：冼拿始終會輸！意大利公開賽四強挑戰32連勝王者",
       "category": "網球",
