@@ -27,6 +27,7 @@ jobs:
 
       - name: Submit Sitemap to GSC
         continue-on-error: true
+        if: success()
         run: node .github/scripts/submit-sitemap.js
         env:
           GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
