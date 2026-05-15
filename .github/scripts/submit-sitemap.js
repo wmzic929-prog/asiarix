@@ -8,7 +8,7 @@ if (!GSC_CLIENT_ID || !GSC_CLIENT_SECRET || !GSC_REFRESH_TOKEN) {
   process.exit(1);
 }
 
-const SITE_URL = 'https://spheretap.com/';
+const SITE_URL = 'sc-domain:spheretap.com';
 const SITEMAP_URL = 'https://spheretap.com/sitemap.xml';
 
 function request(options, body) {
