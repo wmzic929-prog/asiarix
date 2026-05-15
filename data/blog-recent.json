@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "account-security-settings-guide",
+      "title": "娛樂平台帳戶安全設定教學｜強密碼、2FA 及防盜完整攻略 2026",
+      "category": "安全教學",
+      "date": "2026-05-15",
+      "excerpt": "超過 70% 嘅娛樂平台帳戶被盜，都係因為密碼太弱同冇開 2FA，學識正確安全設定先係保護帳戶最有效嘅方法。",
+      "imageUrl": "https://pixabay.com/get/g58389efaf0461d7a3bd47f9f9de2e1f57b0eee950ccf3f51fb477db1d1332ab93a02694912804cbc90137c0d7bf296db7579b57e734b9bd1eaeb8b948a2d76c2_640.jpg"
+    },
+    {
       "slug": "withdrawal-fee-comparison",
       "title": "娛樂平台提款手續費比較 2025：邊種方式最慳錢？",
       "category": "提款教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-14",
       "excerpt": "睇廣告吹到天上有地下無？真實玩家點評先係最有參考價值，10位港人實測分享。",
       "imageUrl": "https://pixabay.com/get/gb8935b72ae643a8a8c68dc5223a46e01401e61c0606f9a18f9e5ad3bbecbfa41811abd5bcb5a7cbb21a95ad04fc5822370c05909ffb49587213503229e2bb4f9_640.jpg"
-    },
-    {
-      "slug": "mobile-platform-2025",
-      "title": "手機版娛樂平台推薦 2025｜港人首選 5 大平台完整評測",
-      "category": "平台推薦",
-      "date": "2026-05-13",
-      "excerpt": "2025 年手機娛樂平台選擇多到眼花？呢篇評測 5 大港人常用平台，比較介面流暢度、入提款速度、App 穩定性，幫你一次搵到最適合手機玩嘅平台。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/asiarix/main/blog/img/mobile-platform-2025.jpg"
     }
   ]
 }
