@@ -1,0 +1,7 @@
+{
+  "name": "spheretap-ci-scripts",
+  "private": true,
+  "dependencies": {
+    "googleapis": "^140.0.0"
+  }
+}
