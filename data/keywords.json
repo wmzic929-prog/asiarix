@@ -357,9 +357,9 @@
       "category": "疑難排解",
       "angle": "入款未到帳的完整排查步驟及解決方法",
       "image_theme": "deposit not received problem troubleshoot solution money dark",
-      "status": "available",
-      "slug": "deposit-not-received-fix",
-      "used_date": null
+      "status": "used",
+      "slug": "deposit-not-received-troubleshooting",
+      "used_date": "2026-05-15"
     },
     {
       "id": 50,
