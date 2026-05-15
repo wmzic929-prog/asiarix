@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-15-medvedev-sinner-italian-open-semifinal",
+      "title": "麥維迪夫豪言：冼拿始終會輸！意大利公開賽四強挑戰32連勝王者",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-05-15",
+      "excerpt": "意大利公開賽四強，麥維迪夫豪言冼拿始終會輸，冼拿32連勝令球壇震驚，俄羅斯老將強調需巔峰狀態主動出擊才有機會打破連勝紀錄。",
+      "imageUrl": "/sports/img/2026-05-15-medvedev-sinner-italian-open-semifinal.jpg",
+      "imageAlt": "意大利公開賽四強 麥維迪夫對冼拿"
+    },
+    {
       "slug": "2026-05-15-japan-world-cup-squad-mitoma-injured",
       "title": "三笘薰因傷落選！日本公布2026世界盃26人名單 久保建英率隊衝擊16強",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "法國公布2026世界盃26人名單，馬巴比帶傷出征，登比利、托察米尼等主力悉數在列，迪甘確認本屆後離任，I組對手為塞內加爾、伊拉克及挪威。",
       "imageUrl": "/sports/img/2026-05-15-france-world-cup-squad-2026.jpg",
       "imageAlt": "法國國家隊合照 FRANCE ROAD TO 26"
-    },
-    {
-      "slug": "2026-05-15-ancelotti-brazil-contract-renewal-2030",
-      "title": "安察洛堤續約巴西至2030年！誓帶桑巴軍洗兩屆八強恥辱",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-15",
-      "excerpt": "巴西足總宣佈與主帥安察洛堤續約至2030年，名帥誓帶桑巴軍重返世界之巔，C組迎戰摩洛哥、蘇格蘭及海地，大軍名單下周公佈。",
-      "imageUrl": "/sports/img/2026-05-15-ancelotti-brazil-contract-renewal-2030.jpg",
-      "imageAlt": "安察洛堤穿巴西隊訓練服接受採訪"
     }
   ]
 }
