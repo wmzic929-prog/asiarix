@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-15-japan-world-cup-squad-mitoma-injured",
+      "title": "三笘薰因傷落選！日本公布2026世界盃26人名單 久保建英率隊衝擊16強",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-15",
+      "excerpt": "日本公布世界盃26人名單，三笘薰因腿筋傷勢落選，南野拓實亦缺席，久保建英領軍F組迎戰荷蘭、瑞典、突尼西亞，首戰6月14日德州阿靈頓。",
+      "imageUrl": "/sports/img/2026-05-15-japan-world-cup-squad-mitoma-injured.jpg",
+      "imageAlt": "三笘薰效力白禮頓身穿藍白球衣上陣"
+    },
+    {
       "slug": "2026-05-15-france-world-cup-squad-2026",
       "title": "法國公布2026世界盃26人大軍 馬巴比帶傷出征迪甘最後一戰",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "巴西足總宣佈與主帥安察洛堤續約至2030年，名帥誓帶桑巴軍重返世界之巔，C組迎戰摩洛哥、蘇格蘭及海地，大軍名單下周公佈。",
       "imageUrl": "/sports/img/2026-05-15-ancelotti-brazil-contract-renewal-2030.jpg",
       "imageAlt": "安察洛堤穿巴西隊訓練服接受採訪"
-    },
-    {
-      "slug": "2026-05-15-man-city-crystal-palace-3-0",
-      "headline": "曼城3:0屠水晶宮 落後阿仙奴2分",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-15",
-      "lead": "曼城作客施維治公園3:0完勝水晶宮，繼續死咬榜首阿仙奴，兩隊分差收窄至2分，英超爭標戰進入最後白熱化階段。",
-      "imageUrl": "/sports/img/2026-05-15-man-city-crystal-palace-3-0.jpg",
-      "imageAlt": "曼城3:0屠水晶宮 落後阿仙奴2分"
     }
   ]
 }
