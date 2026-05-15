@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-15-ancelotti-brazil-contract-renewal-2030",
+      "title": "安察洛堤續約巴西至2030年！誓帶桑巴軍洗兩屆八強恥辱",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-15",
+      "excerpt": "巴西足總宣佈與主帥安察洛堤續約至2030年，名帥誓帶桑巴軍重返世界之巔，C組迎戰摩洛哥、蘇格蘭及海地，大軍名單下周公佈。",
+      "imageUrl": "/sports/img/2026-05-15-ancelotti-brazil-contract-renewal-2030.jpg",
+      "imageAlt": "安察洛堤穿巴西隊訓練服接受採訪"
+    },
+    {
       "slug": "2026-05-15-man-city-crystal-palace-3-0",
       "headline": "曼城3:0屠水晶宮 落後阿仙奴2分",
       "category": "足球",
@@ -19,26 +29,6 @@
       "excerpt": "騎士東部半決賽第五場客場OT力挫活塞117:113，Harden 30分Mobley最後2分鐘追平，米切爾OT發功，系列賽3:2領先，下場即可叫糊晉東決。",
       "imageUrl": "/sports/img/2026-05-14-cavaliers-detroit-pistons-game5-eastern-semifinals.jpg",
       "imageAlt": "克里夫蘭騎士季後賽加時擊敗底特律活塞"
-    },
-    {
-      "slug": "2026-05-14-inter-milan-coppa-italia-double-champion",
-      "title": "國際米蘭2:0拒拉素奪意大利盃！賽季完成意甲+意盃雙料冠軍偉業",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-14",
-      "excerpt": "國際米蘭意大利盃決賽2:0擊敗拉素，繼意甲冠軍後再奪意盃，完成本賽季雙料冠軍。馬路錫烏龍及馬天尼斯入球奠定勝局，藍黑王朝書寫隊史第10次意盃奪冠。",
-      "imageUrl": "/sports/img/2026-05-14-inter-milan-coppa-italia-double-champion.jpg",
-      "imageAlt": "國際米蘭奪意大利盃雙料冠軍"
-    },
-    {
-      "slug": "2026-05-14-snooker-chan-yun-hei-world-championship",
-      "title": "9歲陳芸曦出戰女子桌球世錦賽！成最年輕港隊代表 以中國世一白雨露為偶像",
-      "category": "桌球",
-      "emoji": "🎱",
-      "date": "2026-05-14",
-      "excerpt": "9歲港隊代表陳芸曦出戰2026年女子桌球世錦賽，成全場最年輕選手。E組對陣中國選手取得首個局分60比43，以中國世一白雨露為偶像。吳安儀率17人港隊分組賽三連勝，衝擊冠軍寶座。",
-      "imageUrl": "/sports/img/2026-05-14-snooker-chan-yun-hei-world-championship.jpg",
-      "imageAlt": "香港桌球代表出戰女子桌球世界錦標賽"
     }
   ]
 }
