@@ -1,7 +1,7 @@
 {
   "_comment": "Single source of truth for all %%PLACEHOLDER%% in blog/_template.html. NEVER add a new placeholder without updating this file first.",
-  "_version": "1.0.0",
-  "_lastUpdated": "2026-05-14",
+  "_version": "1.1.0",
+  "_lastUpdated": "2026-05-15",
   "placeholders": {
     "TITLE": {
       "source": "ai",
@@ -103,10 +103,6 @@
       "source": "ai",
       "desc": "Related article 3 title verbatim"
     },
-    "QA_SECTION": {
-      "source": "computed",
-      "fill": "AI QA_SECTION field → fallback FAQ_JSON[0].answer — Fill Template node & publish-blog.js"
-    },
     "FAQ_JSON": {
       "source": "ai+parse",
       "fill": "AI FAQ array JSON.stringify, fallback [] — Parse Article JSON"
@@ -114,6 +110,36 @@
     "EVENT_SLUG": {
       "source": "ai",
       "desc": "Event tracking slug underscore_id"
+    },
+    "STATS_JSON": {
+      "source": "ai",
+      "desc": "Array of 3 stats [{num, ctx, src}] for stats-box above banner"
+    },
+    "QUOTE_TEXT": {
+      "source": "ai",
+      "desc": "Single authority quote 30-80 chars in 「」 marks"
+    },
+    "QUOTE_ATTR": {
+      "source": "ai",
+      "desc": "Quote attribution: — 機構名稱，報告/年份"
+    },
+    "STATS_HTML": {
+      "source": "computed",
+      "fill": "built from STATS_JSON by Fill Template / publish-blog.js",
+      "desc": "Rendered stats-box HTML above banner"
+    },
+    "QUOTES_HTML": {
+      "source": "computed",
+      "fill": "built from QUOTE_TEXT + QUOTE_ATTR",
+      "desc": "Rendered quotes-box HTML before footer"
+    },
+    "EMOJI": {
+      "source": "ai",
+      "desc": "Single emoji for banner gradient fallback"
+    },
+    "IMAGE_QUERY": {
+      "source": "ai",
+      "desc": "English keywords for Pixabay/Pexels image search"
     }
   },
   "rules": [
