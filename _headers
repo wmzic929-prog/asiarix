@@ -4,12 +4,24 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
 
-/index.html
+# HTML pages — always fresh (deploy instant; crawlers always get latest)
+/*.html
   Cache-Control: no-cache, must-revalidate
 
-/blog/*
-  Cache-Control: public, max-age=3600
+/
+  Cache-Control: no-cache, must-revalidate
 
+# Images — immutable long-term cache (Core Web Vitals LCP on repeat visits)
+/blog/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sports/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# SEO files
 /sitemap.xml
   Content-Type: text/xml; charset=utf-8
   Cache-Control: no-cache, must-revalidate
