@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-ruud-italian-open-men-final",
+      "title": "魯迪雨中稱霸四強！意大利網球公開賽首殺入決賽 挑戰冼拿或麥維迪夫",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-05-16",
+      "excerpt": "挪威球手魯迪以6:1、6:1橫掃主場球手達迪利殺入意大利網球公開賽決賽，比賽雖受天雨暫停近2小時，魯迪復戰後氣勢如虹，決賽對手為冼拿或麥維迪夫。",
+      "imageUrl": "/sports/img/2026-05-16-ruud-italian-open-men-final.jpg",
+      "imageAlt": "魯迪在意大利網球公開賽泥地球場作賽"
+    },
+    {
       "slug": "2026-05-16-zverev-withdraws-hamburg-back-injury",
       "title": "施華利夫背傷持續！法網前宣布退出漢堡賽 大滿貫首冠夢添變數",
       "category": "網球",
@@ -19,16 +29,6 @@
       "excerpt": "拜仁慕尼黑宣布40歲門將紐亞續約至2027年，下季以副選角色助後輩埃碧接班。紐亞效力拜仁16年，贏得2次歐冠、13次德甲及5次德國盃。",
       "imageUrl": "/sports/img/2026-05-16-neuer-renews-contract-bayern-2027.jpg",
       "imageAlt": "拜仁門將紐亞身穿紅衣守門"
-    },
-    {
-      "slug": "2026-05-16-slot-liverpool-villa-defeat-job-security",
-      "title": "史洛「講夠啦！」利物浦2:4慘敗維拉 帥位問題持續發酵引球壇熱議",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "利物浦2:4慘敗阿士東維拉，領隊史洛被記者追問帥位問題後怒回「講夠啦！」。利記暫排英超第5，下場對賓福特成歐聯席位關鍵，季末壓力急升。",
-      "imageUrl": "/sports/img/2026-05-16-slot-liverpool-villa-defeat-job-security.jpg",
-      "imageAlt": "利物浦領隊史洛賽後記者會"
     }
   ]
 }
