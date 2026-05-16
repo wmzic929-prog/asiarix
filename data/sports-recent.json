@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-oreilly-man-city-fa-cup-final",
+      "title": "奧懷利再當福將！曼城英足盃決賽戰車路士 球探盛讚「本季最佳左路球員」",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "曼城21歲左後衛奧懷利今晚英足盃決賽戰車路士，他在英聯盃決賽4分鐘梅開二度奪冠，被球探讚為「本季左路最出色球員」，哥迪奧拿稱他是本季最佳新援。",
+      "imageUrl": "/sports/img/2026-05-16-oreilly-man-city-fa-cup-final.jpg",
+      "imageAlt": "奧懷利曼城英足盃決賽"
+    },
+    {
       "slug": "2026-05-16-enzo-fernandez-chelsea-fa-cup-final",
       "title": "Enzo「決賽基因」爆發！車路士英足盃決賽挑戰曼城 歐霸席位成最後賭注",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "曼城U18以2:1擊敗曼聯U18，已故名將希斯基之子維根希斯基87分鐘禁區絕殺，助藍月奪得第5座青年英足盃。哥迪奧拿、般奴費蘭迪斯等人均親赴觀賽。",
       "imageUrl": "/sports/img/2026-05-16-man-city-youth-fa-cup-winners.jpg",
       "imageAlt": "曼城U18青年英足盃奪冠慶祝"
-    },
-    {
-      "slug": "2026-05-16-mourinho-ancelotti-real-madrid-benfica",
-      "title": "摩連奴爆皇馬內幕！痛心好友艾比路亞「失勢」 葡超後宣布個人去向",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "賓菲加領隊摩連奴在記者會談及皇馬內幕，對好友艾比路亞失勢深感痛心，承認賓菲加已提出續約，將在葡超煞科後才宣布個人去向。",
-      "imageUrl": "/sports/img/2026-05-16-mourinho-ancelotti-real-madrid-benfica.jpg",
-      "imageAlt": "摩連奴執教賓菲加記者會"
     }
   ]
 }
