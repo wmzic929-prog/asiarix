@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-man-city-youth-fa-cup-winners",
+      "title": "維根希斯基絕殺紅魔！曼城U18捧青年英足盃 哥迪奧拿現場見證父子傳承",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "曼城U18以2:1擊敗曼聯U18，已故名將希斯基之子維根希斯基87分鐘禁區絕殺，助藍月奪得第5座青年英足盃。哥迪奧拿、般奴費蘭迪斯等人均親赴觀賽。",
+      "imageUrl": "/sports/img/2026-05-16-man-city-youth-fa-cup-winners.jpg",
+      "imageAlt": "曼城U18青年英足盃奪冠慶祝"
+    },
+    {
       "slug": "2026-05-16-mourinho-ancelotti-real-madrid-benfica",
       "title": "摩連奴爆皇馬內幕！痛心好友艾比路亞「失勢」 葡超後宣布個人去向",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "挪威球手魯迪在意大利網球公開賽四強以6:1、6:1橫掃主場球手達迪利，天雨暫停近2小時後復戰氣勢如虹，率先殺入決賽，靜候冼拿或麥維迪夫。",
       "imageUrl": "/sports/img/2026-05-16-ruud-italian-open-men-final.jpg",
       "imageAlt": "魯迪在意大利網球公開賽泥地球場作賽"
-    },
-    {
-      "slug": "2026-05-16-zverev-withdraws-hamburg-back-injury",
-      "title": "施華利夫背傷持續！法網前宣布退出漢堡賽 大滿貫首冠夢添變數",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-05-16",
-      "excerpt": "世界排名第3的德國球手施華利夫因背傷退出漢堡公開賽，距法網不足10天。本季泥地球季傷患連連，13個月冠軍荒令大滿貫首冠夢想添上變數。",
-      "imageUrl": "/sports/img/2026-05-16-zverev-withdraws-hamburg-back-injury.jpg",
-      "imageAlt": "施華利夫在泥地球場備戰"
     }
   ]
 }
