@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-slot-liverpool-villa-defeat-job-security",
+      "title": "史洛「講夠啦！」利物浦2:4慘敗維拉 帥位問題持續發酵引球壇熱議",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "利物浦2:4慘敗阿士東維拉，領隊史洛被記者追問帥位問題後怒回「講夠啦！」。利記暫排英超第5，下場對賓福特成歐聯席位關鍵，季末壓力急升。",
+      "imageUrl": "/sports/img/2026-05-16-slot-liverpool-villa-defeat-job-security.jpg",
+      "imageAlt": "利物浦領隊史洛賽後記者會"
+    },
+    {
       "slug": "2026-05-16-villa-europa-league-watkins-double",
       "title": "屈堅斯梅開二度！阿士東維拉4:2大勝利物浦 確保歐聯冠軍盃資格",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "曼城21歲奧懷利將出戰今晚英足盃決賽對陣車路士，他在英聯盃決賽4分鐘梅開二度奪冠，被球探讚為「本季左路最出色球員」，哥迪奧拿稱他是本季最佳新援。",
       "imageUrl": "/sports/img/2026-05-16-oreilly-man-city-fa-cup-final.jpg",
       "imageAlt": "奧懷利曼城英足盃決賽"
-    },
-    {
-      "slug": "2026-05-16-enzo-fernandez-chelsea-fa-cup-final",
-      "title": "Enzo「決賽基因」爆發！車路士英足盃決賽挑戰曼城 歐霸席位成最後賭注",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "車路士中場安素費蘭迪斯（Enzo Fernandez）憑「決賽基因」率車路士出戰英足盃決賽，他曾3次踢盃賽決賽2次奪冠。今仗勝出可獲歐霸盃席位，今晚22:00溫布萊直播。",
-      "imageUrl": "/sports/img/2026-05-16-enzo-fernandez-chelsea-fa-cup-final.jpg",
-      "imageAlt": "Enzo費蘭迪斯車路士英足盃決賽"
     }
   ]
 }
