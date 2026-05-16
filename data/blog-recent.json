@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "withdrawal-frozen-solution",
+      "title": "娛樂平台提款申請被凍結點解決？2025 完整處理流程",
+      "category": "疑難排解",
+      "date": "2026-05-16",
+      "excerpt": "提款凍結係唔少香港玩家都遇過嘅問題。本文分析 6 大凍結原因——KYC 未完成、優惠條款未達標、風控觸發等，並提供逐步解決流程，等你可以盡快恢復提款。",
+      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/withdrawal-frozen-solution.jpg"
+    },
+    {
       "slug": "deposit-not-received-troubleshooting",
       "title": "娛樂平台入款唔到帳點算？完整排查及解決步驟",
       "category": "疑難排解",
@@ -15,14 +23,6 @@
       "date": "2026-05-15",
       "excerpt": "2026年香港支援加密貨幣嘅娛樂平台已超過十個，USDT入款普及率大幅提升，但各平台條件差異明顯，揀錯容易白蝕手續費同時間。",
       "imageUrl": ""
-    },
-    {
-      "slug": "account-security-settings-guide",
-      "title": "娛樂平台帳戶安全設定教學｜強密碼、2FA 及防盜完整攻略 2026",
-      "category": "安全教學",
-      "date": "2026-05-15",
-      "excerpt": "超過 70% 嘅娛樂平台帳戶被盜，都係因為密碼太弱同冇開 2FA，學識正確安全設定先係保護帳戶最有效嘅方法。",
-      "imageUrl": "https://pixabay.com/get/g58389efaf0461d7a3bd47f9f9de2e1f57b0eee950ccf3f51fb477db1d1332ab93a02694912804cbc90137c0d7bf296db7579b57e734b9bd1eaeb8b948a2d76c2_640.jpg"
     }
   ]
 }
