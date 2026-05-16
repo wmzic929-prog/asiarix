@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-villa-europa-league-watkins-double",
+      "title": "屈堅斯梅開二度！阿士東維拉4:2大勝利物浦 確保歐聯冠軍盃資格",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "阿士東維拉4:2大勝利物浦，屈堅斯梅開二度，維拉以62分升至英超第4確保歐聯冠軍盃席位。利物浦跌至第5，史洛帥位問題持續發酵。",
+      "imageUrl": "/sports/img/2026-05-16-villa-europa-league-watkins-double.jpg",
+      "imageAlt": "屈堅斯阿士東維拉入球慶祝"
+    },
+    {
       "slug": "2026-05-16-oreilly-man-city-fa-cup-final",
       "title": "奧懷利再當福將！曼城英足盃決賽戰車路士 球探盛讚「本季最佳左路球員」",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "阿根廷世界盃冠軍Enzo費蘭迪斯率車路士出戰今晚英足盃決賽對陣曼城，「決賽基因」在身，5場賽事3球，今仗對車路士勝則歐霸盃資格、負則無緣歐洲賽場。",
       "imageUrl": "/sports/img/2026-05-16-enzo-fernandez-chelsea-fa-cup-final.jpg",
       "imageAlt": "Enzo費蘭迪斯車路士英足盃決賽"
-    },
-    {
-      "slug": "2026-05-16-man-city-youth-fa-cup-winners",
-      "title": "維根希斯基絕殺紅魔！曼城U18捧青年英足盃 哥迪奧拿現場見證父子傳承",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "曼城U18以2:1擊敗曼聯U18，已故名將希斯基之子維根希斯基87分鐘禁區絕殺，助藍月奪得第5座青年英足盃。哥迪奧拿、般奴費蘭迪斯等人均親赴觀賽。",
-      "imageUrl": "/sports/img/2026-05-16-man-city-youth-fa-cup-winners.jpg",
-      "imageAlt": "曼城U18青年英足盃奪冠慶祝"
     }
   ]
 }
