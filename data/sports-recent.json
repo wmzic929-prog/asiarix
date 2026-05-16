@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-mourinho-ancelotti-real-madrid-benfica",
+      "title": "摩連奴爆皇馬內幕！痛心好友艾比路亞「失勢」 葡超後宣布個人去向",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "賓菲加領隊摩連奴在記者會談及皇馬內幕，對好友艾比路亞失勢深感痛心，承認賓菲加已提出續約，將在葡超煞科後才宣布個人去向。",
+      "imageUrl": "/sports/img/2026-05-16-mourinho-ancelotti-real-madrid-benfica.jpg",
+      "imageAlt": "摩連奴執教賓菲加記者會"
+    },
+    {
       "slug": "2026-05-16-ruud-italian-open-men-final",
       "title": "魯迪雨中稱霸四強！意大利網球公開賽首殺入決賽 挑戰冼拿或麥維迪夫",
       "category": "網球",
@@ -19,16 +29,6 @@
       "excerpt": "世界排名第3的德國球手施華利夫因背傷退出漢堡公開賽，距法網不足10天。本季泥地球季傷患連連，13個月冠軍荒令大滿貫首冠夢想添上變數。",
       "imageUrl": "/sports/img/2026-05-16-zverev-withdraws-hamburg-back-injury.jpg",
       "imageAlt": "施華利夫在泥地球場備戰"
-    },
-    {
-      "slug": "2026-05-16-neuer-renews-contract-bayern-2027",
-      "title": "40歲不言休！拜仁宣布紐亞續約至2027年 球壇傳奇延役守護德甲班霸",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "拜仁慕尼黑宣布40歲門將紐亞續約至2027年，下季以副選角色助後輩埃碧接班。紐亞效力拜仁16年，贏得2次歐冠、13次德甲及5次德國盃。",
-      "imageUrl": "/sports/img/2026-05-16-neuer-renews-contract-bayern-2027.jpg",
-      "imageAlt": "拜仁門將紐亞身穿紅衣守門"
     }
   ]
 }
