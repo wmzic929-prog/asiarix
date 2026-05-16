@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-villa-europa-league-watkins-double",
+      "title": "屈堅斯梅開二度！阿士東維拉4:2大勝利物浦 確保歐聯冠軍盃資格",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "阿士東維拉4:2大勝利物浦，屈堅斯梅開二度，維拉以62分升至英超第4鎖定歐聯冠軍盃席位。利物浦跌至第5，史洛帥位問題再度引爆，下場對賓福特至關重要。",
+      "imageUrl": "/sports/img/2026-05-16-villa-europa-league-watkins-double.jpg",
+      "imageAlt": "屈堅斯阿士東維拉入球慶祝"
+    },
+    {
       "slug": "2026-05-16-oreilly-man-city-fa-cup-final",
       "title": "奧懷利再當福將！曼城英足盃決賽戰車路士 球探盛讚「本季最佳左路球員」",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "車路士中場安素費蘭迪斯（Enzo Fernandez）憑「決賽基因」率車路士出戰英足盃決賽，他曾3次踢盃賽決賽2次奪冠。今仗勝出可獲歐霸盃席位，今晚22:00溫布萊直播。",
       "imageUrl": "/sports/img/2026-05-16-enzo-fernandez-chelsea-fa-cup-final.jpg",
       "imageAlt": "Enzo費蘭迪斯車路士英足盃決賽"
-    },
-    {
-      "slug": "2026-05-16-ruud-italian-open-men-final",
-      "title": "魯迪雨中稱霸四強！意大利網球公開賽首殺入決賽 挑戰冼拿或麥維迪夫",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-05-16",
-      "excerpt": "挪威球手魯迪以6:1、6:1橫掃主場球手達迪利殺入意大利網球公開賽決賽，比賽雖受天雨暫停近2小時，魯迪復戰後氣勢如虹，決賽對手為冼拿或麥維迪夫。",
-      "imageUrl": "/sports/img/2026-05-16-ruud-italian-open-men-final.jpg",
-      "imageAlt": "魯迪在意大利網球公開賽泥地球場作賽"
     }
   ]
 }
