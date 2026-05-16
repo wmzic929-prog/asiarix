@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-neuer-renews-contract-bayern-2027",
+      "title": "40歲不言休！拜仁宣布紐亞續約至2027年 球壇傳奇延役守護德甲班霸",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "拜仁慕尼黑宣布40歲門將紐亞續約至2027年，下季以副選角色助後輩埃碧接班。紐亞效力拜仁16年，贏得2次歐冠、13次德甲及5次德國盃。",
+      "imageUrl": "/sports/img/2026-05-16-neuer-renews-contract-bayern-2027.jpg",
+      "imageAlt": "拜仁門將紐亞身穿紅衣守門"
+    },
+    {
       "slug": "2026-05-16-slot-liverpool-villa-defeat-job-security",
       "title": "史洛「講夠啦！」利物浦2:4慘敗維拉 帥位問題持續發酵引球壇熱議",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "阿士東維拉4:2大勝利物浦，屈堅斯梅開二度，維拉以62分升至英超第4確保歐聯冠軍盃席位。利物浦跌至第5，史洛帥位問題持續發酵。",
       "imageUrl": "/sports/img/2026-05-16-villa-europa-league-watkins-double.jpg",
       "imageAlt": "屈堅斯阿士東維拉入球慶祝"
-    },
-    {
-      "slug": "2026-05-16-oreilly-man-city-fa-cup-final",
-      "title": "奧懷利再當福將！曼城英足盃決賽戰車路士 球探盛讚「本季最佳左路球員」",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "曼城21歲左後衛奧懷利今晚英足盃決賽戰車路士，他在英聯盃決賽4分鐘梅開二度奪冠，被球探讚為「本季左路最出色球員」，哥迪奧拿稱他是本季最佳新援。",
-      "imageUrl": "/sports/img/2026-05-16-oreilly-man-city-fa-cup-final.jpg",
-      "imageAlt": "奧懷利曼城英足盃決賽"
     }
   ]
 }
