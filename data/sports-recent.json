@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-zverev-withdraws-hamburg-back-injury",
+      "title": "施華利夫背傷持續！法網前宣布退出漢堡賽 大滿貫首冠夢添變數",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-05-16",
+      "excerpt": "世界排名第3的德國球手施華利夫因背傷退出漢堡公開賽，距法網不足10天。本季泥地球季傷患連連，13個月冠軍荒令大滿貫首冠夢想添上變數。",
+      "imageUrl": "/sports/img/2026-05-16-zverev-withdraws-hamburg-back-injury.jpg",
+      "imageAlt": "施華利夫在泥地球場備戰"
+    },
+    {
       "slug": "2026-05-16-neuer-renews-contract-bayern-2027",
       "title": "40歲不言休！拜仁宣布紐亞續約至2027年 球壇傳奇延役守護德甲班霸",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "巴西足總宣布與安察洛堤續約至2030年直至下屆世界盃，66歲傳奇教頭誓帶森巴兵團奪第6座世界盃，今屆C組對手為摩洛哥、蘇格蘭及海地。",
       "imageUrl": "/sports/img/2026-05-16-brazil-ancelotti-renews-2030.jpg",
       "imageAlt": "安察洛堤執教巴西國家隊"
-    },
-    {
-      "slug": "2026-05-16-man-city-youth-fa-cup-victory",
-      "headline": "藍月絕殺紅魔 捧青年英足盃",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "lead": "曼城青年軍喺青年英足盃決賽絕殺死敵曼聯，名將之後一箭定江山，為藍月再添一座青年錦標，香港球迷反應熱烈。",
-      "imageUrl": "/sports/img/2026-05-16-man-city-youth-fa-cup-victory.jpg",
-      "imageAlt": "藍月絕殺紅魔 捧青年英足盃"
     }
   ]
 }
