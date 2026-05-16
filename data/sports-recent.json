@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-brazil-ancelotti-renews-2030",
+      "title": "巴西足總立軍心！安察洛堤續約至2030年 志在第6座世界盃金盃",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "巴西足總宣布與安察洛堤續約至2030年直至下屆世界盃，66歲傳奇教頭誓帶森巴兵團奪第6座世界盃，今屆C組對手為摩洛哥、蘇格蘭及海地。",
+      "imageUrl": "/sports/img/2026-05-16-brazil-ancelotti-renews-2030.jpg",
+      "imageAlt": "安察洛堤執教巴西國家隊"
+    },
+    {
       "slug": "2026-05-16-man-city-youth-fa-cup-victory",
       "headline": "藍月絕殺紅魔 捧青年英足盃",
       "category": "足球",
@@ -19,26 +29,6 @@
       "excerpt": "意大利公開賽四強，麥維迪夫豪言冼拿始終會輸，冼拿32連勝令球壇震驚，俄羅斯老將強調需巔峰狀態主動出擊才有機會打破連勝紀錄。",
       "imageUrl": "/sports/img/2026-05-15-medvedev-sinner-italian-open-semifinal.jpg",
       "imageAlt": "意大利公開賽四強 麥維迪夫對冼拿"
-    },
-    {
-      "slug": "2026-05-15-japan-world-cup-squad-mitoma-injured",
-      "title": "三笘薰因傷落選！日本公布2026世界盃26人名單 久保建英率隊衝擊16強",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-15",
-      "excerpt": "日本公布世界盃26人名單，三笘薰因腿筋傷勢落選，南野拓實亦缺席，久保建英領軍F組迎戰荷蘭、瑞典、突尼西亞，首戰6月14日德州阿靈頓。",
-      "imageUrl": "/sports/img/2026-05-15-japan-world-cup-squad-mitoma-injured.jpg",
-      "imageAlt": "三笘薰效力白禮頓身穿藍白球衣上陣"
-    },
-    {
-      "slug": "2026-05-15-france-world-cup-squad-2026",
-      "title": "法國公布2026世界盃26人大軍 馬巴比帶傷出征迪甘最後一戰",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-15",
-      "excerpt": "法國公布2026世界盃26人名單，馬巴比帶傷出征，登比利、托察米尼等主力悉數在列，迪甘確認本屆後離任，I組對手為塞內加爾、伊拉克及挪威。",
-      "imageUrl": "/sports/img/2026-05-15-france-world-cup-squad-2026.jpg",
-      "imageAlt": "法國國家隊合照 FRANCE ROAD TO 26"
     }
   ]
 }
