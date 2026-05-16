@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-16-neuer-renews-contract-bayern-2027",
+      "title": "40歲不言休！拜仁宣布紐亞續約至2027年 球壇傳奇延役守護德甲班霸",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-16",
+      "excerpt": "拜仁慕尼黑宣布40歲門將紐亞續約至2027年，下季以副選角色助後輩埃碧接班。紐亞效力拜仁16年，贏得2次歐冠、13次德甲及5次德國盃。",
+      "imageUrl": "/sports/img/2026-05-16-neuer-renews-contract-bayern-2027.jpg",
+      "imageAlt": "拜仁門將紐亞身穿紅衣守門"
+    },
+    {
       "slug": "2026-05-16-brazil-ancelotti-renews-2030",
       "title": "巴西足總立軍心！安察洛堤續約至2030年 志在第6座世界盃金盃",
       "category": "足球",
@@ -19,16 +29,6 @@
       "lead": "曼城青年軍喺青年英足盃決賽絕殺死敵曼聯，名將之後一箭定江山，為藍月再添一座青年錦標，香港球迷反應熱烈。",
       "imageUrl": "/sports/img/2026-05-16-man-city-youth-fa-cup-victory.jpg",
       "imageAlt": "藍月絕殺紅魔 捧青年英足盃"
-    },
-    {
-      "slug": "2026-05-15-medvedev-sinner-italian-open-semifinal",
-      "title": "麥維迪夫豪言：冼拿始終會輸！意大利公開賽四強挑戰32連勝王者",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-05-15",
-      "excerpt": "意大利公開賽四強，麥維迪夫豪言冼拿始終會輸，冼拿32連勝令球壇震驚，俄羅斯老將強調需巔峰狀態主動出擊才有機會打破連勝紀錄。",
-      "imageUrl": "/sports/img/2026-05-15-medvedev-sinner-italian-open-semifinal.jpg",
-      "imageAlt": "意大利公開賽四強 麥維迪夫對冼拿"
     }
   ]
 }
