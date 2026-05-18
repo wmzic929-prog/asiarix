@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-calvert-lewin-leeds-united-win-brighton",
+      "title": "卡法路雲補時一劍封喉！列斯聯1:0白禮頓穩守英超席位",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-18",
+      "excerpt": "卡法路雲在傷停補時把握白禮頓後防失誤，單刀破門，列斯聯1:0擊敗白禮頓，穩守英超席位。白禮頓歐洲賽資格爭奪因此蒙受打擊。",
+      "imageUrl": "/sports/img/2026-05-18-calvert-lewin-leeds-united-win-brighton.jpg",
+      "imageAlt": "卡法路雲列斯聯補時入球"
+    },
+    {
       "slug": "2026-05-18-vini-real-madrid-win-sevilla-la-liga",
       "title": "Vini 15分鐘破門！皇馬作客1:0小勝西維爾 西甲收官衝刺",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "車路士正式宣佈委任沙比阿朗素（Xabi Alonso）為新帥，簽約4年7月1日上任，成為藍軍4年來第六位領隊，曾率勒華古遜不敗奪得德甲冠軍。",
       "imageUrl": "/sports/img/2026-05-18-xabi-alonso-chelsea-manager-4-year-deal.jpg",
       "imageAlt": "沙比阿朗素車路士新帥簽約"
-    },
-    {
-      "slug": "2026-05-18-bruno-fernandes-20-assists-record-man-utd",
-      "title": "般奴平20助攻英超單季紀錄！曼聯3:2逆轉諾定咸森林",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-18",
-      "excerpt": "般奴費南迪斯送出本季第20次英超助攻，追平亨利及迪布尼的英超單季紀錄。曼聯主場3:2擊敗諾定咸森林，卡素密路在老特拉福德完成最後謝幕。",
-      "imageUrl": "/sports/img/2026-05-18-bruno-fernandes-20-assists-record-man-utd.jpg",
-      "imageAlt": "般奴費南迪斯曼聯英超助攻紀錄"
     }
   ]
 }
