@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "entertainment-account-suspended-recovery",
+      "title": "娛樂平台帳號被停用？即睇恢復流程同常見原因",
+      "category": "疑難排解",
+      "date": "2026-05-18",
+      "excerpt": "玩緊娛樂平台突然收到通知話帳號被停用？唔使驚！我哋會教你點樣查清原因，跟住步驟成功恢復帳號。",
+      "imageUrl": ""
+    },
+    {
       "slug": "entertainment-platform-account-suspended-recovery",
       "title": "娛樂平台帳號被停用點恢復？解鎖教學同原因分析",
       "category": "疑難排解",
@@ -14,14 +22,6 @@
       "category": "疑難排解",
       "date": "2026-05-18",
       "excerpt": "娛樂平台帳號無啦啦被停用，真係掃興又頭痕！唔使驚，呢篇文會話你知點解會咁，同埋點樣一步步搞返掂。",
-      "imageUrl": ""
-    },
-    {
-      "slug": "birthday-bonus-claim-guide",
-      "title": "香港娛樂平台生日優惠攻略：領取流程、申請條件及常見問題全解讀",
-      "category": "優惠攻略",
-      "date": "2026-05-18",
-      "excerpt": "想喺生日月份收到驚喜禮物？好多香港娛樂平台都有提供生日優惠，等你可以盡情玩，輕鬆贏！",
       "imageUrl": ""
     }
   ]
