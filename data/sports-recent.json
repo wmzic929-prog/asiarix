@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-sga-nba-mvp-back-to-back",
+      "title": "SGA連莊NBA常規賽MVP！雷霆64勝最佳戰績 西岸決賽再衝關",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-18",
+      "excerpt": "SGA沙基爾吉利歐斯-亞歷山大連續第二年奪得NBA常規賽MVP，場均31.1分6.6助攻，率雷霆錄得聯盟最佳64勝18負，力壓溫班亞馬及約基奇，季後賽橫掃晉身西岸決賽。",
+      "imageUrl": "/sports/img/2026-05-18-sga-nba-mvp-back-to-back.jpg",
+      "imageAlt": "SGA奧克拉荷馬雷霆NBA MVP"
+    },
+    {
       "slug": "2026-05-17-aston-villa-beat-liverpool-champions-league-spot",
       "headline": "屈堅斯起孖 維拉險奪歐聯席位",
       "category": "足球",
@@ -19,26 +29,6 @@
       "excerpt": "利物浦2:4慘敗阿士東維拉，領隊史洛被記者追問帥位問題後怒回「講夠啦！」。利記暫排英超第5，下場對賓福特成歐聯席位關鍵，季末壓力急升。",
       "imageUrl": "/sports/img/2026-05-16-slot-liverpool-villa-defeat-job-security.jpg",
       "imageAlt": "利物浦領隊史洛賽後記者會"
-    },
-    {
-      "slug": "2026-05-16-villa-europa-league-watkins-double",
-      "title": "屈堅斯梅開二度！阿士東維拉4:2大勝利物浦 確保歐聯冠軍盃資格",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "阿士東維拉4:2大勝利物浦，屈堅斯梅開二度，維拉以62分升至英超第4鎖定歐聯冠軍盃席位。利物浦跌至第5，史洛帥位問題再度引爆，下場對賓福特至關重要。",
-      "imageUrl": "/sports/img/2026-05-16-villa-europa-league-watkins-double.jpg",
-      "imageAlt": "屈堅斯阿士東維拉入球慶祝"
-    },
-    {
-      "slug": "2026-05-16-oreilly-man-city-fa-cup-final",
-      "title": "奧懷利再當福將！曼城英足盃決賽戰車路士 球探盛讚「本季最佳左路球員」",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "曼城21歲奧懷利將出戰今晚英足盃決賽對陣車路士，他在英聯盃決賽4分鐘梅開二度奪冠，被球探讚為「本季左路最出色球員」，哥迪奧拿稱他是本季最佳新援。",
-      "imageUrl": "/sports/img/2026-05-16-oreilly-man-city-fa-cup-final.jpg",
-      "imageAlt": "奧懷利曼城英足盃決賽"
     }
   ]
 }
