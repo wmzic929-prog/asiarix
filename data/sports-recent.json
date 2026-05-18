@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-roma-derby-top4-napoli-champions-league",
+      "title": "羅馬打吡大勝升第4！拿玻里鎖定歐冠 祖雲達斯連敗跌至第6",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-18",
+      "excerpt": "羅馬2:0大勝拉素奪打吡勝利，以70分升意甲第4；拿玻里73分確保歐冠資格；祖雲達斯0:2負費倫天拿跌至第6，意甲末段局勢急劇生變。",
+      "imageUrl": "/sports/img/2026-05-18-roma-derby-top4-napoli-champions-league.jpg",
+      "imageAlt": "羅馬打吡意甲拿玻里歐冠"
+    },
+    {
       "slug": "2026-05-18-calvert-lewin-leeds-united-win-brighton",
       "title": "卡法路雲補時一劍封喉！列斯聯1:0白禮頓穩守英超席位",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "皇馬作客1:0小勝西維爾，Vini在15分鐘率先破門奠勝，皇馬雖多次錯失擴大比分機會，但憑單球優勢成功帶走三分，西甲末段排名衝刺繼續。",
       "imageUrl": "/sports/img/2026-05-18-vini-real-madrid-win-sevilla-la-liga.jpg",
       "imageAlt": "Vini皇馬西維爾西甲入球"
-    },
-    {
-      "slug": "2026-05-18-xabi-alonso-chelsea-manager-4-year-deal",
-      "title": "沙比阿朗素正式加盟車路士！簽約4年誓奪錦標 藍軍開啟新紀元",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-18",
-      "excerpt": "車路士正式宣佈委任沙比阿朗素（Xabi Alonso）為新帥，簽約4年7月1日上任，成為藍軍4年來第六位領隊，曾率勒華古遜不敗奪得德甲冠軍。",
-      "imageUrl": "/sports/img/2026-05-18-xabi-alonso-chelsea-manager-4-year-deal.jpg",
-      "imageAlt": "沙比阿朗素車路士新帥簽約"
     }
   ]
 }
