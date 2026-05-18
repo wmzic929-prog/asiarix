@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-sinner-golden-masters-rome-champion",
+      "title": "冼拿羅馬主場封王！成史上第二位「金大師」 法網奪冠呼聲最高",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-05-18",
+      "excerpt": "冼拿羅馬公開賽決賽6:4、6:4橫掃盧特，成史上第二位集齊全部九個ATP大師1000賽冠軍的「金大師」，今年連奪六座大師賽，法網奪冠大熱。",
+      "imageUrl": "/sports/img/2026-05-18-sinner-golden-masters-rome-champion.jpg",
+      "imageAlt": "冼拿羅馬大師賽奪冠慶祝"
+    },
+    {
       "slug": "2026-05-18-west-ham-relegation-danger-newcastle",
       "title": "韋斯咸1:3慘敗紐卡素 護級形勢岌岌可危 降班警報大響",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "SGA沙基爾吉利歐斯-亞歷山大連續第二年奪得NBA常規賽MVP，場均31.1分6.6助攻，率雷霆錄得聯盟最佳64勝18負，力壓溫班亞馬及約基奇，季後賽橫掃晉身西岸決賽。",
       "imageUrl": "/sports/img/2026-05-18-sga-nba-mvp-back-to-back.jpg",
       "imageAlt": "SGA奧克拉荷馬雷霆NBA MVP"
-    },
-    {
-      "slug": "2026-05-17-aston-villa-beat-liverpool-champions-league-spot",
-      "headline": "屈堅斯起孖 維拉險奪歐聯席位",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-17",
-      "lead": "英超尾二輪壓軸大戰，阿斯頓維拉主場以2:0完勝新科英超冠軍利物浦，屈堅斯獨取兩個入球，為球隊鎖定歐聯席位，賽事懸念延續到最後一輪。",
-      "imageUrl": "/sports/img/2026-05-17-aston-villa-beat-liverpool-champions-league-spot.jpg",
-      "imageAlt": "屈堅斯起孖 維拉險奪歐聯席位"
     }
   ]
 }
