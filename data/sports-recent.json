@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-xabi-alonso-chelsea-manager-4-year-deal",
+      "title": "沙比阿朗素正式加盟車路士！簽約4年誓奪錦標 藍軍開啟新紀元",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-18",
+      "excerpt": "車路士正式宣佈委任沙比阿朗素（Xabi Alonso）為新帥，簽約4年7月1日上任，成為藍軍4年來第六位領隊，曾率勒華古遜不敗奪得德甲冠軍。",
+      "imageUrl": "/sports/img/2026-05-18-xabi-alonso-chelsea-manager-4-year-deal.jpg",
+      "imageAlt": "沙比阿朗素車路士新帥簽約"
+    },
+    {
       "slug": "2026-05-18-bruno-fernandes-20-assists-record-man-utd",
       "title": "般奴平20助攻英超單季紀錄！曼聯3:2逆轉諾定咸森林",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "冼拿羅馬公開賽決賽6:4、6:4橫掃盧特，成史上第二位集齊全部九個ATP大師1000賽冠軍的「金大師」，今年連奪六座大師賽，法網奪冠大熱。",
       "imageUrl": "/sports/img/2026-05-18-sinner-golden-masters-rome-champion.jpg",
       "imageAlt": "冼拿羅馬大師賽奪冠慶祝"
-    },
-    {
-      "slug": "2026-05-18-west-ham-relegation-danger-newcastle",
-      "title": "韋斯咸1:3慘敗紐卡素 護級形勢岌岌可危 降班警報大響",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-18",
-      "excerpt": "韋斯咸1:3慘敗紐卡素，跌入英超降班區，落後熱刺2分。若熱刺周中贏球，韋斯咸將數學確定降班，護級形勢幾近絕望。",
-      "imageUrl": "/sports/img/2026-05-18-west-ham-relegation-danger-newcastle.jpg",
-      "imageAlt": "韋斯咸紐卡素英超降班區"
     }
   ]
 }
