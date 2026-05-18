@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "kyc-failed-resubmit-guide",
+      "title": "KYC 認證失敗？6 大原因 + 重新提交完整教學（2025）",
+      "category": "新手指南",
+      "date": "2026-05-18",
+      "excerpt": "KYC 認證失敗唔使慌，本文整合 6 大失敗原因（文件模糊、資料不符、地址證明過期等）及逐步重交方法，幫你第一次就過關，快速解鎖提款功能。",
+      "imageUrl": ""
+    },
+    {
       "slug": "real-madrid-vs-oviedo-odds-2026",
       "title": "皇馬對奧維耶多賠率分析｜2026最新投注攻略",
       "category": "平台評測",
@@ -15,14 +23,6 @@
       "date": "2026-05-16",
       "excerpt": "提款凍結係唔少香港玩家都遇過嘅問題。本文分析 6 大凍結原因——KYC 未完成、優惠條款未達標、風控觸發等，並提供逐步解決流程，等你可以盡快恢復提款。",
       "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/withdrawal-frozen-solution.jpg"
-    },
-    {
-      "slug": "deposit-not-received-troubleshooting",
-      "title": "娛樂平台入款唔到帳點算？完整排查及解決步驟",
-      "category": "疑難排解",
-      "date": "2026-05-15",
-      "excerpt": "入款轉咗錢但係平台唔顯示到帳？唔使驚，大部分入款問題係操作失誤或銀行延遲引起，按步驟排查通常30分鐘內可以解決。",
-      "imageUrl": ""
     }
   ]
 }
