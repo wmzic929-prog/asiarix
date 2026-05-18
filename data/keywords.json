@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-15",
+  "last_refreshed": "2026-05-18",
   "keywords": [
     {
       "id": 1,
@@ -318,8 +318,8 @@
       "angle": "生日優惠領取流程及條件詳解",
       "image_theme": "birthday bonus casino gift celebration gold",
       "status": "used",
-      "slug": "article",
-      "used_date": "2026-05-13"
+      "slug": "birthday-bonus-claim-guide",
+      "used_date": "2026-05-18"
     },
     {
       "id": 45,
@@ -367,9 +367,9 @@
       "category": "疑難排解",
       "angle": "提款凍結原因分析及完整解決流程",
       "image_theme": "withdrawal frozen problem solution casino support dark",
-      "status": "available",
+      "status": "used",
       "slug": "withdrawal-frozen-solution",
-      "used_date": null
+      "used_date": "2026-05-16"
     },
     {
       "id": 51,
@@ -377,9 +377,9 @@
       "category": "新手指南",
       "angle": "分析 KYC 被拒的 6 大原因及重新提交技巧",
       "image_theme": "KYC verification failed resubmit document guide identity",
-      "status": "available",
+      "status": "used",
       "slug": "kyc-failed-resubmit-guide",
-      "used_date": null
+      "used_date": "2026-05-18"
     },
     {
       "id": 52,
@@ -767,9 +767,9 @@
       "category": "平台評測",
       "angle": "皇馬對奧維耶多賽前賠率分析與投注攻略",
       "image_theme": "dark football betting odds stadium 2026",
-      "status": "available",
-      "slug": null,
-      "used_date": null,
+      "status": "used",
+      "slug": "real-madrid-vs-oviedo-odds-2026",
+      "used_date": "2026-05-16",
       "trending": true,
       "trending_date": "2026-05-15",
       "trending_title": "real madrid vs real oviedo",
@@ -782,9 +782,9 @@
       "category": "優惠資訊",
       "angle": "歐洲豪門對決，足球博彩賠率分析",
       "image_theme": "dark soccer betting stadium 2026",
-      "status": "available",
-      "slug": null,
-      "used_date": null,
+      "status": "used",
+      "slug": "real-madrid-vs-oviedo-2026-betting",
+      "used_date": "2026-05-18",
       "trending": true,
       "trending_date": "2026-05-15",
       "trending_title": "皇家馬德里 對 皇家奧維耶多",
