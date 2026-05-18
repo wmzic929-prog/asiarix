@@ -387,8 +387,9 @@
       "category": "疑難排解",
       "angle": "帳號停用原因及申訴恢復完整流程",
       "image_theme": "account suspended recovery casino support appeal dark",
-      "status": "available",
-      "slug": "entertainment-account-suspended-recovery"
+      "status": "used",
+      "slug": "entertainment-account-suspended-recovery",
+      "used_date": "2026-05-18"
     },
     {
       "id": 53,
