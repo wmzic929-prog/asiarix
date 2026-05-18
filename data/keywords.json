@@ -317,9 +317,7 @@
       "category": "優惠攻略",
       "angle": "生日優惠領取流程及條件詳解",
       "image_theme": "birthday bonus casino gift celebration gold",
-      "status": "used",
-      "slug": "birthday-bonus-claim-guide",
-      "used_date": "2026-05-18"
+      "status": "available"
     },
     {
       "id": 45,
@@ -357,9 +355,7 @@
       "category": "疑難排解",
       "angle": "入款未到帳的完整排查步驟及解決方法",
       "image_theme": "deposit not received problem troubleshoot solution money dark",
-      "status": "used",
-      "slug": "deposit-not-received-troubleshooting",
-      "used_date": "2026-05-15"
+      "status": "available"
     },
     {
       "id": 50,
@@ -767,9 +763,7 @@
       "category": "平台評測",
       "angle": "皇馬對奧維耶多賽前賠率分析與投注攻略",
       "image_theme": "dark football betting odds stadium 2026",
-      "status": "used",
-      "slug": "real-madrid-vs-oviedo-odds-2026",
-      "used_date": "2026-05-16",
+      "status": "available",
       "trending": true,
       "trending_date": "2026-05-15",
       "trending_title": "real madrid vs real oviedo",
@@ -782,9 +776,7 @@
       "category": "優惠資訊",
       "angle": "歐洲豪門對決，足球博彩賠率分析",
       "image_theme": "dark soccer betting stadium 2026",
-      "status": "used",
-      "slug": "real-madrid-vs-oviedo-2026-betting",
-      "used_date": "2026-05-18",
+      "status": "available",
       "trending": true,
       "trending_date": "2026-05-15",
       "trending_title": "皇家馬德里 對 皇家奧維耶多",
