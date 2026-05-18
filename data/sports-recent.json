@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-west-ham-relegation-danger-newcastle",
+      "title": "韋斯咸1:3慘敗紐卡素 護級形勢岌岌可危 降班警報大響",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-18",
+      "excerpt": "韋斯咸1:3慘敗紐卡素，跌入英超降班區，落後熱刺2分。若熱刺周中贏球，韋斯咸將數學確定降班，護級形勢幾近絕望。",
+      "imageUrl": "/sports/img/2026-05-18-west-ham-relegation-danger-newcastle.jpg",
+      "imageAlt": "韋斯咸紐卡素英超降班區"
+    },
+    {
       "slug": "2026-05-18-sga-nba-mvp-back-to-back",
       "title": "SGA連莊NBA常規賽MVP！雷霆64勝最佳戰績 西岸決賽再衝關",
       "category": "籃球",
@@ -19,16 +29,6 @@
       "lead": "英超尾二輪壓軸大戰，阿斯頓維拉主場以2:0完勝新科英超冠軍利物浦，屈堅斯獨取兩個入球，為球隊鎖定歐聯席位，賽事懸念延續到最後一輪。",
       "imageUrl": "/sports/img/2026-05-17-aston-villa-beat-liverpool-champions-league-spot.jpg",
       "imageAlt": "屈堅斯起孖 維拉險奪歐聯席位"
-    },
-    {
-      "slug": "2026-05-16-slot-liverpool-villa-defeat-job-security",
-      "title": "史洛「講夠啦！」利物浦2:4慘敗維拉 帥位問題持續發酵引球壇熱議",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-16",
-      "excerpt": "利物浦2:4慘敗阿士東維拉，領隊史洛被記者追問帥位問題後怒回「講夠啦！」。利記暫排英超第5，下場對賓福特成歐聯席位關鍵，季末壓力急升。",
-      "imageUrl": "/sports/img/2026-05-16-slot-liverpool-villa-defeat-job-security.jpg",
-      "imageAlt": "利物浦領隊史洛賽後記者會"
     }
   ]
 }
