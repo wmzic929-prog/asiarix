@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-bruno-fernandes-20-assists-record-man-utd",
+      "title": "般奴平20助攻英超單季紀錄！曼聯3:2逆轉諾定咸森林",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-18",
+      "excerpt": "般奴費南迪斯送出本季第20次英超助攻，追平亨利及迪布尼的英超單季紀錄。曼聯主場3:2擊敗諾定咸森林，卡素密路在老特拉福德完成最後謝幕。",
+      "imageUrl": "/sports/img/2026-05-18-bruno-fernandes-20-assists-record-man-utd.jpg",
+      "imageAlt": "般奴費南迪斯曼聯英超助攻紀錄"
+    },
+    {
       "slug": "2026-05-18-sinner-golden-masters-rome-champion",
       "title": "冼拿羅馬主場封王！成史上第二位「金大師」 法網奪冠呼聲最高",
       "category": "網球",
@@ -19,16 +29,6 @@
       "excerpt": "韋斯咸1:3慘敗紐卡素，跌入英超降班區，落後熱刺2分。若熱刺周中贏球，韋斯咸將數學確定降班，護級形勢幾近絕望。",
       "imageUrl": "/sports/img/2026-05-18-west-ham-relegation-danger-newcastle.jpg",
       "imageAlt": "韋斯咸紐卡素英超降班區"
-    },
-    {
-      "slug": "2026-05-18-sga-nba-mvp-back-to-back",
-      "title": "SGA連莊NBA常規賽MVP！雷霆64勝最佳戰績 西岸決賽再衝關",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-18",
-      "excerpt": "SGA沙基爾吉利歐斯-亞歷山大連續第二年奪得NBA常規賽MVP，場均31.1分6.6助攻，率雷霆錄得聯盟最佳64勝18負，力壓溫班亞馬及約基奇，季後賽橫掃晉身西岸決賽。",
-      "imageUrl": "/sports/img/2026-05-18-sga-nba-mvp-back-to-back.jpg",
-      "imageAlt": "SGA奧克拉荷馬雷霆NBA MVP"
     }
   ]
 }
