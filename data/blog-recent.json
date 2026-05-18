@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "entertainment-platform-account-suspended-recovery",
+      "title": "娛樂平台帳號被停用點恢復？解構原因及申訴攻略",
+      "category": "疑難排解",
+      "date": "2026-05-18",
+      "excerpt": "娛樂平台帳號無啦啦被停用，真係掃興又頭痕！唔使驚，呢篇文會話你知點解會咁，同埋點樣一步步搞返掂。",
+      "imageUrl": ""
+    },
+    {
       "slug": "birthday-bonus-claim-guide",
       "title": "香港娛樂平台生日優惠攻略：領取流程、申請條件及常見問題全解讀",
       "category": "優惠攻略",
@@ -14,14 +22,6 @@
       "category": "優惠資訊",
       "date": "2026-05-18",
       "excerpt": "2026年皇家馬德里對皇家奧維耶多西甲大戰，兩隊賠率差距懸殊但暗藏高回報投注機會，係體育博彩玩家今季最值得關注嘅焦點賽事！",
-      "imageUrl": ""
-    },
-    {
-      "slug": "kyc-failed-resubmit-guide",
-      "title": "KYC 認證失敗？6 大原因 + 重新提交完整教學（2025）",
-      "category": "新手指南",
-      "date": "2026-05-18",
-      "excerpt": "KYC 認證失敗唔使慌，本文整合 6 大失敗原因（文件模糊、資料不符、地址證明過期等）及逐步重交方法，幫你第一次就過關，快速解鎖提款功能。",
       "imageUrl": ""
     }
   ]
