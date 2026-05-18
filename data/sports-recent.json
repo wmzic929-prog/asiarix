@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-18-vini-real-madrid-win-sevilla-la-liga",
+      "title": "Vini 15分鐘破門！皇馬作客1:0小勝西維爾 西甲收官衝刺",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-18",
+      "excerpt": "皇馬作客1:0小勝西維爾，Vini在15分鐘率先破門奠勝，皇馬雖多次錯失擴大比分機會，但憑單球優勢成功帶走三分，西甲末段排名衝刺繼續。",
+      "imageUrl": "/sports/img/2026-05-18-vini-real-madrid-win-sevilla-la-liga.jpg",
+      "imageAlt": "Vini皇馬西維爾西甲入球"
+    },
+    {
       "slug": "2026-05-18-xabi-alonso-chelsea-manager-4-year-deal",
       "title": "沙比阿朗素正式加盟車路士！簽約4年誓奪錦標 藍軍開啟新紀元",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "般奴費南迪斯送出本季第20次英超助攻，追平亨利及迪布尼的英超單季紀錄。曼聯主場3:2擊敗諾定咸森林，卡素密路在老特拉福德完成最後謝幕。",
       "imageUrl": "/sports/img/2026-05-18-bruno-fernandes-20-assists-record-man-utd.jpg",
       "imageAlt": "般奴費南迪斯曼聯英超助攻紀錄"
-    },
-    {
-      "slug": "2026-05-18-sinner-golden-masters-rome-champion",
-      "title": "冼拿羅馬主場封王！成史上第二位「金大師」 法網奪冠呼聲最高",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-05-18",
-      "excerpt": "冼拿羅馬公開賽決賽6:4、6:4橫掃盧特，成史上第二位集齊全部九個ATP大師1000賽冠軍的「金大師」，今年連奪六座大師賽，法網奪冠大熱。",
-      "imageUrl": "/sports/img/2026-05-18-sinner-golden-masters-rome-champion.jpg",
-      "imageAlt": "冼拿羅馬大師賽奪冠慶祝"
     }
   ]
 }
