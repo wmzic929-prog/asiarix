@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T10:12:51+08:00",
+  "generated_at": "2026-05-19T10:19:51+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -73,7 +73,7 @@
               8,
               5,
               18,
-              40
+              41
             ],
             "bounce_rate": 0.473,
             "avg_duration_sec": 571,
@@ -109,10 +109,10 @@
             "this_week": 0
           },
           "cwv": {
-            "lcp": 0,
-            "cls": 0,
+            "lcp": 7.5,
+            "cls": 0.005,
             "inp": 0,
-            "score": 0
+            "score": 72
           }
         },
         "matchvangtage.com": {
@@ -188,10 +188,10 @@
             "this_week": 0
           },
           "cwv": {
-            "lcp": 0,
+            "lcp": 10.3,
             "cls": 0,
             "inp": 0,
-            "score": 0
+            "score": 57
           }
         },
         "tableedge.org": {
@@ -267,10 +267,10 @@
             "this_week": 0
           },
           "cwv": {
-            "lcp": 0,
+            "lcp": 10.8,
             "cls": 0,
             "inp": 0,
-            "score": 0
+            "score": 56
           }
         },
         "turf-pulse.com": {
@@ -346,10 +346,10 @@
             "this_week": 0
           },
           "cwv": {
-            "lcp": 0,
+            "lcp": 10.3,
             "cls": 0,
             "inp": 0,
-            "score": 0
+            "score": 57
           }
         },
         "spin-metrics.com": {
@@ -425,10 +425,10 @@
             "this_week": 0
           },
           "cwv": {
-            "lcp": 0,
+            "lcp": 9.5,
             "cls": 0,
             "inp": 0,
-            "score": 0
+            "score": 57
           }
         },
         "verifiedplays.com": {
@@ -468,7 +468,7 @@
               23,
               7,
               6,
-              4
+              6
             ],
             "bounce_rate": 0.862,
             "avg_duration_sec": 119,
@@ -504,10 +504,10 @@
             "this_week": 0
           },
           "cwv": {
-            "lcp": 0,
+            "lcp": 11.3,
             "cls": 0,
             "inp": 0,
-            "score": 0
+            "score": 56
           }
         }
       }
