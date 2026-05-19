@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T14:00:51+08:00",
+  "generated_at": "2026-05-19T14:21:44+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -150,12 +150,7 @@
             "sports_articles": 0,
             "total_articles_inc_sports": 92
           },
-          "cwv": {
-            "lcp": 7.7,
-            "cls": 0.005,
-            "inp": 0,
-            "score": 70
-          },
+          "cwv": {},
           "daily_7d": [
             {
               "date": "5/12",
@@ -329,12 +324,7 @@
             "sports_articles": 0,
             "total_articles_inc_sports": 4
           },
-          "cwv": {
-            "lcp": 0,
-            "cls": 0,
-            "inp": 0,
-            "score": 0
-          },
+          "cwv": {},
           "daily_7d": [
             {
               "date": "5/12",
@@ -508,12 +498,7 @@
             "sports_articles": 0,
             "total_articles_inc_sports": 2
           },
-          "cwv": {
-            "lcp": 0,
-            "cls": 0,
-            "inp": 0,
-            "score": 0
-          },
+          "cwv": {},
           "daily_7d": [
             {
               "date": "5/12",
@@ -687,12 +672,7 @@
             "sports_articles": 0,
             "total_articles_inc_sports": 2
           },
-          "cwv": {
-            "lcp": 10.3,
-            "cls": 0,
-            "inp": 0,
-            "score": 57
-          },
+          "cwv": {},
           "daily_7d": [
             {
               "date": "5/12",
@@ -866,12 +846,7 @@
             "sports_articles": 0,
             "total_articles_inc_sports": 3
           },
-          "cwv": {
-            "lcp": 9.3,
-            "cls": 0,
-            "inp": 0,
-            "score": 57
-          },
+          "cwv": {},
           "daily_7d": [
             {
               "date": "5/12",
@@ -1045,12 +1020,7 @@
             "sports_articles": 0,
             "total_articles_inc_sports": 2
           },
-          "cwv": {
-            "lcp": 0,
-            "cls": 0,
-            "inp": 0,
-            "score": 0
-          },
+          "cwv": {},
           "daily_7d": [
             {
               "date": "5/12",
