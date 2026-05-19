@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-carvajal-leaves-real-madrid",
+      "title": "傳奇謝幕！卡華查季後正式離皇馬 效力逾10年奪6次歐冠",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-19",
+      "excerpt": "皇馬宣布34歲隊長卡華查季後正式離隊，他效力球隊逾十年，上陣450場奪27個錦標含6次歐冠。主席佩雷斯以「傳奇」致謝，卡華查盼代表西班牙出戰世界盃謝幕。",
+      "imageUrl": "/sports/img/2026-05-19-carvajal-leaves-real-madrid.jpg",
+      "imageAlt": "卡華查皇馬告別"
+    },
+    {
       "slug": "2026-05-19-croatia-world-cup-squad-modric-injury",
       "title": "克羅地亞公佈世盃33人名單 摩迪帶傷入選首戰對英格蘭",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "巴西主帥安察洛堤公佈2026年世界盃26人名單，34歲尼馬成功入選。尼馬自2023年膝傷後本季復出，上陣15場攻入6球，巴西被分在C組，首戰6月13日對摩洛哥。",
       "imageUrl": "/sports/img/2026-05-19-neymar-brazil-world-cup-squad-2026.jpg",
       "imageAlt": "尼馬巴西世界盃名單"
-    },
-    {
-      "slug": "2026-05-19-havertz-arsenal-1-0-burnley",
-      "title": "哈伐斯頭槌定勝負！阿仙奴1:0擊敗般尼 距英超冠軍只差一步",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "阿仙奴主場1:0擊敗般尼，哈伐斯37分鐘頭槌接應薩卡角球破網。阿仙奴以82分領先曼城5分，周日主場迎戰水晶宮，勝則英超封王。",
-      "imageUrl": "/sports/img/2026-05-19-havertz-arsenal-1-0-burnley.jpg",
-      "imageAlt": "哈伐斯阿仙奴英超入球"
     }
   ]
 }
