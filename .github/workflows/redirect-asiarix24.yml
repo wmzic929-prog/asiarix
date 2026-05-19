@@ -1,0 +1,20 @@
+name: Deploy Redirect - asiarix24 to spheretap.com
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-redirect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create redirect files
+        run: |
+          mkdir redirect-site
+          echo '/* https://spheretap.com/:splat 301' > redirect-site/_redirects
+
+      - name: Deploy redirect to Cloudflare Pages (asiarix24)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy redirect-site --project-name asiarix24 --branch main --commit-dirty=true
