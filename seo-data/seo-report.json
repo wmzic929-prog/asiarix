@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T13:55:32+08:00",
+  "generated_at": "2026-05-19T14:00:51+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -144,17 +144,17 @@
             "total_urls": 102
           },
           "content": {
-            "total_articles": 96,
-            "this_month": 96,
-            "this_week": 79,
+            "total_articles": 92,
+            "this_month": 92,
+            "this_week": 75,
             "sports_articles": 0,
-            "total_articles_inc_sports": 96
+            "total_articles_inc_sports": 92
           },
           "cwv": {
-            "lcp": 6,
+            "lcp": 7.7,
             "cls": 0.005,
             "inp": 0,
-            "score": 67
+            "score": 70
           },
           "daily_7d": [
             {
@@ -323,17 +323,17 @@
             "total_urls": 10
           },
           "content": {
-            "total_articles": 5,
-            "this_month": 5,
-            "this_week": 5,
+            "total_articles": 4,
+            "this_month": 4,
+            "this_week": 4,
             "sports_articles": 0,
-            "total_articles_inc_sports": 5
+            "total_articles_inc_sports": 4
           },
           "cwv": {
-            "lcp": 10.3,
+            "lcp": 0,
             "cls": 0,
             "inp": 0,
-            "score": 57
+            "score": 0
           },
           "daily_7d": [
             {
@@ -502,17 +502,17 @@
             "total_urls": 8
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 2,
+            "this_month": 2,
+            "this_week": 2,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 2
           },
           "cwv": {
-            "lcp": 10.9,
-            "cls": 0.032,
+            "lcp": 0,
+            "cls": 0,
             "inp": 0,
-            "score": 56
+            "score": 0
           },
           "daily_7d": [
             {
@@ -681,14 +681,14 @@
             "total_urls": 8
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 2,
+            "this_month": 2,
+            "this_week": 2,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 2
           },
           "cwv": {
-            "lcp": 10.4,
+            "lcp": 10.3,
             "cls": 0,
             "inp": 0,
             "score": 57
@@ -860,14 +860,14 @@
             "total_urls": 9
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 3,
+            "this_month": 3,
+            "this_week": 3,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 3
           },
           "cwv": {
-            "lcp": 9.5,
+            "lcp": 9.3,
             "cls": 0,
             "inp": 0,
             "score": 57
@@ -1039,17 +1039,17 @@
             "total_urls": 8
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 2,
+            "this_month": 2,
+            "this_week": 2,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 2
           },
           "cwv": {
-            "lcp": 11.4,
+            "lcp": 0,
             "cls": 0,
             "inp": 0,
-            "score": 56
+            "score": 0
           },
           "daily_7d": [
             {
