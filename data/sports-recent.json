@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-declan-rice-arsenal-premier-league-title",
+      "title": "懷斯：我們100%值得成為冠軍！阿仙奴距英超封王一步之遙",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-19",
+      "excerpt": "阿仙奴中場懷斯豪言「我們100%值得成為冠軍」。阿仙奴以82分領先曼城5分，周日主場最後一戰對水晶宮，若勝出即可鎖定英超冠軍，全隊信心爆棚。",
+      "imageUrl": "/sports/img/2026-05-19-declan-rice-arsenal-premier-league-title.jpg",
+      "imageAlt": "懷斯阿仙奴英超冠軍"
+    },
+    {
       "slug": "2026-05-19-lamine-yamal-injury-world-cup-spain",
       "title": "也馬鼠蹊傷患未癒！世盃決賽周首戰恐缺陣 西班牙戰略告急",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "PSG金球獎得主丹比利在城市打吡上半場因大腿疑似受傷退場，主帥安歷基稱需周一檢查才知能否出戰本月30日歐聯決賽對陣阿仙奴，阿仙奴球迷格外關注。",
       "imageUrl": "/sports/img/2026-05-19-dembele-injury-psg-champions-league-final.jpg",
       "imageAlt": "丹比利PSG歐聯決賽受傷"
-    },
-    {
-      "slug": "2026-05-19-carvajal-leaves-real-madrid",
-      "title": "傳奇謝幕！卡華查季後正式離皇馬 效力逾10年奪6次歐冠",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "皇馬宣布34歲隊長卡華查季後正式離隊，他效力球隊逾十年，上陣450場奪27個錦標含6次歐冠。主席佩雷斯以「傳奇」致謝，卡華查盼代表西班牙出戰世界盃謝幕。",
-      "imageUrl": "/sports/img/2026-05-19-carvajal-leaves-real-madrid.jpg",
-      "imageAlt": "卡華查皇馬告別"
     }
   ]
 }
