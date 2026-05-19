@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-mosley-pelicans-head-coach-nba",
+      "title": "NBA塘鵝聘摩斯利任主帥！簽5年合約 鍛打錫安領軍重返季後賽",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-19",
+      "excerpt": "NBA塘鵝宣佈聘請前奧蘭多魔術主帥摩斯利擔任新主帥，簽訂5年合約。47歲的摩斯利曾帶魔術連續3季打入季後賽，以防守見稱。塘鵝上季26勝56負，望重返季後賽。",
+      "imageUrl": "/sports/img/2026-05-19-mosley-pelicans-head-coach-nba.jpg",
+      "imageAlt": "摩斯利塘鵝NBA主帥"
+    },
+    {
       "slug": "2026-05-19-chen-yujie-u18-asian-record-diamond-league",
       "title": "陳妤頡紹興鑽石聯賽奪7名 22.84秒刷新亞洲少年U18紀錄",
       "category": "田徑",
@@ -19,16 +29,6 @@
       "excerpt": "《阿斯報》報導巴塞取消季前海外巡迴賽，7月15日開操，因世界盃球員延遲歸隊初期以青年軍訓練。費力克將率隊赴英格蘭中部集訓8天，預計安排兩場熱身賽含一場對利物浦。",
       "imageUrl": "/sports/img/2026-05-19-barcelona-cancel-preseason-overseas-tour.jpg",
       "imageAlt": "巴塞費力克季前訓練"
-    },
-    {
-      "slug": "2026-05-19-declan-rice-arsenal-premier-league-title",
-      "title": "懷斯：我們100%值得成為冠軍！阿仙奴距英超封王一步之遙",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "阿仙奴中場懷斯豪言「我們100%值得成為冠軍」。阿仙奴以82分領先曼城5分，周日主場最後一戰對水晶宮，若勝出即可鎖定英超冠軍，全隊信心爆棚。",
-      "imageUrl": "/sports/img/2026-05-19-declan-rice-arsenal-premier-league-title.jpg",
-      "imageAlt": "懷斯阿仙奴英超冠軍"
     }
   ]
 }
