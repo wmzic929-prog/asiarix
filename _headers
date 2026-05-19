@@ -3,15 +3,17 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://tagmanager.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'
 
-# HTML pages — no-store prevents both browser and CF edge from caching
+# HTML pages - no-store prevents both browser and CF edge from caching
 /*.html
   Cache-Control: no-store
 
 /
   Cache-Control: no-store
 
-# Images — immutable long-term cache (Core Web Vitals LCP on repeat visits)
+# Images - immutable long-term cache (Core Web Vitals LCP on repeat visits)
 /blog/img/*
   Cache-Control: public, max-age=31536000, immutable
 
@@ -31,4 +33,4 @@
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400
 
-# deployed: 2026-05-15T08:19
+# deployed: 2026-05-19T08:30
