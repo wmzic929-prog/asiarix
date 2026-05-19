@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "deposit-not-received-fix",
+      "title": "娛樂平台入款唔到帳點算？2025完整排查教學（5步解決）",
+      "category": "疑難排解",
+      "date": "2026-05-19",
+      "excerpt": "入款後遲遲未到帳係香港玩家最常遇到的問題之一。本文列出5個系統性排查步驟，涵蓋FPS、PayMe、USDT各方式等待時間、客服溝通技巧及追款方法，幫你快速找出原因並追回款項。",
+      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/deposit-not-received-fix.jpg"
+    },
+    {
       "slug": "entertainment-account-suspended-recovery",
       "title": "娛樂平台帳號被停用點恢復？原因、申訴、解鎖全攻略",
       "category": "疑難排解",
