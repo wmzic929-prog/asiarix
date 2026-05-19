@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-dembele-injury-psg-champions-league-final",
+      "title": "丹比利受傷驚魂！PSG大腿傷未明 歐聯決賽出場存疑",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-19",
+      "excerpt": "PSG金球獎得主丹比利在城市打吡上半場因大腿疑似受傷退場，主帥安歷基稱需周一檢查才知能否出戰本月30日歐聯決賽對陣阿仙奴，阿仙奴球迷格外關注。",
+      "imageUrl": "/sports/img/2026-05-19-dembele-injury-psg-champions-league-final.jpg",
+      "imageAlt": "丹比利PSG歐聯決賽受傷"
+    },
+    {
       "slug": "2026-05-19-carvajal-leaves-real-madrid",
       "title": "傳奇謝幕！卡華查季後正式離皇馬 效力逾10年奪6次歐冠",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "克羅地亞公佈2026年世界盃33人初選名單，40歲摩迪顴骨受傷仍獲入選。陣容另有高華傑治、佩利錫等資深老將。克羅地亞在L組，首戰對陣英格蘭。",
       "imageUrl": "/sports/img/2026-05-19-croatia-world-cup-squad-modric-injury.jpg",
       "imageAlt": "摩迪克羅地亞世界盃名單"
-    },
-    {
-      "slug": "2026-05-19-neymar-brazil-world-cup-squad-2026",
-      "title": "尼馬重返巔峰！入選巴西世盃26人名單 球迷街頭狂歡",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "巴西主帥安察洛堤公佈2026年世界盃26人名單，34歲尼馬成功入選。尼馬自2023年膝傷後本季復出，上陣15場攻入6球，巴西被分在C組，首戰6月13日對摩洛哥。",
-      "imageUrl": "/sports/img/2026-05-19-neymar-brazil-world-cup-squad-2026.jpg",
-      "imageAlt": "尼馬巴西世界盃名單"
     }
   ]
 }
