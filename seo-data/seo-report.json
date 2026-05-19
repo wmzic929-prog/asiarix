@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T14:21:44+08:00",
+  "generated_at": "2026-05-19T15:37:37+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -144,10 +144,10 @@
             "total_urls": 102
           },
           "content": {
-            "total_articles": 92,
+            "total_articles": 65,
             "this_month": 92,
             "this_week": 75,
-            "sports_articles": 0,
+            "sports_articles": 27,
             "total_articles_inc_sports": 92
           },
           "cwv": {},
