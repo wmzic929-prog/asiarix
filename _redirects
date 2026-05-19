@@ -1,4 +1,8 @@
 # Cloudflare Pages redirects
+
+# Redirect old domain to new
+https://asiarix24.pages.dev/* https://spheretap.com/:splat 301
+
 /home /index.html 301
 /zh /index.html 301
 /tc /index.html 301
