@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-chen-yujie-u18-asian-record-diamond-league",
+      "title": "陳妤頡紹興鑽石聯賽奪7名 22.84秒刷新亞洲少年U18紀錄",
+      "category": "田徑",
+      "emoji": "🏃",
+      "date": "2026-05-19",
+      "excerpt": "17歲中國選手陳妤頡在紹興鑽石聯賽女子200米以22.84秒完賽（第7），刷新個人最佳及亞洲少年U18紀錄。Jackson以22.07秒奪冠，謝震業100米跑出10.27秒賽季最佳。",
+      "imageUrl": "/sports/img/2026-05-19-chen-yujie-u18-asian-record-diamond-league.jpg",
+      "imageAlt": "陳妤頡鑽石聯賽田徑200米"
+    },
+    {
       "slug": "2026-05-19-barcelona-cancel-preseason-overseas-tour",
       "title": "阿斯報：巴塞取消季前海外巡迴賽 改英格蘭集訓迎戰利物浦",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "阿仙奴中場懷斯豪言「我們100%值得成為冠軍」。阿仙奴以82分領先曼城5分，周日主場最後一戰對水晶宮，若勝出即可鎖定英超冠軍，全隊信心爆棚。",
       "imageUrl": "/sports/img/2026-05-19-declan-rice-arsenal-premier-league-title.jpg",
       "imageAlt": "懷斯阿仙奴英超冠軍"
-    },
-    {
-      "slug": "2026-05-19-lamine-yamal-injury-world-cup-spain",
-      "title": "也馬鼠蹊傷患未癒！世盃決賽周首戰恐缺陣 西班牙戰略告急",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "距2026年世界盃僅23天，西班牙天才也馬因鼠蹊傷患或缺席首戰對佛德角（6月15日）。西班牙足總與巴塞正密切合作處理療程，能否及時就緒成最大懸念。",
-      "imageUrl": "/sports/img/2026-05-19-lamine-yamal-injury-world-cup-spain.jpg",
-      "imageAlt": "也馬西班牙世界盃傷患"
     }
   ]
 }
