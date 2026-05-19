@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T10:29:49+08:00",
+  "generated_at": "2026-05-19T10:40:58+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -73,7 +73,7 @@
               8,
               5,
               18,
-              41
+              43
             ],
             "bounce_rate": 0.473,
             "avg_duration_sec": 571,
@@ -97,7 +97,7 @@
             "clicks_28d": 0,
             "ctr": 0,
             "avg_position": 31,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "top_keywords": []
           },
           "sitemap": {
@@ -110,10 +110,10 @@
             "sports_articles": 61
           },
           "cwv": {
-            "lcp": 5.1,
+            "lcp": 7.5,
             "cls": 0.005,
             "inp": 0,
-            "score": 68
+            "score": 71
           }
         },
         "matchvangtage.com": {
@@ -190,8 +190,8 @@
             "sports_articles": 0
           },
           "cwv": {
-            "lcp": 10,
-            "cls": 0.041,
+            "lcp": 10.3,
+            "cls": 0,
             "inp": 0,
             "score": 57
           }
@@ -270,10 +270,10 @@
             "sports_articles": 0
           },
           "cwv": {
-            "lcp": 10.2,
-            "cls": 0.032,
+            "lcp": 0,
+            "cls": 0,
             "inp": 0,
-            "score": 56
+            "score": 0
           }
         },
         "turf-pulse.com": {
@@ -350,7 +350,7 @@
             "sports_articles": 0
           },
           "cwv": {
-            "lcp": 10.3,
+            "lcp": 10.4,
             "cls": 0,
             "inp": 0,
             "score": 57
