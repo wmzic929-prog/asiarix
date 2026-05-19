@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-barcelona-cancel-preseason-overseas-tour",
+      "title": "阿斯報：巴塞取消季前海外巡迴賽 改英格蘭集訓迎戰利物浦",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-19",
+      "excerpt": "《阿斯報》報導巴塞取消季前海外巡迴賽，7月15日開操，因世界盃球員延遲歸隊初期以青年軍訓練。費力克將率隊赴英格蘭中部集訓8天，預計安排兩場熱身賽含一場對利物浦。",
+      "imageUrl": "/sports/img/2026-05-19-barcelona-cancel-preseason-overseas-tour.jpg",
+      "imageAlt": "巴塞費力克季前訓練"
+    },
+    {
       "slug": "2026-05-19-declan-rice-arsenal-premier-league-title",
       "title": "懷斯：我們100%值得成為冠軍！阿仙奴距英超封王一步之遙",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "距2026年世界盃僅23天，西班牙天才也馬因鼠蹊傷患或缺席首戰對佛德角（6月15日）。西班牙足總與巴塞正密切合作處理療程，能否及時就緒成最大懸念。",
       "imageUrl": "/sports/img/2026-05-19-lamine-yamal-injury-world-cup-spain.jpg",
       "imageAlt": "也馬西班牙世界盃傷患"
-    },
-    {
-      "slug": "2026-05-19-dembele-injury-psg-champions-league-final",
-      "title": "丹比利受傷驚魂！PSG大腿傷未明 歐聯決賽出場存疑",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "PSG金球獎得主丹比利在城市打吡上半場因大腿疑似受傷退場，主帥安歷基稱需周一檢查才知能否出戰本月30日歐聯決賽對陣阿仙奴，阿仙奴球迷格外關注。",
-      "imageUrl": "/sports/img/2026-05-19-dembele-injury-psg-champions-league-final.jpg",
-      "imageAlt": "丹比利PSG歐聯決賽受傷"
     }
   ]
 }
