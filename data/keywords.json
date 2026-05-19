@@ -317,7 +317,9 @@
       "category": "優惠攻略",
       "angle": "生日優惠領取流程及條件詳解",
       "image_theme": "birthday bonus casino gift celebration gold",
-      "status": "available"
+      "status": "used",
+      "slug": "birthday-bonus-guide",
+      "used_date": "2026-05-19"
     },
     {
       "id": 45,
@@ -395,9 +397,9 @@
       "category": "疑難排解",
       "angle": "OTP 收唔到的原因排查及替代驗證方法",
       "image_theme": "OTP verification code not received mobile phone fix dark",
-      "status": "available",
-      "slug": "otp-not-received-fix",
-      "used_date": null
+      "status": "used",
+      "slug": "otp-verification-not-received",
+      "used_date": "2026-05-19"
     },
     {
       "id": 54,

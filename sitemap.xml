@@ -708,4 +708,20 @@
     <priority>0.8</priority>
   </url>
 
+
+  <url>
+    <loc>https://spheretap.com/blog/birthday-bonus-guide</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+
+  <url>
+    <loc>https://spheretap.com/blog/otp-verification-not-received</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
