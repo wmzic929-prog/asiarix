@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-croatia-world-cup-squad-modric-injury",
+      "title": "克羅地亞公佈世盃33人名單 摩迪帶傷入選首戰對英格蘭",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-19",
+      "excerpt": "克羅地亞公佈2026年世界盃33人初選名單，40歲摩迪顴骨受傷仍獲入選。陣容另有高華傑治、佩利錫等資深老將。克羅地亞在L組，首戰對陣英格蘭。",
+      "imageUrl": "/sports/img/2026-05-19-croatia-world-cup-squad-modric-injury.jpg",
+      "imageAlt": "摩迪克羅地亞世界盃名單"
+    },
+    {
       "slug": "2026-05-19-neymar-brazil-world-cup-squad-2026",
       "title": "尼馬重返巔峰！入選巴西世盃26人名單 球迷街頭狂歡",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "阿仙奴主場1:0擊敗般尼，哈伐斯37分鐘頭槌接應薩卡角球破網。阿仙奴以82分領先曼城5分，周日主場迎戰水晶宮，勝則英超封王。",
       "imageUrl": "/sports/img/2026-05-19-havertz-arsenal-1-0-burnley.jpg",
       "imageAlt": "哈伐斯阿仙奴英超入球"
-    },
-    {
-      "slug": "2026-05-18-roma-derby-top4-napoli-champions-league",
-      "title": "羅馬打吡大勝升第4！拿玻里鎖定歐冠 祖雲達斯連敗跌至第6",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-18",
-      "excerpt": "羅馬2:0大勝拉素奪打吡勝利，以70分升意甲第4；拿玻里73分確保歐冠資格；祖雲達斯0:2負費倫天拿跌至第6，意甲末段局勢急劇生變。",
-      "imageUrl": "/sports/img/2026-05-18-roma-derby-top4-napoli-champions-league.jpg",
-      "imageAlt": "羅馬打吡意甲拿玻里歐冠"
     }
   ]
 }
