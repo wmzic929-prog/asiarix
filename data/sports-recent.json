@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-19-neymar-brazil-world-cup-squad-2026",
+      "title": "尼馬重返巔峰！入選巴西世盃26人名單 球迷街頭狂歡",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-19",
+      "excerpt": "巴西主帥安察洛堤公佈2026年世界盃26人名單，34歲尼馬成功入選。尼馬自2023年膝傷後本季復出，上陣15場攻入6球，巴西被分在C組，首戰6月13日對摩洛哥。",
+      "imageUrl": "/sports/img/2026-05-19-neymar-brazil-world-cup-squad-2026.jpg",
+      "imageAlt": "尼馬巴西世界盃名單"
+    },
+    {
       "slug": "2026-05-19-havertz-arsenal-1-0-burnley",
       "title": "哈伐斯頭槌定勝負！阿仙奴1:0擊敗般尼 距英超冠軍只差一步",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "羅馬2:0大勝拉素奪打吡勝利，以70分升意甲第4；拿玻里73分確保歐冠資格；祖雲達斯0:2負費倫天拿跌至第6，意甲末段局勢急劇生變。",
       "imageUrl": "/sports/img/2026-05-18-roma-derby-top4-napoli-champions-league.jpg",
       "imageAlt": "羅馬打吡意甲拿玻里歐冠"
-    },
-    {
-      "slug": "2026-05-18-calvert-lewin-leeds-united-win-brighton",
-      "title": "卡法路雲補時一劍封喉！列斯聯1:0白禮頓穩守英超席位",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-18",
-      "excerpt": "卡法路雲在傷停補時把握白禮頓後防失誤，單刀破門，列斯聯1:0擊敗白禮頓，穩守英超席位。白禮頓歐洲賽資格爭奪因此蒙受打擊。",
-      "imageUrl": "/sports/img/2026-05-18-calvert-lewin-leeds-united-win-brighton.jpg",
-      "imageAlt": "卡法路雲列斯聯補時入球"
     }
   ]
 }
