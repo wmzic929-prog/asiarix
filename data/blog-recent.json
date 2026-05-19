@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "otp-verification-not-received",
+      "title": "收唔到娛樂平台OTP驗證碼點算好？即時排查6大常見原因同4個替代驗證方法",
+      "category": "疑難排解",
+      "date": "2026-05-19",
+      "excerpt": "收唔到娛樂平台OTP驗證碼係好多香港用戶都試過嘅問題，本文教你排查6個常見原因，仲有4種替代驗證方法即刻幫你解決登入問題。",
+      "imageUrl": "/blog/img/otp-verification-not-received.jpg"
+    },
+    {
       "slug": "birthday-bonus-guide",
       "title": "生日優惠點樣領取？Birthday Bonus 流程同條件詳解",
       "category": "優惠攻略",
@@ -15,14 +23,6 @@
       "date": "2026-05-19",
       "excerpt": "入款後遲遲未到帳係香港玩家最常遇到的問題之一。本文列出5個系統性排查步驟，涵蓋FPS、PayMe、USDT各方式等待時間、客服溝通技巧及追款方法，幫你快速找出原因並追回款項。",
       "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/deposit-not-received-fix.jpg"
-    },
-    {
-      "slug": "entertainment-account-suspended-recovery",
-      "title": "娛樂平台帳號被停用點恢復？原因、申訴、解鎖全攻略",
-      "category": "疑難排解",
-      "date": "2026-05-18",
-      "excerpt": "玩緊娛樂平台突然話你帳號被停用？真係掃興！唔使驚，呢篇文會幫你解開停用之謎，仲教你點樣一步步申請恢復，保障你嘅權益。",
-      "imageUrl": ""
     }
   ]
 }
