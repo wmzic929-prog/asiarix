@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-sinner-rome-golden-master-all-nine-titles",
+      "title": "冼拿意網奪冠 成史上第二位「金大師」 連勝32場破紀錄",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-05-20",
+      "excerpt": "冼拿在意大利網球公開賽以6:4、6:4力挫盧特奪冠，成繼祖高域後史上第二位「金大師」，並以32場連勝創歷史新紀錄。本賽季已奪五個大師賽，法網冠軍熱門。",
+      "imageUrl": "/sports/img/2026-05-20-sinner-rome-golden-master-all-nine-titles.jpg",
+      "imageAlt": "冼拿意大利網球公開賽奪冠金大師"
+    },
+    {
       "slug": "2026-05-20-wembanyama-rookie-extension-300-million",
       "title": "「斑馬」今夏勢續大約 5年最高可達3億美元",
       "category": "籃球",
@@ -19,16 +29,6 @@
       "excerpt": "NBA西區冠軍賽首戰，馬刺以122-115雙OT力挫雷霆。Wembanyama狂轟41分24籃板，關鍵時刻投出商標遠三，助馬刺搶先1-0。哈珀亦貢獻24分11籃板，雷霆SGA表現失準。",
       "imageUrl": "/sports/img/2026-05-20-wembanyama-spurs-double-ot-thunder-wcf.jpg",
       "imageAlt": "Wembanyama馬刺NBA西區冠軍賽"
-    },
-    {
-      "slug": "2026-05-20-arsenal-premier-league-champions",
-      "headline": "阿仙奴英超封王！曼城失分助攻圓夢",
-      "category": "足球",
-      "emoji": "⚽️",
-      "date": "2026-05-20",
-      "lead": "香港時間週二凌晨，英超聯賽煞科戰爆出驚喜賽果。衛冕冠軍曼城作客般茅僅能逼和，痛失兩分，令「兵工廠」阿仙奴以一分之差力壓對手，相隔廿多年再次高舉英超冠軍獎盃。",
-      "imageUrl": "/sports/img/2026-05-20-arsenal-premier-league-champions.jpg",
-      "imageAlt": "阿仙奴英超封王！曼城失分助攻圓夢"
     }
   ]
 }
