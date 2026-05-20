@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-21-hk-sports-institute-open-day-crowded",
+      "headline": "體院開放日反應熱烈",
+      "category": "綜合",
+      "emoji": "🏃‍♀️🏅",
+      "date": "2026-05-21",
+      "lead": "香港體育學院近日舉辦的開放日活動吸引了大量市民參與，現場氣氛熱烈，人頭湧湧，充分展現了市民對體育運動的熱情。",
+      "imageUrl": "",
+      "imageAlt": "體院開放日反應熱烈"
+    },
+    {
       "slug": "2026-05-21-hong-kong-sports-consultation-for-nationwide-fitness",
       "headline": "霍啟剛辦體育界諮詢會 謀劃全民運動",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "imageAlt": "馬會十年捐近67億 撐起香港體育未來",
       "title": "馬會十年捐近67億 撐起香港體育未來",
       "excerpt": "香港賽馬會過去十年來，透過龐大捐款近67億港元，成為推動香港體育發展的關鍵力量。馬會承諾將繼續投入資源，與各界攜手，為香港體育開創更光輝的未來。"
-    },
-    {
-      "slug": "2026-05-20-hong-kong-football-fiesta-tickets-schedule-man-city-chelsea-inter-juventus",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-20",
-      "imageUrl": "/sports/img/2026-05-20-hong-kong-football-fiesta-tickets-schedule-man-city-chelsea-inter-juventus.jpg",
-      "imageAlt": "四大豪門來港！香港足球盛會2026門票詳情公布",
-      "title": "四大豪門來港！香港足球盛會2026門票詳情公布",
-      "excerpt": "香港足球迷注意！「香港足球盛會2026」門票詳情及賽程今日正式公布，曼城、車路士、國際米蘭及祖雲達斯四大歐洲豪門將於香港大球場爭奪錦標，勢掀起全城足球熱潮。"
     }
   ]
 }
