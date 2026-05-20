@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-wembanyama-rookie-extension-300-million",
+      "title": "「斑馬」今夏勢續大約 5年最高可達3億美元",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-20",
+      "excerpt": "Wembanyama繼西區冠軍賽首戰41分24籃板演出後，今夏預計與馬刺簽新秀延長合約，5年最高達3.06億美元。談判窗口為7月至10月，頂薪資格視乎個人獎項達標情況。",
+      "imageUrl": "/sports/img/2026-05-20-wembanyama-rookie-extension-300-million.jpg",
+      "imageAlt": "Wembanyama馬刺NBA合約"
+    },
+    {
       "slug": "2026-05-20-wembanyama-spurs-double-ot-thunder-wcf",
       "title": "Wemby 41分+24籃板 馬刺雙OT震雷霆 西區決賽搶先勝",
       "category": "籃球",
@@ -19,16 +29,6 @@
       "lead": "香港時間週二凌晨，英超聯賽煞科戰爆出驚喜賽果。衛冕冠軍曼城作客般茅僅能逼和，痛失兩分，令「兵工廠」阿仙奴以一分之差力壓對手，相隔廿多年再次高舉英超冠軍獎盃。",
       "imageUrl": "/sports/img/2026-05-20-arsenal-premier-league-champions.jpg",
       "imageAlt": "阿仙奴英超封王！曼城失分助攻圓夢"
-    },
-    {
-      "slug": "2026-05-19-mosley-pelicans-head-coach-nba",
-      "title": "NBA塘鵝聘摩斯利任主帥！簽5年合約 鍛打錫安領軍重返季後賽",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-19",
-      "excerpt": "NBA塘鵝宣佈聘請前奧蘭多魔術主帥摩斯利擔任新主帥，簽訂5年合約。47歲的摩斯利曾帶魔術連續3季打入季後賽，以防守見稱。塘鵝上季26勝56負，望重返季後賽。",
-      "imageUrl": "/sports/img/2026-05-19-mosley-pelicans-head-coach-nba.jpg",
-      "imageAlt": "摩斯利塘鵝NBA主帥"
     }
   ]
 }
