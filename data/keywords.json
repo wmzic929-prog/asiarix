@@ -427,9 +427,9 @@
       "category": "入款攻略",
       "angle": "加密貨幣匿名性解析及平台 KYC 追蹤機制",
       "image_theme": "cryptocurrency anonymous privacy blockchain dark tracking",
-      "status": "available",
-      "slug": "crypto-deposit-anonymity-explained",
-      "used_date": null
+      "status": "used",
+      "slug": "crypto-deposit-anonymity-kyc-guide",
+      "used_date": "2026-05-20"
     },
     {
       "id": 57,
