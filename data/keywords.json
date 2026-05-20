@@ -417,9 +417,9 @@
       "category": "優惠資訊",
       "angle": "積分制度運作原理及兌換方式詳解",
       "image_theme": "loyalty points exchange reward casino gold dark",
-      "status": "available",
-      "slug": "loyalty-points-explained",
-      "used_date": null
+      "status": "used",
+      "slug": "loyalty-points-redemption-guide",
+      "used_date": "2026-05-20"
     },
     {
       "id": 56,
