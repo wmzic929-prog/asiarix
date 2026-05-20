@@ -1,0 +1,1086 @@
+{
+  "generated_at": "2026-05-20T03:03:01+08:00",
+  "groups": {
+    "spheretap": {
+      "name": "Spheretap 集團",
+      "dates_30d": [
+        "4/21",
+        "4/22",
+        "4/23",
+        "4/24",
+        "4/25",
+        "4/26",
+        "4/27",
+        "4/28",
+        "4/29",
+        "4/30",
+        "5/1",
+        "5/2",
+        "5/3",
+        "5/4",
+        "5/5",
+        "5/6",
+        "5/7",
+        "5/8",
+        "5/9",
+        "5/10",
+        "5/11",
+        "5/12",
+        "5/13",
+        "5/14",
+        "5/15",
+        "5/16",
+        "5/17",
+        "5/18",
+        "5/19",
+        "5/20"
+      ],
+      "sites": {
+        "spheretap.com": {
+          "label": "Spheretap 主站",
+          "role": "main",
+          "traffic": {
+            "sessions_today": 56,
+            "sessions_7d": 137,
+            "sessions_30d": 225,
+            "series_30d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              3,
+              9,
+              13,
+              18,
+              12,
+              17,
+              13,
+              14,
+              10,
+              26,
+              8,
+              5,
+              18,
+              56,
+              2
+            ],
+            "cta_series_7d": [
+              0,
+              1,
+              0,
+              1,
+              2,
+              3,
+              1
+            ],
+            "bounce_rate": 0.604,
+            "avg_duration_sec": 514,
+            "mobile_pct": 0.184,
+            "sources": {
+              "organic": 0.07,
+              "direct": 0.68,
+              "social": 0,
+              "referral": 0.13
+            }
+          },
+          "cta": {
+            "clicks_today": 0,
+            "clicks_7d": 0,
+            "unique_clicks_7d": 0,
+            "conversions_today": 0,
+            "conversions_7d": 0
+          },
+          "gsc": {
+            "impressions_28d": 1,
+            "clicks_28d": 0,
+            "impressions_7d": 1,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 31,
+            "indexed_pages": 1,
+            "series_7d": {
+              "dates": [
+                "5/11",
+                "5/12",
+                "5/13",
+                "5/14",
+                "5/15",
+                "5/16",
+                "5/17"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "top_keywords": []
+          },
+          "sitemap": {
+            "total_urls": 104
+          },
+          "content": {
+            "total_articles": 70,
+            "this_month": 42,
+            "this_week": 42,
+            "sports_articles": 61,
+            "total_articles_inc_sports": 131
+          },
+          "cwv": {},
+          "daily_7d": [
+            {
+              "date": "5/13",
+              "sessions": 14,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 89
+            },
+            {
+              "date": "5/14",
+              "sessions": 10,
+              "gsc_imp": 1,
+              "gsc_clk": 0,
+              "cta_clk": 1,
+              "articles": 89
+            },
+            {
+              "date": "5/15",
+              "sessions": 26,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 94
+            },
+            {
+              "date": "5/16",
+              "sessions": 8,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
+              "articles": 105
+            },
+            {
+              "date": "5/17",
+              "sessions": 5,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 2,
+              "articles": 105
+            },
+            {
+              "date": "5/18",
+              "sessions": 18,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 3,
+              "articles": 116
+            },
+            {
+              "date": "5/19",
+              "sessions": 56,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 1,
+              "articles": 131
+            }
+          ]
+        },
+        "matchvangtage.com": {
+          "label": "體育博彩攻略",
+          "role": "satellite",
+          "traffic": {
+            "sessions_today": 4,
+            "sessions_7d": 64,
+            "sessions_30d": 64,
+            "series_30d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              21,
+              16,
+              15,
+              8,
+              4,
+              0
+            ],
+            "cta_series_7d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "bounce_rate": 0.813,
+            "avg_duration_sec": 51,
+            "mobile_pct": 0.094,
+            "sources": {
+              "organic": 0,
+              "direct": 0.97,
+              "social": 0,
+              "referral": 0
+            }
+          },
+          "cta": {
+            "clicks_today": 0,
+            "clicks_7d": 0,
+            "unique_clicks_7d": 0,
+            "conversions_today": 0,
+            "conversions_7d": 0
+          },
+          "gsc": {
+            "impressions_28d": 0,
+            "clicks_28d": 0,
+            "impressions_7d": 0,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 0,
+            "indexed_pages": 0,
+            "series_7d": {
+              "dates": [
+                "5/11",
+                "5/12",
+                "5/13",
+                "5/14",
+                "5/15",
+                "5/16",
+                "5/17"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "top_keywords": []
+          },
+          "sitemap": {
+            "total_urls": 11
+          },
+          "content": {
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
+            "sports_articles": 0,
+            "total_articles_inc_sports": 6
+          },
+          "cwv": {},
+          "daily_7d": [
+            {
+              "date": "5/13",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/14",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/15",
+              "sessions": 21,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 4
+            },
+            {
+              "date": "5/16",
+              "sessions": 16,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 4
+            },
+            {
+              "date": "5/17",
+              "sessions": 15,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 4
+            },
+            {
+              "date": "5/18",
+              "sessions": 8,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 5
+            },
+            {
+              "date": "5/19",
+              "sessions": 4,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6
+            }
+          ]
+        },
+        "tableedge.org": {
+          "label": "真人遊戲技術流",
+          "role": "satellite",
+          "traffic": {
+            "sessions_today": 7,
+            "sessions_7d": 80,
+            "sessions_30d": 80,
+            "series_30d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              22,
+              29,
+              12,
+              10,
+              7,
+              1
+            ],
+            "cta_series_7d": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0
+            ],
+            "bounce_rate": 0.825,
+            "avg_duration_sec": 63,
+            "mobile_pct": 0.125,
+            "sources": {
+              "organic": 0.01,
+              "direct": 0.99,
+              "social": 0,
+              "referral": 0
+            }
+          },
+          "cta": {
+            "clicks_today": 0,
+            "clicks_7d": 0,
+            "unique_clicks_7d": 0,
+            "conversions_today": 0,
+            "conversions_7d": 0
+          },
+          "gsc": {
+            "impressions_28d": 0,
+            "clicks_28d": 0,
+            "impressions_7d": 0,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 0,
+            "indexed_pages": 0,
+            "series_7d": {
+              "dates": [
+                "5/11",
+                "5/12",
+                "5/13",
+                "5/14",
+                "5/15",
+                "5/16",
+                "5/17"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "top_keywords": []
+          },
+          "sitemap": {
+            "total_urls": 9
+          },
+          "content": {
+            "total_articles": 4,
+            "this_month": 4,
+            "this_week": 4,
+            "sports_articles": 0,
+            "total_articles_inc_sports": 4
+          },
+          "cwv": {},
+          "daily_7d": [
+            {
+              "date": "5/13",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/14",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/15",
+              "sessions": 22,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 2,
+              "articles": 1
+            },
+            {
+              "date": "5/16",
+              "sessions": 29,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 2
+            },
+            {
+              "date": "5/17",
+              "sessions": 12,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 2
+            },
+            {
+              "date": "5/18",
+              "sessions": 10,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 1,
+              "articles": 3
+            },
+            {
+              "date": "5/19",
+              "sessions": 7,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 4
+            }
+          ]
+        },
+        "turf-pulse.com": {
+          "label": "香港賽馬技術分析",
+          "role": "satellite",
+          "traffic": {
+            "sessions_today": 7,
+            "sessions_7d": 57,
+            "sessions_30d": 57,
+            "series_30d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              14,
+              15,
+              10,
+              11,
+              7,
+              0
+            ],
+            "cta_series_7d": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "bounce_rate": 0.789,
+            "avg_duration_sec": 110,
+            "mobile_pct": 0.14,
+            "sources": {
+              "organic": 0.02,
+              "direct": 0.98,
+              "social": 0,
+              "referral": 0
+            }
+          },
+          "cta": {
+            "clicks_today": 0,
+            "clicks_7d": 0,
+            "unique_clicks_7d": 0,
+            "conversions_today": 0,
+            "conversions_7d": 0
+          },
+          "gsc": {
+            "impressions_28d": 0,
+            "clicks_28d": 0,
+            "impressions_7d": 0,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 0,
+            "indexed_pages": 0,
+            "series_7d": {
+              "dates": [
+                "5/11",
+                "5/12",
+                "5/13",
+                "5/14",
+                "5/15",
+                "5/16",
+                "5/17"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "top_keywords": []
+          },
+          "sitemap": {
+            "total_urls": 9
+          },
+          "content": {
+            "total_articles": 4,
+            "this_month": 4,
+            "this_week": 4,
+            "sports_articles": 0,
+            "total_articles_inc_sports": 4
+          },
+          "cwv": {},
+          "daily_7d": [
+            {
+              "date": "5/13",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/14",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/15",
+              "sessions": 14,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 1
+            },
+            {
+              "date": "5/16",
+              "sessions": 15,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 2
+            },
+            {
+              "date": "5/17",
+              "sessions": 10,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
+              "articles": 2
+            },
+            {
+              "date": "5/18",
+              "sessions": 11,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 1,
+              "articles": 3
+            },
+            {
+              "date": "5/19",
+              "sessions": 7,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 4
+            }
+          ]
+        },
+        "spin-metrics.com": {
+          "label": "老虎機遊戲解析",
+          "role": "satellite",
+          "traffic": {
+            "sessions_today": 5,
+            "sessions_7d": 51,
+            "sessions_30d": 51,
+            "series_30d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              15,
+              16,
+              8,
+              8,
+              5,
+              1
+            ],
+            "cta_series_7d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "bounce_rate": 0.843,
+            "avg_duration_sec": 113,
+            "mobile_pct": 0.02,
+            "sources": {
+              "organic": 0.02,
+              "direct": 0.94,
+              "social": 0,
+              "referral": 0
+            }
+          },
+          "cta": {
+            "clicks_today": 0,
+            "clicks_7d": 0,
+            "unique_clicks_7d": 0,
+            "conversions_today": 0,
+            "conversions_7d": 0
+          },
+          "gsc": {
+            "impressions_28d": 0,
+            "clicks_28d": 0,
+            "impressions_7d": 0,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 0,
+            "indexed_pages": 0,
+            "series_7d": {
+              "dates": [
+                "5/11",
+                "5/12",
+                "5/13",
+                "5/14",
+                "5/15",
+                "5/16",
+                "5/17"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "top_keywords": []
+          },
+          "sitemap": {
+            "total_urls": 10
+          },
+          "content": {
+            "total_articles": 5,
+            "this_month": 5,
+            "this_week": 5,
+            "sports_articles": 0,
+            "total_articles_inc_sports": 5
+          },
+          "cwv": {},
+          "daily_7d": [
+            {
+              "date": "5/13",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/14",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/15",
+              "sessions": 15,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 1
+            },
+            {
+              "date": "5/16",
+              "sessions": 16,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 3
+            },
+            {
+              "date": "5/17",
+              "sessions": 8,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 3
+            },
+            {
+              "date": "5/18",
+              "sessions": 8,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 4
+            },
+            {
+              "date": "5/19",
+              "sessions": 5,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 5
+            }
+          ]
+        },
+        "verifiedplays.com": {
+          "label": "平台技術評測",
+          "role": "satellite",
+          "traffic": {
+            "sessions_today": 8,
+            "sessions_7d": 66,
+            "sessions_30d": 66,
+            "series_30d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              22,
+              23,
+              7,
+              6,
+              8,
+              0
+            ],
+            "cta_series_7d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "bounce_rate": 0.879,
+            "avg_duration_sec": 105,
+            "mobile_pct": 0.152,
+            "sources": {
+              "organic": 0,
+              "direct": 1,
+              "social": 0,
+              "referral": 0
+            }
+          },
+          "cta": {
+            "clicks_today": 0,
+            "clicks_7d": 0,
+            "unique_clicks_7d": 0,
+            "conversions_today": 0,
+            "conversions_7d": 0
+          },
+          "gsc": {
+            "impressions_28d": 0,
+            "clicks_28d": 0,
+            "impressions_7d": 0,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 0,
+            "indexed_pages": 0,
+            "series_7d": {
+              "dates": [
+                "5/11",
+                "5/12",
+                "5/13",
+                "5/14",
+                "5/15",
+                "5/16",
+                "5/17"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "top_keywords": []
+          },
+          "sitemap": {
+            "total_urls": 8
+          },
+          "content": {
+            "total_articles": 4,
+            "this_month": 4,
+            "this_week": 4,
+            "sports_articles": 0,
+            "total_articles_inc_sports": 4
+          },
+          "cwv": {},
+          "daily_7d": [
+            {
+              "date": "5/13",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/14",
+              "sessions": 0,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 0
+            },
+            {
+              "date": "5/15",
+              "sessions": 22,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 1
+            },
+            {
+              "date": "5/16",
+              "sessions": 23,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 2
+            },
+            {
+              "date": "5/17",
+              "sessions": 7,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 2
+            },
+            {
+              "date": "5/18",
+              "sessions": 6,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 1,
+              "articles": 3
+            },
+            {
+              "date": "5/19",
+              "sessions": 8,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 4
+            }
+          ]
+        }
+      }
+    }
+  }
+}

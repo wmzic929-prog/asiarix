@@ -1,34 +1,34 @@
 {
   "articles": [
     {
-      "slug": "2026-05-19-mosley-pelicans-head-coach-nba",
-      "title": "NBA塘鵝聘摩斯利任主帥！簽5年合約 鍛打錫安領軍重返季後賽",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-19",
-      "excerpt": "NBA塘鵝宣佈聘請前奧蘭多魔術主帥摩斯利擔任新主帥，簽訂5年合約。47歲的摩斯利曾帶魔術連續3季打入季後賽，以防守見稱。塘鵝上季26勝56負，望重返季後賽。",
-      "imageUrl": "/sports/img/2026-05-19-mosley-pelicans-head-coach-nba.jpg",
-      "imageAlt": "摩斯利塘鵝NBA主帥"
-    },
-    {
-      "slug": "2026-05-19-chen-yujie-u18-asian-record-diamond-league",
-      "title": "陳妤頡紹興鑽石聯賽奪7名 22.84秒刷新亞洲少年U18紀錄",
-      "category": "田徑",
-      "emoji": "🏃",
-      "date": "2026-05-19",
-      "excerpt": "17歲中國選手陳妤頡在紹興鑽石聯賽女子200米以22.84秒完賽（第7），刷新個人最佳及亞洲少年U18紀錄。Jackson以22.07秒奪冠，謝震業100米跑出10.27秒賽季最佳。",
-      "imageUrl": "/sports/img/2026-05-19-chen-yujie-u18-asian-record-diamond-league.jpg",
-      "imageAlt": "陳妤頡鑽石聯賽田徑200米"
-    },
-    {
-      "slug": "2026-05-19-barcelona-cancel-preseason-overseas-tour",
-      "title": "阿斯報：巴塞取消季前海外巡迴賽 改英格蘭集訓迎戰利物浦",
+      "slug": "2026-05-20-arsenal-premier-league-champion-2026",
+      "title": "告別22年等待！阿仙奴英超稱霸 曼城逼和般茅封王成真",
       "category": "足球",
       "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "《阿斯報》報導巴塞取消季前海外巡迴賽，7月15日開操，因世界盃球員延遲歸隊初期以青年軍訓練。費力克將率隊赴英格蘭中部集訓8天，預計安排兩場熱身賽含一場對利物浦。",
-      "imageUrl": "/sports/img/2026-05-19-barcelona-cancel-preseason-overseas-tour.jpg",
-      "imageAlt": "巴塞費力克季前訓練"
+      "date": "2026-05-20",
+      "excerpt": "曼城主場以1-1逼和般茅，阿仙奴正式以82分奪得英超冠軍，告別22年的等待。紅炮軍自2003-04不敗賽季後首度重登英格蘭足球頂峰，結束長期被稱「亞軍奴」的歷史。",
+      "imageUrl": "/sports/img/2026-05-20-arsenal-premier-league-champion-2026.jpg",
+      "imageAlt": "阿仙奴英超冠軍2026"
+    },
+    {
+      "slug": "2026-05-20-ledecky-1500m-freestyle-world-second-fastest",
+      "title": "莉迪姬1500米自由泳游出史上第2快 15分23秒21展無敵姿態",
+      "category": "游泳",
+      "emoji": "🏊",
+      "date": "2026-05-20",
+      "excerpt": "美國游泳女皇莉迪姬在TYR職業系列賽以15分23秒21游畢1500米自由泳，創史上第二快紀錄。她的世界紀錄由自身持有，並表示目標2028洛杉磯奧運爭取三連冠。",
+      "imageUrl": "/sports/img/2026-05-20-ledecky-1500m-freestyle-world-second-fastest.jpg",
+      "imageAlt": "莉迪姬游泳1500米自由泳"
+    },
+    {
+      "slug": "2026-05-20-an-seyoung-india-badminton-open-champion",
+      "title": "安洗瑩霸氣持續 印度羽球賽封后 延續本賽季無敵姿態",
+      "category": "羽毛球",
+      "emoji": "🏸",
+      "date": "2026-05-20",
+      "excerpt": "南韓羽毛球女單一號安洗瑩在印度羽毛球公開賽成功封后，延續本賽季的強勢姿態。安洗瑩本賽季已連奪多個冠軍，在世界女單項目幾乎無人能及，劍指年終總決賽。",
+      "imageUrl": "/sports/img/2026-05-20-an-seyoung-india-badminton-open-champion.jpg",
+      "imageAlt": "安洗瑩印度羽毛球公開賽奪冠"
     }
   ]
 }

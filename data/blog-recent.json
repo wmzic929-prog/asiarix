@@ -1,28 +1,28 @@
 {
   "articles": [
     {
+      "slug": "loyalty-points-redemption-guide",
+      "title": "娛樂平台積分可以換咩？現金、Free Spins 兌換完全攻略",
+      "category": "優惠資訊",
+      "date": "2026-05-20",
+      "excerpt": "好多玩家喺娛樂平台累積咗成千上萬積分，卻唔知可以換咩、點樣兌換，白白浪費咗唔少回贈，今次一次講清楚！",
+      "imageUrl": "/blog/img/loyalty-points-redemption-guide.jpg"
+    },
+    {
+      "slug": "welcome-bonus-withdrawal-conditions",
+      "title": "迎新優惠提款條件詳解｜流水要求幾多倍先可以出款",
+      "category": "優惠資訊",
+      "date": "2026-05-19",
+      "excerpt": "拎到迎新優惠唔即係可以立刻出款，流水要求、時間限制、KYC 認證係三大必過關卡，唔睇清楚隨時白領優惠。",
+      "imageUrl": "/blog/img/welcome-bonus-withdrawal-conditions.jpg"
+    },
+    {
       "slug": "otp-verification-not-received",
       "title": "收唔到娛樂平台OTP驗證碼點算好？即時排查6大常見原因同4個替代驗證方法",
       "category": "疑難排解",
       "date": "2026-05-19",
       "excerpt": "收唔到娛樂平台OTP驗證碼係好多香港用戶都試過嘅問題，本文教你排查6個常見原因，仲有4種替代驗證方法即刻幫你解決登入問題。",
       "imageUrl": "/blog/img/otp-verification-not-received.jpg"
-    },
-    {
-      "slug": "birthday-bonus-guide",
-      "title": "生日優惠點樣領取？Birthday Bonus 流程同條件詳解",
-      "category": "優惠攻略",
-      "date": "2026-05-19",
-      "excerpt": "唔少玩家每年有份生日優惠都唔知點領，甚至因為資料唔符合而白白錯過，跟住我哋一次講清楚所有流程同條件。",
-      "imageUrl": "/blog/img/birthday-bonus-guide.jpg"
-    },
-    {
-      "slug": "deposit-not-received-fix",
-      "title": "娛樂平台入款唔到帳點算？2025完整排查教學（5步解決）",
-      "category": "疑難排解",
-      "date": "2026-05-19",
-      "excerpt": "入款後遲遲未到帳係香港玩家最常遇到的問題之一。本文列出5個系統性排查步驟，涵蓋FPS、PayMe、USDT各方式等待時間、客服溝通技巧及追款方法，幫你快速找出原因並追回款項。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/deposit-not-received-fix.jpg"
     }
   ]
 }
