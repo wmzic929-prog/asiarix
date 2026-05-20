@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-21-hong-kong-sports-consultation-for-nationwide-fitness",
+      "headline": "霍啟剛辦體育界諮詢會 謀劃全民運動",
+      "category": "綜合",
+      "emoji": "🏃‍♂️",
+      "date": "2026-05-21",
+      "lead": "立法會議員霍啟剛今日（21日）舉辦「香港五年規劃」體育界諮詢會，逾百名業界翹楚雲集，深入探討推動全民運動的策略與未來發展藍圖。",
+      "imageUrl": "",
+      "imageAlt": "霍啟剛辦體育界諮詢會 謀劃全民運動"
+    },
+    {
       "slug": "2026-05-21-hkjc-sports-funding-decade",
       "headline": "馬會十年捐67億撐體育",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "imageAlt": "四大豪門來港！香港足球盛會2026門票詳情公布",
       "title": "四大豪門來港！香港足球盛會2026門票詳情公布",
       "excerpt": "香港足球迷注意！「香港足球盛會2026」門票詳情及賽程今日正式公布，曼城、車路士、國際米蘭及祖雲達斯四大歐洲豪門將於香港大球場爭奪錦標，勢掀起全城足球熱潮。"
-    },
-    {
-      "slug": "2026-05-20-idbf-hong-kong-headquarters",
-      "category": "綜合",
-      "emoji": "🐉",
-      "date": "2026-05-20",
-      "imageUrl": "/sports/img/2026-05-20-idbf-hong-kong-headquarters.jpg",
-      "imageAlt": "龍舟總部選址香港 體壇盛事",
-      "title": "龍舟總部選址香港 體壇盛事",
-      "excerpt": "國際龍舟聯合會（IDBF）今日（2026年5月20日）隆重宣布，將其全球總部正式遷往香港。此項歷史性決定標誌著香港在國際龍舟運動版圖上地位的顯著提升。"
     }
   ]
 }
