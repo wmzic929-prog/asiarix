@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-hong-kong-sports-five-year-plan-consultation",
+      "headline": "體育界集結 謀劃香港未來五年發展",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-20",
+      "lead": "為期一日的「香港五年規劃」體育界諮詢會昨日圓滿落幕，逾百名來自體育總會、體育組織、專業團體及學術界的代表雲集，為香港體育未來五年的發展方向獻計獻策。",
+      "imageUrl": "",
+      "imageAlt": "體育界集結 謀劃香港未來五年發展"
+    },
+    {
       "slug": "2026-05-20-hkjc-supports-sports-hkd-6-7-billion-decade",
       "headline": "馬會十年捐近67億 撐起香港體育未來",
       "category": "綜合",
