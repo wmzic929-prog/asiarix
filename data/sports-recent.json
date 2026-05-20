@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-21-kai-tak-sports-park-2025-review-hong-kong-football-triumphs",
+      "headline": "啟德體育園掀新篇 港足三連爆",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-21",
+      "lead": "啟德體育園於2025年成為香港體育發展的全新地標，成功舉辦多項國際級賽事，為本地體壇注入強大活力。",
+      "imageUrl": "",
+      "imageAlt": "啟德體育園掀新篇 港足三連爆"
+    },
+    {
       "slug": "2026-05-21-idbf-hong-kong-headquarters",
       "headline": "IDBF總部落戶香港 龍舟運動邁向新篇章",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "excerpt": "曼城主場以1-1逼和般茅，阿仙奴正式以82分奪得英超冠軍，告別22年的等待。紅炮軍自2003-04不敗賽季後首度重登英格蘭足球頂峰，結束長期被稱「亞軍奴」的歷史。",
       "imageUrl": "/sports/img/2026-05-20-arsenal-premier-league-champion-2026.jpg",
       "imageAlt": "阿仙奴英超冠軍2026"
-    },
-    {
-      "slug": "2026-05-20-ledecky-1500m-freestyle-world-second-fastest",
-      "title": "莉迪姬1500米自由泳游出史上第2快 15分23秒21展無敵姿態",
-      "category": "游泳",
-      "emoji": "🏊",
-      "date": "2026-05-20",
-      "excerpt": "美國游泳女皇莉迪姬在TYR職業系列賽以15分23秒21游畢1500米自由泳，創史上第二快紀錄。她的世界紀錄由自身持有，並表示目標2028洛杉磯奧運爭取三連冠。",
-      "imageUrl": "/sports/img/2026-05-20-ledecky-1500m-freestyle-world-second-fastest.jpg",
-      "imageAlt": "莉迪姬游泳1500米自由泳"
     }
   ]
 }
