@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-ledecky-1500m-freestyle-world-second-fastest",
+      "title": "莉迪姬1500米自由泳游出史上第2快 15分23秒21展無敵姿態",
+      "category": "游泳",
+      "emoji": "🏊",
+      "date": "2026-05-20",
+      "excerpt": "美國游泳女皇莉迪姬在TYR職業系列賽以15分23秒21游畢1500米自由泳，創史上第二快紀錄。她的世界紀錄由自身持有，並表示目標2028洛杉磯奧運爭取三連冠。",
+      "imageUrl": "/sports/img/2026-05-20-ledecky-1500m-freestyle-world-second-fastest.jpg",
+      "imageAlt": "莉迪姬游泳1500米自由泳"
+    },
+    {
       "slug": "2026-05-20-an-seyoung-india-badminton-open-champion",
       "title": "安洗瑩霸氣持續 印度羽球賽封后 延續本賽季無敵姿態",
       "category": "羽毛球",
@@ -19,16 +29,6 @@
       "excerpt": "香港男排隊長蕭昌鴻正式加盟日本職業排球聯賽V.League的Reve's栃木，成首位旅日港人職業排球員。33歲的蕭昌鴻擔任港隊隊長12年，此舉為港排開創歷史性里程碑。",
       "imageUrl": "/sports/img/2026-05-20-siu-cheong-hung-hong-kong-volleyball-japan-vleague.png",
       "imageAlt": "蕭昌鴻香港排球日本V.League"
-    },
-    {
-      "slug": "2026-05-20-noah-lyles-100m-world-athletics-golden-series-tokyo",
-      "title": "賴奧斯田徑黃金賽東京站100米掄元 9.95秒季初告捷",
-      "category": "田徑",
-      "emoji": "🏃",
-      "date": "2026-05-20",
-      "excerpt": "美國短跑天王賴奧斯在世界田徑黃金賽東京站100米決賽以9.95秒奪冠，憑後程爆發反超群雄。他以動漫手勢向日本觀眾致意，完成賽季首戰告捷，為鑽石聯賽熱身。",
-      "imageUrl": "/sports/img/2026-05-20-noah-lyles-100m-world-athletics-golden-series-tokyo.jpg",
-      "imageAlt": "賴奧斯田徑黃金賽100米奪冠"
     }
   ]
 }
