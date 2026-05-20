@@ -732,4 +732,12 @@
     <priority>0.7</priority>
   </url>
 
+
+  <url>
+    <loc>https://spheretap.com/sports/2026-05-20-arsenal-premier-league-champions</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
