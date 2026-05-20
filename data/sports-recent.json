@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-noah-lyles-100m-world-athletics-golden-series-tokyo",
+      "title": "賴奧斯田徑黃金賽東京站100米掄元 9.95秒季初告捷",
+      "category": "田徑",
+      "emoji": "🏃",
+      "date": "2026-05-20",
+      "excerpt": "美國短跑天王賴奧斯在世界田徑黃金賽東京站100米決賽以9.95秒奪冠，憑後程爆發反超群雄。他以動漫手勢向日本觀眾致意，完成賽季首戰告捷，為鑽石聯賽熱身。",
+      "imageUrl": "/sports/img/2026-05-20-noah-lyles-100m-world-athletics-golden-series-tokyo.jpg",
+      "imageAlt": "賴奧斯田徑黃金賽100米奪冠"
+    },
+    {
       "slug": "2026-05-20-swiatek-rome-italian-open-title-2026",
       "title": "絲維度蓮娜贏嘉奧芙 相隔8年意網再封后",
       "category": "網球",
@@ -19,16 +29,6 @@
       "excerpt": "冼拿在意大利網球公開賽以6:4、6:4力挫盧特奪冠，成繼祖高域後史上第二位「金大師」，並以32場連勝創歷史新紀錄。本賽季已奪五個大師賽，法網冠軍熱門。",
       "imageUrl": "/sports/img/2026-05-20-sinner-rome-golden-master-all-nine-titles.jpg",
       "imageAlt": "冼拿意大利網球公開賽奪冠金大師"
-    },
-    {
-      "slug": "2026-05-20-wembanyama-rookie-extension-300-million",
-      "title": "「斑馬」今夏勢續大約 5年最高可達3億美元",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-20",
-      "excerpt": "Wembanyama繼西區冠軍賽首戰41分24籃板演出後，今夏預計與馬刺簽新秀延長合約，5年最高達3.06億美元。談判窗口為7月至10月，頂薪資格視乎個人獎項達標情況。",
-      "imageUrl": "/sports/img/2026-05-20-wembanyama-rookie-extension-300-million.jpg",
-      "imageAlt": "Wembanyama馬刺NBA合約"
     }
   ]
 }
