@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-arsenal-premier-league-champion-2026",
+      "title": "告別22年等待！阿仙奴英超稱霸 曼城逼和般茅封王成真",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-20",
+      "excerpt": "曼城主場以1-1逼和般茅，阿仙奴正式以82分奪得英超冠軍，告別22年的等待。紅炮軍自2003-04不敗賽季後首度重登英格蘭足球頂峰，結束長期被稱「亞軍奴」的歷史。",
+      "imageUrl": "/sports/img/2026-05-20-arsenal-premier-league-champion-2026.jpg",
+      "imageAlt": "阿仙奴英超冠軍2026"
+    },
+    {
       "slug": "2026-05-20-ledecky-1500m-freestyle-world-second-fastest",
       "title": "莉迪姬1500米自由泳游出史上第2快 15分23秒21展無敵姿態",
       "category": "游泳",
@@ -19,16 +29,6 @@
       "excerpt": "南韓羽毛球女單一號安洗瑩在印度羽毛球公開賽成功封后，延續本賽季的強勢姿態。安洗瑩本賽季已連奪多個冠軍，在世界女單項目幾乎無人能及，劍指年終總決賽。",
       "imageUrl": "/sports/img/2026-05-20-an-seyoung-india-badminton-open-champion.jpg",
       "imageAlt": "安洗瑩印度羽毛球公開賽奪冠"
-    },
-    {
-      "slug": "2026-05-20-siu-cheong-hung-hong-kong-volleyball-japan-vleague",
-      "title": "港排新里程！隊長蕭昌鴻正式加盟日本V.League 成首位港人旅日職球員",
-      "category": "排球",
-      "emoji": "🏐",
-      "date": "2026-05-20",
-      "excerpt": "香港男排隊長蕭昌鴻正式加盟日本職業排球聯賽V.League的Reve's栃木，成首位旅日港人職業排球員。33歲的蕭昌鴻擔任港隊隊長12年，此舉為港排開創歷史性里程碑。",
-      "imageUrl": "/sports/img/2026-05-20-siu-cheong-hung-hong-kong-volleyball-japan-vleague.png",
-      "imageAlt": "蕭昌鴻香港排球日本V.League"
     }
   ]
 }
