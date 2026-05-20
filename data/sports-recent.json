@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-swiatek-rome-italian-open-title-2026",
+      "title": "絲維度蓮娜贏嘉奧芙 相隔8年意網再封后",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-05-20",
+      "excerpt": "波蘭女將絲維度蓮娜在意大利網球公開賽決賽力克嘉奧芙，相隔8年再度奪得意網冠軍。這場勝利令她在備戰法網時信心倍增，進一步鞏固她紅土女王地位。",
+      "imageUrl": "/sports/img/2026-05-20-swiatek-rome-italian-open-title-2026.jpg",
+      "imageAlt": "絲維度蓮娜意大利網球公開賽奪冠"
+    },
+    {
       "slug": "2026-05-20-sinner-rome-golden-master-all-nine-titles",
       "title": "冼拿意網奪冠 成史上第二位「金大師」 連勝32場破紀錄",
       "category": "網球",
@@ -19,16 +29,6 @@
       "excerpt": "Wembanyama繼西區冠軍賽首戰41分24籃板演出後，今夏預計與馬刺簽新秀延長合約，5年最高達3.06億美元。談判窗口為7月至10月，頂薪資格視乎個人獎項達標情況。",
       "imageUrl": "/sports/img/2026-05-20-wembanyama-rookie-extension-300-million.jpg",
       "imageAlt": "Wembanyama馬刺NBA合約"
-    },
-    {
-      "slug": "2026-05-20-wembanyama-spurs-double-ot-thunder-wcf",
-      "title": "Wemby 41分+24籃板 馬刺雙OT震雷霆 西區決賽搶先勝",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-20",
-      "excerpt": "NBA西區冠軍賽首戰，馬刺以122-115雙OT力挫雷霆。Wembanyama狂轟41分24籃板，關鍵時刻投出商標遠三，助馬刺搶先1-0。哈珀亦貢獻24分11籃板，雷霆SGA表現失準。",
-      "imageUrl": "/sports/img/2026-05-20-wembanyama-spurs-double-ot-thunder-wcf.jpg",
-      "imageAlt": "Wembanyama馬刺NBA西區冠軍賽"
     }
   ]
 }
