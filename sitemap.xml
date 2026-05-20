@@ -740,4 +740,12 @@
     <priority>0.8</priority>
   </url>
 
+
+  <url>
+    <loc>https://spheretap.com/blog/loyalty-points-redemption-guide</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
