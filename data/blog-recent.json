@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "crypto-deposit-anonymity-kyc-guide",
+      "title": "加密貨幣入款係咪匿名？平台KYC追蹤機制解析",
+      "category": "入款攻略",
+      "date": "2026-05-20",
+      "excerpt": "好多玩家以為用加密貨幣入款就係完全匿名，但實際上平台同區塊鏈都有追蹤機制，你嘅交易唔係想象中咁隱密。",
+      "imageUrl": "/blog/img/crypto-deposit-anonymity-kyc-guide.jpg"
+    },
+    {
       "slug": "loyalty-points-redemption-guide",
       "title": "娛樂平台積分可以換咩？現金、Free Spins 兌換完全攻略",
       "category": "優惠資訊",
@@ -15,14 +23,6 @@
       "date": "2026-05-19",
       "excerpt": "拎到迎新優惠唔即係可以立刻出款，流水要求、時間限制、KYC 認證係三大必過關卡，唔睇清楚隨時白領優惠。",
       "imageUrl": "/blog/img/welcome-bonus-withdrawal-conditions.jpg"
-    },
-    {
-      "slug": "otp-verification-not-received",
-      "title": "收唔到娛樂平台OTP驗證碼點算好？即時排查6大常見原因同4個替代驗證方法",
-      "category": "疑難排解",
-      "date": "2026-05-19",
-      "excerpt": "收唔到娛樂平台OTP驗證碼係好多香港用戶都試過嘅問題，本文教你排查6個常見原因，仲有4種替代驗證方法即刻幫你解決登入問題。",
-      "imageUrl": "/blog/img/otp-verification-not-received.jpg"
     }
   ]
 }
