@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-arsenal-premier-league-champions",
+      "headline": "阿仙奴英超封王！曼城失分助攻圓夢",
+      "category": "足球",
+      "emoji": "⚽️",
+      "date": "2026-05-20",
+      "lead": "香港時間週二凌晨，英超聯賽煞科戰爆出驚喜賽果。衛冕冠軍曼城作客般茅僅能逼和，痛失兩分，令「兵工廠」阿仙奴以一分之差力壓對手，相隔廿多年再次高舉英超冠軍獎盃。",
+      "imageUrl": "/sports/img/2026-05-20-arsenal-premier-league-champions.jpg",
+      "imageAlt": "阿仙奴英超封王！曼城失分助攻圓夢"
+    },
+    {
       "slug": "2026-05-19-mosley-pelicans-head-coach-nba",
       "title": "NBA塘鵝聘摩斯利任主帥！簽5年合約 鍛打錫安領軍重返季後賽",
       "category": "籃球",
