@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "vip-level-points-calculation",
+      "title": "娛樂平台VIP等級積分點計算？升級攻略全解析",
+      "category": "優惠資訊",
+      "date": "2026-05-20",
+      "excerpt": "好多玩家都知道VIP有著數，但係唔清楚積分係點計出嚟。其實掌握計算方式同選擇啱嘅遊戲，升級速度可以快好多！",
+      "imageUrl": "/blog/img/vip-level-points-calculation.jpg"
+    },
+    {
       "slug": "crypto-deposit-anonymity-kyc-guide",
       "title": "加密貨幣入款係咪匿名？平台KYC追蹤機制解析",
       "category": "入款攻略",
@@ -15,14 +23,6 @@
       "date": "2026-05-20",
       "excerpt": "好多玩家喺娛樂平台累積咗成千上萬積分，卻唔知可以換咩、點樣兌換，白白浪費咗唔少回贈，今次一次講清楚！",
       "imageUrl": "/blog/img/loyalty-points-redemption-guide.jpg"
-    },
-    {
-      "slug": "welcome-bonus-withdrawal-conditions",
-      "title": "迎新優惠提款條件詳解｜流水要求幾多倍先可以出款",
-      "category": "優惠資訊",
-      "date": "2026-05-19",
-      "excerpt": "拎到迎新優惠唔即係可以立刻出款，流水要求、時間限制、KYC 認證係三大必過關卡，唔睇清楚隨時白領優惠。",
-      "imageUrl": "/blog/img/welcome-bonus-withdrawal-conditions.jpg"
     }
   ]
 }
