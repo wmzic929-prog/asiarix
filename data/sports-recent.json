@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-21-idbf-hong-kong-headquarters",
+      "headline": "IDBF總部落戶香港 龍舟運動邁向新篇章",
+      "category": "綜合",
+      "emoji": "🛶",
+      "date": "2026-05-21",
+      "lead": "國際龍舟聯合會（IDBF）總部今日（2026年5月21日）正式宣布落戶香港，並獲得為期三年的先導計劃支持。這項重大的發展將為香港龍舟運動注入新動力，並提升其國際",
+      "imageUrl": "",
+      "imageAlt": "IDBF總部落戶香港 龍舟運動邁向新篇章"
+    },
+    {
       "slug": "2026-05-20-hk-sports-institute-sports-day-attracts-over-a-thousand-youths",
       "category": "綜合",
       "emoji": "🏅",
@@ -69,16 +79,6 @@
       "excerpt": "美國游泳女皇莉迪姬在TYR職業系列賽以15分23秒21游畢1500米自由泳，創史上第二快紀錄。她的世界紀錄由自身持有，並表示目標2028洛杉磯奧運爭取三連冠。",
       "imageUrl": "/sports/img/2026-05-20-ledecky-1500m-freestyle-world-second-fastest.jpg",
       "imageAlt": "莉迪姬游泳1500米自由泳"
-    },
-    {
-      "slug": "2026-05-20-an-seyoung-india-badminton-open-champion",
-      "title": "安洗瑩霸氣持續 印度羽球賽封后 延續本賽季無敵姿態",
-      "category": "羽毛球",
-      "emoji": "🏸",
-      "date": "2026-05-20",
-      "excerpt": "南韓羽毛球女單一號安洗瑩在印度羽毛球公開賽成功封后，延續本賽季的強勢姿態。安洗瑩本賽季已連奪多個冠軍，在世界女單項目幾乎無人能及，劍指年終總決賽。",
-      "imageUrl": "/sports/img/2026-05-20-an-seyoung-india-badminton-open-champion.jpg",
-      "imageAlt": "安洗瑩印度羽毛球公開賽奪冠"
     }
   ]
 }
