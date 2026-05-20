@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-wembanyama-spurs-double-ot-thunder-wcf",
+      "title": "Wemby 41分+24籃板 馬刺雙OT震雷霆 西區決賽搶先勝",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-20",
+      "excerpt": "NBA西區冠軍賽首戰，馬刺以122-115雙OT力挫雷霆。Wembanyama狂轟41分24籃板，關鍵時刻投出商標遠三，助馬刺搶先1-0。哈珀亦貢獻24分11籃板，雷霆SGA表現失準。",
+      "imageUrl": "/sports/img/2026-05-20-wembanyama-spurs-double-ot-thunder-wcf.jpg",
+      "imageAlt": "Wembanyama馬刺NBA西區冠軍賽"
+    },
+    {
       "slug": "2026-05-20-arsenal-premier-league-champions",
       "headline": "阿仙奴英超封王！曼城失分助攻圓夢",
       "category": "足球",
@@ -19,26 +29,6 @@
       "excerpt": "NBA塘鵝宣佈聘請前奧蘭多魔術主帥摩斯利擔任新主帥，簽訂5年合約。47歲的摩斯利曾帶魔術連續3季打入季後賽，以防守見稱。塘鵝上季26勝56負，望重返季後賽。",
       "imageUrl": "/sports/img/2026-05-19-mosley-pelicans-head-coach-nba.jpg",
       "imageAlt": "摩斯利塘鵝NBA主帥"
-    },
-    {
-      "slug": "2026-05-19-chen-yujie-u18-asian-record-diamond-league",
-      "title": "陳妤頡紹興鑽石聯賽奪7名 22.84秒刷新亞洲少年U18紀錄",
-      "category": "田徑",
-      "emoji": "🏃",
-      "date": "2026-05-19",
-      "excerpt": "17歲中國選手陳妤頡在紹興鑽石聯賽女子200米以22.84秒完賽（第7），刷新個人最佳及亞洲少年U18紀錄。Jackson以22.07秒奪冠，謝震業100米跑出10.27秒賽季最佳。",
-      "imageUrl": "/sports/img/2026-05-19-chen-yujie-u18-asian-record-diamond-league.jpg",
-      "imageAlt": "陳妤頡鑽石聯賽田徑200米"
-    },
-    {
-      "slug": "2026-05-19-barcelona-cancel-preseason-overseas-tour",
-      "title": "阿斯報：巴塞取消季前海外巡迴賽 改英格蘭集訓迎戰利物浦",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-19",
-      "excerpt": "《阿斯報》報導巴塞取消季前海外巡迴賽，7月15日開操，因世界盃球員延遲歸隊初期以青年軍訓練。費力克將率隊赴英格蘭中部集訓8天，預計安排兩場熱身賽含一場對利物浦。",
-      "imageUrl": "/sports/img/2026-05-19-barcelona-cancel-preseason-overseas-tour.jpg",
-      "imageAlt": "巴塞費力克季前訓練"
     }
   ]
 }
