@@ -437,9 +437,9 @@
       "category": "優惠資訊",
       "angle": "VIP 升級積分計算方式及最快升級策略",
       "image_theme": "VIP tier level calculation points upgrade gold dark",
-      "status": "available",
-      "slug": "vip-tier-calculation-guide",
-      "used_date": null
+      "status": "used",
+      "slug": "vip-level-points-calculation",
+      "used_date": "2026-05-20"
     },
     {
       "id": 58,
