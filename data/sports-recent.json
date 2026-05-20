@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-siu-cheong-hung-hong-kong-volleyball-japan-vleague",
+      "title": "港排新里程！隊長蕭昌鴻正式加盟日本V.League 成首位港人旅日職球員",
+      "category": "排球",
+      "emoji": "🏐",
+      "date": "2026-05-20",
+      "excerpt": "香港男排隊長蕭昌鴻正式加盟日本職業排球聯賽V.League的Reve's栃木，成首位旅日港人職業排球員。33歲的蕭昌鴻擔任港隊隊長12年，此舉為港排開創歷史性里程碑。",
+      "imageUrl": "/sports/img/2026-05-20-siu-cheong-hung-hong-kong-volleyball-japan-vleague.png",
+      "imageAlt": "蕭昌鴻香港排球日本V.League"
+    },
+    {
       "slug": "2026-05-20-noah-lyles-100m-world-athletics-golden-series-tokyo",
       "title": "賴奧斯田徑黃金賽東京站100米掄元 9.95秒季初告捷",
       "category": "田徑",
@@ -19,16 +29,6 @@
       "excerpt": "波蘭女將絲維度蓮娜在意大利網球公開賽決賽力克嘉奧芙，相隔8年再度奪得意網冠軍。這場勝利令她在備戰法網時信心倍增，進一步鞏固她紅土女王地位。",
       "imageUrl": "/sports/img/2026-05-20-swiatek-rome-italian-open-title-2026.jpg",
       "imageAlt": "絲維度蓮娜意大利網球公開賽奪冠"
-    },
-    {
-      "slug": "2026-05-20-sinner-rome-golden-master-all-nine-titles",
-      "title": "冼拿意網奪冠 成史上第二位「金大師」 連勝32場破紀錄",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-05-20",
-      "excerpt": "冼拿在意大利網球公開賽以6:4、6:4力挫盧特奪冠，成繼祖高域後史上第二位「金大師」，並以32場連勝創歷史新紀錄。本賽季已奪五個大師賽，法網冠軍熱門。",
-      "imageUrl": "/sports/img/2026-05-20-sinner-rome-golden-master-all-nine-titles.jpg",
-      "imageAlt": "冼拿意大利網球公開賽奪冠金大師"
     }
   ]
 }
