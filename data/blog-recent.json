@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "wagering-requirement-guide",
+      "title": "娛樂平台優惠回贈要求 Wagering Requirement 係咩？計算同完成技巧",
+      "category": "優惠資訊",
+      "date": "2026-05-21",
+      "excerpt": "好多香港娛樂平台玩家領咗迎新獎勵之後想提款，卻發現系統提示流水未完成——今次詳解優惠回贈要求係咩同完成技巧。",
+      "imageUrl": "/blog/img/wagering-requirement-guide.jpg"
+    },
+    {
       "slug": "vip-level-points-calculation",
       "title": "娛樂平台VIP等級積分點計算？升級攻略全解析",
       "category": "優惠資訊",
@@ -15,14 +23,6 @@
       "date": "2026-05-20",
       "excerpt": "好多玩家以為用加密貨幣入款就係完全匿名，但實際上平台同區塊鏈都有追蹤機制，你嘅交易唔係想象中咁隱密。",
       "imageUrl": "/blog/img/crypto-deposit-anonymity-kyc-guide.jpg"
-    },
-    {
-      "slug": "loyalty-points-redemption-guide",
-      "title": "娛樂平台積分可以換咩？現金、Free Spins 兌換完全攻略",
-      "category": "優惠資訊",
-      "date": "2026-05-20",
-      "excerpt": "好多玩家喺娛樂平台累積咗成千上萬積分，卻唔知可以換咩、點樣兌換，白白浪費咗唔少回贈，今次一次講清楚！",
-      "imageUrl": "/blog/img/loyalty-points-redemption-guide.jpg"
     }
   ]
 }
