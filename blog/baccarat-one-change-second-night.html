@@ -189,6 +189,16 @@
     .night-good{background:#f0fdf4;border:1px solid rgba(34,197,94,.2)}
     .night-good h3{color:#16a34a}
     .night-good li::before{content:"✓";color:#22c55e}
+  
+  /* article-nav */
+  .article-nav{display:flex;gap:12px;margin:36px 0 0;padding:28px 0 0;border-top:1px solid var(--border)}
+  .art-nav-prev,.art-nav-next{flex:1;min-width:0;display:flex;flex-direction:column;text-decoration:none;padding:14px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;transition:border-color .2s}
+  .art-nav-prev:hover,.art-nav-next:hover{border-color:rgba(240,180,41,.35)}
+  .art-nav-next{text-align:right}
+  .art-nav-prev[href=""],.art-nav-next[href=""]{display:none}
+  .art-nav-label{font-size:11px;color:var(--gold);font-weight:700;margin-bottom:6px;display:block;text-transform:uppercase;letter-spacing:.04em}
+  .art-nav-title{font-size:13px;color:var(--text-light);font-weight:600;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  @media(max-width:480px){.article-nav{flex-direction:column}.art-nav-next{text-align:left}}
   </style>
 </head>
 <body>
