@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-20",
+  "last_refreshed": "2026-05-21",
   "keywords": [
     {
       "id": 1,
@@ -427,9 +427,9 @@
       "category": "入款攻略",
       "angle": "加密貨幣匿名性解析及平台 KYC 追蹤機制",
       "image_theme": "cryptocurrency anonymous privacy blockchain dark tracking",
-      "status": "available",
-      "slug": "crypto-deposit-anonymity-explained",
-      "used_date": null
+      "status": "used",
+      "slug": "crypto-deposit-anonymity-kyc-guide",
+      "used_date": "2026-05-20"
     },
     {
       "id": 57,
@@ -437,9 +437,9 @@
       "category": "優惠資訊",
       "angle": "VIP 升級積分計算方式及最快升級策略",
       "image_theme": "VIP tier level calculation points upgrade gold dark",
-      "status": "available",
-      "slug": "vip-tier-calculation-guide",
-      "used_date": null
+      "status": "used",
+      "slug": "vip-level-points-calculation",
+      "used_date": "2026-05-20"
     },
     {
       "id": 58,
@@ -447,9 +447,9 @@
       "category": "優惠資訊",
       "angle": "優惠回贈要求定義、計算邏輯及完成技巧",
       "image_theme": "wagering requirement bonus terms explained casino gold dark",
-      "status": "available",
-      "slug": "wagering-requirement-explained",
-      "used_date": null
+      "status": "used",
+      "slug": "wagering-requirement-guide",
+      "used_date": "2026-05-21"
     },
     {
       "id": 59,
@@ -786,6 +786,36 @@
       "trending_title": "皇家馬德里 對 皇家奧維耶多",
       "trending_source": "Google HK Trends",
       "relevance_score": 88
+    },
+    {
+      "id": 92,
+      "keyword": "線上博彩平台520優惠2026",
+      "category": "優惠資訊",
+      "angle": "借520旅遊熱推介迎新存款優惠",
+      "image_theme": "dark neon casino 520 bonus promo",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-20",
+      "trending_title": "大灣區航空520優惠",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 72
+    },
+    {
+      "id": 93,
+      "keyword": "NBA 雷霆 vs 馬刺 體育投注攻略 2026",
+      "category": "優惠資訊",
+      "angle": "雷霆馬刺賠率分析與限時投注優惠",
+      "image_theme": "dark NBA thunder spurs betting odds 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-21",
+      "trending_title": "NBA 賽事 (雷霆 vs 馬刺)",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 90
     }
   ]
 }

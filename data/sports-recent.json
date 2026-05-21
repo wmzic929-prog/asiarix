@@ -1,34 +1,84 @@
 {
   "articles": [
     {
-      "slug": "2026-05-20-arsenal-premier-league-champion-2026",
-      "title": "告別22年等待！阿仙奴英超稱霸 曼城逼和般茅封王成真",
+      "slug": "2026-05-21-hk-sports-institute-open-day-crowded",
+      "headline": "體院開放日反應熱烈",
+      "category": "綜合",
+      "emoji": "🏃‍♀️🏅",
+      "date": "2026-05-21",
+      "lead": "香港體育學院近日舉辦的開放日活動吸引了大量市民參與，現場氣氛熱烈，人頭湧湧，充分展現了市民對體育運動的熱情。",
+      "imageUrl": "",
+      "imageAlt": "體院開放日反應熱烈"
+    },
+    {
+      "slug": "2026-05-21-hong-kong-sports-consultation-for-nationwide-fitness",
+      "headline": "霍啟剛辦體育界諮詢會 謀劃全民運動",
+      "category": "綜合",
+      "emoji": "🏃‍♂️",
+      "date": "2026-05-21",
+      "lead": "立法會議員霍啟剛今日（21日）舉辦「香港五年規劃」體育界諮詢會，逾百名業界翹楚雲集，深入探討推動全民運動的策略與未來發展藍圖。",
+      "imageUrl": "",
+      "imageAlt": "霍啟剛辦體育界諮詢會 謀劃全民運動"
+    },
+    {
+      "slug": "2026-05-21-hkjc-sports-funding-decade",
+      "headline": "馬會十年捐67億撐體育",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-21",
+      "lead": "香港賽馬會（馬會）於過去十年，慷慨撥款近67億港元，全力支持本地體育發展，彰顯其對香港體壇的長遠承諾，並預告未來將繼續扮演關鍵推動角色。",
+      "imageUrl": "",
+      "imageAlt": "馬會十年捐67億撐體育"
+    },
+    {
+      "slug": "2026-05-21-kai-tak-sports-park-2025-review-hong-kong-football-triumphs",
+      "headline": "啟德體育園掀新篇 港足三連爆",
       "category": "足球",
       "emoji": "⚽",
-      "date": "2026-05-20",
-      "excerpt": "曼城主場以1-1逼和般茅，阿仙奴正式以82分奪得英超冠軍，告別22年的等待。紅炮軍自2003-04不敗賽季後首度重登英格蘭足球頂峰，結束長期被稱「亞軍奴」的歷史。",
-      "imageUrl": "/sports/img/2026-05-20-arsenal-premier-league-champion-2026.jpg",
-      "imageAlt": "阿仙奴英超冠軍2026"
+      "date": "2026-05-21",
+      "lead": "啟德體育園於2025年成為香港體育發展的全新地標，成功舉辦多項國際級賽事，為本地體壇注入強大活力。",
+      "imageUrl": "",
+      "imageAlt": "啟德體育園掀新篇 港足三連爆"
     },
     {
-      "slug": "2026-05-20-ledecky-1500m-freestyle-world-second-fastest",
-      "title": "莉迪姬1500米自由泳游出史上第2快 15分23秒21展無敵姿態",
-      "category": "游泳",
-      "emoji": "🏊",
-      "date": "2026-05-20",
-      "excerpt": "美國游泳女皇莉迪姬在TYR職業系列賽以15分23秒21游畢1500米自由泳，創史上第二快紀錄。她的世界紀錄由自身持有，並表示目標2028洛杉磯奧運爭取三連冠。",
-      "imageUrl": "/sports/img/2026-05-20-ledecky-1500m-freestyle-world-second-fastest.jpg",
-      "imageAlt": "莉迪姬游泳1500米自由泳"
+      "slug": "2026-05-21-idbf-hong-kong-headquarters",
+      "headline": "IDBF總部落戶香港 龍舟運動邁向新篇章",
+      "category": "綜合",
+      "emoji": "🛶",
+      "date": "2026-05-21",
+      "lead": "國際龍舟聯合會（IDBF）總部今日（2026年5月21日）正式宣布落戶香港，並獲得為期三年的先導計劃支持。這項重大的發展將為香港龍舟運動注入新動力，並提升其國際",
+      "imageUrl": "",
+      "imageAlt": "IDBF總部落戶香港 龍舟運動邁向新篇章"
     },
     {
-      "slug": "2026-05-20-an-seyoung-india-badminton-open-champion",
-      "title": "安洗瑩霸氣持續 印度羽球賽封后 延續本賽季無敵姿態",
-      "category": "羽毛球",
-      "emoji": "🏸",
+      "slug": "2026-05-20-hk-sports-institute-sports-day-attracts-over-a-thousand-youths",
+      "category": "綜合",
+      "emoji": "🏅",
       "date": "2026-05-20",
-      "excerpt": "南韓羽毛球女單一號安洗瑩在印度羽毛球公開賽成功封后，延續本賽季的強勢姿態。安洗瑩本賽季已連奪多個冠軍，在世界女單項目幾乎無人能及，劍指年終總決賽。",
-      "imageUrl": "/sports/img/2026-05-20-an-seyoung-india-badminton-open-champion.jpg",
-      "imageAlt": "安洗瑩印度羽毛球公開賽奪冠"
+      "imageUrl": "/sports/img/2026-05-20-hk-sports-institute-sports-day-attracts-over-a-thousand-youths.jpg",
+      "imageAlt": "體院「體」現日 吸引逾千青少年",
+      "title": "體院「體」現日 吸引逾千青少年",
+      "excerpt": "香港體育學院昨日舉行的「體」現日活動圓滿落幕，吸引超過一千名青少年及家長親臨，場面熱鬧，成功推廣體育文化。"
+    },
+    {
+      "slug": "2026-05-20-hong-kong-sports-five-year-plan-consultation",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-20",
+      "imageUrl": "/sports/img/2026-05-20-hong-kong-sports-five-year-plan-consultation.jpg",
+      "imageAlt": "體育界集結 謀劃香港未來五年發展",
+      "title": "體育界集結 謀劃香港未來五年發展",
+      "excerpt": "為期一日的「香港五年規劃」體育界諮詢會昨日圓滿落幕，逾百名來自體育總會、體育組織、專業團體及學術界的代表雲集，為香港體育未來五年的發展方向獻計獻策。"
+    },
+    {
+      "slug": "2026-05-20-hkjc-supports-sports-hkd-6-7-billion-decade",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-20",
+      "imageUrl": "/sports/img/2026-05-20-hkjc-supports-sports-hkd-6-7-billion-decade.jpg",
+      "imageAlt": "馬會十年捐近67億 撐起香港體育未來",
+      "title": "馬會十年捐近67億 撐起香港體育未來",
+      "excerpt": "香港賽馬會過去十年來，透過龐大捐款近67億港元，成為推動香港體育發展的關鍵力量。馬會承諾將繼續投入資源，與各界攜手，為香港體育開創更光輝的未來。"
     }
   ]
 }
