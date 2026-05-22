@@ -507,14 +507,15 @@
       transition: border-color .2s, transform .2s, box-shadow .2s;
     }
     .feat-card:hover { border-color: rgba(107,63,246,.55); transform: translateY(-4px); box-shadow: 0 12px 36px rgba(107,63,246,.15); }
+    .feat-card-top { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
     .feat-num {
       font-family: 'Barlow Condensed', sans-serif;
-      font-size: 52px; font-weight: 900;
-      color: #fff; line-height: 1; margin-bottom: 10px;
+      font-size: 30px; font-weight: 900;
+      color: rgba(255,255,255,.22); line-height: 1;
     }
-    .feat-icon { font-size: 28px; margin-bottom: 10px; }
-    .feat-title { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 8px; }
-    .feat-desc { font-size: 13px; color: rgba(255,255,255,.5); line-height: 1.65; }
+    .feat-icon { font-size: 28px; line-height: 1; }
+    .feat-title { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .feat-desc { font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.65; }
     .features .btn { max-width: 440px; margin: 44px auto 0; font-size: 18px; }
 
     /* ── GAME CATEGORIES ── */
@@ -1344,43 +1345,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="feat-cards">
 
     <div class="feat-card">
-      <div class="feat-num">01</div>
-      <div class="feat-icon">🎁</div>
+      <div class="feat-card-top"><div class="feat-num">01</div><div class="feat-icon">🎁</div></div>
       <div class="feat-title">豐厚迎新獎勵</div>
       <div class="feat-desc">新用戶登記即享專屬禮遇，唔使等，即時到帳，著數到你唔信。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-num">02</div>
-      <div class="feat-icon">⚡</div>
+      <div class="feat-card-top"><div class="feat-num">02</div><div class="feat-icon">⚡</div></div>
       <div class="feat-title">秒速入出款</div>
       <div class="feat-desc">支援 PayMe、FPS 轉數快、USDT 等多種方式，存款提款快到飛起，唔使等。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-num">03</div>
-      <div class="feat-icon">🔒</div>
+      <div class="feat-card-top"><div class="feat-num">03</div><div class="feat-icon">🔒</div></div>
       <div class="feat-title">安全有保障</div>
       <div class="feat-desc">正規持牌平台，銀行級別加密技術，用戶資金同個人資料全程保護。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-num">04</div>
-      <div class="feat-icon">🎮</div>
+      <div class="feat-card-top"><div class="feat-num">04</div><div class="feat-icon">🎮</div></div>
       <div class="feat-title">豐富娛樂選擇</div>
       <div class="feat-desc">多種娛樂類別，隨時隨地暢玩，精彩唔間斷，每日都有新驚喜。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-num">05</div>
-      <div class="feat-icon">💬</div>
+      <div class="feat-card-top"><div class="feat-num">05</div><div class="feat-icon">💬</div></div>
       <div class="feat-title">24/7 專業客服</div>
       <div class="feat-desc">全天候客服支援，有問題即時解決，服務時間 09:00–24:00。</div>
     </div>
 
     <div class="feat-card">
-      <div class="feat-num">06</div>
-      <div class="feat-icon">📱</div>
+      <div class="feat-card-top"><div class="feat-num">06</div><div class="feat-icon">📱</div></div>
       <div class="feat-title">唔需要下載</div>
       <div class="feat-desc">直接網頁進入，無需安裝任何 App，手機電腦皆可，隨開即玩。</div>
     </div>
