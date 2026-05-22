@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-22-hkjc-sports-funding-decade",
+      "headline": "馬會十年捐近67億 撐香港體育未來",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-22",
+      "lead": "香港賽馬會對本地體育發展的貢獻有目共睹，過去十年斥資近67億港元，為香港體育界注入強大動力。馬會表明未來將繼續肩負社會責任，大力推動體育發展。",
+      "imageUrl": "",
+      "imageAlt": "馬會十年捐近67億 撐香港體育未來"
+    },
+    {
       "slug": "2026-05-22-hong-kong-hosts-sail-grand-prix-in-victoria-harbour",
       "headline": "「帆船界F1」明年維港開賽",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "國際龍舟聯合會（IDBF）總部今日（2026年5月21日）正式宣布落戶香港，並獲得為期三年的先導計劃支持。這項重大的發展將為香港龍舟運動注入新動力，並提升其國際",
       "imageUrl": "",
       "imageAlt": "IDBF總部落戶香港 龍舟運動邁向新篇章"
-    },
-    {
-      "slug": "2026-05-20-hk-sports-institute-sports-day-attracts-over-a-thousand-youths",
-      "category": "綜合",
-      "emoji": "🏅",
-      "date": "2026-05-20",
-      "imageUrl": "/sports/img/2026-05-20-hk-sports-institute-sports-day-attracts-over-a-thousand-youths.jpg",
-      "imageAlt": "體院「體」現日 吸引逾千青少年",
-      "title": "體院「體」現日 吸引逾千青少年",
-      "excerpt": "香港體育學院昨日舉行的「體」現日活動圓滿落幕，吸引超過一千名青少年及家長親臨，場面熱鬧，成功推廣體育文化。"
     }
   ]
 }
