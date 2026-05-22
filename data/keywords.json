@@ -637,9 +637,9 @@
       "category": "平台教育",
       "angle": "KYC 驗證的法規背景與反洗錢機制原理",
       "image_theme": "KYC anti-money laundering logic regulation explained dark",
-      "status": "available",
-      "slug": "why-kyc-required-aml-logic",
-      "used_date": null
+      "status": "used",
+      "slug": "why-kyc-aml-explained",
+      "used_date": "2026-05-22"
     },
     {
       "id": 78,
