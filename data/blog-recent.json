@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "free-play-vs-deposit-guide",
+      "title": "免費試玩 vs 真實入款｜娛樂平台完整差異解析",
+      "category": "新手指南",
+      "date": "2026-05-22",
+      "excerpt": "好多新手第一次接觸娛樂平台，都唔清楚免費試玩同真實入款嘅核心分別，其實兩種模式喺獎勵資格、提款安排同遊戲存取方面差異好大。",
+      "imageUrl": "/blog/img/free-play-vs-deposit-guide.jpg"
+    },
+    {
       "slug": "why-kyc-aml-explained",
       "title": "娛樂平台為何強制做KYC？反洗錢AML法規機制完整解析",
       "category": "平台教育",
@@ -15,14 +23,6 @@
       "date": "2026-05-22",
       "excerpt": "2025年娛樂平台競爭激烈，各大平台爭相推出迎新優惠，最高獎勵差距可達HK$1,000，揀啱平台等於免費賺多一大筆，唔識比較就蝕底。",
       "imageUrl": "/blog/img/welcome-bonus-comparison-2025.jpg"
-    },
-    {
-      "slug": "payme-fps-bank-comparison",
-      "title": "PayMe vs FPS vs 銀行轉帳：2025 香港娛樂平台入款速度全比較",
-      "category": "入款攻略",
-      "date": "2026-05-22",
-      "excerpt": "揀錯入款方式唔止慢幾個鐘，仲可能白交手續費。本文詳細比較 PayMe、FPS 轉數快同銀行轉帳三種方式的到帳速度、費用、每日限額，幫你根據金額同需求揀最著數的香港娛樂平台入款方法。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/payme-fps-bank-comparison.jpg"
     }
   ]
 }
