@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-22-hong-kong-hosts-sail-grand-prix-in-victoria-harbour",
+      "headline": "「帆船界F1」明年維港開賽",
+      "category": "綜合",
+      "emoji": "⛵️",
+      "date": "2026-05-22",
+      "lead": "「帆船界F1」國際帆船大獎賽將於明年1月首度駕臨香港，選址聞名遐邇的維多利亞港，勢必為這項極速運動寫下全新篇章。",
+      "imageUrl": "",
+      "imageAlt": "「帆船界F1」明年維港開賽"
+    },
+    {
       "slug": "2026-05-22-hong-kong-becomes-home-to-international-dragon-boat-federation-headquarters",
       "headline": "龍舟聯合會總部選址香港",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "imageAlt": "體院「體」現日 吸引逾千青少年",
       "title": "體院「體」現日 吸引逾千青少年",
       "excerpt": "香港體育學院昨日舉行的「體」現日活動圓滿落幕，吸引超過一千名青少年及家長親臨，場面熱鬧，成功推廣體育文化。"
-    },
-    {
-      "slug": "2026-05-20-hong-kong-sports-five-year-plan-consultation",
-      "category": "綜合",
-      "emoji": "🏅",
-      "date": "2026-05-20",
-      "imageUrl": "/sports/img/2026-05-20-hong-kong-sports-five-year-plan-consultation.jpg",
-      "imageAlt": "體育界集結 謀劃香港未來五年發展",
-      "title": "體育界集結 謀劃香港未來五年發展",
-      "excerpt": "為期一日的「香港五年規劃」體育界諮詢會昨日圓滿落幕，逾百名來自體育總會、體育組織、專業團體及學術界的代表雲集，為香港體育未來五年的發展方向獻計獻策。"
     }
   ]
 }
