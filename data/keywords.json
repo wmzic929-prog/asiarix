@@ -457,9 +457,9 @@
       "category": "入款攻略",
       "angle": "三種入款方式速度、費用、限額全比較",
       "image_theme": "PayMe FPS bank transfer comparison speed deposit Hong Kong",
-      "status": "available",
+      "status": "used",
       "slug": "payme-fps-bank-comparison",
-      "used_date": null
+      "used_date": "2026-05-22"
     },
     {
       "id": 60,
