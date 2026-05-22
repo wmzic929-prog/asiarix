@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-22-hong-kong-becomes-home-to-international-dragon-boat-federation-headquarters",
+      "headline": "龍舟聯合會總部選址香港",
+      "category": "綜合",
+      "emoji": "🐉",
+      "date": "2026-05-22",
+      "lead": "國際龍舟聯合會總部今日正式宣布落戶香港，標誌著香港在龍舟運動領域的國際地位更上一層樓，為本地體育發展注入強勁動力。",
+      "imageUrl": "",
+      "imageAlt": "龍舟聯合會總部選址香港"
+    },
+    {
       "slug": "2026-05-21-hk-sports-institute-open-day-crowded",
       "headline": "體院開放日反應熱烈",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "imageAlt": "體育界集結 謀劃香港未來五年發展",
       "title": "體育界集結 謀劃香港未來五年發展",
       "excerpt": "為期一日的「香港五年規劃」體育界諮詢會昨日圓滿落幕，逾百名來自體育總會、體育組織、專業團體及學術界的代表雲集，為香港體育未來五年的發展方向獻計獻策。"
-    },
-    {
-      "slug": "2026-05-20-hkjc-supports-sports-hkd-6-7-billion-decade",
-      "category": "綜合",
-      "emoji": "🏅",
-      "date": "2026-05-20",
-      "imageUrl": "/sports/img/2026-05-20-hkjc-supports-sports-hkd-6-7-billion-decade.jpg",
-      "imageAlt": "馬會十年捐近67億 撐起香港體育未來",
-      "title": "馬會十年捐近67億 撐起香港體育未來",
-      "excerpt": "香港賽馬會過去十年來，透過龐大捐款近67億港元，成為推動香港體育發展的關鍵力量。馬會承諾將繼續投入資源，與各界攜手，為香港體育開創更光輝的未來。"
     }
   ]
 }
