@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-21",
+  "last_refreshed": "2026-05-22",
   "keywords": [
     {
       "id": 1,
@@ -816,6 +816,36 @@
       "trending_title": "NBA 賽事 (雷霆 vs 馬刺)",
       "trending_source": "Google HK Trends",
       "relevance_score": 90
+    },
+    {
+      "id": 94,
+      "keyword": "NBA尼克騎士體育博彩2026",
+      "category": "優惠資訊",
+      "angle": "季後賽押注尼克對騎士最強賠率攻略",
+      "image_theme": "dark NBA playoff betting arena 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-22",
+      "trending_title": "尼克 對 騎士",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 90
+    },
+    {
+      "id": 95,
+      "keyword": "賽馬投注平台推薦2026",
+      "category": "平台評測",
+      "angle": "從方媛愛駒認識線上賽馬博彩玩法",
+      "image_theme": "dark horse racing celebrity bet 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-22",
+      "trending_title": "方媛",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 72
     }
   ]
 }
