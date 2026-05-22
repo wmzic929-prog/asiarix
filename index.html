@@ -893,10 +893,20 @@
       transition: color .2s;
     }
     .footer-big-links a:hover { color: var(--purple-ultra); }
-    .footer-col-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--purple-ultra); margin-bottom: 16px; }
+    .footer-col-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--purple-ultra); margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+    .footer-col-arrow { display: none; font-size: 14px; font-style: normal; }
     .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
     .footer-links li a { font-size: 13px; color: rgba(255,255,255,.4); text-decoration: none; transition: color .2s; }
     .footer-links li a:hover { color: var(--purple-ultra); }
+    @media (max-width: 479px) {
+      .footer-top { grid-template-columns: 1fr; gap: 0; padding: 32px 20px 16px; }
+      .footer-big-links { display: none; }
+      .footer-col { border-bottom: 1px solid rgba(255,255,255,.07); }
+      .footer-col-title { cursor: pointer; padding: 14px 0; margin-bottom: 0; user-select: none; }
+      .footer-col-arrow { display: inline; }
+      .footer-links { max-height: 0; overflow: hidden; transition: max-height .28s ease, padding-bottom .28s; padding-bottom: 0; gap: 0; }
+      .footer-col.open .footer-links { max-height: 280px; padding-bottom: 14px; gap: 10px; }
+    }
     .footer-subscribe-row {
       max-width: 1100px; margin: 0 auto;
       padding: 0 24px 32px;
@@ -1774,8 +1784,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="privacy.html">私隱</a>
       <a href="terms.html">條款</a>
     </div>
-    <div>
-      <p class="footer-col-title">攻略分類</p>
+    <div class="footer-col">
+      <p class="footer-col-title">攻略分類<span class="footer-col-arrow">＋</span></p>
       <ul class="footer-links">
         <li><a href="blog.html">📚 全部攻略</a></li>
         <li><a href="blog/slot-rtp-guide.html">🎰 老虎機攻略</a></li>
@@ -1785,8 +1795,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="blog/kyc-verification-guide.html">🔒 帳號驗證</a></li>
       </ul>
     </div>
-    <div>
-      <p class="footer-col-title">優惠資訊</p>
+    <div class="footer-col">
+      <p class="footer-col-title">優惠資訊<span class="footer-col-arrow">＋</span></p>
       <ul class="footer-links">
         <li><a href="blog/welcome-bonus-guide.html">🎁 迎新獎勵</a></li>
         <li><a href="blog/max-deposit-bonus-guide.html">💎 首存優惠</a></li>
@@ -1796,8 +1806,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="blog/vip-program-guide.html">⭐ VIP 計劃</a></li>
       </ul>
     </div>
-    <div>
-      <p class="footer-col-title">入款 &amp; 提款</p>
+    <div class="footer-col">
+      <p class="footer-col-title">入款 &amp; 提款<span class="footer-col-arrow">＋</span></p>
       <ul class="footer-links">
         <li><a href="blog/payme-deposit-guide.html">💳 PayMe 入款</a></li>
         <li><a href="blog/usdt-deposit-guide.html">₮ USDT 加密貨幣</a></li>
@@ -1873,6 +1883,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         if (menu) { menu.classList.remove('open'); }
         if (btn) { btn.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
         document.body.style.overflow = '';
+      });
+    });
+    // Footer accordion (mobile only)
+    document.querySelectorAll('.footer-col .footer-col-title').forEach(function(title) {
+      title.addEventListener('click', function() {
+        var col = this.closest('.footer-col');
+        var arrow = this.querySelector('.footer-col-arrow');
+        var isOpen = col.classList.toggle('open');
+        if (arrow) arrow.textContent = isOpen ? '－' : '＋';
       });
     });
   });
