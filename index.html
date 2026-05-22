@@ -936,6 +936,100 @@
     @media (min-width: 768px) {
       .hero h1 { font-size: 68px; }
     }
+
+    /* ── TOOLS HUB ── */
+    .tools-hub {
+      padding: 72px 20px 64px;
+      background: linear-gradient(155deg, var(--bg-dark2) 0%, #0a0820 50%, #1a0b4a 100%);
+      position: relative; overflow: hidden;
+      text-align: center;
+    }
+    .tools-hub::before {
+      content: '';
+      position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
+      width: 700px; height: 700px;
+      background: radial-gradient(circle, rgba(107,63,246,.1) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .tools-hub .section-eyebrow { color: var(--purple-light); }
+    .tools-hub .section-title { color: #fff; }
+    .tools-hub .section-sub { color: rgba(255,255,255,.55); margin-bottom: 44px; }
+
+    .tools-hub-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    @media (min-width: 640px) {
+      .tools-hub-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .tool-hub-card {
+      background: rgba(255,255,255,.05);
+      border: 1.5px solid rgba(107,63,246,.25);
+      border-radius: 20px;
+      padding: 28px 22px 24px;
+      text-decoration: none; color: inherit;
+      display: flex; flex-direction: column; gap: 12px;
+      position: relative; overflow: hidden;
+      transition: border-color .2s, transform .25s, box-shadow .25s;
+      text-align: left;
+    }
+    .tool-hub-card:hover {
+      border-color: var(--purple);
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(107,63,246,.25);
+    }
+    .tool-hub-card.thc-featured {
+      border-color: rgba(107,63,246,.5);
+      background: rgba(107,63,246,.1);
+    }
+    .tool-hub-card.thc-featured::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--purple-dark), var(--purple-light));
+    }
+
+    .thc-badge {
+      align-self: flex-start;
+      font-size: 9.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase;
+      background: rgba(107,63,246,.2); border: 1px solid rgba(107,63,246,.4);
+      color: var(--purple-ultra); padding: 3px 10px; border-radius: 20px;
+    }
+    .thc-badge-hot { background: rgba(239,68,68,.15); border-color: rgba(239,68,68,.35); color: #fca5a5; }
+    .thc-badge-green { background: rgba(34,197,94,.1); border-color: rgba(34,197,94,.3); color: #86efac; }
+
+    .thc-icon { font-size: 36px; line-height: 1; }
+
+    .thc-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 22px; font-weight: 900;
+      color: #fff; text-transform: uppercase;
+      margin: 0; line-height: 1.1;
+    }
+
+    .thc-desc { font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.6; flex: 1; }
+
+    .thc-preview {
+      display: flex; align-items: center; gap: 8px;
+      background: rgba(0,0,0,.2);
+      border: 1px solid rgba(107,63,246,.2);
+      border-radius: 10px; padding: 10px 14px;
+      font-size: 12px; flex-wrap: wrap;
+    }
+    .thc-in { color: rgba(255,255,255,.6); }
+    .thc-arrow { color: var(--purple-ultra); font-weight: 700; }
+    .thc-out { color: var(--purple-ultra); font-weight: 700; }
+
+    .thc-cta {
+      font-size: 13px; font-weight: 700;
+      color: var(--purple-ultra);
+      display: flex; align-items: center; gap: 4px;
+      margin-top: 4px;
+    }
+    .tool-hub-card:hover .thc-cta { color: #fff; }
   </style>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -959,6 +1053,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="blog/bonuses.html" class="header-nav">優惠資訊</a>
     <a href="blog/platform-review.html" class="header-nav">平台評測</a>
     <a href="blog/withdrawal-guide.html" class="header-nav">提款教學</a>
+    <a href="tools/odds-converter.html" class="header-nav">🔧 工具</a>
     <a href="sports.html" class="header-nav header-nav-sports">體育新聞</a>
   </nav>
   <a href="#" class="btn-sm" onclick="handleCTA(event,'header')" style="flex-shrink:0;">領取禮遇 🎁</a>
@@ -1420,6 +1515,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="bp-footer"><span>2026-05-22</span><span class="bp-read-more">閱讀全文 →</span></div>
     </a>
     <!-- BLOG_INJECT_END -->
+  </div>
+</section>
+
+<!-- ═══ TOOLS HUB ═══ -->
+<section class="tools-hub">
+  <p class="section-eyebrow">🔧 免費工具</p>
+  <h2 class="section-title">實用計算工具中心</h2>
+  <p class="section-sub">三款免費工具，即時計算，幫你更智慧地規劃</p>
+  <div class="tools-hub-grid">
+
+    <a href="tools/odds-converter.html" class="tool-hub-card">
+      <span class="thc-badge">體育分析</span>
+      <div class="thc-icon">📊</div>
+      <h3 class="thc-title">體育指數換算</h3>
+      <p class="thc-desc">HK港式 · 歐洲 · 美式指數即時互換，自動顯示隱含勝率數據</p>
+      <div class="thc-preview">
+        <span class="thc-in">港式 1.80</span>
+        <span class="thc-arrow">→</span>
+        <span class="thc-out">歐 2.80 / 美 +180 / 勝率 35.7%</span>
+      </div>
+      <div class="thc-cta">立即換算 →</div>
+    </a>
+
+    <a href="tools/bonus-planner.html" class="tool-hub-card thc-featured">
+      <span class="thc-badge thc-badge-hot">最受歡迎</span>
+      <div class="thc-icon">🎁</div>
+      <h3 class="thc-title">禮遇規劃計算器</h3>
+      <p class="thc-desc">輸入禮遇金額同達成條件，即時計算每日目標、完成難度評估</p>
+      <div class="thc-preview">
+        <span class="thc-in">$500 × 20倍 ÷ 14日</span>
+        <span class="thc-arrow">→</span>
+        <span class="thc-out">每日目標 $714</span>
+      </div>
+      <div class="thc-cta">立即計算 →</div>
+    </a>
+
+    <a href="tools/budget-planner.html" class="tool-hub-card">
+      <span class="thc-badge thc-badge-green">理性娛樂</span>
+      <div class="thc-icon">📋</div>
+      <h3 class="thc-title">娛樂預算規劃</h3>
+      <p class="thc-desc">設定每月娛樂預算，智能評估健康消費指數，支援理性娛樂習慣</p>
+      <div class="thc-preview">
+        <span class="thc-in">月預算 $2,000 / 每場 $200</span>
+        <span class="thc-arrow">→</span>
+        <span class="thc-out">🟢 健康 · 10次/月</span>
+      </div>
+      <div class="thc-cta">立即規劃 →</div>
+    </a>
+
   </div>
 </section>
 

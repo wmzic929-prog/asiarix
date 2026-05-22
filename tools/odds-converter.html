@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TQCSL891XL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TQCSL891XL');
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KHMKPNV9');</script>
+
+  <title>體育指數換算器 – HK/歐洲/美式/分數即時互換 | Spheretap</title>
+  <meta name="description" content="免費體育指數換算工具：港式 HK、歐洲 Decimal、美式 Moneyline、分數指數四種格式即時互換，自動顯示隱含勝率。">
+  <link rel="canonical" href="https://spheretap.com/tools/odds-converter">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="體育指數換算器 | Spheretap">
+  <meta property="og:description" content="港式 HK、歐洲、美式、分數指數四種格式即時互換，自動顯示隱含勝率。">
+  <meta property="og:url" content="https://spheretap.com/tools/odds-converter">
+  <meta property="og:locale" content="zh_HK">
+  <meta property="og:site_name" content="spheretap">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "體育指數換算器",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Web",
+    "url": "https://spheretap.com/tools/odds-converter",
+    "description": "港式 HK、歐洲 Decimal、美式 Moneyline、分數指數四種格式即時互換，自動顯示隱含勝率。",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "HKD" },
+    "publisher": { "@type": "Organization", "name": "spheretap", "url": "https://spheretap.com/" }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --purple:        #6b3ff6;
+      --purple-dark:   #4f28d4;
+      --purple-light:  #8b5cf6;
+      --purple-ultra:  #a78bfa;
+      --purple-glow:   rgba(107,63,246,.28);
+      --bg:            #ffffff;
+      --bg-alt:        #f5f3ff;
+      --bg-dark:       #0d0b2e;
+      --bg-dark2:      #13103a;
+      --text:          #0d1440;
+      --text-muted:    #6b7db3;
+      --text-light:    #475569;
+      --border:        #e2d9ff;
+      --shadow:        0 1px 4px rgba(107,63,246,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%);
+      border-bottom: 2px solid var(--purple);
+      padding: 12px 20px;
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      position: sticky; top: 0; z-index: 200;
+    }
+    .header-nav {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none;
+      padding: 7px 14px; border-radius: 20px;
+      border: 1px solid rgba(255,255,255,.2); white-space: nowrap;
+      transition: color .2s, border-color .2s;
+    }
+    .header-nav:hover { color: var(--purple-ultra); border-color: var(--purple-light); }
+    .header-nav-active { color: var(--purple-ultra); border-color: rgba(107,63,246,.5); background: rgba(107,63,246,.15); }
+    .header-nav-sports { background: rgba(107,63,246,.18); border-color: rgba(107,63,246,.45); color: var(--purple-ultra); }
+    .header-nav-group {
+      flex: 1; min-width: 0;
+      display: flex; gap: 6px; align-items: center;
+      overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      padding: 0 4px;
+    }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm {
+      background: var(--purple);
+      color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px;
+      text-decoration: none; white-space: nowrap; flex-shrink: 0;
+      border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit;
+      box-shadow: 0 4px 16px var(--purple-glow); letter-spacing: .02em;
+      transition: box-shadow .2s, transform .15s;
+    }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--purple-glow); transform: scale(1.03); }
+
+    /* ── TOOL HERO ── */
+    .tool-hero {
+      background: linear-gradient(155deg, var(--bg-dark2) 0%, #0a0820 50%, #1a0b4a 100%);
+      padding: 60px 20px 52px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .tool-hero::before {
+      content: '';
+      position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(107,63,246,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .tool-hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(107,63,246,.2); border: 1px solid rgba(107,63,246,.4);
+      border-radius: 20px; padding: 5px 16px;
+      font-size: 11.5px; font-weight: 700; color: var(--purple-ultra);
+      letter-spacing: .06em; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .tool-hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(32px, 7vw, 56px); font-weight: 900;
+      color: #fff; text-transform: uppercase; line-height: 1.05;
+      margin-bottom: 12px;
+    }
+    .tool-hero h1 em { font-style: normal; color: var(--purple-ultra); }
+    .tool-hero p { font-size: 14px; color: rgba(255,255,255,.6); max-width: 520px; margin: 0 auto; }
+
+    /* ── TOOL BODY ── */
+    .tool-body {
+      background: var(--bg);
+      padding: 48px 20px 64px;
+    }
+
+    .tool-card {
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: 24px;
+      padding: 36px 32px;
+      max-width: 860px;
+      margin: 0 auto;
+      box-shadow: 0 4px 24px rgba(107,63,246,.07), 0 1px 4px rgba(0,0,0,.04);
+    }
+    @media (max-width: 480px) {
+      .tool-card { padding: 24px 16px; }
+    }
+
+    .tool-section-label {
+      font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--purple); margin-bottom: 16px;
+    }
+
+    .tool-input-group { margin-bottom: 20px; }
+    .tool-input-group label {
+      display: block; font-size: 13.5px; font-weight: 600; color: var(--text);
+      margin-bottom: 8px;
+    }
+    .tool-input-row {
+      display: flex; gap: 10px; align-items: stretch;
+    }
+    @media (max-width: 540px) {
+      .tool-input-row { flex-direction: column; }
+    }
+
+    .tool-select, .tool-input {
+      height: 52px;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      font-size: 16px;
+      color: var(--text);
+      background: var(--bg);
+      font-family: inherit;
+      padding: 0 16px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .tool-select:focus, .tool-input:focus {
+      border-color: var(--purple);
+      box-shadow: 0 0 0 3px rgba(107,63,246,.12);
+    }
+    .tool-select { cursor: pointer; padding-right: 8px; }
+    .tool-input { flex: 1; }
+
+    .tool-btn {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; height: 52px;
+      background: var(--purple); color: #fff;
+      font-size: 16px; font-weight: 700;
+      border: none; border-radius: 12px;
+      cursor: pointer; font-family: inherit;
+      box-shadow: 0 4px 16px var(--purple-glow);
+      transition: background .15s, transform .12s, box-shadow .15s;
+      margin-top: 8px;
+    }
+    .tool-btn:hover { background: var(--purple-dark); box-shadow: 0 6px 24px var(--purple-glow); }
+    .tool-btn:active { transform: scale(.97); }
+
+    .tool-btn-secondary {
+      background: none; border: 1.5px solid var(--border);
+      color: var(--text-muted); font-size: 13px;
+      width: auto; height: 36px; padding: 0 16px;
+      margin: 12px auto 0; display: block;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: border-color .2s, color .2s;
+    }
+    .tool-btn-secondary:hover { border-color: var(--purple); color: var(--purple); background: none; box-shadow: none; }
+
+    .tool-examples {
+      display: flex; flex-wrap: wrap; gap: 7px;
+      margin-top: 10px;
+    }
+    .tool-example-chip {
+      background: var(--bg-alt); border: 1px solid var(--border);
+      border-radius: 20px; padding: 4px 13px;
+      font-size: 12px; font-weight: 600; color: var(--text-muted);
+      cursor: pointer;
+      transition: background .15s, border-color .15s, color .15s;
+    }
+    .tool-example-chip:hover { background: rgba(107,63,246,.08); border-color: var(--purple); color: var(--purple); }
+
+    .tool-divider {
+      border: none; border-top: 1px solid var(--border);
+      margin: 28px 0;
+    }
+
+    /* Results */
+    .tool-results { display: none; }
+    .tool-results.visible { display: block; }
+
+    .tool-results-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    @media (min-width: 540px) {
+      .tool-results-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    .result-card {
+      border-radius: 14px; padding: 16px 14px;
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .result-card-label {
+      font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+      opacity: .75; margin-bottom: 8px;
+    }
+    .result-card-value {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(24px, 5vw, 34px); font-weight: 900;
+      line-height: 1;
+    }
+    .result-card-sub { font-size: 11px; opacity: .65; margin-top: 5px; }
+
+    .rc-purple { background: rgba(107,63,246,.1); border: 1.5px solid rgba(107,63,246,.2); color: var(--purple-dark); }
+    .rc-purple .result-card-value { color: var(--purple); }
+    .rc-blue { background: rgba(59,130,246,.08); border: 1.5px solid rgba(59,130,246,.2); color: #1e40af; }
+    .rc-blue .result-card-value { color: #3b82f6; }
+    .rc-orange { background: rgba(249,115,22,.08); border: 1.5px solid rgba(249,115,22,.2); color: #9a3412; }
+    .rc-orange .result-card-value { color: #f97316; }
+    .rc-green { background: rgba(34,197,94,.08); border: 1.5px solid rgba(34,197,94,.2); color: #14532d; }
+    .rc-green .result-card-value { color: #16a34a; }
+
+    .tool-analysis {
+      background: var(--bg-alt); border: 1px solid var(--border);
+      border-radius: 12px; padding: 14px 18px;
+      font-size: 12.5px; color: var(--text-muted); line-height: 1.65;
+    }
+    .tool-analysis strong { color: var(--text); }
+
+    .tool-disclaimer {
+      font-size: 11px; color: #94a3b8; line-height: 1.7;
+      margin-top: 20px; padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Desktop layout */
+    @media (min-width: 900px) {
+      .tool-desktop-layout {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        gap: 32px;
+        align-items: start;
+      }
+    }
+
+    /* Section labels */
+    .section-eyebrow {
+      font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+      color: var(--purple); margin-bottom: 10px;
+    }
+    .section-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(28px, 5vw, 42px); font-weight: 900;
+      color: var(--text); text-transform: uppercase; line-height: 1.1;
+      margin-bottom: 8px;
+    }
+
+    /* Related articles */
+    .tool-related {
+      background: var(--bg-alt);
+      padding: 48px 20px 56px;
+      border-top: 1px solid var(--border);
+    }
+    .tool-related .section-title { margin-bottom: 24px; }
+    .tool-related-grid {
+      display: grid; grid-template-columns: 1fr;
+      gap: 14px; max-width: 860px; margin: 0 auto;
+    }
+    @media (min-width: 640px) {
+      .tool-related-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    .tool-related-card {
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px 18px;
+      text-decoration: none; color: inherit;
+      display: flex; flex-direction: column; gap: 8px;
+      box-shadow: 0 1px 4px rgba(107,63,246,.06);
+      transition: border-color .2s, transform .2s;
+    }
+    .tool-related-card:hover { border-color: var(--purple); transform: translateY(-2px); }
+    .trc-cat { font-size: 10.5px; font-weight: 700; color: var(--purple); letter-spacing: .05em; text-transform: uppercase; }
+    .trc-title { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.4; }
+    .trc-link { font-size: 12px; color: var(--purple); font-weight: 600; margin-top: auto; }
+
+    /* Footer */
+    .footer-main {
+      background: var(--bg-dark);
+      color: rgba(255,255,255,.65);
+      padding: 0 20px;
+      font-size: 13px;
+    }
+    .footer-top {
+      display: grid; grid-template-columns: 1fr;
+      gap: 32px; padding: 48px 0 40px;
+      max-width: 1100px; margin: 0 auto;
+    }
+    @media (min-width: 640px) {
+      .footer-top { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .footer-top { grid-template-columns: 2fr 1fr 1fr 1fr; }
+    }
+    .footer-big-links { display: flex; flex-wrap: wrap; gap: 12px; }
+    .footer-big-links a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 28px; font-weight: 900; color: rgba(255,255,255,.3);
+      text-decoration: none; text-transform: uppercase; line-height: 1;
+      transition: color .2s;
+    }
+    .footer-big-links a:hover { color: var(--purple-ultra); }
+    .footer-col-title { font-weight: 700; color: #fff; margin-bottom: 14px; font-size: 13px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .footer-links a { color: rgba(255,255,255,.55); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: var(--purple-ultra); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.08); margin: 0; }
+    .footer-bottom {
+      max-width: 1100px; margin: 0 auto;
+      padding: 20px 0; display: flex; flex-wrap: wrap;
+      justify-content: space-between; gap: 12px;
+      font-size: 12px; color: rgba(255,255,255,.35);
+    }
+    .footer-bottom a { color: rgba(255,255,255,.45); text-decoration: none; margin-left: 16px; transition: color .2s; }
+    .footer-bottom a:hover { color: var(--purple-ultra); }
+  </style>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHMKPNV9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="../index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="../LOGO.svg" alt="spheretap" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="../blog.html" class="header-nav">攻略中心</a>
+    <a href="../blog/newbie-guide.html" class="header-nav">新手指南</a>
+    <a href="../blog/bonuses.html" class="header-nav">優惠資訊</a>
+    <a href="odds-converter.html" class="header-nav header-nav-active">指數換算</a>
+    <a href="bonus-planner.html" class="header-nav">禮遇規劃</a>
+    <a href="budget-planner.html" class="header-nav">預算管理</a>
+    <a href="../sports.html" class="header-nav header-nav-sports">體育新聞</a>
+  </nav>
+  <a href="../index.html#cta" class="btn-sm" onclick="window.location='../index.html'">領取禮遇 🎁</a>
+</header>
+
+<!-- HERO -->
+<section class="tool-hero">
+  <div class="tool-hero-badge">📊 免費工具</div>
+  <h1>體育指數<em>換算器</em></h1>
+  <p>HK 港式・歐洲 Decimal・美式 Moneyline・分數指數<br>四種格式即時互換，自動顯示隱含勝率</p>
+</section>
+
+<!-- TOOL BODY -->
+<div class="tool-body">
+  <div class="tool-card">
+    <div class="tool-desktop-layout">
+
+      <!-- Input Side -->
+      <div class="tool-input-side">
+        <p class="tool-section-label">輸入指數</p>
+
+        <div class="tool-input-group">
+          <label for="oddsFormat">選擇指數格式</label>
+          <select id="oddsFormat" class="tool-select" style="width:100%;" onchange="updatePlaceholder()">
+            <option value="hk">HK 港式指數</option>
+            <option value="eu">歐洲指數（Decimal）</option>
+            <option value="us_pos">美式指數（正數 +X）</option>
+            <option value="us_neg">美式指數（負數 -X）</option>
+            <option value="frac">分數指數（如 5/2）</option>
+          </select>
+        </div>
+
+        <div class="tool-input-group">
+          <label for="oddsInput">輸入數值</label>
+          <div class="tool-input-row">
+            <input type="text" id="oddsInput" class="tool-input" placeholder="例如：1.80"
+              inputmode="decimal" autocomplete="off"
+              onkeydown="if(event.key==='Enter')convertOdds()">
+          </div>
+          <div class="tool-examples">
+            <span class="tool-example-chip" onclick="setExample('1.80','hk')">1.80</span>
+            <span class="tool-example-chip" onclick="setExample('2.50','eu')">2.50 EU</span>
+            <span class="tool-example-chip" onclick="setExample('150','us_pos')">+150</span>
+            <span class="tool-example-chip" onclick="setExample('110','us_neg')">-110</span>
+            <span class="tool-example-chip" onclick="setExample('3/2','frac')">3/2</span>
+          </div>
+        </div>
+
+        <button class="tool-btn" onclick="convertOdds()">
+          📊 立即換算
+        </button>
+        <button class="tool-btn-secondary" onclick="resetTool()">重置</button>
+      </div>
+
+      <!-- Result Side -->
+      <div class="tool-result-side">
+        <div id="results" class="tool-results">
+          <p class="tool-section-label">換算結果</p>
+
+          <div class="tool-results-grid cols-4" id="resultsGrid">
+            <div class="result-card rc-purple">
+              <div class="result-card-label">港式 HK</div>
+              <div class="result-card-value" id="resHK">—</div>
+              <div class="result-card-sub">HK Odds</div>
+            </div>
+            <div class="result-card rc-blue">
+              <div class="result-card-label">歐洲 EU</div>
+              <div class="result-card-value" id="resEU">—</div>
+              <div class="result-card-sub">Decimal</div>
+            </div>
+            <div class="result-card rc-orange">
+              <div class="result-card-label">美式 US</div>
+              <div class="result-card-value" id="resUS">—</div>
+              <div class="result-card-sub">Moneyline</div>
+            </div>
+            <div class="result-card rc-green">
+              <div class="result-card-label">隱含勝率</div>
+              <div class="result-card-value" id="resWin">—</div>
+              <div class="result-card-sub">Implied %</div>
+            </div>
+          </div>
+
+          <div class="tool-analysis" id="oddsAnalysis">
+            <strong>隱含勝率說明：</strong> 隱含勝率代表該指數對應的理論獲勝機率。例如港式指數 1.80，隱含勝率約 35.7%，即每次參與的預期勝算。此數字僅作分析參考，實際結果受多項因素影響。
+          </div>
+        </div>
+
+        <div id="placeholder" style="padding:40px 0; text-align:center; color:var(--text-muted);">
+          <div style="font-size:48px;margin-bottom:12px;">📊</div>
+          <p style="font-size:14px;">選擇格式並輸入數值，即可換算</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="tool-divider">
+    <p class="tool-disclaimer">⚠️ 此工具計算結果僅供資料參考，不構成任何財務建議。請根據平台官方條款為準。本站支持理性娛樂，18歲以上方可參與。如認為娛樂消費已影響日常生活，請尋求專業輔導協助。</p>
+  </div>
+</div>
+
+<!-- RELATED ARTICLES -->
+<section class="tool-related">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">相關攻略</p>
+    <h2 class="section-title" style="color:var(--text);">延伸閱讀</h2>
+    <div class="tool-related-grid">
+      <a href="../blog/newbie-guide.html" class="tool-related-card">
+        <span class="trc-cat">新手指南</span>
+        <p class="trc-title">新手必讀：如何開始體育娛樂</p>
+        <span class="trc-link">閱讀攻略 →</span>
+      </a>
+      <a href="../blog/bonuses.html" class="tool-related-card">
+        <span class="trc-cat">優惠資訊</span>
+        <p class="trc-title">最新迎新禮遇一覽</p>
+        <span class="trc-link">查看優惠 →</span>
+      </a>
+      <a href="bonus-planner.html" class="tool-related-card">
+        <span class="trc-cat">工具</span>
+        <p class="trc-title">禮遇規劃計算器：評估達成難度</p>
+        <span class="trc-link">使用工具 →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="../blog.html">攻略</a>
+      <a href="../blog.html">優惠</a>
+      <a href="../privacy.html">私隱</a>
+      <a href="../terms.html">條款</a>
+    </div>
+    <div>
+      <p class="footer-col-title">工具中心</p>
+      <ul class="footer-links">
+        <li><a href="odds-converter.html">📊 體育指數換算</a></li>
+        <li><a href="bonus-planner.html">🎁 禮遇規劃計算器</a></li>
+        <li><a href="budget-planner.html">📋 娛樂預算規劃</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">攻略分類</p>
+      <ul class="footer-links">
+        <li><a href="../blog.html">📚 全部攻略</a></li>
+        <li><a href="../blog/welcome-bonus-guide.html">🎁 迎新獎勵</a></li>
+        <li><a href="../blog/newbie-guide.html">🎯 新手指南</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">快捷連結</p>
+      <ul class="footer-links">
+        <li><a href="../index.html">🏠 首頁</a></li>
+        <li><a href="../sports.html">⚽ 體育新聞</a></li>
+        <li><a href="../about.html">ℹ️ 關於我們</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>&copy; 2026 spheretap. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span>
+      <a href="../blog.html">攻略中心</a>
+      <a href="../privacy.html">私隱政策</a>
+      <a href="../terms.html">使用條款</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  function updatePlaceholder() {
+    const fmt = document.getElementById('oddsFormat').value;
+    const input = document.getElementById('oddsInput');
+    const placeholders = {
+      hk: '例如：1.80',
+      eu: '例如：2.80',
+      us_pos: '例如：180',
+      us_neg: '例如：110',
+      frac: '例如：5/2'
+    };
+    input.placeholder = placeholders[fmt] || '輸入數值';
+  }
+
+  function setExample(val, fmt) {
+    document.getElementById('oddsFormat').value = fmt;
+    document.getElementById('oddsInput').value = val;
+    updatePlaceholder();
+    convertOdds();
+  }
+
+  function toDecimal(val, fmt) {
+    val = val.trim();
+    switch (fmt) {
+      case 'hk': {
+        const n = parseFloat(val);
+        if (isNaN(n) || n < 0) return null;
+        return n + 1;
+      }
+      case 'eu': {
+        const n = parseFloat(val);
+        if (isNaN(n) || n < 1) return null;
+        return n;
+      }
+      case 'us_pos': {
+        const n = parseFloat(val);
+        if (isNaN(n) || n <= 0) return null;
+        return n / 100 + 1;
+      }
+      case 'us_neg': {
+        const n = parseFloat(val);
+        if (isNaN(n) || n <= 0) return null;
+        return 100 / n + 1;
+      }
+      case 'frac': {
+        const parts = val.split('/');
+        if (parts.length !== 2) return null;
+        const a = parseFloat(parts[0]);
+        const b = parseFloat(parts[1]);
+        if (isNaN(a) || isNaN(b) || b === 0) return null;
+        return a / b + 1;
+      }
+    }
+    return null;
+  }
+
+  function fromDecimal(dec) {
+    const hk = (dec - 1).toFixed(2);
+    const eu = dec.toFixed(2);
+    let us;
+    if ((dec - 1) >= 1) {
+      us = '+' + Math.round((dec - 1) * 100);
+    } else {
+      us = '-' + Math.round(100 / (dec - 1));
+    }
+    const win = (1 / dec * 100).toFixed(1) + '%';
+    return { hk, eu, us, win };
+  }
+
+  function convertOdds() {
+    const fmt = document.getElementById('oddsFormat').value;
+    const rawVal = document.getElementById('oddsInput').value;
+    const results = document.getElementById('results');
+    const placeholder = document.getElementById('placeholder');
+
+    if (!rawVal.trim()) {
+      showError('請輸入數值');
+      return;
+    }
+
+    const dec = toDecimal(rawVal, fmt);
+    if (dec === null || dec <= 1) {
+      showError('輸入格式不正確，請重新輸入');
+      return;
+    }
+
+    const out = fromDecimal(dec);
+    document.getElementById('resHK').textContent = out.hk;
+    document.getElementById('resEU').textContent = out.eu;
+    document.getElementById('resUS').textContent = out.us;
+    document.getElementById('resWin').textContent = out.win;
+
+    // Update analysis
+    const winVal = parseFloat(out.win);
+    let analysisText = '';
+    if (winVal >= 50) {
+      analysisText = `<strong>分析：</strong>隱含勝率 ${out.win}，屬於較低賠率。此類型指數意味著該選項被認為是大熱門，理論上勝算較高，但賠率相對保守。`;
+    } else if (winVal >= 33) {
+      analysisText = `<strong>分析：</strong>隱含勝率 ${out.win}，屬於中等賠率範圍。歐洲指數 ${out.eu}，港式指數 ${out.hk}，是體育娛樂中常見的賠率區間。`;
+    } else {
+      analysisText = `<strong>分析：</strong>隱含勝率 ${out.win}，屬於冷門選項。美式指數 ${out.us}，代表獲利相對豐厚，但勝算較低，請謹慎評估。`;
+    }
+    document.getElementById('oddsAnalysis').innerHTML = analysisText;
+
+    results.classList.add('visible');
+    placeholder.style.display = 'none';
+  }
+
+  function showError(msg) {
+    const input = document.getElementById('oddsInput');
+    input.style.borderColor = '#ef4444';
+    input.style.boxShadow = '0 0 0 3px rgba(239,68,68,.12)';
+    setTimeout(() => {
+      input.style.borderColor = '';
+      input.style.boxShadow = '';
+    }, 2000);
+  }
+
+  function resetTool() {
+    document.getElementById('oddsInput').value = '';
+    document.getElementById('oddsFormat').value = 'hk';
+    document.getElementById('results').classList.remove('visible');
+    document.getElementById('placeholder').style.display = '';
+    updatePlaceholder();
+  }
+</script>
+</body>
+</html>
