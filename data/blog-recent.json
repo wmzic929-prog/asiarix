@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "welcome-bonus-comparison-2025",
+      "title": "2025娛樂平台迎新優惠大比較｜各大平台最高獎勵金額及條件詳解",
+      "category": "優惠攻略",
+      "date": "2026-05-22",
+      "excerpt": "2025年娛樂平台競爭激烈，各大平台爭相推出迎新優惠，最高獎勵差距可達HK$1,000，揀啱平台等於免費賺多一大筆，唔識比較就蝕底。",
+      "imageUrl": "/blog/img/welcome-bonus-comparison-2025.jpg"
+    },
+    {
       "slug": "payme-fps-bank-comparison",
       "title": "PayMe vs FPS vs 銀行轉帳：2025 香港娛樂平台入款速度全比較",
       "category": "入款攻略",
@@ -15,14 +23,6 @@
       "date": "2026-05-21",
       "excerpt": "好多香港娛樂平台玩家領咗迎新獎勵之後想提款，卻發現系統提示流水未完成——今次詳解優惠回贈要求係咩同完成技巧。",
       "imageUrl": "/blog/img/wagering-requirement-guide.jpg"
-    },
-    {
-      "slug": "vip-level-points-calculation",
-      "title": "娛樂平台VIP等級積分點計算？升級攻略全解析",
-      "category": "優惠資訊",
-      "date": "2026-05-20",
-      "excerpt": "好多玩家都知道VIP有著數，但係唔清楚積分係點計出嚟。其實掌握計算方式同選擇啱嘅遊戲，升級速度可以快好多！",
-      "imageUrl": "/blog/img/vip-level-points-calculation.jpg"
     }
   ]
 }
