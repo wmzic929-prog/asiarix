@@ -1031,6 +1031,73 @@
     }
     .tool-hub-card:hover .thc-cta { color: #fff; }
 
+    /* ── HAMBURGER + MOBILE MENU ── */
+    .hamburger-btn {
+      display: none;
+      flex-direction: column; justify-content: center; align-items: center; gap: 5px;
+      width: 40px; height: 40px;
+      background: none; border: none; cursor: pointer; padding: 9px 8px;
+      flex-shrink: 0;
+    }
+    .ham-line {
+      display: block; width: 22px; height: 2px;
+      background: rgba(255,255,255,.85); border-radius: 2px;
+      transition: transform .22s ease, opacity .15s ease;
+      transform-origin: center;
+    }
+    .hamburger-btn.open .ham-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger-btn.open .ham-line:nth-child(2) { opacity: 0; }
+    .hamburger-btn.open .ham-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 639px) {
+      .hamburger-btn { display: flex; }
+      .header-nav-group { display: none !important; }
+    }
+    .mobile-menu {
+      position: fixed; top: 63px; left: 0; right: 0;
+      background: var(--bg-dark2);
+      border-bottom: 2px solid var(--purple);
+      z-index: 198; padding: 6px 0 18px;
+      transform: translateY(-10px); opacity: 0; pointer-events: none;
+      transition: transform .22s ease, opacity .18s ease;
+      max-height: calc(100vh - 63px); overflow-y: auto;
+    }
+    .mobile-menu.open { transform: translateY(0); opacity: 1; pointer-events: all; }
+    .mobile-menu-item {
+      display: block; padding: 14px 24px;
+      font-size: 15px; font-weight: 600; color: rgba(255,255,255,.8);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      transition: color .15s, background .15s;
+    }
+    .mobile-menu-item:hover, .mobile-menu-item:active {
+      color: var(--purple-ultra); background: rgba(107,63,246,.1);
+    }
+    .mobile-menu-cta-wrap { padding: 14px 20px 0; }
+    .mobile-menu-cta {
+      display: block; background: var(--purple);
+      color: #fff; text-align: center; padding: 15px;
+      border-radius: 12px; font-weight: 800; font-size: 17px;
+      text-decoration: none; box-shadow: 0 4px 16px var(--purple-glow);
+    }
+
+    /* ── HERO MOBILE TEXT IMPROVEMENTS ── */
+    @media (max-width: 639px) {
+      .hero h1 { font-size: clamp(44px, 12vw, 64px); }
+      .hero::after {
+        background: linear-gradient(0deg,
+          rgba(13,11,46,1) 0%,
+          rgba(13,11,46,.82) 40%,
+          rgba(13,11,46,.3) 100%);
+      }
+      .hero-badge { font-size: 13px; padding: 6px 18px; }
+      .zf-tag { color: #fff; border-color: rgba(107,63,246,.55); font-size: 13px; }
+      .hero-stat-n { font-size: 26px; }
+      .hero-stat-l { color: rgba(255,255,255,.85); font-size: 12px; }
+      .hero-stats { gap: 20px; }
+      .cta-nudge { font-size: 14px; }
+      .hero h1 em { -webkit-text-fill-color: var(--purple-ultra); }
+    }
+
     /* ── TOOLS FLOAT ── */
     .tools-float {
       position: fixed; right: 0; top: 50%; transform: translateY(-50%);
@@ -1096,8 +1163,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="tools/odds-converter.html" class="header-nav">🔧 工具</a>
     <a href="sports.html" class="header-nav header-nav-sports">體育新聞</a>
   </nav>
-  <a href="#" class="btn-sm" onclick="handleCTA(event,'header')" style="flex-shrink:0;">領取禮遇 🎁</a>
+  <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+    <a href="#" class="btn-sm" onclick="handleCTA(event,'header')">領取禮遇 🎁</a>
+    <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMenu()" aria-label="選單" aria-expanded="false">
+      <span class="ham-line"></span>
+      <span class="ham-line"></span>
+      <span class="ham-line"></span>
+    </button>
+  </div>
 </header>
+
+<!-- ═══ MOBILE MENU ═══ -->
+<div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="行動版選單">
+  <a href="blog.html" class="mobile-menu-item">📚 攻略中心</a>
+  <a href="blog/newbie-guide.html" class="mobile-menu-item">🎯 新手指南</a>
+  <a href="blog/deposit-tips.html" class="mobile-menu-item">💳 入款攻略</a>
+  <a href="blog/bonuses.html" class="mobile-menu-item">🎁 優惠資訊</a>
+  <a href="blog/platform-review.html" class="mobile-menu-item">⭐ 平台評測</a>
+  <a href="blog/withdrawal-guide.html" class="mobile-menu-item">📤 提款教學</a>
+  <a href="tools/odds-converter.html" class="mobile-menu-item">🔧 工具中心</a>
+  <a href="sports.html" class="mobile-menu-item">⚽ 體育新聞</a>
+  <div class="mobile-menu-cta-wrap">
+    <a href="#" class="mobile-menu-cta" onclick="handleCTA(event,'menu')">🎁 立即領取迎新禮遇</a>
+  </div>
+</div>
 
 <!-- ═══ HERO ═══ -->
 <section class="hero">
@@ -1757,6 +1846,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script>
   const DESTINATION_URL = 'https://asiarix.com/';
+
+  function toggleMenu() {
+    var btn = document.getElementById('hamburgerBtn');
+    var menu = document.getElementById('mobileMenu');
+    var open = btn.classList.toggle('open');
+    menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('mobileMenu');
+    var btn = document.getElementById('hamburgerBtn');
+    if (menu && menu.classList.contains('open') &&
+        !menu.contains(e.target) && !btn.contains(e.target)) {
+      menu.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.mobile-menu-item, .mobile-menu-cta').forEach(function(el) {
+      el.addEventListener('click', function() {
+        var btn = document.getElementById('hamburgerBtn');
+        var menu = document.getElementById('mobileMenu');
+        if (menu) { menu.classList.remove('open'); }
+        if (btn) { btn.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+        document.body.style.overflow = '';
+      });
+    });
+  });
 
   function getSessionId() {
     let sid = sessionStorage.getItem('_sid');
