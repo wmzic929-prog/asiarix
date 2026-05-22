@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-22-hk-southern-fight-back-to-win-45-points-from-bilesgo",
+      "headline": "南華險勝領航猿 鎖定亞冠聯四強席位",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-22",
+      "lead": "籃球亞冠聯上演戲劇性一幕！南華隊憑藉外援比列斯高攻入全場最高的45分，以7分之差反勝桃園領航猿，強勢以小組首名姿態闖入四強，爭冠之路更添信心。",
+      "imageUrl": "",
+      "imageAlt": "南華險勝領航猿 鎖定亞冠聯四強席位"
+    },
+    {
       "slug": "2026-05-22-hkjc-sports-funding-decade",
       "headline": "馬會十年捐近67億 撐香港體育未來",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "啟德體育園於2025年成為香港體育發展的全新地標，成功舉辦多項國際級賽事，為本地體壇注入強大活力。",
       "imageUrl": "",
       "imageAlt": "啟德體育園掀新篇 港足三連爆"
-    },
-    {
-      "slug": "2026-05-21-idbf-hong-kong-headquarters",
-      "headline": "IDBF總部落戶香港 龍舟運動邁向新篇章",
-      "category": "綜合",
-      "emoji": "🛶",
-      "date": "2026-05-21",
-      "lead": "國際龍舟聯合會（IDBF）總部今日（2026年5月21日）正式宣布落戶香港，並獲得為期三年的先導計劃支持。這項重大的發展將為香港龍舟運動注入新動力，並提升其國際",
-      "imageUrl": "",
-      "imageAlt": "IDBF總部落戶香港 龍舟運動邁向新篇章"
     }
   ]
 }
