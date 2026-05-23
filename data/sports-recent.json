@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-23-sailings-f1-comes-to-victoria-harbour",
+      "headline": "維港將成「帆船界F1」主場",
+      "category": "綜合",
+      "emoji": "⛵️",
+      "date": "2026-05-23",
+      "lead": "「帆船界F1」頂級賽事確定明年1月在香港維港上演，勢必為香港注入新活力，吸引全球目光。",
+      "imageUrl": "",
+      "imageAlt": "維港將成「帆船界F1」主場"
+    },
+    {
       "slug": "2026-05-23-hk-southern-tiger-wins-asian-champions-league-playoffs",
       "headline": "南華7分反勝領航猿 膺小組首名出線",
       "category": "籃球",
@@ -69,16 +79,6 @@
       "lead": "「帆船界F1」國際帆船大獎賽將於明年1月首度駕臨香港，選址聞名遐邇的維多利亞港，勢必為這項極速運動寫下全新篇章。",
       "imageUrl": "",
       "imageAlt": "「帆船界F1」明年維港開賽"
-    },
-    {
-      "slug": "2026-05-22-hong-kong-becomes-home-to-international-dragon-boat-federation-headquarters",
-      "headline": "龍舟聯合會總部選址香港",
-      "category": "綜合",
-      "emoji": "🐉",
-      "date": "2026-05-22",
-      "lead": "國際龍舟聯合會總部今日正式宣布落戶香港，標誌著香港在龍舟運動領域的國際地位更上一層樓，為本地體育發展注入強勁動力。",
-      "imageUrl": "",
-      "imageAlt": "龍舟聯合會總部選址香港"
     }
   ]
 }
