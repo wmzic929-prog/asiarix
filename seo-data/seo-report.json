@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T01:30:00+08:00",
+  "generated_at": "2026-05-23T03:57:26+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -73,7 +73,7 @@
               29,
               43,
               175,
-              0
+              39
             ],
             "cta_series_7d": [
               1,
@@ -161,10 +161,10 @@
           },
           "content": {
             "total_articles": 79,
-            "this_month": 0,
-            "this_week": 0,
-            "sports_articles": 89,
-            "total_articles_inc_sports": 168
+            "this_month": 71,
+            "this_week": 71,
+            "sports_articles": 84,
+            "total_articles_inc_sports": 163
           },
           "cwv": {},
           "daily_7d": [
@@ -174,7 +174,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 168
+              "articles": 92
             },
             {
               "date": "5/17",
@@ -182,7 +182,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 2,
-              "articles": 168
+              "articles": 92
             },
             {
               "date": "5/18",
@@ -190,7 +190,7 @@
               "gsc_imp": 3,
               "gsc_clk": 1,
               "cta_clk": 3,
-              "articles": 168
+              "articles": 99
             },
             {
               "date": "5/19",
@@ -198,7 +198,7 @@
               "gsc_imp": 40,
               "gsc_clk": 34,
               "cta_clk": 1,
-              "articles": 168
+              "articles": 110
             },
             {
               "date": "5/20",
@@ -206,7 +206,7 @@
               "gsc_imp": 18,
               "gsc_clk": 5,
               "cta_clk": 0,
-              "articles": 168
+              "articles": 145
             },
             {
               "date": "5/21",
@@ -214,7 +214,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 168
+              "articles": 154
             },
             {
               "date": "5/22",
@@ -222,9 +222,10 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 168
+              "articles": 163
             }
-          ]
+          ],
+          "ai_crawlers": {}
         },
         "matchvangtage.com": {
           "label": "體育博彩攻略",
@@ -334,11 +335,11 @@
             "total_urls": 16
           },
           "content": {
-            "total_articles": 11,
-            "this_month": 0,
-            "this_week": 0,
+            "total_articles": 10,
+            "this_month": 10,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 11
+            "total_articles_inc_sports": 10
           },
           "cwv": {},
           "daily_7d": [
@@ -348,7 +349,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 11
+              "articles": 4
             },
             {
               "date": "5/17",
@@ -356,7 +357,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 11
+              "articles": 4
             },
             {
               "date": "5/18",
@@ -364,7 +365,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 11
+              "articles": 5
             },
             {
               "date": "5/19",
@@ -372,7 +373,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 11
+              "articles": 6
             },
             {
               "date": "5/20",
@@ -380,7 +381,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 11
+              "articles": 7
             },
             {
               "date": "5/21",
@@ -388,7 +389,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 7,
-              "articles": 11
+              "articles": 9
             },
             {
               "date": "5/22",
@@ -396,9 +397,10 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 2,
-              "articles": 11
+              "articles": 10
             }
-          ]
+          ],
+          "ai_crawlers": {}
         },
         "tableedge.org": {
           "label": "真人遊戲技術流",
@@ -508,11 +510,11 @@
             "total_urls": 15
           },
           "content": {
-            "total_articles": 14,
-            "this_month": 0,
-            "this_week": 0,
+            "total_articles": 13,
+            "this_month": 13,
+            "this_week": 12,
             "sports_articles": 0,
-            "total_articles_inc_sports": 14
+            "total_articles_inc_sports": 13
           },
           "cwv": {},
           "daily_7d": [
@@ -522,7 +524,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 14
+              "articles": 2
             },
             {
               "date": "5/17",
@@ -530,7 +532,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 14
+              "articles": 2
             },
             {
               "date": "5/18",
@@ -538,7 +540,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 14
+              "articles": 3
             },
             {
               "date": "5/19",
@@ -546,7 +548,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 14
+              "articles": 4
             },
             {
               "date": "5/20",
@@ -554,7 +556,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 14
+              "articles": 5
             },
             {
               "date": "5/21",
@@ -562,7 +564,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 8,
-              "articles": 14
+              "articles": 10
             },
             {
               "date": "5/22",
@@ -570,9 +572,10 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 1,
-              "articles": 14
+              "articles": 13
             }
-          ]
+          ],
+          "ai_crawlers": {}
         },
         "turf-pulse.com": {
           "label": "香港賽馬技術分析",
@@ -611,7 +614,7 @@
               2,
               4,
               12,
-              0
+              3
             ],
             "cta_series_7d": [
               0,
@@ -683,8 +686,8 @@
           },
           "content": {
             "total_articles": 9,
-            "this_month": 0,
-            "this_week": 0,
+            "this_month": 9,
+            "this_week": 8,
             "sports_articles": 0,
             "total_articles_inc_sports": 9
           },
@@ -696,7 +699,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 9
+              "articles": 2
             },
             {
               "date": "5/17",
@@ -704,7 +707,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 9
+              "articles": 2
             },
             {
               "date": "5/18",
@@ -712,7 +715,7 @@
               "gsc_imp": 2,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 9
+              "articles": 3
             },
             {
               "date": "5/19",
@@ -720,7 +723,7 @@
               "gsc_imp": 3,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 9
+              "articles": 4
             },
             {
               "date": "5/20",
@@ -728,7 +731,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 9
+              "articles": 5
             },
             {
               "date": "5/21",
@@ -736,7 +739,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 4,
-              "articles": 9
+              "articles": 7
             },
             {
               "date": "5/22",
@@ -746,7 +749,8 @@
               "cta_clk": 0,
               "articles": 9
             }
-          ]
+          ],
+          "ai_crawlers": {}
         },
         "spin-metrics.com": {
           "label": "老虎機遊戲解析",
@@ -785,7 +789,7 @@
               2,
               10,
               10,
-              0
+              2
             ],
             "cta_series_7d": [
               0,
@@ -856,11 +860,11 @@
             "total_urls": 15
           },
           "content": {
-            "total_articles": 10,
-            "this_month": 0,
-            "this_week": 0,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 10,
             "sports_articles": 0,
-            "total_articles_inc_sports": 10
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -870,7 +874,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 3
             },
             {
               "date": "5/17",
@@ -878,7 +882,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 3
             },
             {
               "date": "5/18",
@@ -886,7 +890,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 4
             },
             {
               "date": "5/19",
@@ -894,7 +898,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 5
             },
             {
               "date": "5/20",
@@ -902,7 +906,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 6
             },
             {
               "date": "5/21",
@@ -910,7 +914,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 10,
-              "articles": 10
+              "articles": 8
             },
             {
               "date": "5/22",
@@ -918,9 +922,10 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 5,
-              "articles": 10
+              "articles": 11
             }
-          ]
+          ],
+          "ai_crawlers": {}
         },
         "verifiedplays.com": {
           "label": "平台技術評測",
@@ -1031,8 +1036,8 @@
           },
           "content": {
             "total_articles": 10,
-            "this_month": 0,
-            "this_week": 0,
+            "this_month": 10,
+            "this_week": 9,
             "sports_articles": 0,
             "total_articles_inc_sports": 10
           },
@@ -1044,7 +1049,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 2
             },
             {
               "date": "5/17",
@@ -1052,7 +1057,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 2
             },
             {
               "date": "5/18",
@@ -1060,7 +1065,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 10
+              "articles": 3
             },
             {
               "date": "5/19",
@@ -1068,7 +1073,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 4
             },
             {
               "date": "5/20",
@@ -1076,7 +1081,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 10
+              "articles": 5
             },
             {
               "date": "5/21",
@@ -1084,7 +1089,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 9,
-              "articles": 10
+              "articles": 7
             },
             {
               "date": "5/22",
@@ -1094,7 +1099,8 @@
               "cta_clk": 2,
               "articles": 10
             }
-          ]
+          ],
+          "ai_crawlers": {}
         }
       }
     }
