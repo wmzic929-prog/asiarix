@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T03:57:26+08:00",
+  "generated_at": "2026-05-23T04:09:06+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -73,7 +73,7 @@
               29,
               43,
               175,
-              39
+              48
             ],
             "cta_series_7d": [
               1,
@@ -225,7 +225,15 @@
               "articles": 163
             }
           ],
-          "ai_crawlers": {}
+          "ai_crawlers": {
+            "GPTBot": {
+              "last_seen": "2026-05-23T04:08:20.271Z",
+              "count_30d": 1,
+              "dates": {
+                "2026-05-23": 1
+              }
+            }
+          }
         },
         "matchvangtage.com": {
           "label": "體育博彩攻略",
@@ -925,7 +933,15 @@
               "articles": 11
             }
           ],
-          "ai_crawlers": {}
+          "ai_crawlers": {
+            "ClaudeBot": {
+              "last_seen": "2026-05-23T04:09:57.734Z",
+              "count_30d": 1,
+              "dates": {
+                "2026-05-23": 1
+              }
+            }
+          }
         },
         "verifiedplays.com": {
           "label": "平台技術評測",
@@ -1100,7 +1116,15 @@
               "articles": 10
             }
           ],
-          "ai_crawlers": {}
+          "ai_crawlers": {
+            "ClaudeBot": {
+              "last_seen": "2026-05-23T04:03:15.318Z",
+              "count_30d": 1,
+              "dates": {
+                "2026-05-23": 1
+              }
+            }
+          }
         }
       }
     }
