@@ -1059,6 +1059,22 @@
       .thc-badge { font-size: 9px; }
     }
 
+    /* ── BACK TO TOP ── */
+    .back-to-top {
+      position: fixed; right: 20px; bottom: 28px; z-index: 200;
+      width: 42px; height: 42px;
+      background: var(--purple); border: none; border-radius: 50%;
+      color: #fff; font-size: 18px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 16px rgba(107,63,246,.45);
+      opacity: 0; transform: translateY(12px);
+      transition: opacity .25s, transform .25s, background .2s;
+      pointer-events: none;
+    }
+    .back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: all; }
+    .back-to-top:hover { background: var(--purple-light); }
+    @media (max-width: 639px) { .back-to-top { right: 14px; bottom: 18px; width: 38px; height: 38px; font-size: 16px; } }
+
     /* ── HAMBURGER + MOBILE MENU ── */
     .hamburger-btn {
       display: none;
@@ -1853,6 +1869,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 
+<!-- ═══ BACK TO TOP ═══ -->
+<button class="back-to-top" id="backToTop" aria-label="返回頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
 <!-- ═══ STICKY BAR (mobile) ═══ -->
 <div class="sticky-bar">
   <div class="sticky-left">
@@ -1898,6 +1917,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         document.body.style.overflow = '';
       });
     });
+    // Back to top
+    var btt = document.getElementById('backToTop');
+    if (btt) {
+      window.addEventListener('scroll', function() {
+        btt.classList.toggle('visible', window.scrollY > 400);
+      }, { passive: true });
+    }
     // Footer accordion (mobile only)
     document.querySelectorAll('.footer-col .footer-col-title').forEach(function(title) {
       title.addEventListener('click', function() {
