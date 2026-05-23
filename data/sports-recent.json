@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-23-hong-kong-welcomes-international-dragon-boat-federation-headquarters-with-three-year-pilot-scheme",
+      "headline": "龍舟總部落戶香港 迎三年先導計劃",
+      "category": "綜合",
+      "emoji": "🛶",
+      "date": "2026-05-23",
+      "lead": "國際龍舟運動迎來歷史性時刻！國際龍舟聯合會總部今日正式宣布落戶香港，並獲得政府為期三年的先導計劃大力支持，預計將為香港龍舟運動發展注入強大動力。",
+      "imageUrl": "",
+      "imageAlt": "龍舟總部落戶香港 迎三年先導計劃"
+    },
+    {
       "slug": "2026-05-22-hk-sg-macau-police-sports-exchange-hk-wins-championship",
       "headline": "港新澳警體交流 香港警隊主場奪冠",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "立法會議員霍啟剛今日（21日）舉辦「香港五年規劃」體育界諮詢會，逾百名業界翹楚雲集，深入探討推動全民運動的策略與未來發展藍圖。",
       "imageUrl": "",
       "imageAlt": "霍啟剛辦體育界諮詢會 謀劃全民運動"
-    },
-    {
-      "slug": "2026-05-21-hkjc-sports-funding-decade",
-      "headline": "馬會十年捐67億撐體育",
-      "category": "綜合",
-      "emoji": "🏅",
-      "date": "2026-05-21",
-      "lead": "香港賽馬會（馬會）於過去十年，慷慨撥款近67億港元，全力支持本地體育發展，彰顯其對香港體壇的長遠承諾，並預告未來將繼續扮演關鍵推動角色。",
-      "imageUrl": "",
-      "imageAlt": "馬會十年捐67億撐體育"
     }
   ]
 }
