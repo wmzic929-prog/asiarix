@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "bonus-wagering-requirement-business-logic",
+      "title": "為何娛樂平台要設優惠回贈要求？商業邏輯解析",
+      "category": "平台教育",
+      "date": "2026-05-23",
+      "excerpt": "好多新手玩家都覺得優惠回贈要求係平台故意設嘅「陷阱」，但事實係幾乎每個正規娛樂平台都有呢個機制，背後有一套完整嘅商業邏輯。",
+      "imageUrl": "/blog/img/bonus-wagering-requirement-business-logic.jpg"
+    },
+    {
       "slug": "free-play-vs-deposit-guide",
       "title": "免費試玩 vs 真實入款｜娛樂平台完整差異解析",
       "category": "新手指南",
@@ -15,14 +23,6 @@
       "date": "2026-05-22",
       "excerpt": "唔少用家做提款時先發現要做KYC驗證，其實KYC係全球反洗錢法規嘅法定要求，背後有完整嘅國際法律框架支撐。",
       "imageUrl": "/blog/img/why-kyc-aml-explained.jpg"
-    },
-    {
-      "slug": "welcome-bonus-comparison-2025",
-      "title": "2025娛樂平台迎新優惠大比較｜各大平台最高獎勵金額及條件詳解",
-      "category": "優惠攻略",
-      "date": "2026-05-22",
-      "excerpt": "2025年娛樂平台競爭激烈，各大平台爭相推出迎新優惠，最高獎勵差距可達HK$1,000，揀啱平台等於免費賺多一大筆，唔識比較就蝕底。",
-      "imageUrl": "/blog/img/welcome-bonus-comparison-2025.jpg"
     }
   ]
 }
