@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-22",
+  "last_refreshed": "2026-05-23",
   "keywords": [
     {
       "id": 1,
@@ -861,6 +861,21 @@
       "trending_title": "【牛角Buffet放題優惠】",
       "trending_source": "Google HK Trends",
       "relevance_score": 75
+    },
+    {
+      "id": 97,
+      "keyword": "NBA 馬刺對雷霆 體育博彩賠率 2026",
+      "category": "新手指南",
+      "angle": "NBA季後賽賠率解析與投注策略",
+      "image_theme": "dark NBA thunder spurs betting odds 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-23",
+      "trending_title": "Spurs vs Thunder / 馬刺 對 雷霆",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 85
     }
   ]
 }
