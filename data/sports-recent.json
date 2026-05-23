@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-23-hk-southern-tiger-wins-asian-champions-league-playoffs",
+      "headline": "南華7分反勝領航猿 膺小組首名出線",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-23",
+      "lead": "籃球亞洲冠軍聯賽上演關鍵戰役！南華隊憑藉外援比列斯高攻入全場最高45分，帶領球隊以7分之差反勝桃園領航猿，以小組首名姿態強勢晉級四強。",
+      "imageUrl": "",
+      "imageAlt": "南華7分反勝領航猿 膺小組首名出線"
+    },
+    {
       "slug": "2026-05-23-hong-kong-football-fiesta-tickets-schedule",
       "headline": "豪門聚首！2026香港足球盛會門票詳情及賽程公佈",
       "category": "足球",
@@ -69,16 +79,6 @@
       "lead": "國際龍舟聯合會總部今日正式宣布落戶香港，標誌著香港在龍舟運動領域的國際地位更上一層樓，為本地體育發展注入強勁動力。",
       "imageUrl": "",
       "imageAlt": "龍舟聯合會總部選址香港"
-    },
-    {
-      "slug": "2026-05-21-hk-sports-institute-open-day-crowded",
-      "headline": "體院開放日反應熱烈",
-      "category": "綜合",
-      "emoji": "🏃‍♀️🏅",
-      "date": "2026-05-21",
-      "lead": "香港體育學院近日舉辦的開放日活動吸引了大量市民參與，現場氣氛熱烈，人頭湧湧，充分展現了市民對體育運動的熱情。",
-      "imageUrl": "",
-      "imageAlt": "體院開放日反應熱烈"
     }
   ]
 }
