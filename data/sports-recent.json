@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-23-hong-kong-sports-five-year-plan-consultation-concludes",
+      "headline": "港體育界五年規劃諮詢會成功",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-23",
+      "lead": "為勾劃香港未來五年的體育發展藍圖，「香港五年規劃」體育界諮詢會今日圓滿舉行，逾百名業界代表積極參與，共同探討推動香港體育邁向新高峰的策略與方向。",
+      "imageUrl": "",
+      "imageAlt": "港體育界五年規劃諮詢會成功"
+    },
+    {
       "slug": "2026-05-23-sailings-f1-comes-to-victoria-harbour",
       "headline": "維港將成「帆船界F1」主場",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "香港賽馬會對本地體育發展的貢獻有目共睹，過去十年斥資近67億港元，為香港體育界注入強大動力。馬會表明未來將繼續肩負社會責任，大力推動體育發展。",
       "imageUrl": "",
       "imageAlt": "馬會十年捐近67億 撐香港體育未來"
-    },
-    {
-      "slug": "2026-05-22-hong-kong-hosts-sail-grand-prix-in-victoria-harbour",
-      "headline": "「帆船界F1」明年維港開賽",
-      "category": "綜合",
-      "emoji": "⛵️",
-      "date": "2026-05-22",
-      "lead": "「帆船界F1」國際帆船大獎賽將於明年1月首度駕臨香港，選址聞名遐邇的維多利亞港，勢必為這項極速運動寫下全新篇章。",
-      "imageUrl": "",
-      "imageAlt": "「帆船界F1」明年維港開賽"
     }
   ]
 }
