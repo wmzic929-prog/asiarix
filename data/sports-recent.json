@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-23-hong-kong-football-fiesta-tickets-schedule",
+      "headline": "豪門聚首！2026香港足球盛會門票詳情及賽程公佈",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-23",
+      "lead": "一年一度嘅足球盛事「2026香港足球盛會」即將引爆！四支歐洲頂級球隊，包括曼城、車路士、國際米蘭及祖雲達斯，將雲集香港，為球迷帶來連場精彩絕倫嘅對決。門票詳情及",
+      "imageUrl": "",
+      "imageAlt": "豪門聚首！2026香港足球盛會門票詳情及賽程公佈"
+    },
+    {
       "slug": "2026-05-23-hong-kong-welcomes-international-dragon-boat-federation-headquarters-with-three-year-pilot-scheme",
       "headline": "龍舟總部落戶香港 迎三年先導計劃",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "香港體育學院近日舉辦的開放日活動吸引了大量市民參與，現場氣氛熱烈，人頭湧湧，充分展現了市民對體育運動的熱情。",
       "imageUrl": "",
       "imageAlt": "體院開放日反應熱烈"
-    },
-    {
-      "slug": "2026-05-21-hong-kong-sports-consultation-for-nationwide-fitness",
-      "headline": "霍啟剛辦體育界諮詢會 謀劃全民運動",
-      "category": "綜合",
-      "emoji": "🏃‍♂️",
-      "date": "2026-05-21",
-      "lead": "立法會議員霍啟剛今日（21日）舉辦「香港五年規劃」體育界諮詢會，逾百名業界翹楚雲集，深入探討推動全民運動的策略與未來發展藍圖。",
-      "imageUrl": "",
-      "imageAlt": "霍啟剛辦體育界諮詢會 謀劃全民運動"
     }
   ]
 }
