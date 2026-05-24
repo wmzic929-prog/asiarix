@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-24-hk-football-team-loses-two-matches-at-hong-kong-fc-sevens-fok-chun-hei-to-play-in-uae-league",
+      "headline": "港足七人賽連敗 霍俊羲將戰阿聯酋聯賽",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-24",
+      "lead": "港足在港會七人賽事中下午連吞兩場敗仗，表現未如理想。然而，陣中球員霍俊羲透露將續戰阿聯酋聯賽，為港將開拓海外路。",
+      "imageUrl": "",
+      "imageAlt": "港足七人賽連敗 霍俊羲將戰阿聯酋聯賽"
+    },
+    {
       "slug": "2026-05-24-south-china-wins-bcl-qualifier",
       "headline": "南華15分挫敵 贏得BCL正賽資格",
       "category": "籃球",
@@ -69,16 +79,6 @@
       "lead": "一年一度嘅足球盛事「2026香港足球盛會」即將引爆！四支歐洲頂級球隊，包括曼城、車路士、國際米蘭及祖雲達斯，將雲集香港，為球迷帶來連場精彩絕倫嘅對決。門票詳情及",
       "imageUrl": "",
       "imageAlt": "豪門聚首！2026香港足球盛會門票詳情及賽程公佈"
-    },
-    {
-      "slug": "2026-05-23-hong-kong-welcomes-international-dragon-boat-federation-headquarters-with-three-year-pilot-scheme",
-      "headline": "龍舟總部落戶香港 迎三年先導計劃",
-      "category": "綜合",
-      "emoji": "🛶",
-      "date": "2026-05-23",
-      "lead": "國際龍舟運動迎來歷史性時刻！國際龍舟聯合會總部今日正式宣布落戶香港，並獲得政府為期三年的先導計劃大力支持，預計將為香港龍舟運動發展注入強大動力。",
-      "imageUrl": "",
-      "imageAlt": "龍舟總部落戶香港 迎三年先導計劃"
     }
   ]
 }
