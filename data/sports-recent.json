@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-24-hong-kong-dancers-interview",
+      "headline": "體舞精英分享訓練與未來",
+      "category": "綜合",
+      "emoji": "💃",
+      "date": "2026-05-24",
+      "lead": "香港體育舞蹈代表隊的嚴紀昀與教練廖雲軒，在《孟想運動周刊》節目中，分享了他們在體育舞蹈領域的點滴，包括艱辛的訓練、面對的挑戰，以及對這項運動未來發展的願景。",
+      "imageUrl": "",
+      "imageAlt": "體舞精英分享訓練與未來"
+    },
+    {
       "slug": "2026-05-24-hk-football-team-loses-two-matches-at-hong-kong-fc-sevens-fok-chun-hei-to-play-in-uae-league",
       "headline": "港足七人賽連敗 霍俊羲將戰阿聯酋聯賽",
       "category": "足球",
@@ -69,16 +79,6 @@
       "lead": "籃球亞洲冠軍聯賽上演關鍵戰役！南華隊憑藉外援比列斯高攻入全場最高45分，帶領球隊以7分之差反勝桃園領航猿，以小組首名姿態強勢晉級四強。",
       "imageUrl": "",
       "imageAlt": "南華7分反勝領航猿 膺小組首名出線"
-    },
-    {
-      "slug": "2026-05-23-hong-kong-football-fiesta-tickets-schedule",
-      "headline": "豪門聚首！2026香港足球盛會門票詳情及賽程公佈",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-23",
-      "lead": "一年一度嘅足球盛事「2026香港足球盛會」即將引爆！四支歐洲頂級球隊，包括曼城、車路士、國際米蘭及祖雲達斯，將雲集香港，為球迷帶來連場精彩絕倫嘅對決。門票詳情及",
-      "imageUrl": "",
-      "imageAlt": "豪門聚首！2026香港足球盛會門票詳情及賽程公佈"
     }
   ]
 }
