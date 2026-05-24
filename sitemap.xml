@@ -963,4 +963,12 @@
     <priority>0.7</priority>
   </url>
 
+
+  <url>
+    <loc>https://spheretap.com/blog/deposit-method-decision-framework</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
