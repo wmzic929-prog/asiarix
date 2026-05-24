@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-24-hong-kong-hosts-sailings-f1-in-victoria-harbour-next-january",
+      "headline": "維港變身帆船賽場！「帆船界F1」明年1月登場",
+      "category": "綜合",
+      "emoji": "⛵️",
+      "date": "2026-05-24",
+      "lead": "被譽為「帆船界F1」的國際頂級帆船賽事，將於明年1月首度在香港維多利亞港上演，為本地體壇注入新動力。",
+      "imageUrl": "",
+      "imageAlt": "維港變身帆船賽場！「帆船界F1」明年1月登場"
+    },
+    {
       "slug": "2026-05-23-hong-kong-sports-five-year-plan-consultation-concludes",
       "headline": "港體育界五年規劃諮詢會成功",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "籃球亞冠聯上演戲劇性一幕！南華隊憑藉外援比列斯高攻入全場最高的45分，以7分之差反勝桃園領航猿，強勢以小組首名姿態闖入四強，爭冠之路更添信心。",
       "imageUrl": "",
       "imageAlt": "南華險勝領航猿 鎖定亞冠聯四強席位"
-    },
-    {
-      "slug": "2026-05-22-hkjc-sports-funding-decade",
-      "headline": "馬會十年捐近67億 撐香港體育未來",
-      "category": "綜合",
-      "emoji": "🏅",
-      "date": "2026-05-22",
-      "lead": "香港賽馬會對本地體育發展的貢獻有目共睹，過去十年斥資近67億港元，為香港體育界注入強大動力。馬會表明未來將繼續肩負社會責任，大力推動體育發展。",
-      "imageUrl": "",
-      "imageAlt": "馬會十年捐近67億 撐香港體育未來"
     }
   ]
 }
