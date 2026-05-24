@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-24-hkjc-supports-sports-hkd6-7bn-decade",
+      "headline": "馬會十年投入近67億 撐起香港體育未來",
+      "category": "綜合",
+      "emoji": "⚽️🏅",
+      "date": "2026-05-24",
+      "lead": "香港賽馬會過去十年對本地體育發展的貢獻有目共睹，總計投入近67億港元，為香港體育界奠定穩固基礎。",
+      "imageUrl": "",
+      "imageAlt": "馬會十年投入近67億 撐起香港體育未來"
+    },
+    {
       "slug": "2026-05-24-hong-kong-hosts-sailings-f1-in-victoria-harbour-next-january",
       "headline": "維港變身帆船賽場！「帆船界F1」明年1月登場",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "為期數日的香港、新加坡及澳門警察體育交流會已於昨日圓滿結束，香港警隊在今屆賽事中表現出色，於主場勇奪總冠軍，充分彰顯了其「內聯外通」的協作精神。",
       "imageUrl": "",
       "imageAlt": "港新澳警體交流 香港警隊主場奪冠"
-    },
-    {
-      "slug": "2026-05-22-hk-southern-fight-back-to-win-45-points-from-bilesgo",
-      "headline": "南華險勝領航猿 鎖定亞冠聯四強席位",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-22",
-      "lead": "籃球亞冠聯上演戲劇性一幕！南華隊憑藉外援比列斯高攻入全場最高的45分，以7分之差反勝桃園領航猿，強勢以小組首名姿態闖入四強，爭冠之路更添信心。",
-      "imageUrl": "",
-      "imageAlt": "南華險勝領航猿 鎖定亞冠聯四強席位"
     }
   ]
 }
