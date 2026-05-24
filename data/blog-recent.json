@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "hk-player-rights-overseas-platform",
+      "title": "境外娛樂平台香港玩家權益解析｜法律保障同維權攻略",
+      "category": "法律合規",
+      "date": "2026-05-24",
+      "excerpt": "超過七成香港玩家日常使用境外娛樂平台，但真正了解自身法律地位同維權途徑嘅人少之又少，呢篇文為你逐一解答。",
+      "imageUrl": "/blog/img/hk-player-rights-overseas-platform.jpg"
+    },
+    {
       "slug": "spurs-vs-thunder-nba-betting-guide-2026",
       "title": "Spurs vs Thunder NBA 2026 投注攻略｜雷霆季後賽賠率全解析",
       "category": "優惠資訊",
@@ -15,14 +23,6 @@
       "date": "2026-05-24",
       "excerpt": "唔係所有入款方式都啱晒所有人，速度、成本同私隱係三個關鍵考量，掌握決策框架先可以每次都揀到最啱自己嘅方式。",
       "imageUrl": "/blog/img/deposit-method-decision-framework.jpg"
-    },
-    {
-      "slug": "platform-evaluation-7-dimensions",
-      "title": "娛樂平台點樣評估？7個核查維度完整框架",
-      "category": "平台評測",
-      "date": "2026-05-23",
-      "excerpt": "唔少玩家靠感覺揀娛樂平台，結果提款唔到或者賬號被封。用 7 個維度做系統性評估，先係保障資金嘅正確做法。",
-      "imageUrl": "/blog/img/platform-evaluation-7-dimensions.jpg"
     }
   ]
 }
