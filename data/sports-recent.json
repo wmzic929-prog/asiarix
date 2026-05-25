@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-25-romance-champ-triple-crown",
+      "headline": "浪漫勇士封王 歷史性三冠王",
+      "category": "賽馬",
+      "emoji": "🐎🏆👑",
+      "date": "2026-05-25",
+      "lead": "「浪漫勇士」今日在沙田馬場上演王者歸來，贏得冠軍暨遮打盃，正式加冕為香港賽馬史上第三匹「三冠王」，締造歷史。",
+      "imageUrl": "",
+      "imageAlt": "浪漫勇士封王 歷史性三冠王"
+    },
+    {
       "slug": "2026-05-24-hong-kong-dancers-interview",
       "headline": "體舞精英分享訓練與未來",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "「帆船界F1」頂級賽事確定明年1月在香港維港上演，勢必為香港注入新活力，吸引全球目光。",
       "imageUrl": "",
       "imageAlt": "維港將成「帆船界F1」主場"
-    },
-    {
-      "slug": "2026-05-23-hk-southern-tiger-wins-asian-champions-league-playoffs",
-      "headline": "南華7分反勝領航猿 膺小組首名出線",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-23",
-      "lead": "籃球亞洲冠軍聯賽上演關鍵戰役！南華隊憑藉外援比列斯高攻入全場最高45分，帶領球隊以7分之差反勝桃園領航猿，以小組首名姿態強勢晉級四強。",
-      "imageUrl": "",
-      "imageAlt": "南華7分反勝領航猿 膺小組首名出線"
     }
   ]
 }
