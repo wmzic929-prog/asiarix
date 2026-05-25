@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-25-hong-kong-rugby-union-talent-day-december",
+      "headline": "欖總廣邀年輕健兒 爭奪2025年人才選拔席位",
+      "category": "欖球",
+      "emoji": "🏉",
+      "date": "2026-05-25",
+      "lead": "中國香港欖球總會將於2025年12月13至14日，假香港體育學院舉辦一年一度的人才選拔日，旨在發掘及培育本地年輕欖球精英，為香港欖球運動的長遠發展奠定基礎。",
+      "imageUrl": "",
+      "imageAlt": "欖總廣邀年輕健兒 爭奪2025年人才選拔席位"
+    },
+    {
       "slug": "2026-05-25-nam-wah-wins-asian-club-league-east-asia-championship",
       "headline": "南華亞冠聯稱霸東亞區！",
       "category": "籃球",
@@ -69,16 +79,6 @@
       "lead": "被譽為「帆船界F1」的國際頂級帆船賽事，將於明年1月首度在香港維多利亞港上演，為本地體壇注入新動力。",
       "imageUrl": "",
       "imageAlt": "維港變身帆船賽場！「帆船界F1」明年1月登場"
-    },
-    {
-      "slug": "2026-05-23-hong-kong-sports-five-year-plan-consultation-concludes",
-      "headline": "港體育界五年規劃諮詢會成功",
-      "category": "綜合",
-      "emoji": "🏅",
-      "date": "2026-05-23",
-      "lead": "為勾劃香港未來五年的體育發展藍圖，「香港五年規劃」體育界諮詢會今日圓滿舉行，逾百名業界代表積極參與，共同探討推動香港體育邁向新高峰的策略與方向。",
-      "imageUrl": "",
-      "imageAlt": "港體育界五年規劃諮詢會成功"
     }
   ]
 }
