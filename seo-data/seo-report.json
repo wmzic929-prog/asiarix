@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T09:33:46+08:00",
+  "generated_at": "2026-05-25T11:01:37+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -94,7 +94,7 @@
               177,
               216,
               207,
-              126
+              149
             ],
             "cta_series_7d": [
               3,
@@ -123,38 +123,38 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 99,
+            "impressions_28d": 114,
             "clicks_28d": 40,
-            "impressions_7d": 98,
+            "impressions_7d": 113,
             "clicks_7d": 40,
-            "ctr": 0.404,
-            "avg_position": 5.3,
+            "ctr": 0.3509,
+            "avg_position": 5.8,
             "indexed_pages": 27,
             "series_7d": {
               "dates": [
-                "5/16",
                 "5/17",
                 "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
-                "5/22"
+                "5/22",
+                "5/23"
               ],
               "impressions": [
-                0,
                 0,
                 3,
                 40,
                 18,
                 19,
-                18
+                18,
+                15
               ],
               "clicks": [
-                0,
                 0,
                 1,
                 34,
                 5,
+                0,
                 0,
                 0
               ]
@@ -176,19 +176,19 @@
                 "clicks": 0
               },
               {
-                "kw": "沙比艾朗素",
-                "pos": 6,
+                "kw": "siu cheong hung",
+                "pos": 11,
                 "clicks": 0
               },
               {
-                "kw": "英超冠軍2026",
-                "pos": 12.7,
+                "kw": "回贈/積分點計？有咩限制？",
+                "pos": 6,
                 "clicks": 0
               }
             ]
           },
           "sitemap": {
-            "total_urls": 145
+            "total_urls": 146
           },
           "content": {
             "total_articles": 85,
@@ -242,8 +242,8 @@
             {
               "date": "5/23",
               "sessions": 216,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 15,
+              "gsc_clk": 0,
               "cta_clk": 10,
               "articles": 171
             },
@@ -343,13 +343,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/16",
                 "5/17",
                 "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
-                "5/22"
+                "5/22",
+                "5/23"
               ],
               "impressions": [
                 0,
@@ -376,11 +376,11 @@
             "total_urls": 24
           },
           "content": {
-            "total_articles": 15,
-            "this_month": 15,
+            "total_articles": 14,
+            "this_month": 14,
             "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 15
+            "total_articles_inc_sports": 14
           },
           "cwv": {},
           "daily_7d": [
@@ -390,7 +390,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 5
+              "articles": 4
             },
             {
               "date": "5/19",
@@ -398,7 +398,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 6
+              "articles": 5
             },
             {
               "date": "5/20",
@@ -406,7 +406,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 7
+              "articles": 6
             },
             {
               "date": "5/21",
@@ -414,7 +414,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 7,
-              "articles": 9
+              "articles": 8
             },
             {
               "date": "5/22",
@@ -422,15 +422,15 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 10
+              "articles": 9
             },
             {
               "date": "5/23",
               "sessions": 4,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 12
+              "articles": 11
             },
             {
               "date": "5/24",
@@ -438,7 +438,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 5,
-              "articles": 15
+              "articles": 14
             }
           ],
           "ai_crawlers": {
@@ -533,13 +533,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/16",
                 "5/17",
                 "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
-                "5/22"
+                "5/22",
+                "5/23"
               ],
               "impressions": [
                 0,
@@ -617,8 +617,8 @@
             {
               "date": "5/23",
               "sessions": 4,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 3,
               "articles": 14
             },
@@ -633,11 +633,11 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-25T08:27:44.700Z",
-              "count_30d": 22,
+              "last_seen": "2026-05-25T10:24:04.372Z",
+              "count_30d": 23,
               "dates": {
                 "2026-05-24": 16,
-                "2026-05-25": 6
+                "2026-05-25": 7
               }
             },
             "GPTBot": {
@@ -686,7 +686,7 @@
               14,
               9,
               3,
-              3
+              4
             ],
             "cta_series_7d": [
               1,
@@ -724,22 +724,22 @@
             "indexed_pages": 2,
             "series_7d": {
               "dates": [
-                "5/16",
                 "5/17",
                 "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
-                "5/22"
+                "5/22",
+                "5/23"
               ],
               "impressions": [
-                0,
                 0,
                 2,
                 3,
                 0,
                 0,
-                4
+                4,
+                0
               ],
               "clicks": [
                 0,
@@ -808,8 +808,8 @@
             {
               "date": "5/23",
               "sessions": 9,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 7,
               "articles": 12
             },
@@ -878,7 +878,7 @@
               11,
               5,
               6,
-              1
+              7
             ],
             "cta_series_7d": [
               0,
@@ -916,13 +916,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/16",
                 "5/17",
                 "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
-                "5/22"
+                "5/22",
+                "5/23"
               ],
               "impressions": [
                 0,
@@ -1000,8 +1000,8 @@
             {
               "date": "5/23",
               "sessions": 5,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 4,
               "articles": 14
             },
@@ -1069,7 +1069,7 @@
               20,
               1,
               4,
-              4
+              5
             ],
             "cta_series_7d": [
               1,
@@ -1107,13 +1107,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/16",
                 "5/17",
                 "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
-                "5/22"
+                "5/22",
+                "5/23"
               ],
               "impressions": [
                 0,
@@ -1191,8 +1191,8 @@
             {
               "date": "5/23",
               "sessions": 1,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 1,
               "articles": 13
             },
@@ -1207,12 +1207,12 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-25T09:30:05.559Z",
-              "count_30d": 52,
+              "last_seen": "2026-05-25T10:59:45.155Z",
+              "count_30d": 54,
               "dates": {
                 "2026-05-23": 17,
                 "2026-05-24": 25,
-                "2026-05-25": 10
+                "2026-05-25": 12
               }
             },
             "GPTBot": {
@@ -1261,7 +1261,7 @@
               0,
               0,
               0,
-              0
+              1
             ],
             "cta_series_7d": [
               0,
@@ -1298,14 +1298,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -1319,48 +1343,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -1449,14 +1473,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -1470,48 +1518,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -1563,7 +1611,7 @@
               0,
               0,
               0,
-              0
+              1
             ],
             "cta_series_7d": [
               0,
@@ -1600,14 +1648,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -1621,48 +1693,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -1751,14 +1823,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -1772,48 +1868,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -1865,7 +1961,7 @@
               0,
               0,
               0,
-              0
+              1
             ],
             "cta_series_7d": [
               0,
@@ -1902,14 +1998,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -1923,48 +2043,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -2053,14 +2173,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -2074,48 +2218,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -2167,7 +2311,7 @@
               0,
               0,
               0,
-              0
+              1
             ],
             "cta_series_7d": [
               0,
@@ -2204,14 +2348,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -2225,48 +2393,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -2355,14 +2523,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -2376,48 +2568,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -2506,14 +2698,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -2527,48 +2743,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
@@ -2620,7 +2836,7 @@
               0,
               0,
               0,
-              0
+              1
             ],
             "cta_series_7d": [
               0,
@@ -2657,14 +2873,38 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/17",
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
             "top_keywords": []
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 6
           },
           "content": {
             "total_articles": 1,
@@ -2678,48 +2918,48 @@
             {
               "date": "5/18",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/19",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/20",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/21",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 0
             },
             {
               "date": "5/22",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1
             },
