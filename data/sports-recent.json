@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-25-hk-sports-five-year-plan-consultation",
+      "headline": "體壇五年規劃諮詢會 業界代表獻策",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-25",
+      "lead": "香港體育界未來發展藍圖，昨日在「香港五年規劃」體育界諮詢會上，由逾百名業界代表集思廣益，為推動體育普及及精英化獻計獻策，氣氛熱烈。",
+      "imageUrl": "",
+      "imageAlt": "體壇五年規劃諮詢會 業界代表獻策"
+    },
+    {
       "slug": "2026-05-25-hong-kong-rugby-union-talent-day-december",
       "headline": "欖總廣邀年輕健兒 爭奪2025年人才選拔席位",
       "category": "欖球",
@@ -69,16 +79,6 @@
       "lead": "香港賽馬會過去十年對本地體育發展的貢獻有目共睹，總計投入近67億港元，為香港體育界奠定穩固基礎。",
       "imageUrl": "",
       "imageAlt": "馬會十年投入近67億 撐起香港體育未來"
-    },
-    {
-      "slug": "2026-05-24-hong-kong-hosts-sailings-f1-in-victoria-harbour-next-january",
-      "headline": "維港變身帆船賽場！「帆船界F1」明年1月登場",
-      "category": "綜合",
-      "emoji": "⛵️",
-      "date": "2026-05-24",
-      "lead": "被譽為「帆船界F1」的國際頂級帆船賽事，將於明年1月首度在香港維多利亞港上演，為本地體壇注入新動力。",
-      "imageUrl": "",
-      "imageAlt": "維港變身帆船賽場！「帆船界F1」明年1月登場"
     }
   ]
 }
