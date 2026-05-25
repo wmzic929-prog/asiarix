@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-25-nam-wah-wins-asian-club-league-east-asia-championship",
+      "headline": "南華亞冠聯稱霸東亞區！",
+      "category": "籃球",
+      "emoji": "🏀",
+      "date": "2026-05-25",
+      "lead": "香港時間2026年5月25日，南華籃球隊喺籃球亞冠聯東亞區決賽中，以破紀錄嘅113分擊敗對手領航猿，成功捧起東亞區冠軍獎盃，為香港籃球界贏盡榮耀。",
+      "imageUrl": "",
+      "imageAlt": "南華亞冠聯稱霸東亞區！"
+    },
+    {
       "slug": "2026-05-25-romance-champ-triple-crown",
       "headline": "浪漫勇士封王 歷史性三冠王",
       "category": "賽馬",
@@ -69,16 +79,6 @@
       "lead": "為勾劃香港未來五年的體育發展藍圖，「香港五年規劃」體育界諮詢會今日圓滿舉行，逾百名業界代表積極參與，共同探討推動香港體育邁向新高峰的策略與方向。",
       "imageUrl": "",
       "imageAlt": "港體育界五年規劃諮詢會成功"
-    },
-    {
-      "slug": "2026-05-23-sailings-f1-comes-to-victoria-harbour",
-      "headline": "維港將成「帆船界F1」主場",
-      "category": "綜合",
-      "emoji": "⛵️",
-      "date": "2026-05-23",
-      "lead": "「帆船界F1」頂級賽事確定明年1月在香港維港上演，勢必為香港注入新活力，吸引全球目光。",
-      "imageUrl": "",
-      "imageAlt": "維港將成「帆船界F1」主場"
     }
   ]
 }
