@@ -1,0 +1,253 @@
+name: GSC Phase1 — META Verify + Sitemap
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (list steps only, no real API calls)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  gsc-setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: GSC Verify + Sitemap for 10 Phase 1 sites
+        env:
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN: ${{ secrets.GSC_REFRESH_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GH_PAT_CROSS_REPO }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          node << 'NODEJS_EOF'
+          const https   = require('https');
+          const crypto  = require('crypto');
+
+          const CLIENT_ID     = process.env.GSC_CLIENT_ID;
+          const CLIENT_SECRET = process.env.GSC_CLIENT_SECRET;
+          const REFRESH_TOKEN = process.env.GSC_REFRESH_TOKEN;
+          const GH_TOKEN      = process.env.GITHUB_PAT;
+          const DRY_RUN       = process.env.DRY_RUN === 'true';
+
+          const PHASE1_REPOS = [
+            { domain: 'matchdatalab.com',      repo: 'wmzic929-prog/matchdatalab-com',       siteKey: 'matchdatalab' },
+            { domain: 'athlete-index.com',     repo: 'wmzic929-prog/athlete-index-com',      siteKey: 'athlete-index' },
+            { domain: 'esports-intel.com',     repo: 'wmzic929-prog/esports-intel-com',      siteKey: 'esports-intel' },
+            { domain: 'proplayerstat.com',     repo: 'wmzic929-prog/proplayerstat-com',      siteKey: 'proplayerstat' },
+            { domain: 'tilestrategist.com',    repo: 'wmzic929-prog/tilestrategist-com',     siteKey: 'tilestrategist' },
+            { domain: 'gamedesignhq.com',      repo: 'wmzic929-prog/gamedesignhq-com',       siteKey: 'gamedesignhq' },
+            { domain: 'platformverdict.com',   repo: 'wmzic929-prog/platformverdict-com',    siteKey: 'platformverdict' },
+            { domain: 'probdecision.com',      repo: 'wmzic929-prog/probdecision-com',       siteKey: 'probdecision' },
+            { domain: 'asiaesportculture.com', repo: 'wmzic929-prog/asiaesportculture-com',  siteKey: 'asiaesportculture' },
+            { domain: 'entertaintrendlab.com', repo: 'wmzic929-prog/entertaintrendlab-com',  siteKey: 'entertaintrendlab' },
+          ];
+
+          function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+          function req(opts, body) {
+            return new Promise((resolve, reject) => {
+              const buf = body ? Buffer.from(typeof body === 'string' ? body : JSON.stringify(body)) : null;
+              if (buf) { opts.headers = opts.headers || {}; opts.headers['Content-Length'] = buf.length; }
+              const r = https.request(opts, resp => {
+                const c = []; resp.on('data', d => c.push(d));
+                resp.on('end', () => {
+                  try { resolve({ s: resp.statusCode, b: JSON.parse(Buffer.concat(c).toString()) }); }
+                  catch { resolve({ s: resp.statusCode, b: Buffer.concat(c).toString() }); }
+                });
+              });
+              r.on('error', reject);
+              if (buf) r.write(buf);
+              r.end();
+            });
+          }
+
+          async function refreshToken() {
+            const body = 'client_id=' + encodeURIComponent(CLIENT_ID)
+              + '&client_secret=' + encodeURIComponent(CLIENT_SECRET)
+              + '&refresh_token=' + encodeURIComponent(REFRESH_TOKEN)
+              + '&grant_type=refresh_token';
+            const tok = await req({
+              hostname: 'oauth2.googleapis.com', path: '/token', method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+            }, body);
+            if (tok.b.error) throw new Error('Token: ' + tok.b.error + ' ' + (tok.b.error_description || ''));
+            console.log('[OK] Token scope:', tok.b.scope);
+            return tok.b.access_token;
+          }
+
+          async function getMetaToken(domain, access) {
+            const r = await req({
+              hostname: 'www.googleapis.com', path: '/siteVerification/v1/token', method: 'POST',
+              headers: { Authorization: 'Bearer ' + access, 'Content-Type': 'application/json', Accept: 'application/json' }
+            }, { site: { type: 'SITE', identifier: 'https://' + domain + '/' }, verificationMethod: 'META' });
+            return r;
+          }
+
+          async function verifySite(domain, access) {
+            const r = await req({
+              hostname: 'www.googleapis.com', path: '/siteVerification/v1/webResource?verificationMethod=META', method: 'POST',
+              headers: { Authorization: 'Bearer ' + access, 'Content-Type': 'application/json', Accept: 'application/json' }
+            }, { site: { type: 'SITE', identifier: 'https://' + domain + '/' }, verificationMethod: 'META' });
+            return r;
+          }
+
+          async function submitSitemap(domain, access) {
+            const siteUrl  = encodeURIComponent('https://' + domain + '/');
+            const feedpath = encodeURIComponent('https://' + domain + '/sitemap.xml');
+            const r = await req({
+              hostname: 'www.googleapis.com',
+              path: '/webmasters/v3/sites/' + siteUrl + '/sitemaps/' + feedpath,
+              method: 'PUT',
+              headers: { Authorization: 'Bearer ' + access, 'Content-Length': '0' }
+            }, null);
+            return r;
+          }
+
+          async function getGithubFile(repo, filePath) {
+            const r = await req({
+              hostname: 'api.github.com',
+              path: '/repos/' + repo + '/contents/' + filePath,
+              method: 'GET',
+              headers: { Authorization: 'token ' + GH_TOKEN, Accept: 'application/vnd.github.v3+json', 'User-Agent': 'gsc-setup' }
+            });
+            return r;
+          }
+
+          async function updateGithubFile(repo, filePath, content, sha, message) {
+            const r = await req({
+              hostname: 'api.github.com',
+              path: '/repos/' + repo + '/contents/' + filePath,
+              method: 'PUT',
+              headers: { Authorization: 'token ' + GH_TOKEN, Accept: 'application/vnd.github.v3+json', 'User-Agent': 'gsc-setup', 'Content-Type': 'application/json' }
+            }, { message, content: Buffer.from(content).toString('base64'), sha });
+            return r;
+          }
+
+          async function injectMetaTag(repo, metaTag) {
+            // Get current index.html
+            const fileRes = await getGithubFile(repo, 'index.html');
+            if (fileRes.s !== 200) throw new Error('Cannot get index.html: ' + fileRes.s);
+            const sha     = fileRes.b.sha;
+            const current = Buffer.from(fileRes.b.content, 'base64').toString('utf8');
+
+            // Check if already has verification tag
+            if (current.includes('google-site-verification')) {
+              const updated = current.replace(/<meta name="google-site-verification"[^>]*>/g, metaTag);
+              if (updated === current) { console.log('  [SKIP] Meta tag already correct'); return null; }
+              return { content: updated, sha, msg: 'chore: update google-site-verification meta tag' };
+            }
+
+            // Inject after </title> or after first <meta
+            const marker = current.includes('</title>') ? '</title>' : '<meta ';
+            const idx = current.indexOf(marker);
+            if (idx === -1) throw new Error('Cannot find injection point in index.html');
+            const injected = current.substring(0, idx + marker.length) + '\n  ' + metaTag + current.substring(idx + marker.length);
+            return { content: injected, sha, msg: 'chore: add google-site-verification meta tag' };
+          }
+
+          async function main() {
+            console.log('=== GSC Phase 1 Setup via GitHub Actions ===');
+            console.log('DRY_RUN:', DRY_RUN);
+
+            const access = await refreshToken();
+
+            // Test Site Verification API
+            console.log('\n[TEST] Checking Site Verification API access...');
+            const testRes = await getMetaToken(PHASE1_REPOS[0].domain, access);
+            if (testRes.s === 403) {
+              console.error('[FAIL] Site Verification API blocked:');
+              console.error(typeof testRes.b === 'string' ? testRes.b.substring(0, 300) : JSON.stringify(testRes.b).substring(0, 300));
+              process.exit(1);
+            }
+            if (testRes.s === 200) {
+              console.log('[OK] Site Verification API accessible');
+            } else {
+              console.log('[WARN] Unexpected status', testRes.s, ':', JSON.stringify(testRes.b).substring(0, 200));
+            }
+
+            let ok = 0, fail = 0;
+
+            for (const entry of PHASE1_REPOS) {
+              const { domain, repo, siteKey } = entry;
+              console.log('\n====== ' + siteKey + ' (' + domain + ') ======');
+
+              // Step 1: Get META verification token
+              const vtRes = await getMetaToken(domain, access);
+              if (vtRes.s !== 200 || !vtRes.b.token) {
+                console.error('  [FAIL] getToken status ' + vtRes.s + ': ' + JSON.stringify(vtRes.b).substring(0, 200));
+                fail++; continue;
+              }
+              const metaToken = vtRes.b.token;
+              // token is like "google-site-verification=XXXX" for META method
+              const metaTag = '<meta name="google-site-verification" content="' + metaToken.replace('google-site-verification=', '') + '">';
+              console.log('  [OK] META token obtained');
+              console.log('  [META] ' + metaTag);
+
+              if (DRY_RUN) { console.log('  [DRY-RUN] Skipping GitHub push + verify'); ok++; continue; }
+
+              // Step 2: Inject meta tag into index.html
+              let pushRes;
+              try {
+                const fileUpdate = await injectMetaTag(repo, metaTag);
+                if (fileUpdate === null) {
+                  console.log('  [OK] Meta tag already in place, skipping push');
+                } else {
+                  const ghRes = await updateGithubFile(repo, 'index.html', fileUpdate.content, fileUpdate.sha, fileUpdate.msg);
+                  if (ghRes.s === 200 || ghRes.s === 201) {
+                    console.log('  [OK] index.html updated → GitHub push (SHA: ' + (ghRes.b.content && ghRes.b.content.sha ? ghRes.b.content.sha.substring(0,8) : '?') + ')');
+                  } else {
+                    console.error('  [FAIL] GitHub push status ' + ghRes.s + ': ' + JSON.stringify(ghRes.b).substring(0, 200));
+                    fail++; continue;
+                  }
+                }
+              } catch (e) {
+                console.error('  [FAIL] File update error: ' + e.message);
+                fail++; continue;
+              }
+
+              // Step 3: Wait for CF Pages to deploy (up to 6 minutes)
+              console.log('  [WAIT] Waiting 180s for CF Pages deployment...');
+              await sleep(180000);
+
+              // Step 4: Verify site (retry up to 4x × 30s)
+              let verified = false;
+              for (let i = 1; i <= 4; i++) {
+                console.log('  [VERIFY] Attempt ' + i + '/4...');
+                const verRes = await verifySite(domain, access);
+                if (verRes.s === 200 && verRes.b.site) {
+                  console.log('  [OK] Verified! ID: ' + verRes.b.id);
+                  verified = true; break;
+                }
+                console.log('  [RETRY] Status ' + verRes.s + ': ' + JSON.stringify(verRes.b).substring(0, 150));
+                await sleep(30000);
+              }
+
+              if (!verified) {
+                console.error('  [FAIL] Verification timed out after retries');
+                fail++; continue;
+              }
+
+              // Step 5: Submit sitemap
+              const smRes = await submitSitemap(domain, access);
+              if (smRes.s === 200 || smRes.s === 204) {
+                console.log('  [OK] Sitemap submitted: https://' + domain + '/sitemap.xml');
+                ok++;
+              } else {
+                console.warn('  [WARN] Sitemap status ' + smRes.s + ': ' + JSON.stringify(smRes.b).substring(0, 150));
+                ok++; // count as OK since site IS verified
+              }
+
+              await sleep(1000);
+            }
+
+            console.log('\n========================================');
+            console.log('FINAL: ' + ok + ' OK, ' + fail + ' failed');
+            console.log('Check GSC: https://search.google.com/search-console');
+            if (fail > 0) process.exit(1);
+          }
+
+          main().catch(e => { console.error('[FATAL]', e.message); process.exit(1); });
+          NODEJS_EOF
