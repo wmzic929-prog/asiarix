@@ -42,6 +42,47 @@
   }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "每月娛樂預算應該設定多少才健康？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "建議每月娛樂預算不超過月收入的5%，且不影響生活必要支出（租金、餐食、交通等）。例如月收入HK$20,000，娛樂預算上限建議約HK$1,000。最重要的是預先設定固定金額，視作消費而非投資。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "每場消費上限應如何設定？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "建議每場上限不超過月預算的10%，這樣每月可參與約10次且風險可控。例如月預算HK$2,000，每場上限建議HK$200。上限設定在月預算25%以下屬健康範圍，超過25%則風險偏高。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "什麼是健康消費指數？如何計算？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "健康消費指數以每場上限佔月預算的比率衡量。比率低於10%（綠色）為健康消費；10%–25%（黃色）需留意；超過25%（紅色）建議調整。計算公式：比率 = 每場上限 ÷ 月預算 × 100%。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "什麼是止損點？應該設定在什麼金額？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "止損點是每場預先設定的最大損失上限，觸及即停止當場參與。本工具建議止損點設為每場上限的50%，即輸掉上限金額的一半便停止。例如每場上限HK$200，止損點為HK$100。止損點幫助避免情緒性連續損失。"
+        }
+      }
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
@@ -424,6 +465,16 @@
     }
     .footer-bottom a { color: rgba(255,255,255,.45); text-decoration: none; margin-left: 16px; transition: color .2s; }
     .footer-bottom a:hover { color: var(--purple-ultra); }
+
+    .tool-btn-share {
+      background: rgba(34,197,94,.08); border: 1.5px solid rgba(34,197,94,.25);
+      color: #16a34a; font-size: 13px; font-weight: 700;
+      width: 100%; height: 40px;
+      margin: 10px 0 0; display: none;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: background .2s, border-color .2s;
+    }
+    .tool-btn-share:hover { background: rgba(34,197,94,.15); border-color: #16a34a; }
   </style>
 </head>
 <body>
@@ -530,6 +581,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="rg-hotline">
             如需協助，可聯絡問題賭徒輔導熱線：<strong>1834 633</strong>（賭博輔導熱線）
           </div>
+          <button class="tool-btn-share" id="shareBtn" onclick="shareResult()">📋 複製預算計劃</button>
         </div>
 
         <div id="placeholder" style="padding:40px 0; text-align:center; color:var(--text-muted);">
@@ -543,6 +595,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="tool-disclaimer">⚠️ 此工具計算結果僅供資料參考，不構成任何財務建議。請根據平台官方條款為準。本站支持理性娛樂，18歲以上方可參與。如認為娛樂消費已影響日常生活，請尋求專業輔導協助。</p>
   </div>
 </div>
+
+<!-- PRINCIPLE SECTION -->
+<section style="background:var(--bg);padding:48px 20px 52px;border-top:1px solid var(--border);">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">預算管理原理</p>
+    <h2 class="section-title" style="color:var(--text);margin-bottom:20px;">理性娛樂預算管理完整指南</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:32px;">
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">💰 預算設定的黃金法則</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">理性娛樂的核心是把娛樂消費視作生活開支的一部分。建議參考<strong style="color:var(--text)">50/30/20法則</strong>：50%必要支出、30%個人消費（含娛樂）、20%儲蓄。娛樂預算應從30%中分配，且預先固定金額，用完即止，絕不動用儲蓄或借貸。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">📊 健康消費指數計算</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">健康消費指數以<strong style="color:var(--text)">單場上限 ÷ 月預算</strong>計算：低於10%（🟢）風險可控，每月可參與約10次；10%–25%（🟡）需留意頻率；超過25%（🔴）單次損失過重，建議調低每場上限。降低每場上限比減少月預算更能有效控制風險。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">🛑 止損點的科學依據</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">止損點建議設為單場上限的50%，原因是行為心理學研究顯示連續損失後人們更容易做出衝動決策（「追損效應」）。當損失達上限一半時停止，可保留另一半預算用於下次，同時切斷追損衝動。<strong style="color:var(--text)">預先決定比當下判斷更理性。</strong></p>
+      </div>
+    </div>
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--text);text-transform:uppercase;margin-bottom:14px;">常見問題</h3>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">月預算用完了，可以追加嗎？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">強烈建議不要。月預算用完是停止的信號，而非追加的信號。追加預算是問題娛樂習慣的早期警示。如發現自己頻繁有衝動追加，建議與朋友傾談或聯絡輔導熱線1834 633。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">贏錢後是否可以增加投注金額？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">建議不要偏離原定計劃。贏錢後增加注碼是常見的「賭徒謬誤」之一。理性做法是贏利後繼續按原定每場上限進行，或提前停止以鎖定收益。記住：娛樂的目的是享受過程，而非追求最大化收益。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">如何知道自己的娛樂習慣是否健康？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">健康的娛樂習慣特徵：預算在計劃範圍內、輸贏後情緒穩定、不影響工作和家庭關係、沒有隱瞞消費。如果你開始感到無法控制、需要增加預算才有滿足感，或影響到日常生活，建議尋求專業輔導協助。</p>
+      </details>
+    </div>
+  </div>
+</section>
 
 <!-- TIPS SECTION -->
 <section class="tips-section">
@@ -686,6 +775,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     document.getElementById('results').classList.add('visible');
     document.getElementById('placeholder').style.display = 'none';
+    document.getElementById('shareBtn').style.display = 'block';
   }
 
   function shakeInput(id) {
@@ -700,6 +790,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById('sessionLimit').value = '';
     document.getElementById('results').classList.remove('visible');
     document.getElementById('placeholder').style.display = '';
+    document.getElementById('shareBtn').style.display = 'none';
+  }
+
+  function shareResult() {
+    const sessions = document.getElementById('resSessions').textContent;
+    const daily = document.getElementById('resDaily').textContent;
+    const stopLoss = document.getElementById('resStopLoss').textContent;
+    const health = document.getElementById('healthTitle').textContent;
+    const text = `📋 娛樂預算規劃結果\n每月建議次數：${sessions}次  |  每日參考：${daily}\n止損點：${stopLoss}  |  ${health}\n\n—— spheretap.com 理性娛樂預算規劃工具`;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('shareBtn');
+      btn.textContent = '✅ 已複製！';
+      setTimeout(() => { btn.textContent = '📋 複製預算計劃'; }, 2000);
+    });
   }
 </script>
 </body>

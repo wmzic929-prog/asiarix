@@ -42,6 +42,75 @@
   }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "HK港式指數和歐洲指數有什麼分別？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HK港式指數代表純利潤倍數，例如指數1.80代表每注$100可贏$180淨利。歐洲Decimal指數則包含本金在內的總返還，換算公式為：歐洲指數 = HK指數 + 1，即HK 1.80 = EU 2.80。港式指數是香港及東南亞體育平台最常用格式。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "隱含勝率（Implied Probability）是什麼意思？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "隱含勝率是指數所反映的理論獲勝機率，計算公式為：隱含勝率 = 1 ÷ 歐洲指數 × 100%。例如歐洲指數2.00對應50%隱含勝率，指數1.50對應66.7%。莊家通常在所有選項加入優勢（overround），使各選項隱含勝率之和超過100%。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "美式指數+150和-110各代表什麼意思？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "美式指數以$100為基準。正數如+150代表每注$100可贏$150淨利（冷門）；負數如-110代表需注入$110才能贏$100淨利（熱門）。換算：正數 → EU = 指數/100+1；負數 → EU = 100/指數+1。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "分數指數如何換算成HK或歐洲指數？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "分數指數常見於英國賽馬，如5/2代表每注$2可贏$5。換算公式：歐洲指數 = 分子÷分母 + 1，即5/2 = 2.5+1 = EU 3.50，HK指數則再減1 = HK 2.50。使用換算器可即時完成四種格式互換。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "如何使用體育指數換算器",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": "1",
+        "name": "選擇輸入格式",
+        "text": "在下拉選單選擇你要換算的指數格式：HK港式、歐洲Decimal、美式正數、美式負數或分數指數。"
+      },
+      {
+        "@type": "HowToStep",
+        "position": "2",
+        "name": "輸入指數數值",
+        "text": "在輸入框填入對應格式的指數數值，或點擊範例快速填入。"
+      },
+      {
+        "@type": "HowToStep",
+        "position": "3",
+        "name": "查看換算結果",
+        "text": "點擊「立即換算」即可同時顯示四種格式換算結果及隱含勝率分析，並可複製分享。"
+      }
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
@@ -377,6 +446,16 @@
     }
     .footer-bottom a { color: rgba(255,255,255,.45); text-decoration: none; margin-left: 16px; transition: color .2s; }
     .footer-bottom a:hover { color: var(--purple-ultra); }
+
+    .tool-btn-share {
+      background: rgba(107,63,246,.08); border: 1.5px solid var(--border);
+      color: var(--purple); font-size: 13px; font-weight: 700;
+      width: 100%; height: 40px;
+      margin: 10px 0 0; display: none;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: background .2s, border-color .2s;
+    }
+    .tool-btn-share:hover { background: rgba(107,63,246,.16); border-color: var(--purple); }
   </style>
 </head>
 <body>
@@ -481,6 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="tool-analysis" id="oddsAnalysis">
             <strong>隱含勝率說明：</strong> 隱含勝率代表該指數對應的理論獲勝機率。例如港式指數 1.80，隱含勝率約 35.7%，即每次參與的預期勝算。此數字僅作分析參考，實際結果受多項因素影響。
           </div>
+          <button class="tool-btn-share" id="shareBtn" onclick="shareResult()">📋 複製換算結果</button>
         </div>
 
         <div id="placeholder" style="padding:40px 0; text-align:center; color:var(--text-muted);">
@@ -494,6 +574,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="tool-disclaimer">⚠️ 此工具計算結果僅供資料參考，不構成任何財務建議。請根據平台官方條款為準。本站支持理性娛樂，18歲以上方可參與。如認為娛樂消費已影響日常生活，請尋求專業輔導協助。</p>
   </div>
 </div>
+
+<!-- PRINCIPLE SECTION -->
+<section style="background:var(--bg);padding:48px 20px 52px;border-top:1px solid var(--border);">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">換算原理</p>
+    <h2 class="section-title" style="color:var(--text);margin-bottom:20px;">四種賠率格式完整解析</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:32px;">
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">🇭🇰 HK 港式指數</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">港式指數代表<strong style="color:var(--text)">純利潤倍數</strong>，即每注$1可獲的淨利。HK 1.80 = 每注$100贏$180淨利，共取回$280。計算公式：<strong style="color:var(--purple)">淨利 = 注金 × HK指數</strong>。此格式是香港及東南亞體育平台的主流格式。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">🌍 歐洲 Decimal 指數</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">歐洲指數包含本金的<strong style="color:var(--text)">總返還倍數</strong>，最小值為1.01。換算：<strong style="color:var(--purple)">EU = HK + 1</strong>（HK 1.80 = EU 2.80）。歐洲指數是全球最通用格式，也是計算隱含勝率的基礎：<strong style="color:var(--purple)">隱含勝率 = 1 ÷ EU × 100%</strong>。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">🇺🇸 美式 Moneyline 指數</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">以$100為基準。<strong style="color:var(--text)">正數（+X）</strong>：每注$100贏X元（冷門）；<strong style="color:var(--text)">負數（-X）</strong>：需注X元才能贏$100（熱門）。例：+150 → EU 2.50；-110 → EU 1.91。</p>
+      </div>
+    </div>
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--text);text-transform:uppercase;margin-bottom:14px;">常見問題</h3>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">HK 1.80 和 EU 2.80 是同一個意思嗎？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">是的，完全相同，只是表達方式不同。HK 1.80 是淨利倍數，EU 2.80 是含本金的總返還倍數。換算關係：EU = HK + 1。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">為什麼所有選項的隱含勝率加起來超過100%？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">這是莊家優勢（Overround / Vig）的體現。莊家設定的指數使所有選項隱含勝率總和超過100%（通常102%–115%），超出部分即是莊家的理論利潤空間。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">美式指數 -110 是熱門還是冷門？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">-110 是熱門（favorite）。負數代表需注入更多才能贏$100，說明該選項被認為勝率較高。換算後約 EU 1.91，隱含勝率約 52.4%。</p>
+      </details>
+    </div>
+  </div>
+</section>
 
 <!-- RELATED ARTICLES -->
 <section class="tool-related">
@@ -671,6 +788,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     results.classList.add('visible');
     placeholder.style.display = 'none';
+    document.getElementById('shareBtn').style.display = 'block';
   }
 
   function showError(msg) {
@@ -688,7 +806,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById('oddsFormat').value = 'hk';
     document.getElementById('results').classList.remove('visible');
     document.getElementById('placeholder').style.display = '';
+    document.getElementById('shareBtn').style.display = 'none';
     updatePlaceholder();
+  }
+
+  function shareResult() {
+    const hk = document.getElementById('resHK').textContent;
+    const eu = document.getElementById('resEU').textContent;
+    const us = document.getElementById('resUS').textContent;
+    const win = document.getElementById('resWin').textContent;
+    const text = `📊 體育指數換算結果\nHK ${hk}  ｜  EU ${eu}  ｜  US ${us}\n隱含勝率：${win}\n\n—— spheretap.com 體育指數換算器`;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('shareBtn');
+      btn.textContent = '✅ 已複製！';
+      setTimeout(() => { btn.textContent = '📋 複製換算結果'; }, 2000);
+    });
   }
 </script>
 </body>

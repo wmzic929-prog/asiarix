@@ -42,6 +42,47 @@
   }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "禮遇達成條件倍數（流水要求）是什麼？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "達成條件倍數即流水要求（Wagering Requirement），代表需完成禮遇金額乘以該倍數的投注額後才能提取獎金。例如禮遇HK$500、20倍條件，即需完成HK$10,000的投注流水才能提款。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何判斷一個禮遇是否值得參與？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "輸入禮遇金額、達成倍數和有效天數，計算每日需達到的目標金額。每日目標低於HK$300屬低難度（容易完成）；HK$300-$800為中等；超過HK$800難度較高，需評估是否符合個人預算和時間。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "達成條件倍數越低越好嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "是的，倍數越低代表流水要求越少，禮遇越容易完成。一般而言，15倍以下屬較優惠條件，20-25倍為市場常見水平，30倍以上則需要較多時間和預算才能達成。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "有效天數如何影響禮遇達成難度？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "有效天數越短，每日需達到的目標金額越高，難度越大。例如同樣HK$10,000流水要求，14天有效期每日約需HK$714，但若只有7天則每日需HK$1,428，難度相差一倍。建議優先選擇有效期較長的禮遇。"
+        }
+      }
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
@@ -408,6 +449,16 @@
     }
     .footer-bottom a { color: rgba(255,255,255,.45); text-decoration: none; margin-left: 16px; transition: color .2s; }
     .footer-bottom a:hover { color: var(--purple-ultra); }
+
+    .tool-btn-share {
+      background: rgba(107,63,246,.08); border: 1.5px solid var(--border);
+      color: var(--purple); font-size: 13px; font-weight: 700;
+      width: 100%; height: 40px;
+      margin: 10px 0 0; display: none;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: background .2s, border-color .2s;
+    }
+    .tool-btn-share:hover { background: rgba(107,63,246,.16); border-color: var(--purple); }
   </style>
 </head>
 <body>
@@ -511,6 +562,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="result-card-sub" id="resDiffLabel">低</div>
             </div>
           </div>
+          <button class="tool-btn-share" id="shareBtn" onclick="shareResult()">📋 複製計劃結果</button>
         </div>
 
         <div id="placeholder" style="padding:40px 0; text-align:center; color:var(--text-muted);">
@@ -568,6 +620,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </tbody>
     </table>
     <p style="font-size:11px;color:#94a3b8;">🟢 每日&lt;300 = 低難度 &nbsp;|&nbsp; 🟡 300-800 = 中等 &nbsp;|&nbsp; 🔴 &gt;800 = 較高難度</p>
+  </div>
+</section>
+
+<!-- PRINCIPLE SECTION -->
+<section style="background:var(--bg);padding:48px 20px 52px;border-top:1px solid var(--border);">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">禮遇解讀指南</p>
+    <h2 class="section-title" style="color:var(--text);margin-bottom:20px;">如何評估禮遇是否值得參與</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:32px;">
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">📐 流水要求計算公式</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">需完成流水 = 禮遇金額 × 達成倍數。例如禮遇HK$500、20倍條件：<strong style="color:var(--purple)">$500 × 20 = $10,000流水</strong>。在有效期14天內完成，每日目標約HK$714。這是評估禮遇難度的核心計算。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">🎯 難度評估標準</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;"><strong style="color:#16a34a">低難度（🟢）</strong>：每日目標低於HK$300，一般正常參與即可完成；<strong style="color:#ca8a04">中等（🟡）</strong>：HK$300–$800，需適量規劃；<strong style="color:#ef4444">較高難度（🔴）</strong>：超過HK$800，建議評估個人預算後再決定。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">💡 選擇禮遇的實用原則</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">優先考慮：①倍數低於20倍；②有效期14天以上；③每日目標不超過你願意投入的金額。高額禮遇不一定划算，關鍵是達成難度與禮遇金額的性價比。</p>
+      </div>
+    </div>
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--text);text-transform:uppercase;margin-bottom:14px;">常見問題</h3>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">15倍和30倍的禮遇，哪個更值得？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">15倍條件通常更值得，因為流水要求只有30倍的一半，完成難度低一倍。即使禮遇金額較小，15倍的禮遇往往比高額但30倍的禮遇更容易獲得實際收益。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">有效期只有7天的禮遇值得參與嗎？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">視乎每日目標是否可接受。用計算器計算後，如果7天有效期的每日目標超過HK$800，屬高難度，建議謹慎評估是否符合個人預算計劃再決定。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">流水要求可以用不同遊戲完成嗎？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">各平台條款不同，部分平台的某些遊戲類型（如真人娛樂、電子遊戲）對流水的計算比率各異，可能只計算50%或甚至不計算。請以平台官方條款為準，本計算器計算的是總流水需求。</p>
+      </details>
+    </div>
   </div>
 </section>
 
@@ -696,6 +785,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     document.getElementById('results').classList.add('visible');
     document.getElementById('placeholder').style.display = 'none';
+    document.getElementById('shareBtn').style.display = 'block';
   }
 
   function shakeInput(id) {
@@ -711,6 +801,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById('validDays').value = '';
     document.getElementById('results').classList.remove('visible');
     document.getElementById('placeholder').style.display = '';
+    document.getElementById('shareBtn').style.display = 'none';
+  }
+
+  function shareResult() {
+    const total = document.getElementById('resTotal').textContent;
+    const daily = document.getElementById('resDaily').textContent;
+    const diff = document.getElementById('resDiffLabel').textContent;
+    const text = `🎁 禮遇規劃結果\n需完成流水：${total}\n每日建議目標：${daily}（難度：${diff}）\n\n—— spheretap.com 禮遇規劃計算器`;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('shareBtn');
+      btn.textContent = '✅ 已複製！';
+      setTimeout(() => { btn.textContent = '📋 複製計劃結果'; }, 2000);
+    });
   }
 </script>
 </body>
