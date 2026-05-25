@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "bonus-wagering-requirement-guide",
+      "title": "優惠回贈要求計算教學｜幾多入款先完成流水條件",
+      "category": "優惠教學",
+      "date": "2026-05-25",
+      "excerpt": "申請優惠前必睇！教你點計回贈流水要求，唔使估，直接計清楚。",
+      "imageUrl": "/blog/img/bonus-wagering-requirement-guide.jpg"
+    },
+    {
       "slug": "nba-playoffs-spurs-thunder-betting-2026",
       "title": "2026 NBA季後賽博彩攻略｜馬刺雷霆入注時機同賠率分析",
       "category": "優惠資訊",
@@ -15,14 +23,6 @@
       "date": "2026-05-24",
       "excerpt": "超過七成香港玩家日常使用境外娛樂平台，但真正了解自身法律地位同維權途徑嘅人少之又少，呢篇文為你逐一解答。",
       "imageUrl": "/blog/img/hk-player-rights-overseas-platform.jpg"
-    },
-    {
-      "slug": "spurs-vs-thunder-nba-betting-guide-2026",
-      "title": "Spurs vs Thunder NBA 2026 投注攻略｜雷霆季後賽賠率全解析",
-      "category": "優惠資訊",
-      "date": "2026-05-24",
-      "excerpt": "2026年NBA季後賽激戰正酣，雷霆強勢殺入季後賽，對戰馬刺係唔容錯過嘅焦點對決，賠率分析同投注攻略全面解析！",
-      "imageUrl": "/blog/img/spurs-vs-thunder-nba-betting-guide-2026.jpg"
     }
   ]
 }
