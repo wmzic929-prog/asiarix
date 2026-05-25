@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "hk-online-platform-legal-2025",
+      "title": "香港娛樂平台合法嗎？2025最新法律解讀｜合規平台選擇指引",
+      "category": "法律合規",
+      "date": "2026-05-25",
+      "excerpt": "2025年香港網上娛樂平台係咪合法？本文由《博彩條例》條文出發，詳解用家法律責任、持牌平台要求，以及最新監管動向。",
+      "imageUrl": "/blog/img/hk-online-platform-legal-2025.jpg"
+    },
+    {
       "slug": "bonus-wagering-requirement-guide",
       "title": "優惠回贈要求計算教學｜幾多入款先完成流水條件",
       "category": "優惠教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-25",
       "excerpt": "2026年NBA季後賽馬刺對雷霆係今屆最矚目對決，體育博彩投注量升超過40%，博彩玩家絕對唔可以錯過呢個黃金入注時機！",
       "imageUrl": "/blog/img/nba-playoffs-spurs-thunder-betting-2026.jpg"
-    },
-    {
-      "slug": "hk-player-rights-overseas-platform",
-      "title": "境外娛樂平台香港玩家權益解析｜法律保障同維權攻略",
-      "category": "法律合規",
-      "date": "2026-05-24",
-      "excerpt": "超過七成香港玩家日常使用境外娛樂平台，但真正了解自身法律地位同維權途徑嘅人少之又少，呢篇文為你逐一解答。",
-      "imageUrl": "/blog/img/hk-player-rights-overseas-platform.jpg"
     }
   ]
 }
