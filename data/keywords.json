@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-24",
+  "last_refreshed": "2026-05-25",
   "keywords": [
     {
       "id": 1,
@@ -936,6 +936,36 @@
       "trending_title": "西甲",
       "trending_source": "Google HK Trends",
       "relevance_score": 85
+    },
+    {
+      "id": 102,
+      "keyword": "NBA季後賽馬刺雷霆體育博彩攻略2026",
+      "category": "優惠資訊",
+      "angle": "NBA季後賽熱潮把握體育博彩最佳入注時機",
+      "image_theme": "dark nba playoff betting odds 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-25",
+      "trending_title": "馬刺對雷霆 NBA 季後賽激戰",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 88
+    },
+    {
+      "id": 103,
+      "keyword": "意甲聯賽足球投注賠率推介2026",
+      "category": "優惠資訊",
+      "angle": "意甲塵埃落定盤點本季最準足球博彩策略",
+      "image_theme": "dark serie a soccer betting 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-25",
+      "trending_title": "意甲聯賽塵埃落定",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 76
     }
   ]
 }
