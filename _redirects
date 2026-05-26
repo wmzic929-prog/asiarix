@@ -1,4 +1,5 @@
 # Cloudflare Pages redirects
+/blog/ /blog 301
 /home /index.html 301
 /zh /index.html 301
 /tc /index.html 301
