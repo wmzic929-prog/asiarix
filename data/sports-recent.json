@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-26-romance-with-magic-crowned-triple-crown-king",
+      "headline": "浪漫勇士加冕三冠王！",
+      "category": "賽馬",
+      "emoji": "🐎🏆👑",
+      "date": "2026-05-26",
+      "lead": "「浪漫勇士」今日在沙田馬場歷史性封王，成為香港賽馬史上第三匹「三冠王」，締造傳奇！",
+      "imageUrl": "https://images.pexels.com/photos/6818591/pexels-photo-6818591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Dynamic action shot of a horse race in Budapest showcasing speed and competition."
+    },
+    {
       "slug": "2026-05-26-romance-with-rose-crowned-triple-crown-king",
       "headline": "浪漫勇士創歷史！三冠王偉業加冕",
       "category": "賽馬",
@@ -69,16 +79,6 @@
       "lead": "「浪漫勇士」今日於沙田馬場歷史性封王，成為香港賽馬史上第三匹「三冠王」，締造傳奇！",
       "imageUrl": "https://images.pexels.com/photos/6749994/pexels-photo-6749994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Horse racing on a sunny day at the Budapest race track, Hungary, with city backdrop."
-    },
-    {
-      "slug": "2026-05-25-kai-tak-sports-park-2025-review-hong-kong-football-triumphs",
-      "headline": "啟德體育園2025：體壇新里程碑，港足揚威",
-      "category": "綜合",
-      "emoji": "🏟️",
-      "date": "2026-05-25",
-      "lead": "啟德體育園的落成啟用，標誌著香港體育發展邁入新紀元。2025年，園區成功舉辦多項國際盛事，而本地足球隊亦迎來歷史性「三連爆」，為香港體壇注入強大動力。",
-      "imageUrl": "https://images.pexels.com/photos/12783338/pexels-photo-12783338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Two male soccer players competing in an outdoor match on a sunny day."
     }
   ]
 }
