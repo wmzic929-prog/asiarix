@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-26-romance-hero-crowned-triple-crown-king",
+      "headline": "浪漫勇士加冕三冠王",
+      "category": "賽馬",
+      "emoji": "🐎🏆👑",
+      "date": "2026-05-26",
+      "lead": "「浪漫勇士」今日在冠軍暨遮打盃以凌厲姿態掄元，歷史性成為香港賽馬史上第三匹「三冠王」，締造傳奇。這匹本地薑的偉大成就，再次燃點起全港馬迷的熱情。",
+      "imageUrl": "",
+      "imageAlt": "浪漫勇士加冕三冠王"
+    },
+    {
       "slug": "2026-05-26-romantic-warrior-triple-crown-king",
       "headline": "浪漫勇士加冕三冠王！",
       "category": "賽馬",
@@ -69,16 +79,6 @@
       "lead": "「浪漫勇士」今日在沙田馬場上演王者歸來，贏得冠軍暨遮打盃，正式加冕為香港賽馬史上第三匹「三冠王」，締造歷史。",
       "imageUrl": "",
       "imageAlt": "浪漫勇士封王 歷史性三冠王"
-    },
-    {
-      "slug": "2026-05-24-hong-kong-dancers-interview",
-      "headline": "體舞精英分享訓練與未來",
-      "category": "綜合",
-      "emoji": "💃",
-      "date": "2026-05-24",
-      "lead": "香港體育舞蹈代表隊的嚴紀昀與教練廖雲軒，在《孟想運動周刊》節目中，分享了他們在體育舞蹈領域的點滴，包括艱辛的訓練、面對的挑戰，以及對這項運動未來發展的願景。",
-      "imageUrl": "",
-      "imageAlt": "體舞精英分享訓練與未來"
     }
   ]
 }
