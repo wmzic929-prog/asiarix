@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-26-romance-with-rose-crowned-triple-crown-king",
+      "headline": "浪漫勇士加冕三冠王！",
+      "category": "賽馬",
+      "emoji": "🐎🏆👑",
+      "date": "2026-05-26",
+      "lead": "「浪漫勇士」今日在沙田馬場寫下歷史新一頁，成功捧走冠軍暨遮打盃，成為香港賽馬史上第三匹「三冠王」，締造不朽傳奇。",
+      "imageUrl": "",
+      "imageAlt": "浪漫勇士加冕三冠王！"
+    },
+    {
       "slug": "2026-05-26-romance-hero-crowned-triple-crown-king",
       "headline": "浪漫勇士加冕三冠王",
       "category": "賽馬",
@@ -69,16 +79,6 @@
       "lead": "香港時間2026年5月25日，南華籃球隊喺籃球亞冠聯東亞區決賽中，以破紀錄嘅113分擊敗對手領航猿，成功捧起東亞區冠軍獎盃，為香港籃球界贏盡榮耀。",
       "imageUrl": "",
       "imageAlt": "南華亞冠聯稱霸東亞區！"
-    },
-    {
-      "slug": "2026-05-25-romance-champ-triple-crown",
-      "headline": "浪漫勇士封王 歷史性三冠王",
-      "category": "賽馬",
-      "emoji": "🐎🏆👑",
-      "date": "2026-05-25",
-      "lead": "「浪漫勇士」今日在沙田馬場上演王者歸來，贏得冠軍暨遮打盃，正式加冕為香港賽馬史上第三匹「三冠王」，締造歷史。",
-      "imageUrl": "",
-      "imageAlt": "浪漫勇士封王 歷史性三冠王"
     }
   ]
 }
