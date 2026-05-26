@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-26-romance-warrior-triple-crown",
+      "headline": "浪漫勇士加冕三冠王！",
+      "category": "賽馬",
+      "emoji": "🐎🏆👑",
+      "date": "2026-05-26",
+      "lead": "「浪漫勇士」今日於沙田馬場歷史性封王，成為香港賽馬史上第三匹「三冠王」，締造傳奇！",
+      "imageUrl": "",
+      "imageAlt": "浪漫勇士加冕三冠王！"
+    },
+    {
       "slug": "2026-05-25-kai-tak-sports-park-2025-review-hong-kong-football-triumphs",
       "headline": "啟德體育園2025：體壇新里程碑，港足揚威",
       "category": "綜合",
@@ -69,16 +79,6 @@
       "lead": "港足在港會七人賽事中下午連吞兩場敗仗，表現未如理想。然而，陣中球員霍俊羲透露將續戰阿聯酋聯賽，為港將開拓海外路。",
       "imageUrl": "",
       "imageAlt": "港足七人賽連敗 霍俊羲將戰阿聯酋聯賽"
-    },
-    {
-      "slug": "2026-05-24-south-china-wins-bcl-qualifier",
-      "headline": "南華15分挫敵 贏得BCL正賽資格",
-      "category": "籃球",
-      "emoji": "🏀",
-      "date": "2026-05-24",
-      "lead": "南華籃球隊喺今晚嘅籃球亞洲冠軍聯賽（BCL）四強賽事中，以一場精彩絕倫嘅表現，擊敗對手，成功贏得BCL正賽嘅入場券，為香港籃球寫下新一頁。",
-      "imageUrl": "",
-      "imageAlt": "南華15分挫敵 贏得BCL正賽資格"
     }
   ]
 }
