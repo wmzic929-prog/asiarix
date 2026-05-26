@@ -778,12 +778,14 @@
       "category": "優惠資訊",
       "angle": "歐洲豪門對決，足球博彩賠率分析",
       "image_theme": "dark soccer betting stadium 2026",
-      "status": "available",
+      "status": "used",
       "trending": true,
       "trending_date": "2026-05-15",
       "trending_title": "皇家馬德里 對 皇家奧維耶多",
       "trending_source": "Google HK Trends",
-      "relevance_score": 88
+      "relevance_score": 88,
+      "slug": "real-madrid-vs-oviedo-2026-betting",
+      "used_date": "2026-05-26"
     },
     {
       "id": 92,
