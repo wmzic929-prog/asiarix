@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T16:23:20+08:00",
+  "generated_at": "2026-05-27T16:31:36+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -123,13 +123,13 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
-            "clicks_28d": 0,
-            "impressions_7d": 0,
-            "clicks_7d": 0,
-            "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "impressions_28d": 138,
+            "clicks_28d": 40,
+            "impressions_7d": 137,
+            "clicks_7d": 40,
+            "ctr": 0.2899,
+            "avg_position": 7,
+            "indexed_pages": 69,
             "series_7d": {
               "dates": [
                 "5/18",
@@ -141,29 +141,55 @@
                 "5/24"
               ],
               "impressions": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+                3,
+                40,
+                18,
+                19,
+                18,
+                15,
+                24
               ],
               "clicks": [
-                0,
-                0,
-                0,
+                1,
+                34,
+                5,
                 0,
                 0,
                 0,
                 0
               ]
             },
-            "top_keywords": [],
+            "top_keywords": [
+              {
+                "kw": "2026 英超 冠軍",
+                "pos": 12,
+                "clicks": 0
+              },
+              {
+                "kw": "2026英超冠軍",
+                "pos": 11,
+                "clicks": 0
+              },
+              {
+                "kw": "birthday bonus",
+                "pos": 1,
+                "clicks": 0
+              },
+              {
+                "kw": "siu cheong hung",
+                "pos": 11,
+                "clicks": 0
+              },
+              {
+                "kw": "回贈/積分點計？有咩限制？",
+                "pos": 6,
+                "clicks": 0
+              }
+            ],
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 172
           },
           "content": {
             "total_articles": 102,
@@ -177,8 +203,8 @@
             {
               "date": "5/20",
               "sessions": 29,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
+              "gsc_imp": 18,
+              "gsc_clk": 5,
               "cta_clk": 0,
               "articles": 195,
               "gsc_pending": false
@@ -186,7 +212,7 @@
             {
               "date": "5/21",
               "sessions": 43,
-              "gsc_imp": 0,
+              "gsc_imp": 19,
               "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 195,
@@ -195,7 +221,7 @@
             {
               "date": "5/22",
               "sessions": 177,
-              "gsc_imp": 0,
+              "gsc_imp": 18,
               "gsc_clk": 0,
               "cta_clk": 3,
               "articles": 195,
@@ -204,7 +230,7 @@
             {
               "date": "5/23",
               "sessions": 216,
-              "gsc_imp": 0,
+              "gsc_imp": 15,
               "gsc_clk": 0,
               "cta_clk": 10,
               "articles": 195,
@@ -213,7 +239,7 @@
             {
               "date": "5/24",
               "sessions": 207,
-              "gsc_imp": 0,
+              "gsc_imp": 24,
               "gsc_clk": 0,
               "cta_clk": 5,
               "articles": 195,
@@ -373,7 +399,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 33
           },
           "content": {
             "total_articles": 29,
@@ -573,7 +599,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 32
           },
           "content": {
             "total_articles": 28,
@@ -735,13 +761,13 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 9,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 9,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 22.9,
+            "indexed_pages": 3,
             "series_7d": {
               "dates": [
                 "5/18",
@@ -753,11 +779,11 @@
                 "5/24"
               ],
               "impressions": [
+                2,
+                3,
                 0,
                 0,
-                0,
-                0,
-                0,
+                4,
                 0,
                 0
               ],
@@ -775,7 +801,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 21
           },
           "content": {
             "total_articles": 23,
@@ -807,7 +833,7 @@
             {
               "date": "5/22",
               "sessions": 14,
-              "gsc_imp": 0,
+              "gsc_imp": 4,
               "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 6,
@@ -852,7 +878,7 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-27T16:05:46.584Z",
+              "last_seen": "2026-05-27T16:05:46.585Z",
               "count_30d": 119,
               "dates": {
                 "2026-05-23": 31,
@@ -978,7 +1004,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 25
           },
           "content": {
             "total_articles": 24,
@@ -1182,7 +1208,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 29
           },
           "content": {
             "total_articles": 23,
@@ -1259,14 +1285,14 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-27T15:29:59.632Z",
-              "count_30d": 120,
+              "last_seen": "2026-05-27T16:30:56.506Z",
+              "count_30d": 121,
               "dates": {
                 "2026-05-23": 17,
                 "2026-05-24": 25,
                 "2026-05-25": 22,
                 "2026-05-26": 38,
-                "2026-05-27": 18
+                "2026-05-27": 19
               }
             },
             "GPTBot": {
