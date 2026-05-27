@@ -420,6 +420,12 @@
 
   <!-- ═══ SPORTS ARTICLES ═══ -->
   <url>
+    <loc>https://spheretap.com/sports/2026-05-27-football-putellas-barcelona-farewell</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://spheretap.com/sports/2026-05-27-football-rayo-vallecano-conference-league-final</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
