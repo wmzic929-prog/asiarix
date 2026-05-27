@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-26",
+  "last_refreshed": "2026-05-27",
   "keywords": [
     {
       "id": 1,
@@ -981,6 +981,21 @@
       "trending": true,
       "trending_date": "2026-05-26",
       "trending_title": "【騎士 對 尼克】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 88
+    },
+    {
+      "id": 105,
+      "keyword": "2026 NBA 季後賽體育投注攻略",
+      "category": "優惠資訊",
+      "angle": "雷霆馬刺決戰賠率解析與投注推薦",
+      "image_theme": "dark nba playoffs sports betting arena 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-27",
+      "trending_title": "【NBA 季後賽戰況激烈】",
       "trending_source": "Google HK Trends",
       "relevance_score": 88
     }
