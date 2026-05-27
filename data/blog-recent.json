@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "ios-vs-android-entertainment-app",
+      "title": "iOS vs Android 娛樂平台 APP 有咩唔同？2026功能差異比較",
+      "category": "平台評測",
+      "date": "2026-05-27",
+      "excerpt": "唔少玩家都唔知道，iOS 同 Android 娛樂 APP 體驗其實大有不同，今次逐點話你知有咩分別。",
+      "imageUrl": "/blog/img/ios-vs-android-entertainment-app.jpg"
+    },
+    {
       "slug": "account-suspended-recovery-guide",
       "title": "娛樂平台帳號被停用？5大原因及申訴恢復完整教學",
       "category": "疑難排解",
@@ -15,14 +23,6 @@
       "date": "2026-05-26",
       "excerpt": "USDT TRC20 手續費最平只係 $0.1，ERC20 可以貴到 $80，兩者差距高達百倍，娛樂平台入款前一定要睇清楚！",
       "imageUrl": "/blog/img/trc20-erc20-deposit-comparison.jpg"
-    },
-    {
-      "slug": "online-casino-520-promo-2026",
-      "title": "2026年520線上博彩平台迎新存款優惠攻略｜香港玩家必睇",
-      "category": "優惠資訊",
-      "date": "2026-05-26",
-      "excerpt": "五月旅遊旺季來臨，各大線上博彩平台520優惠2026同步開跑，新會員首存最高攞100%獎金，限時優惠唔容錯過！",
-      "imageUrl": "/blog/img/online-casino-520-promo-2026.jpg"
     }
   ]
 }
