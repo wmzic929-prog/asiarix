@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-27-football-putellas-barcelona-farewell",
+      "title": "女球王普迪耶絲告別巴塞14年生涯 傳轉投倫敦城雌獅",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-27",
+      "excerpt": "兩屆金球獎得主普迪耶絲宣布離開巴塞隆拿女足，結束14年輝煌生涯，上週五剛助球隊第4奪女子歐冠，英媒指她將轉投倫敦城雌獅。",
+      "imageUrl": "/sports/img/2026-05-27-football-putellas-barcelona-farewell.jpg",
+      "imageAlt": "普迪耶絲巴塞告別"
+    },
+    {
       "slug": "2026-05-27-football-rayo-vallecano-conference-league-final",
       "title": "草根球會華歷簡奴殺入歐協聯決賽 謾罵聲中創造歷史",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "NBA 2026季後賽G5，SGA攻下32分9助攻，雷霆127比114力克馬刺，系列賽3比2聽牌，距離晉級西區冠軍賽僅差一步。",
       "imageUrl": "/sports/img/2026-05-27-basketball-thunder-spurs-sga-32.jpg",
       "imageAlt": "雷霆SGA季後賽進攻"
-    },
-    {
-      "slug": "2026-05-27-romance-champ-triple-crown",
-      "headline": "浪漫勇士加冕三冠王！",
-      "category": "賽馬",
-      "emoji": "🐎🏆🏅",
-      "date": "2026-05-27",
-      "lead": "「浪漫勇士」今日於冠軍暨遮打盃掄元，歷史性成為香港賽馬史上第三匹「三冠王」，締造傳奇。",
-      "imageUrl": "https://images.pexels.com/photos/6818591/pexels-photo-6818591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Dynamic action shot of a horse race in Budapest showcasing speed and competition."
     }
   ]
 }
