@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-27-romance-champ-triple-crown",
+      "headline": "浪漫勇士加冕三冠王！",
+      "category": "賽馬",
+      "emoji": "🐎🏆🏅",
+      "date": "2026-05-27",
+      "lead": "「浪漫勇士」今日於冠軍暨遮打盃掄元，歷史性成為香港賽馬史上第三匹「三冠王」，締造傳奇。",
+      "imageUrl": "https://images.pexels.com/photos/6818591/pexels-photo-6818591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Dynamic action shot of a horse race in Budapest showcasing speed and competition."
+    },
+    {
       "slug": "2026-05-26-romance-with-magic-crowned-triple-crown-king",
       "headline": "浪漫勇士加冕三冠王！",
       "category": "賽馬",
@@ -69,16 +79,6 @@
       "lead": "「浪漫勇士」今日再創歷史！憑藉壓倒性表現贏得「冠軍暨遮打盃」，正式加冕香港賽馬史上第三匹「三冠王」，寫下傳奇新篇章。",
       "imageUrl": "https://images.pexels.com/photos/29062693/pexels-photo-29062693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Black and white photo of horse racing at a track in Wrocław, Poland."
-    },
-    {
-      "slug": "2026-05-26-romance-warrior-triple-crown",
-      "headline": "浪漫勇士加冕三冠王！",
-      "category": "賽馬",
-      "emoji": "🐎🏆👑",
-      "date": "2026-05-26",
-      "lead": "「浪漫勇士」今日於沙田馬場歷史性封王，成為香港賽馬史上第三匹「三冠王」，締造傳奇！",
-      "imageUrl": "https://images.pexels.com/photos/6749994/pexels-photo-6749994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Horse racing on a sunny day at the Budapest race track, Hungary, with city backdrop."
     }
   ]
 }
