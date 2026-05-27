@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-27-football-rayo-vallecano-conference-league-final",
+      "title": "草根球會華歷簡奴殺入歐協聯決賽 謾罵聲中創造歷史",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-05-27",
+      "excerpt": "馬德里草根球會Rayo Vallecano在資源匱乏、球迷怒聲中，創歷史首度殺入歐協聯決賽，5月28日凌晨3時對陣英超水晶宮，Now TV 638台直播。",
+      "imageUrl": "/sports/img/2026-05-27-football-rayo-vallecano-conference-league-final.jpg",
+      "imageAlt": "華歷簡奴球隊訓練"
+    },
+    {
       "slug": "2026-05-27-basketball-thunder-spurs-sga-32",
       "title": "雷霆SGA攻32分力克馬刺 NBA季後賽系列賽3比2聽牌",
       "category": "籃球",
@@ -17,16 +27,6 @@
       "emoji": "🐎🏆🏅",
       "date": "2026-05-27",
       "lead": "「浪漫勇士」今日於冠軍暨遮打盃掄元，歷史性成為香港賽馬史上第三匹「三冠王」，締造傳奇。",
-      "imageUrl": "https://images.pexels.com/photos/6818591/pexels-photo-6818591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Dynamic action shot of a horse race in Budapest showcasing speed and competition."
-    },
-    {
-      "slug": "2026-05-26-romance-with-magic-crowned-triple-crown-king",
-      "headline": "浪漫勇士加冕三冠王！",
-      "category": "賽馬",
-      "emoji": "🐎🏆👑",
-      "date": "2026-05-26",
-      "lead": "「浪漫勇士」今日在沙田馬場歷史性封王，成為香港賽馬史上第三匹「三冠王」，締造傳奇！",
       "imageUrl": "https://images.pexels.com/photos/6818591/pexels-photo-6818591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Dynamic action shot of a horse race in Budapest showcasing speed and competition."
     }
