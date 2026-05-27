@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T13:30:00+08:00",
+  "generated_at": "2026-05-27T16:23:20+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -61,9 +61,9 @@
           "label": "Spheretap 主站",
           "role": "main",
           "traffic": {
-            "sessions_today": 213,
-            "sessions_7d": 1105,
-            "sessions_30d": 1331,
+            "sessions_today": 228,
+            "sessions_7d": 1306,
+            "sessions_30d": 1559,
             "series_30d": [
               0,
               0,
@@ -94,7 +94,7 @@
               207,
               221,
               213,
-              187
+              228
             ],
             "cta_series_7d": [
               0,
@@ -105,14 +105,14 @@
               11,
               6
             ],
-            "bounce_rate": 0.483,
-            "avg_duration_sec": 393,
-            "mobile_pct": 0.659,
+            "bounce_rate": 0.557,
+            "avg_duration_sec": 352,
+            "mobile_pct": 0.677,
             "sources": {
-              "organic": 0.46,
-              "direct": 0.14,
-              "social": 0.2,
-              "referral": 0.16
+              "organic": 0.45,
+              "direct": 0.11,
+              "social": 0.18,
+              "referral": 0.14
             }
           },
           "cta": {
@@ -123,13 +123,13 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 138,
-            "clicks_28d": 40,
-            "impressions_7d": 137,
-            "clicks_7d": 40,
-            "ctr": 0.2899,
-            "avg_position": 7,
-            "indexed_pages": 69,
+            "impressions_28d": 0,
+            "clicks_28d": 0,
+            "impressions_7d": 0,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 0,
+            "indexed_pages": 0,
             "series_7d": {
               "dates": [
                 "5/18",
@@ -141,55 +141,29 @@
                 "5/24"
               ],
               "impressions": [
-                3,
-                40,
-                18,
-                19,
-                18,
-                15,
-                24
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
               ],
               "clicks": [
-                1,
-                34,
-                5,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 0
               ]
             },
-            "top_keywords": [
-              {
-                "kw": "2026 英超 冠軍",
-                "pos": 12,
-                "clicks": 0
-              },
-              {
-                "kw": "2026英超冠軍",
-                "pos": 11,
-                "clicks": 0
-              },
-              {
-                "kw": "birthday bonus",
-                "pos": 1,
-                "clicks": 0
-              },
-              {
-                "kw": "siu cheong hung",
-                "pos": 11,
-                "clicks": 0
-              },
-              {
-                "kw": "回贈/積分點計？有咩限制？",
-                "pos": 6,
-                "clicks": 0
-              }
-            ],
+            "top_keywords": [],
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 172
+            "total_urls": 0
           },
           "content": {
             "total_articles": 102,
@@ -203,8 +177,8 @@
             {
               "date": "5/20",
               "sessions": 29,
-              "gsc_imp": 18,
-              "gsc_clk": 5,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 195,
               "gsc_pending": false
@@ -212,7 +186,7 @@
             {
               "date": "5/21",
               "sessions": 43,
-              "gsc_imp": 19,
+              "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 195,
@@ -221,7 +195,7 @@
             {
               "date": "5/22",
               "sessions": 177,
-              "gsc_imp": 18,
+              "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
               "articles": 195,
@@ -230,7 +204,7 @@
             {
               "date": "5/23",
               "sessions": 216,
-              "gsc_imp": 15,
+              "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 10,
               "articles": 195,
@@ -239,7 +213,7 @@
             {
               "date": "5/24",
               "sessions": 207,
-              "gsc_imp": 24,
+              "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 5,
               "articles": 195,
@@ -297,9 +271,9 @@
           "label": "體育博彩攻略",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 5,
-            "sessions_7d": 63,
-            "sessions_30d": 127,
+            "sessions_today": 16,
+            "sessions_7d": 73,
+            "sessions_30d": 143,
             "series_30d": [
               0,
               0,
@@ -330,7 +304,7 @@
               9,
               7,
               5,
-              9
+              16
             ],
             "cta_series_7d": [
               0,
@@ -341,14 +315,14 @@
               2,
               2
             ],
-            "bounce_rate": 0.654,
-            "avg_duration_sec": 72,
-            "mobile_pct": 0.252,
+            "bounce_rate": 0.692,
+            "avg_duration_sec": 70,
+            "mobile_pct": 0.266,
             "sources": {
-              "organic": 0,
-              "direct": 0.98,
+              "organic": 0.03,
+              "direct": 0.94,
               "social": 0,
-              "referral": 0.02
+              "referral": 0.01
             }
           },
           "cta": {
@@ -399,7 +373,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 33
+            "total_urls": 0
           },
           "content": {
             "total_articles": 29,
@@ -483,11 +457,12 @@
               }
             },
             "GPTBot": {
-              "last_seen": "2026-05-26T09:46:28.336Z",
-              "count_30d": 25,
+              "last_seen": "2026-05-27T14:27:21.697Z",
+              "count_30d": 35,
               "dates": {
                 "2026-05-25": 14,
-                "2026-05-26": 11
+                "2026-05-26": 11,
+                "2026-05-27": 10
               }
             }
           }
@@ -496,9 +471,9 @@
           "label": "真人遊戲技術流",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 10,
+            "sessions_today": 4,
             "sessions_7d": 53,
-            "sessions_30d": 133,
+            "sessions_30d": 137,
             "series_30d": [
               0,
               0,
@@ -540,14 +515,14 @@
               3,
               4
             ],
-            "bounce_rate": 0.707,
-            "avg_duration_sec": 95,
-            "mobile_pct": 0.218,
+            "bounce_rate": 0.715,
+            "avg_duration_sec": 98,
+            "mobile_pct": 0.234,
             "sources": {
               "organic": 0.01,
-              "direct": 0.95,
+              "direct": 0.93,
               "social": 0,
-              "referral": 0.05
+              "referral": 0.04
             }
           },
           "cta": {
@@ -598,7 +573,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 32
+            "total_urls": 0
           },
           "content": {
             "total_articles": 28,
@@ -675,13 +650,13 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-27T12:41:12.238Z",
-              "count_30d": 70,
+              "last_seen": "2026-05-27T15:28:00.335Z",
+              "count_30d": 74,
               "dates": {
                 "2026-05-24": 16,
                 "2026-05-25": 14,
                 "2026-05-26": 26,
-                "2026-05-27": 14
+                "2026-05-27": 18
               }
             },
             "GPTBot": {
@@ -698,9 +673,9 @@
           "label": "香港賽馬技術分析",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 7,
+            "sessions_today": 2,
             "sessions_7d": 46,
-            "sessions_30d": 103,
+            "sessions_30d": 105,
             "series_30d": [
               0,
               0,
@@ -742,217 +717,14 @@
               3,
               2
             ],
-            "bounce_rate": 0.67,
+            "bounce_rate": 0.676,
             "avg_duration_sec": 131,
-            "mobile_pct": 0.233,
+            "mobile_pct": 0.238,
             "sources": {
               "organic": 0.01,
               "direct": 0.94,
               "social": 0.03,
               "referral": 0.02
-            }
-          },
-          "cta": {
-            "clicks_today": 0,
-            "clicks_7d": 0,
-            "unique_clicks_7d": 0,
-            "conversions_today": 0,
-            "conversions_7d": 0
-          },
-          "gsc": {
-            "impressions_28d": 9,
-            "clicks_28d": 0,
-            "impressions_7d": 9,
-            "clicks_7d": 0,
-            "ctr": 0,
-            "avg_position": 22.9,
-            "indexed_pages": 3,
-            "series_7d": {
-              "dates": [
-                "5/18",
-                "5/19",
-                "5/20",
-                "5/21",
-                "5/22",
-                "5/23",
-                "5/24"
-              ],
-              "impressions": [
-                2,
-                3,
-                0,
-                0,
-                4,
-                0,
-                0
-              ],
-              "clicks": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ]
-            },
-            "top_keywords": [],
-            "data_cutoff": "2026-05-24"
-          },
-          "sitemap": {
-            "total_urls": 21
-          },
-          "content": {
-            "total_articles": 23,
-            "this_month": 23,
-            "this_week": 22,
-            "sports_articles": 0,
-            "total_articles_inc_sports": 23
-          },
-          "cwv": {},
-          "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 2,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 2,
-              "gsc_pending": false
-            },
-            {
-              "date": "5/21",
-              "sessions": 4,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 4,
-              "articles": 4,
-              "gsc_pending": false
-            },
-            {
-              "date": "5/22",
-              "sessions": 14,
-              "gsc_imp": 4,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 6,
-              "gsc_pending": false
-            },
-            {
-              "date": "5/23",
-              "sessions": 9,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 7,
-              "articles": 9,
-              "gsc_pending": false
-            },
-            {
-              "date": "5/24",
-              "sessions": 3,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 1,
-              "articles": 12,
-              "gsc_pending": false
-            },
-            {
-              "date": "5/25",
-              "sessions": 7,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 3,
-              "articles": 14,
-              "gsc_pending": true
-            },
-            {
-              "date": "5/26",
-              "sessions": 7,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 2,
-              "articles": 23,
-              "gsc_pending": true
-            }
-          ],
-          "ai_crawlers": {
-            "ClaudeBot": {
-              "last_seen": "2026-05-27T12:21:30.154Z",
-              "count_30d": 116,
-              "dates": {
-                "2026-05-23": 31,
-                "2026-05-24": 18,
-                "2026-05-25": 22,
-                "2026-05-26": 34,
-                "2026-05-27": 11
-              }
-            },
-            "GPTBot": {
-              "last_seen": "2026-05-26T13:25:37.516Z",
-              "count_30d": 19,
-              "dates": {
-                "2026-05-25": 11,
-                "2026-05-26": 8
-              }
-            }
-          }
-        },
-        "spin-metrics.com": {
-          "label": "老虎機遊戲解析",
-          "role": "satellite",
-          "traffic": {
-            "sessions_today": 9,
-            "sessions_7d": 51,
-            "sessions_30d": 102,
-            "series_30d": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              15,
-              16,
-              8,
-              8,
-              5,
-              2,
-              10,
-              11,
-              5,
-              6,
-              8,
-              9,
-              6
-            ],
-            "cta_series_7d": [
-              0,
-              10,
-              5,
-              4,
-              3,
-              1,
-              3
-            ],
-            "bounce_rate": 0.608,
-            "avg_duration_sec": 139,
-            "mobile_pct": 0.196,
-            "sources": {
-              "organic": 0.01,
-              "direct": 0.89,
-              "social": 0.05,
-              "referral": 0.05
             }
           },
           "cta": {
@@ -1003,7 +775,210 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 25
+            "total_urls": 0
+          },
+          "content": {
+            "total_articles": 23,
+            "this_month": 23,
+            "this_week": 22,
+            "sports_articles": 0,
+            "total_articles_inc_sports": 23
+          },
+          "cwv": {},
+          "daily_7d": [
+            {
+              "date": "5/20",
+              "sessions": 2,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 2,
+              "gsc_pending": false
+            },
+            {
+              "date": "5/21",
+              "sessions": 4,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 4,
+              "articles": 4,
+              "gsc_pending": false
+            },
+            {
+              "date": "5/22",
+              "sessions": 14,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 0,
+              "articles": 6,
+              "gsc_pending": false
+            },
+            {
+              "date": "5/23",
+              "sessions": 9,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 7,
+              "articles": 9,
+              "gsc_pending": false
+            },
+            {
+              "date": "5/24",
+              "sessions": 3,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
+              "articles": 12,
+              "gsc_pending": false
+            },
+            {
+              "date": "5/25",
+              "sessions": 7,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 3,
+              "articles": 14,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/26",
+              "sessions": 7,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 2,
+              "articles": 23,
+              "gsc_pending": true
+            }
+          ],
+          "ai_crawlers": {
+            "ClaudeBot": {
+              "last_seen": "2026-05-27T16:05:46.584Z",
+              "count_30d": 119,
+              "dates": {
+                "2026-05-23": 31,
+                "2026-05-24": 18,
+                "2026-05-25": 22,
+                "2026-05-26": 34,
+                "2026-05-27": 14
+              }
+            },
+            "GPTBot": {
+              "last_seen": "2026-05-26T13:25:37.516Z",
+              "count_30d": 19,
+              "dates": {
+                "2026-05-25": 11,
+                "2026-05-26": 8
+              }
+            }
+          }
+        },
+        "spin-metrics.com": {
+          "label": "老虎機遊戲解析",
+          "role": "satellite",
+          "traffic": {
+            "sessions_today": 10,
+            "sessions_7d": 58,
+            "sessions_30d": 111,
+            "series_30d": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              15,
+              16,
+              8,
+              8,
+              5,
+              2,
+              10,
+              11,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "cta_series_7d": [
+              0,
+              10,
+              5,
+              4,
+              3,
+              1,
+              3
+            ],
+            "bounce_rate": 0.64,
+            "avg_duration_sec": 136,
+            "mobile_pct": 0.216,
+            "sources": {
+              "organic": 0.02,
+              "direct": 0.88,
+              "social": 0.04,
+              "referral": 0.04
+            }
+          },
+          "cta": {
+            "clicks_today": 0,
+            "clicks_7d": 0,
+            "unique_clicks_7d": 0,
+            "conversions_today": 0,
+            "conversions_7d": 0
+          },
+          "gsc": {
+            "impressions_28d": 0,
+            "clicks_28d": 0,
+            "impressions_7d": 0,
+            "clicks_7d": 0,
+            "ctr": 0,
+            "avg_position": 0,
+            "indexed_pages": 0,
+            "series_7d": {
+              "dates": [
+                "5/18",
+                "5/19",
+                "5/20",
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "top_keywords": [],
+            "data_cutoff": "2026-05-24"
+          },
+          "sitemap": {
+            "total_urls": 0
           },
           "content": {
             "total_articles": 24,
@@ -1080,22 +1055,23 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-27T12:42:26.368Z",
-              "count_30d": 89,
+              "last_seen": "2026-05-27T15:50:57.531Z",
+              "count_30d": 91,
               "dates": {
                 "2026-05-23": 13,
                 "2026-05-24": 19,
                 "2026-05-25": 12,
                 "2026-05-26": 31,
-                "2026-05-27": 14
+                "2026-05-27": 16
               }
             },
             "GPTBot": {
-              "last_seen": "2026-05-26T15:15:14.788Z",
-              "count_30d": 39,
+              "last_seen": "2026-05-27T14:27:40.624Z",
+              "count_30d": 50,
               "dates": {
                 "2026-05-25": 31,
-                "2026-05-26": 8
+                "2026-05-26": 8,
+                "2026-05-27": 11
               }
             }
           }
@@ -1104,9 +1080,9 @@
           "label": "平台技術評測",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 7,
-            "sessions_7d": 53,
-            "sessions_30d": 119,
+            "sessions_today": 3,
+            "sessions_7d": 55,
+            "sessions_30d": 122,
             "series_30d": [
               0,
               0,
@@ -1137,7 +1113,7 @@
               4,
               7,
               7,
-              2
+              3
             ],
             "cta_series_7d": [
               0,
@@ -1148,13 +1124,13 @@
               4,
               5
             ],
-            "bounce_rate": 0.689,
-            "avg_duration_sec": 118,
-            "mobile_pct": 0.261,
+            "bounce_rate": 0.697,
+            "avg_duration_sec": 119,
+            "mobile_pct": 0.262,
             "sources": {
               "organic": 0,
-              "direct": 0.97,
-              "social": 0.03,
+              "direct": 0.96,
+              "social": 0.02,
               "referral": 0.01
             }
           },
@@ -1206,7 +1182,7 @@
             "data_cutoff": "2026-05-24"
           },
           "sitemap": {
-            "total_urls": 29
+            "total_urls": 0
           },
           "content": {
             "total_articles": 23,
@@ -1283,23 +1259,23 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-27T11:27:27.081Z",
-              "count_30d": 117,
+              "last_seen": "2026-05-27T15:29:59.632Z",
+              "count_30d": 120,
               "dates": {
                 "2026-05-23": 17,
                 "2026-05-24": 25,
                 "2026-05-25": 22,
                 "2026-05-26": 38,
-                "2026-05-27": 15
+                "2026-05-27": 18
               }
             },
             "GPTBot": {
-              "last_seen": "2026-05-27T00:06:44.372Z",
-              "count_30d": 70,
+              "last_seen": "2026-05-27T14:27:31.825Z",
+              "count_30d": 83,
               "dates": {
                 "2026-05-25": 50,
                 "2026-05-26": 17,
-                "2026-05-27": 3
+                "2026-05-27": 16
               }
             }
           }
@@ -1308,9 +1284,9 @@
           "label": "競技運動數據研究",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 24,
-            "sessions_7d": 27,
-            "sessions_30d": 27,
+            "sessions_today": 12,
+            "sessions_7d": 39,
+            "sessions_30d": 39,
             "series_30d": [
               0,
               0,
@@ -1341,7 +1317,7 @@
               0,
               3,
               24,
-              11
+              12
             ],
             "cta_series_7d": [
               0,
@@ -1352,14 +1328,14 @@
               0,
               0
             ],
-            "bounce_rate": 0.963,
+            "bounce_rate": 0.974,
             "avg_duration_sec": 1,
-            "mobile_pct": 0.296,
+            "mobile_pct": 0.205,
             "sources": {
               "organic": 0,
-              "direct": 0.93,
+              "direct": 0.9,
               "social": 0,
-              "referral": 0.04
+              "referral": 0.03
             }
           },
           "cta": {
@@ -1516,8 +1492,8 @@
           "role": "satellite",
           "traffic": {
             "sessions_today": 16,
-            "sessions_7d": 16,
-            "sessions_30d": 16,
+            "sessions_7d": 32,
+            "sessions_30d": 32,
             "series_30d": [
               0,
               0,
@@ -1559,12 +1535,12 @@
               0,
               0
             ],
-            "bounce_rate": 0.938,
+            "bounce_rate": 0.969,
             "avg_duration_sec": 1,
-            "mobile_pct": 0.25,
+            "mobile_pct": 0.156,
             "sources": {
-              "organic": 0,
-              "direct": 0.94,
+              "organic": 0.03,
+              "direct": 0.81,
               "social": 0,
               "referral": 0
             }
@@ -1721,9 +1697,9 @@
           "label": "電競產業研究",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 6,
-            "sessions_7d": 10,
-            "sessions_30d": 10,
+            "sessions_today": 12,
+            "sessions_7d": 22,
+            "sessions_30d": 22,
             "series_30d": [
               0,
               0,
@@ -1765,12 +1741,12 @@
               0,
               0
             ],
-            "bounce_rate": 0.9,
-            "avg_duration_sec": 8,
-            "mobile_pct": 0,
+            "bounce_rate": 0.955,
+            "avg_duration_sec": 4,
+            "mobile_pct": 0.045,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.95,
               "social": 0,
               "referral": 0
             }
@@ -1921,9 +1897,9 @@
           "label": "電競選手數據庫",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 5,
-            "sessions_7d": 5,
-            "sessions_30d": 5,
+            "sessions_today": 14,
+            "sessions_7d": 19,
+            "sessions_30d": 19,
             "series_30d": [
               0,
               0,
@@ -1954,7 +1930,7 @@
               0,
               0,
               5,
-              13
+              14
             ],
             "cta_series_7d": [
               0,
@@ -1966,11 +1942,11 @@
               0
             ],
             "bounce_rate": 1,
-            "avg_duration_sec": 2,
+            "avg_duration_sec": 1,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.86,
               "social": 0,
               "referral": 0
             }
@@ -2134,9 +2110,9 @@
           "label": "棋牌博弈論研究院",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 9,
-            "sessions_7d": 11,
-            "sessions_30d": 11,
+            "sessions_today": 16,
+            "sessions_7d": 27,
+            "sessions_30d": 27,
             "series_30d": [
               0,
               0,
@@ -2167,7 +2143,7 @@
               0,
               2,
               9,
-              15
+              16
             ],
             "cta_series_7d": [
               0,
@@ -2178,12 +2154,12 @@
               0,
               0
             ],
-            "bounce_rate": 0.909,
+            "bounce_rate": 0.963,
             "avg_duration_sec": 1,
-            "mobile_pct": 0.091,
+            "mobile_pct": 0.037,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.9,
               "social": 0,
               "referral": 0
             }
@@ -2321,11 +2297,11 @@
               }
             },
             "ClaudeBot": {
-              "last_seen": "2026-05-27T11:43:34.925Z",
-              "count_30d": 44,
+              "last_seen": "2026-05-27T15:46:46.911Z",
+              "count_30d": 47,
               "dates": {
                 "2026-05-26": 33,
-                "2026-05-27": 11
+                "2026-05-27": 14
               }
             },
             "CCBot": {
@@ -2341,9 +2317,9 @@
           "label": "策略遊戲設計分析",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 6,
-            "sessions_7d": 7,
-            "sessions_30d": 7,
+            "sessions_today": 13,
+            "sessions_7d": 20,
+            "sessions_30d": 20,
             "series_30d": [
               0,
               0,
@@ -2390,7 +2366,7 @@
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.91,
               "social": 0,
               "referral": 0
             }
@@ -2554,9 +2530,9 @@
           "label": "娛樂平台深度評測",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 4,
-            "sessions_7d": 7,
-            "sessions_30d": 7,
+            "sessions_today": 27,
+            "sessions_7d": 34,
+            "sessions_30d": 34,
             "series_30d": [
               0,
               0,
@@ -2587,7 +2563,7 @@
               0,
               3,
               4,
-              26
+              27
             ],
             "cta_series_7d": [
               0,
@@ -2600,10 +2576,10 @@
             ],
             "bounce_rate": 1,
             "avg_duration_sec": 1,
-            "mobile_pct": 0,
+            "mobile_pct": 0.118,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.94,
               "social": 0,
               "referral": 0
             }
@@ -2753,9 +2729,9 @@
           "label": "概率與決策科學",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 11,
-            "sessions_7d": 11,
-            "sessions_30d": 11,
+            "sessions_today": 15,
+            "sessions_7d": 26,
+            "sessions_30d": 26,
             "series_30d": [
               0,
               0,
@@ -2799,10 +2775,10 @@
             ],
             "bounce_rate": 1,
             "avg_duration_sec": 0,
-            "mobile_pct": 0.364,
+            "mobile_pct": 0.192,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.81,
               "social": 0,
               "referral": 0
             }
@@ -2959,9 +2935,9 @@
           "label": "亞洲電競文化",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 9,
-            "sessions_7d": 10,
-            "sessions_30d": 10,
+            "sessions_today": 17,
+            "sessions_7d": 27,
+            "sessions_30d": 27,
             "series_30d": [
               0,
               0,
@@ -3004,13 +2980,13 @@
               0
             ],
             "bounce_rate": 1,
-            "avg_duration_sec": 2,
-            "mobile_pct": 0.3,
+            "avg_duration_sec": 11,
+            "mobile_pct": 0.111,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.9,
               "social": 0,
-              "referral": 0
+              "referral": 0.03
             }
           },
           "cta": {
@@ -3138,12 +3114,12 @@
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-27T12:44:02.557Z",
-              "count_30d": 57,
+              "last_seen": "2026-05-27T16:20:38.803Z",
+              "count_30d": 61,
               "dates": {
                 "2026-05-25": 23,
                 "2026-05-26": 22,
-                "2026-05-27": 12
+                "2026-05-27": 16
               }
             },
             "GPTBot": {
@@ -3167,9 +3143,9 @@
           "label": "數字娛樂消費研究",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 7,
-            "sessions_7d": 11,
-            "sessions_30d": 11,
+            "sessions_today": 20,
+            "sessions_7d": 31,
+            "sessions_30d": 31,
             "series_30d": [
               0,
               0,
@@ -3213,10 +3189,10 @@
             ],
             "bounce_rate": 1,
             "avg_duration_sec": 0,
-            "mobile_pct": 0.182,
+            "mobile_pct": 0.065,
             "sources": {
               "organic": 0,
-              "direct": 1,
+              "direct": 0.94,
               "social": 0,
               "referral": 0
             }
