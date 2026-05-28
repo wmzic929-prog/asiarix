@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "licensed-platform-check-5-indicators",
+      "title": "點睇娛樂平台係咪正規持牌？2026年5大核查指標完全攻略",
+      "category": "平台評測",
+      "date": "2026-05-28",
+      "excerpt": "香港市面上超過2,000個娛樂平台聲稱正規持牌，但唔係每個都核查到。用呢5大指標快速判斷平台可信度。",
+      "imageUrl": "/blog/img/licensed-platform-check-5-indicators.jpg"
+    },
+    {
       "slug": "withdrawal-fee-saving-guide",
       "title": "娛樂平台提款手續費點慳｜FPS、USDT、銀行費用全比較",
       "category": "提款教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-27",
       "excerpt": "唔少玩家都唔知道，iOS 同 Android 娛樂 APP 體驗其實大有不同，今次逐點話你知有咩分別。",
       "imageUrl": "/blog/img/ios-vs-android-entertainment-app.jpg"
-    },
-    {
-      "slug": "account-suspended-recovery-guide",
-      "title": "娛樂平台帳號被停用？5大原因及申訴恢復完整教學",
-      "category": "疑難排解",
-      "date": "2026-05-27",
-      "excerpt": "娛樂平台帳號突然被停用係玩家最怕遇到嘅情況，但只要了解停用原因並跟住正確步驟申訴，大部分帳號都可以恢復。",
-      "imageUrl": "/blog/img/account-suspended-recovery-guide.jpg"
     }
   ]
 }
