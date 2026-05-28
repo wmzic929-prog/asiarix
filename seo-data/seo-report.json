@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T00:01:21+08:00",
+  "generated_at": "2026-05-28T00:04:35+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -602,11 +602,11 @@
             "total_urls": 32
           },
           "content": {
-            "total_articles": 31,
-            "this_month": 28,
-            "this_week": 26,
+            "total_articles": 32,
+            "this_month": 20,
+            "this_week": 20,
             "sports_articles": 0,
-            "total_articles_inc_sports": 31
+            "total_articles_inc_sports": 32
           },
           "cwv": {},
           "daily_7d": [
@@ -616,7 +616,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 8,
-              "articles": 10,
+              "articles": 15,
               "gsc_pending": false
             },
             {
@@ -625,7 +625,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 13,
+              "articles": 16,
               "gsc_pending": false
             },
             {
@@ -634,7 +634,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 14,
+              "articles": 17,
               "gsc_pending": false
             },
             {
@@ -643,7 +643,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 15,
+              "articles": 18,
               "gsc_pending": false
             },
             {
@@ -652,7 +652,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 17,
+              "articles": 19,
               "gsc_pending": false
             },
             {
@@ -661,7 +661,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 4,
-              "articles": 28,
+              "articles": 29,
               "gsc_pending": true
             },
             {
@@ -670,7 +670,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 31,
+              "articles": 32,
               "gsc_pending": true
             }
           ],
@@ -2594,7 +2594,7 @@
               3,
               4,
               27,
-              2
+              3
             ],
             "cta_series_7d": [
               0,
