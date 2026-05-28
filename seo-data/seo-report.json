@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T23:52:12+08:00",
+  "generated_at": "2026-05-28T00:01:21+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -25,7 +25,6 @@
         ]
       },
       "dates_30d": [
-        "4/28",
         "4/29",
         "4/30",
         "5/1",
@@ -54,7 +53,8 @@
         "5/24",
         "5/25",
         "5/26",
-        "5/27"
+        "5/27",
+        "5/28"
       ],
       "sites": {
         "spheretap.com": {
@@ -65,7 +65,6 @@
             "sessions_7d": 1306,
             "sessions_30d": 1559,
             "series_30d": [
-              0,
               0,
               0,
               0,
@@ -94,16 +93,17 @@
               207,
               221,
               213,
-              228
+              228,
+              2
             ],
             "cta_series_7d": [
-              0,
               0,
               3,
               10,
               5,
               11,
-              6
+              6,
+              5
             ],
             "bounce_rate": 0.557,
             "avg_duration_sec": 352,
@@ -123,36 +123,36 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 138,
+            "impressions_28d": 170,
             "clicks_28d": 40,
-            "impressions_7d": 137,
-            "clicks_7d": 40,
-            "ctr": 0.2899,
-            "avg_position": 7,
+            "impressions_7d": 166,
+            "clicks_7d": 39,
+            "ctr": 0.2353,
+            "avg_position": 8.5,
             "indexed_pages": 69,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
-                3,
                 40,
                 18,
                 19,
                 18,
                 15,
-                24
+                24,
+                32
               ],
               "clicks": [
-                1,
                 34,
                 5,
+                0,
                 0,
                 0,
                 0,
@@ -186,29 +186,20 @@
                 "clicks": 0
               }
             ],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 172
           },
           "content": {
-            "total_articles": 102,
-            "this_month": 0,
-            "this_week": 0,
-            "sports_articles": 93,
-            "total_articles_inc_sports": 195
+            "total_articles": 103,
+            "this_month": 15,
+            "this_week": 15,
+            "sports_articles": 107,
+            "total_articles_inc_sports": 210
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 29,
-              "gsc_imp": 18,
-              "gsc_clk": 5,
-              "cta_clk": 0,
-              "articles": 195,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 43,
@@ -248,11 +239,11 @@
             {
               "date": "5/25",
               "sessions": 221,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 32,
+              "gsc_clk": 0,
               "cta_clk": 11,
               "articles": 195,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -261,6 +252,15 @@
               "gsc_clk": null,
               "cta_clk": 6,
               "articles": 195,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 228,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 5,
+              "articles": 210,
               "gsc_pending": true
             }
           ],
@@ -317,7 +317,6 @@
               0,
               0,
               0,
-              0,
               21,
               16,
               15,
@@ -330,16 +329,17 @@
               9,
               7,
               5,
-              17
+              17,
+              0
             ],
             "cta_series_7d": [
-              0,
               7,
               3,
               1,
               5,
               2,
-              2
+              2,
+              3
             ],
             "bounce_rate": 0.694,
             "avg_duration_sec": 70,
@@ -368,13 +368,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -396,29 +396,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 33
           },
           "content": {
-            "total_articles": 29,
-            "this_month": 26,
-            "this_week": 25,
+            "total_articles": 32,
+            "this_month": 28,
+            "this_week": 27,
             "sports_articles": 0,
-            "total_articles_inc_sports": 29
+            "total_articles_inc_sports": 32
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 6,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 5,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 12,
@@ -458,11 +449,11 @@
             {
               "date": "5/25",
               "sessions": 7,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 2,
               "articles": 16,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -471,6 +462,15 @@
               "gsc_clk": null,
               "cta_clk": 2,
               "articles": 29,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 17,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 3,
+              "articles": 32,
               "gsc_pending": true
             }
           ],
@@ -494,14 +494,13 @@
           }
         },
         "tableedge.org": {
-          "label": "真人遊戲技術流",
+          "label": "真人遂戲技術流",
           "role": "satellite",
           "traffic": {
             "sessions_today": 4,
             "sessions_7d": 53,
             "sessions_30d": 137,
             "series_30d": [
-              0,
               0,
               0,
               0,
@@ -530,16 +529,17 @@
               3,
               6,
               10,
-              4
+              4,
+              1
             ],
             "cta_series_7d": [
-              0,
               8,
               1,
               3,
               0,
               3,
-              4
+              4,
+              3
             ],
             "bounce_rate": 0.715,
             "avg_duration_sec": 98,
@@ -568,13 +568,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -596,29 +596,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 32
           },
           "content": {
-            "total_articles": 28,
-            "this_month": 25,
-            "this_week": 24,
+            "total_articles": 31,
+            "this_month": 28,
+            "this_week": 26,
             "sports_articles": 0,
-            "total_articles_inc_sports": 28
+            "total_articles_inc_sports": 31
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 4,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 5,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 10,
@@ -658,11 +649,11 @@
             {
               "date": "5/25",
               "sessions": 6,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 3,
               "articles": 17,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -671,6 +662,15 @@
               "gsc_clk": null,
               "cta_clk": 4,
               "articles": 28,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 4,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 3,
+              "articles": 31,
               "gsc_pending": true
             }
           ],
@@ -720,7 +720,6 @@
               0,
               0,
               0,
-              0,
               14,
               15,
               10,
@@ -733,16 +732,17 @@
               3,
               7,
               7,
-              2
+              2,
+              1
             ],
             "cta_series_7d": [
-              0,
               4,
               0,
               7,
               1,
               3,
-              2
+              2,
+              1
             ],
             "bounce_rate": 0.676,
             "avg_duration_sec": 131,
@@ -762,31 +762,31 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 9,
+            "impressions_28d": 10,
             "clicks_28d": 0,
-            "impressions_7d": 9,
+            "impressions_7d": 8,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 22.9,
+            "avg_position": 24.7,
             "indexed_pages": 3,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
-                2,
                 3,
                 0,
                 0,
                 4,
                 0,
-                0
+                0,
+                1
               ],
               "clicks": [
                 0,
@@ -799,29 +799,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 21
           },
           "content": {
-            "total_articles": 23,
-            "this_month": 23,
-            "this_week": 22,
+            "total_articles": 26,
+            "this_month": 26,
+            "this_week": 24,
             "sports_articles": 0,
-            "total_articles_inc_sports": 23
+            "total_articles_inc_sports": 26
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 2,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 2,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 4,
@@ -861,11 +852,11 @@
             {
               "date": "5/25",
               "sessions": 7,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 1,
+              "gsc_clk": 0,
               "cta_clk": 3,
               "articles": 14,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -874,6 +865,15 @@
               "gsc_clk": null,
               "cta_clk": 2,
               "articles": 23,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 2,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 1,
+              "articles": 26,
               "gsc_pending": true
             }
           ],
@@ -901,14 +901,13 @@
           }
         },
         "spin-metrics.com": {
-          "label": "老虎機遊戲解析",
+          "label": "老虎機遂戲解析",
           "role": "satellite",
           "traffic": {
             "sessions_today": 10,
             "sessions_7d": 58,
             "sessions_30d": 111,
             "series_30d": [
-              0,
               0,
               0,
               0,
@@ -937,15 +936,16 @@
               6,
               8,
               9,
-              10
+              10,
+              0
             ],
             "cta_series_7d": [
-              0,
               10,
               5,
               4,
               3,
               1,
+              3,
               3
             ],
             "bounce_rate": 0.64,
@@ -975,13 +975,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -1003,29 +1003,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 25
           },
           "content": {
-            "total_articles": 24,
-            "this_month": 22,
-            "this_week": 20,
+            "total_articles": 27,
+            "this_month": 25,
+            "this_week": 22,
             "sports_articles": 0,
-            "total_articles_inc_sports": 24
+            "total_articles_inc_sports": 27
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 2,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 5,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 10,
@@ -1065,11 +1056,11 @@
             {
               "date": "5/25",
               "sessions": 8,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 1,
               "articles": 18,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -1078,6 +1069,15 @@
               "gsc_clk": null,
               "cta_clk": 3,
               "articles": 24,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 10,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 3,
+              "articles": 27,
               "gsc_pending": true
             }
           ],
@@ -1128,7 +1128,6 @@
               0,
               0,
               0,
-              0,
               22,
               23,
               7,
@@ -1141,16 +1140,17 @@
               4,
               7,
               7,
-              3
+              3,
+              1
             ],
             "cta_series_7d": [
-              0,
               9,
               2,
               1,
               1,
               4,
-              5
+              5,
+              2
             ],
             "bounce_rate": 0.697,
             "avg_duration_sec": 119,
@@ -1179,13 +1179,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -1207,29 +1207,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 29
           },
           "content": {
-            "total_articles": 23,
-            "this_month": 21,
-            "this_week": 19,
+            "total_articles": 26,
+            "this_month": 24,
+            "this_week": 21,
             "sports_articles": 0,
-            "total_articles_inc_sports": 23
+            "total_articles_inc_sports": 26
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 1,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 5,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 13,
@@ -1269,11 +1260,11 @@
             {
               "date": "5/25",
               "sessions": 7,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 4,
               "articles": 17,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -1282,6 +1273,15 @@
               "gsc_clk": null,
               "cta_clk": 5,
               "articles": 23,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 3,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 2,
+              "articles": 26,
               "gsc_pending": true
             }
           ],
@@ -1309,7 +1309,7 @@
           }
         },
         "matchdatalab.com": {
-          "label": "競技運動數據研究",
+          "label": "競技達動數據研究",
           "role": "satellite",
           "traffic": {
             "sessions_today": 12,
@@ -1342,10 +1342,10 @@
               0,
               0,
               0,
-              0,
               3,
               24,
-              12
+              12,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -1383,13 +1383,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -1411,7 +1411,7 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 9
@@ -1425,15 +1425,6 @@
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -1473,15 +1464,24 @@
             {
               "date": "5/25",
               "sessions": 3,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 2,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
               "sessions": 24,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 4,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 12,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
@@ -1516,7 +1516,7 @@
           }
         },
         "athlete-index.com": {
-          "label": "運動科學與表現",
+          "label": "達動科學與表現",
           "role": "satellite",
           "traffic": {
             "sessions_today": 17,
@@ -1550,9 +1550,9 @@
               0,
               0,
               0,
-              0,
               16,
-              17
+              17,
+              6
             ],
             "cta_series_7d": [
               0,
@@ -1590,13 +1590,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -1618,29 +1618,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 6
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -1680,11 +1671,11 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -1693,6 +1684,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 3,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 17,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
               "gsc_pending": true
             }
           ],
@@ -1756,10 +1756,10 @@
               0,
               0,
               0,
-              0,
               4,
               6,
-              12
+              12,
+              6
             ],
             "cta_series_7d": [
               0,
@@ -1797,13 +1797,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -1825,29 +1825,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 10
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -1887,11 +1878,11 @@
             {
               "date": "5/25",
               "sessions": 4,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -1900,6 +1891,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 3,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 12,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
               "gsc_pending": true
             }
           ],
@@ -1957,9 +1957,9 @@
               0,
               0,
               0,
-              0,
               5,
-              14
+              14,
+              3
             ],
             "cta_series_7d": [
               0,
@@ -1997,13 +1997,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -2025,29 +2025,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 10
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -2087,11 +2078,11 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -2100,6 +2091,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 3,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 14,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
               "gsc_pending": true
             }
           ],
@@ -2170,10 +2170,10 @@
               0,
               0,
               0,
-              0,
               2,
               9,
-              16
+              16,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -2211,13 +2211,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -2239,29 +2239,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 6
           },
           "content": {
-            "total_articles": 6,
-            "this_month": 6,
-            "this_week": 6,
+            "total_articles": 9,
+            "this_month": 9,
+            "this_week": 9,
             "sports_articles": 0,
-            "total_articles_inc_sports": 6
+            "total_articles_inc_sports": 9
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -2301,11 +2292,11 @@
             {
               "date": "5/25",
               "sessions": 2,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -2314,6 +2305,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 6,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 16,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 9,
               "gsc_pending": true
             }
           ],
@@ -2345,7 +2345,7 @@
           }
         },
         "gamedesignhq.com": {
-          "label": "策略遊戲設計分析",
+          "label": "策略遂戲設計分析",
           "role": "satellite",
           "traffic": {
             "sessions_today": 13,
@@ -2378,10 +2378,10 @@
               0,
               0,
               0,
-              0,
               1,
               6,
-              13
+              13,
+              7
             ],
             "cta_series_7d": [
               0,
@@ -2419,13 +2419,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -2447,29 +2447,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 6
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -2509,11 +2500,11 @@
             {
               "date": "5/25",
               "sessions": 1,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -2522,6 +2513,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 3,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 13,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
               "gsc_pending": true
             }
           ],
@@ -2591,10 +2591,10 @@
               0,
               0,
               0,
-              0,
               3,
               4,
-              27
+              27,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -2632,13 +2632,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -2660,29 +2660,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 6
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -2722,11 +2713,11 @@
             {
               "date": "5/25",
               "sessions": 3,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -2735,6 +2726,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 3,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 27,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
               "gsc_pending": true
             }
           ],
@@ -2792,9 +2792,9 @@
               0,
               0,
               0,
-              0,
               11,
-              15
+              15,
+              3
             ],
             "cta_series_7d": [
               0,
@@ -2832,13 +2832,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -2860,29 +2860,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 6
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -2922,11 +2913,11 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -2935,6 +2926,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 3,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 15,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
               "gsc_pending": true
             }
           ],
@@ -2998,10 +2998,10 @@
               0,
               0,
               0,
-              0,
               1,
               9,
-              17
+              17,
+              7
             ],
             "cta_series_7d": [
               0,
@@ -3039,13 +3039,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -3067,29 +3067,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 10
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -3129,11 +3120,11 @@
             {
               "date": "5/25",
               "sessions": 1,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -3143,11 +3134,20 @@
               "cta_clk": 0,
               "articles": 3,
               "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 17,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
             "ClaudeBot": {
-              "last_seen": "2026-05-27T23:24:41.984Z",
+              "last_seen": "2026-05-27T23:24:41.985Z",
               "count_30d": 68,
               "dates": {
                 "2026-05-25": 23,
@@ -3207,10 +3207,10 @@
               0,
               0,
               0,
-              0,
               4,
               7,
-              20
+              20,
+              5
             ],
             "cta_series_7d": [
               0,
@@ -3248,13 +3248,13 @@
             "indexed_pages": 0,
             "series_7d": {
               "dates": [
-                "5/18",
                 "5/19",
                 "5/20",
                 "5/21",
                 "5/22",
                 "5/23",
-                "5/24"
+                "5/24",
+                "5/25"
               ],
               "impressions": [
                 0,
@@ -3276,29 +3276,20 @@
               ]
             },
             "top_keywords": [],
-            "data_cutoff": "2026-05-24"
+            "data_cutoff": "2026-05-25"
           },
           "sitemap": {
             "total_urls": 6
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 6,
+            "this_month": 6,
+            "this_week": 6,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 6
           },
           "cwv": {},
           "daily_7d": [
-            {
-              "date": "5/20",
-              "sessions": 0,
-              "gsc_imp": 0,
-              "gsc_clk": 0,
-              "cta_clk": 0,
-              "articles": 0,
-              "gsc_pending": false
-            },
             {
               "date": "5/21",
               "sessions": 0,
@@ -3338,11 +3329,11 @@
             {
               "date": "5/25",
               "sessions": 4,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 1,
-              "gsc_pending": true
+              "gsc_pending": false
             },
             {
               "date": "5/26",
@@ -3351,6 +3342,15 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 3,
+              "gsc_pending": true
+            },
+            {
+              "date": "5/27",
+              "sessions": 20,
+              "gsc_imp": null,
+              "gsc_clk": null,
+              "cta_clk": 0,
+              "articles": 6,
               "gsc_pending": true
             }
           ],
