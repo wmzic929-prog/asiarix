@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-28-hong-kong-dragon-boat-federation-boosts-sports-hub-status",
+      "headline": "霍啟剛：龍舟聯合會落戶 香港體育樞紐再升級",
+      "category": "綜合",
+      "emoji": "🏅",
+      "date": "2026-05-28",
+      "lead": "國際龍舟聯合會正式宣布落戶香港，立法會議員霍啟剛認為，這項重大決定將進一步鞏固香港國際體育樞紐的地位，為本地體育產業發展注入強大動力。",
+      "imageUrl": "https://images.pexels.com/photos/33637333/pexels-photo-33637333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "High-energy capture of a pole vaulter in action against a vibrant sky."
+    },
+    {
       "slug": "2026-05-27-tennis-sinner-french-open-second-round",
       "title": "法網球王冼拿首輪輕鬆晉級 連勝30場衝擊法網冠軍",
       "category": "網球",
