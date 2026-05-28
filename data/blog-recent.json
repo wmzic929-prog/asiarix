@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "entertainment-platform-data-security",
+      "title": "娛樂平台個人資料安全嗎？SSL加密保護機制及玩家自保攻略",
+      "category": "安全教學",
+      "date": "2026-05-28",
+      "excerpt": "超過78%嘅網上玩家曾擔心個人資料安全問題，但大部分人唔清楚娛樂平台有咩保護機制，亦唔知道玩家自己可以點做好防護。",
+      "imageUrl": "/blog/img/entertainment-platform-data-security.jpg"
+    },
+    {
       "slug": "licensed-platform-check-5-indicators",
       "title": "點睇娛樂平台係咪正規持牌？2026年5大核查指標完全攻略",
       "category": "平台評測",
@@ -15,14 +23,6 @@
       "date": "2026-05-28",
       "excerpt": "唔同提款方式手續費差距去到 10 倍以上，FPS 幾乎免費，USDT ERC20 高峰期可收埋 20 USDT，識揀每月可慳返數百港元。",
       "imageUrl": "/blog/img/withdrawal-fee-saving-guide.jpg"
-    },
-    {
-      "slug": "ios-vs-android-entertainment-app",
-      "title": "iOS vs Android 娛樂平台 APP 有咩唔同？2026功能差異比較",
-      "category": "平台評測",
-      "date": "2026-05-27",
-      "excerpt": "唔少玩家都唔知道，iOS 同 Android 娛樂 APP 體驗其實大有不同，今次逐點話你知有咩分別。",
-      "imageUrl": "/blog/img/ios-vs-android-entertainment-app.jpg"
     }
   ]
 }
