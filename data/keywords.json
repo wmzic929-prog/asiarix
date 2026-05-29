@@ -577,9 +577,9 @@
       "category": "優惠教學",
       "angle": "以期望值計算迎新優惠的真實回報",
       "image_theme": "expected value EV calculation bonus casino gold math dark",
-      "status": "available",
-      "slug": "welcome-bonus-ev-calculation",
-      "used_date": null
+      "status": "used",
+      "slug": "welcome-bonus-ev-calculation-guide",
+      "used_date": "2026-05-29"
     },
     {
       "id": 72,
