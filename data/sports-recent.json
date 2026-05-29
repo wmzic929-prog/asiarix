@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-hong-kong-dragon-boat-federation-hq",
+      "headline": "龍舟聯合會總部選址香港 體育樞紐地位升級",
+      "category": "綜合",
+      "emoji": "🇭🇰🏅",
+      "date": "2026-05-29",
+      "lead": "香港體育界迎來歷史性時刻，國際龍舟聯合會總部正式落戶，進一步鞏固香港作為國際體育樞紐的領先地位，為本地體育產業發展注入新動力。",
+      "imageUrl": "https://images.pexels.com/photos/37004059/pexels-photo-37004059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Energetic action shot of a soccer player kicking the ball during a match on a sunny day."
+    },
+    {
       "slug": "2026-05-28-hong-kong-dragon-boat-federation-boosts-sports-hub-status",
       "headline": "霍啟剛：龍舟聯合會落戶 香港體育樞紐再升級",
       "category": "綜合",
