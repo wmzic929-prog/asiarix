@@ -1266,4 +1266,12 @@
     <priority>0.7</priority>
   </url>
 
+
+  <url>
+    <loc>https://spheretap.com/blog/crypto-gas-fee-deposit-guide</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
