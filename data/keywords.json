@@ -597,9 +597,9 @@
       "category": "優惠教學",
       "angle": "VIP 積分換算率計算公式及平台比較",
       "image_theme": "VIP points cash exchange rate calculation comparison dark gold",
-      "status": "available",
-      "slug": "vip-points-conversion-rate",
-      "used_date": null
+      "status": "used",
+      "slug": "vip-points-cash-rate-comparison",
+      "used_date": "2026-05-29"
     },
     {
       "id": 74,
