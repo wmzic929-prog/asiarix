@@ -607,9 +607,9 @@
       "category": "入款教學",
       "angle": "Gas Fee 原理及計算方法，揭示加密入款隱藏成本",
       "image_theme": "gas fee cryptocurrency calculation real cost blockchain dark",
-      "status": "available",
-      "slug": "crypto-gas-fee-calculation",
-      "used_date": null
+      "status": "used",
+      "slug": "crypto-gas-fee-deposit-guide",
+      "used_date": "2026-05-29"
     },
     {
       "id": 75,
