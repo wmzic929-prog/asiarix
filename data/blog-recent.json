@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "deposit-rebate-roi-guide",
+      "title": "娛樂平台存款回贈ROI計算方法與實際收益評估研究",
+      "category": "undefined",
+      "date": "2026-05-29",
+      "excerpt": "好多玩家見到10%存款回贈就以為著數入曬，但係計埋流水要求同遊戲損耗之後，實際ROI隨時得1-2%甚至係負數。",
+      "imageUrl": "/blog/img/deposit-rebate-roi-guide.jpg"
+    },
+    {
       "slug": "first-platform-selection-guide",
       "title": "第一次選娛樂平台？5 件新手必考慮嘅事【2026】",
       "category": "新手指南",
@@ -15,14 +23,6 @@
       "date": "2026-05-29",
       "excerpt": "提款被拒係好多玩家都試過嘅頭痛問題，但其實大部分原因都係可以避免或快速解決嘅，了解7個常見原因，幫你下次順利出金。",
       "imageUrl": "/blog/img/withdrawal-rejected-7-reasons.jpg"
-    },
-    {
-      "slug": "entertainment-platform-data-security",
-      "title": "娛樂平台個人資料安全嗎？SSL加密保護機制及玩家自保攻略",
-      "category": "安全教學",
-      "date": "2026-05-28",
-      "excerpt": "超過78%嘅網上玩家曾擔心個人資料安全問題，但大部分人唔清楚娛樂平台有咩保護機制，亦唔知道玩家自己可以點做好防護。",
-      "imageUrl": "/blog/img/entertainment-platform-data-security.jpg"
     }
   ]
 }
