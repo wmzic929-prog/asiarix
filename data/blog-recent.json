@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "crypto-gas-fee-deposit-guide",
+      "title": "加密貨幣入款Gas Fee計算原理與真實到賬成本分析",
+      "category": "undefined",
+      "date": "2026-05-29",
+      "excerpt": "加密貨幣入款100 USDT到娛樂平台，到賬竟然只有92 USDT——呢種情況唔係平台剋扣，而係Gas Fee搞鬼。ERC20網絡一次Gas Fee最高可達HK$200，TRC20同樣操作只需HK$5",
+      "imageUrl": "/blog/img/crypto-gas-fee-deposit-guide.jpg"
+    },
+    {
       "slug": "vip-points-cash-rate-comparison",
       "title": "主流平台VIP積分換現金率算法與實際回報深度比較",
       "category": "undefined",
@@ -15,14 +23,6 @@
       "date": "2026-05-29",
       "excerpt": "好多香港玩家見到100%迎新獎金就好興奮，但唔識計算期望值，做晒流水之後仲係蝕錢，白白為平台打工。",
       "imageUrl": "/blog/img/welcome-bonus-ev-calculation-guide.jpg"
-    },
-    {
-      "slug": "deposit-rebate-roi-guide",
-      "title": "娛樂平台存款回贈ROI計算方法與實際收益評估研究",
-      "category": "undefined",
-      "date": "2026-05-29",
-      "excerpt": "好多玩家見到10%存款回贈就以為著數入曬，但係計埋流水要求同遊戲損耗之後，實際ROI隨時得1-2%甚至係負數。",
-      "imageUrl": "/blog/img/deposit-rebate-roi-guide.jpg"
     }
   ]
 }
