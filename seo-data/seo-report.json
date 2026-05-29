@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T09:50:36+08:00",
+  "generated_at": "2026-05-29T10:00:06+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -94,7 +94,7 @@
               213,
               228,
               228,
-              136
+              141
             ],
             "cta_series_7d": [
               3,
@@ -192,11 +192,11 @@
             "total_urls": 181
           },
           "content": {
-            "total_articles": 91,
-            "this_month": 165,
-            "this_week": 37,
-            "sports_articles": 74,
-            "total_articles_inc_sports": 165
+            "total_articles": 112,
+            "this_month": 195,
+            "this_week": 66,
+            "sports_articles": 107,
+            "total_articles_inc_sports": 219
           },
           "cwv": {},
           "daily_7d": [
@@ -206,7 +206,7 @@
               "gsc_imp": 18,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 131,
+              "articles": 219,
               "gsc_pending": false
             },
             {
@@ -215,7 +215,7 @@
               "gsc_imp": 15,
               "gsc_clk": 0,
               "cta_clk": 10,
-              "articles": 134,
+              "articles": 219,
               "gsc_pending": false
             },
             {
@@ -224,7 +224,7 @@
               "gsc_imp": 24,
               "gsc_clk": 0,
               "cta_clk": 5,
-              "articles": 137,
+              "articles": 219,
               "gsc_pending": false
             },
             {
@@ -233,7 +233,7 @@
               "gsc_imp": 32,
               "gsc_clk": 0,
               "cta_clk": 11,
-              "articles": 140,
+              "articles": 219,
               "gsc_pending": false
             },
             {
@@ -242,7 +242,7 @@
               "gsc_imp": 56,
               "gsc_clk": 1,
               "cta_clk": 6,
-              "articles": 153,
+              "articles": 219,
               "gsc_pending": false
             },
             {
@@ -251,7 +251,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 5,
-              "articles": 162,
+              "articles": 219,
               "gsc_pending": true
             },
             {
@@ -260,7 +260,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 7,
-              "articles": 165,
+              "articles": 219,
               "gsc_pending": true
             }
           ],
@@ -405,11 +405,11 @@
             "total_urls": 36
           },
           "content": {
-            "total_articles": 33,
-            "this_month": 33,
-            "this_week": 25,
+            "total_articles": 38,
+            "this_month": 38,
+            "this_week": 29,
             "sports_articles": 0,
-            "total_articles_inc_sports": 33
+            "total_articles_inc_sports": 38
           },
           "cwv": {},
           "daily_7d": [
@@ -419,7 +419,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 8,
+              "articles": 38,
               "gsc_pending": false
             },
             {
@@ -428,7 +428,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 10,
+              "articles": 38,
               "gsc_pending": false
             },
             {
@@ -437,7 +437,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 5,
-              "articles": 13,
+              "articles": 38,
               "gsc_pending": false
             },
             {
@@ -446,7 +446,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 2,
-              "articles": 15,
+              "articles": 38,
               "gsc_pending": false
             },
             {
@@ -455,7 +455,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 2,
-              "articles": 27,
+              "articles": 38,
               "gsc_pending": false
             },
             {
@@ -464,7 +464,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 30,
+              "articles": 38,
               "gsc_pending": true
             },
             {
@@ -473,7 +473,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 33,
+              "articles": 38,
               "gsc_pending": true
             }
           ],
@@ -606,11 +606,11 @@
             "total_urls": 38
           },
           "content": {
-            "total_articles": 32,
-            "this_month": 32,
-            "this_week": 25,
+            "total_articles": 37,
+            "this_month": 37,
+            "this_week": 27,
             "sports_articles": 0,
-            "total_articles_inc_sports": 32
+            "total_articles_inc_sports": 37
           },
           "cwv": {},
           "daily_7d": [
@@ -620,7 +620,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 10,
+              "articles": 37,
               "gsc_pending": false
             },
             {
@@ -629,7 +629,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 13,
+              "articles": 37,
               "gsc_pending": false
             },
             {
@@ -638,7 +638,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 16,
+              "articles": 37,
               "gsc_pending": false
             },
             {
@@ -647,7 +647,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 19,
+              "articles": 37,
               "gsc_pending": false
             },
             {
@@ -656,7 +656,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 4,
-              "articles": 26,
+              "articles": 37,
               "gsc_pending": false
             },
             {
@@ -665,7 +665,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 29,
+              "articles": 37,
               "gsc_pending": true
             },
             {
@@ -674,7 +674,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 32,
+              "articles": 37,
               "gsc_pending": true
             }
           ],
@@ -811,11 +811,11 @@
             "total_urls": 27
           },
           "content": {
-            "total_articles": 26,
-            "this_month": 26,
-            "this_week": 25,
+            "total_articles": 32,
+            "this_month": 32,
+            "this_week": 26,
             "sports_articles": 0,
-            "total_articles_inc_sports": 26
+            "total_articles_inc_sports": 32
           },
           "cwv": {},
           "daily_7d": [
@@ -825,7 +825,7 @@
               "gsc_imp": 4,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 32,
               "gsc_pending": false
             },
             {
@@ -834,7 +834,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 7,
-              "articles": 7,
+              "articles": 32,
               "gsc_pending": false
             },
             {
@@ -843,7 +843,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 10,
+              "articles": 32,
               "gsc_pending": false
             },
             {
@@ -852,7 +852,7 @@
               "gsc_imp": 1,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 11,
+              "articles": 32,
               "gsc_pending": false
             },
             {
@@ -861,7 +861,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 2,
-              "articles": 20,
+              "articles": 32,
               "gsc_pending": false
             },
             {
@@ -870,7 +870,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 1,
-              "articles": 23,
+              "articles": 32,
               "gsc_pending": true
             },
             {
@@ -879,7 +879,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 26,
+              "articles": 32,
               "gsc_pending": true
             }
           ],
@@ -1017,11 +1017,11 @@
             "total_urls": 25
           },
           "content": {
-            "total_articles": 30,
-            "this_month": 30,
-            "this_week": 23,
+            "total_articles": 31,
+            "this_month": 31,
+            "this_week": 24,
             "sports_articles": 0,
-            "total_articles_inc_sports": 30
+            "total_articles_inc_sports": 31
           },
           "cwv": {},
           "daily_7d": [
@@ -1031,7 +1031,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 5,
-              "articles": 10,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1040,7 +1040,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 4,
-              "articles": 13,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1049,7 +1049,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 16,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1058,7 +1058,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 19,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1067,7 +1067,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 3,
-              "articles": 25,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1076,7 +1076,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 4,
-              "articles": 28,
+              "articles": 31,
               "gsc_pending": true
             },
             {
@@ -1085,7 +1085,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 3,
-              "articles": 30,
+              "articles": 31,
               "gsc_pending": true
             }
           ],
@@ -1224,11 +1224,11 @@
             "total_urls": 35
           },
           "content": {
-            "total_articles": 29,
-            "this_month": 29,
-            "this_week": 23,
+            "total_articles": 31,
+            "this_month": 31,
+            "this_week": 24,
             "sports_articles": 0,
-            "total_articles_inc_sports": 29
+            "total_articles_inc_sports": 31
           },
           "cwv": {},
           "daily_7d": [
@@ -1238,7 +1238,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 2,
-              "articles": 9,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1247,7 +1247,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 12,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1256,7 +1256,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 1,
-              "articles": 15,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1265,7 +1265,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 4,
-              "articles": 17,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1274,7 +1274,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 5,
-              "articles": 23,
+              "articles": 31,
               "gsc_pending": false
             },
             {
@@ -1283,7 +1283,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 2,
-              "articles": 26,
+              "articles": 31,
               "gsc_pending": true
             },
             {
@@ -1292,7 +1292,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 4,
-              "articles": 29,
+              "articles": 31,
               "gsc_pending": true
             }
           ],
@@ -1444,7 +1444,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 4,
               "gsc_pending": false
             },
             {
@@ -1453,7 +1453,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 4,
               "gsc_pending": false
             },
             {
@@ -1462,7 +1462,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 4,
               "gsc_pending": false
             },
             {
@@ -1471,7 +1471,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 2,
+              "articles": 4,
               "gsc_pending": false
             },
             {
@@ -1639,11 +1639,11 @@
             "total_urls": 9
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -1653,7 +1653,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1662,7 +1662,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1671,7 +1671,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1680,7 +1680,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1689,7 +1689,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1698,7 +1698,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -1707,7 +1707,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
@@ -1847,11 +1847,11 @@
             "total_urls": 12
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -1861,7 +1861,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1870,7 +1870,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1879,7 +1879,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1888,7 +1888,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1897,7 +1897,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -1906,7 +1906,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -1915,7 +1915,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
@@ -2049,11 +2049,11 @@
             "total_urls": 12
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -2063,7 +2063,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2072,7 +2072,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2081,7 +2081,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2090,7 +2090,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2099,7 +2099,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2108,7 +2108,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -2117,7 +2117,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
@@ -2266,11 +2266,11 @@
             "total_urls": 9
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 14,
+            "this_month": 14,
+            "this_week": 14,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 14
           },
           "cwv": {},
           "daily_7d": [
@@ -2280,7 +2280,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 14,
               "gsc_pending": false
             },
             {
@@ -2289,7 +2289,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 14,
               "gsc_pending": false
             },
             {
@@ -2298,7 +2298,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 14,
               "gsc_pending": false
             },
             {
@@ -2307,7 +2307,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 14,
               "gsc_pending": false
             },
             {
@@ -2316,7 +2316,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 14,
               "gsc_pending": false
             },
             {
@@ -2325,7 +2325,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 14,
               "gsc_pending": true
             },
             {
@@ -2334,7 +2334,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 14,
               "gsc_pending": true
             }
           ],
@@ -2476,11 +2476,11 @@
             "total_urls": 8
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -2490,7 +2490,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2499,7 +2499,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2508,7 +2508,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2517,7 +2517,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2526,7 +2526,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2535,7 +2535,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -2544,7 +2544,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
@@ -2690,11 +2690,11 @@
             "total_urls": 10
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -2704,7 +2704,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2713,7 +2713,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2722,7 +2722,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2731,7 +2731,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2740,7 +2740,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2749,7 +2749,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -2758,7 +2758,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
@@ -2891,11 +2891,11 @@
             "total_urls": 10
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -2905,7 +2905,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2914,7 +2914,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2923,7 +2923,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2932,7 +2932,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2941,7 +2941,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -2950,7 +2950,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -2959,7 +2959,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
@@ -3100,11 +3100,11 @@
             "total_urls": 11
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -3114,7 +3114,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3123,7 +3123,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3132,7 +3132,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3141,7 +3141,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3150,7 +3150,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3159,7 +3159,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -3168,7 +3168,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
@@ -3311,11 +3311,11 @@
             "total_urls": 9
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 11,
+            "this_month": 11,
+            "this_week": 11,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 11
           },
           "cwv": {},
           "daily_7d": [
@@ -3325,7 +3325,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3334,7 +3334,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3343,7 +3343,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3352,7 +3352,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3361,7 +3361,7 @@
               "gsc_imp": 0,
               "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 0,
+              "articles": 11,
               "gsc_pending": false
             },
             {
@@ -3370,7 +3370,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 1,
+              "articles": 11,
               "gsc_pending": true
             },
             {
@@ -3379,7 +3379,7 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 11,
               "gsc_pending": true
             }
           ],
