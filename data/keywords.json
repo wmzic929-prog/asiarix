@@ -567,9 +567,9 @@
       "category": "優惠資訊",
       "angle": "以 ROI 視角計算存款回贈的實際著數",
       "image_theme": "deposit bonus ROI calculation return investment casino gold",
-      "status": "available",
-      "slug": "deposit-bonus-roi-calculation",
-      "used_date": null
+      "status": "used",
+      "slug": "deposit-rebate-roi-guide",
+      "used_date": "2026-05-29"
     },
     {
       "id": 71,
