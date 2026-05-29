@@ -67,7 +67,7 @@ function check(slug) {
   // O2: H1 ↔ Title alignment (check H1 exists)
   const h1Match = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
   results.O2_h1 = h1Match ? h1Match[1].replace(/<[^>]+>/g, '').trim() : null;
-  results.O2_ok = !!results.O2_h1 && results.O2_h1.length >= 5;
+  results.O2_ok = !!results.O2_h1 && results.O2_h1.length >= 15;
 
   // O3: No emoji in H2/H3
   const h2h3Matches = [...html.matchAll(/<h[23][^>]*>([\s\S]*?)<\/h[23]>/gi)];
