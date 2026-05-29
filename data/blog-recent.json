@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "first-platform-selection-guide",
+      "title": "第一次選娛樂平台？5 件新手必考慮嘅事【2026】",
+      "category": "新手指南",
+      "date": "2026-05-29",
+      "excerpt": "第一次揀娛樂平台最容易因為「只睇優惠」而入錯坑，牌照信譽、提款條款、客服質素缺一不可，呢 5 大考慮維度助你做好決定。",
+      "imageUrl": "/blog/img/first-platform-selection-guide.jpg"
+    },
+    {
       "slug": "withdrawal-rejected-7-reasons",
       "title": "娛樂平台出金被拒？2026年7大常見提款失敗原因及解決方法",
       "category": "提款教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-28",
       "excerpt": "超過78%嘅網上玩家曾擔心個人資料安全問題，但大部分人唔清楚娛樂平台有咩保護機制，亦唔知道玩家自己可以點做好防護。",
       "imageUrl": "/blog/img/entertainment-platform-data-security.jpg"
-    },
-    {
-      "slug": "licensed-platform-check-5-indicators",
-      "title": "點睇娛樂平台係咪正規持牌？2026年5大核查指標完全攻略",
-      "category": "平台評測",
-      "date": "2026-05-28",
-      "excerpt": "香港市面上超過2,000個娛樂平台聲稱正規持牌，但唔係每個都核查到。用呢5大指標快速判斷平台可信度。",
-      "imageUrl": "/blog/img/licensed-platform-check-5-indicators.jpg"
     }
   ]
 }
