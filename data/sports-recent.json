@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-05-29-sport-event-planning-reform-hk",
+      "headline": "霍啟剛：古洞北劍擊館規劃看體育盛事化思維變革",
+      "category": "綜合",
+      "emoji": "🏟️",
+      "date": "2026-05-29",
+      "lead": "立法會議員霍啟剛以古洞北劍擊館規劃為引子，深入剖析香港體育盛事化發展的思維模式，強調場館規劃與賽事發展的緊密聯繫。",
+      "imageUrl": "https://images.pexels.com/photos/35102702/pexels-photo-35102702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Rugby players competing vigorously on a vibrant green field, showcasing teamwork and athleticism."
+    },
+    {
       "slug": "2026-05-29-hong-kong-dragon-boat-federation-hq",
       "headline": "龍舟聯合會總部選址香港 體育樞紐地位升級",
       "category": "綜合",
