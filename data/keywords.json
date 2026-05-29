@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-28",
+  "last_refreshed": "2026-05-29",
   "keywords": [
     {
       "id": 1,
@@ -1030,6 +1030,21 @@
       "trending_title": "【熱帶氣旋】",
       "trending_source": "Google HK Trends",
       "relevance_score": 72
+    },
+    {
+      "id": 108,
+      "keyword": "NBA 體育博彩投注攻略 2026",
+      "category": "優惠資訊",
+      "angle": "馬刺對雷霆賽事押注熱點與新人優惠",
+      "image_theme": "dark neon NBA court betting odds 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-29",
+      "trending_title": "【NBA 賽事與球星動態】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 85
     }
   ]
 }
