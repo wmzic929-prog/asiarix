@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T13:30:00+08:00",
+  "generated_at": "2026-05-30T13:47:22+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -61,58 +61,58 @@
           "label": "Spheretap 主站",
           "role": "main",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 239,
+            "sessions_7d": 1551,
+            "sessions_30d": 2020,
             "series_30d": [
               0,
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              3,
+              3,
+              9,
+              13,
+              18,
+              12,
+              17,
+              13,
+              14,
+              10,
+              26,
+              8,
+              5,
+              18,
+              56,
+              29,
+              43,
+              177,
+              216,
+              207,
+              221,
+              213,
+              228,
+              228,
+              239,
+              176
             ],
             "cta_series_7d": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              10,
+              5,
+              11,
+              6,
+              5,
+              7,
+              15
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.481,
+            "avg_duration_sec": 298,
+            "mobile_pct": 0.697,
             "sources": {
-              "organic": 0,
-              "direct": 0,
-              "social": 0,
-              "referral": 0
+              "organic": 0.5,
+              "direct": 0.1,
+              "social": 0.2,
+              "referral": 0.16
             }
           },
           "cta": {
@@ -123,22 +123,73 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
-            "clicks_28d": 0,
-            "impressions_7d": 0,
-            "clicks_7d": 0,
-            "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "impressions_28d": 261,
+            "clicks_28d": 43,
+            "impressions_7d": 199,
+            "clicks_7d": 3,
+            "ctr": 0.1648,
+            "avg_position": 8.8,
+            "indexed_pages": 96,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                19,
+                18,
+                15,
+                24,
+                32,
+                56,
+                35
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                2
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [
+              {
+                "kw": "2026 英超 冠軍",
+                "pos": 12,
+                "clicks": 0
+              },
+              {
+                "kw": "2026英超冠軍",
+                "pos": 11,
+                "clicks": 0
+              },
+              {
+                "kw": "3小時過數",
+                "pos": 19,
+                "clicks": 0
+              },
+              {
+                "kw": "birthday bonus",
+                "pos": 1,
+                "clicks": 0
+              },
+              {
+                "kw": "siu cheong hung",
+                "pos": 11,
+                "clicks": 0
+              }
+            ],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 181
           },
           "content": {
             "total_articles": 112,
@@ -151,66 +202,66 @@
           "daily_7d": [
             {
               "date": "5/23",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 216,
+              "gsc_imp": 15,
+              "gsc_clk": 0,
+              "cta_clk": 10,
               "articles": 221,
               "gsc_pending": false
             },
             {
               "date": "5/24",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 207,
+              "gsc_imp": 24,
+              "gsc_clk": 0,
+              "cta_clk": 5,
               "articles": 221,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 221,
+              "gsc_imp": 32,
+              "gsc_clk": 0,
+              "cta_clk": 11,
               "articles": 221,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 213,
+              "gsc_imp": 56,
+              "gsc_clk": 1,
+              "cta_clk": 6,
               "articles": 221,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 228,
+              "gsc_imp": 35,
+              "gsc_clk": 2,
+              "cta_clk": 5,
               "articles": 221,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 228,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 7,
               "articles": 221,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 239,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 15,
               "articles": 221,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -265,9 +316,9 @@
           "label": "體育博彩攻略",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 10,
+            "sessions_7d": 59,
+            "sessions_30d": 161,
             "series_30d": [
               0,
               0,
@@ -283,40 +334,40 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              21,
+              16,
+              15,
+              8,
+              4,
+              6,
+              12,
+              20,
+              4,
+              9,
+              7,
+              5,
+              17,
+              7,
+              10,
+              2
             ],
             "cta_series_7d": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              1,
+              5,
+              2,
+              2,
+              3,
+              3,
+              1
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.64,
+            "avg_duration_sec": 70,
+            "mobile_pct": 0.261,
             "sources": {
-              "organic": 0,
-              "direct": 0,
+              "organic": 0.02,
+              "direct": 0.96,
               "social": 0,
-              "referral": 0
+              "referral": 0.02
             }
           },
           "cta": {
@@ -327,22 +378,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 6,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 6,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 3,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 36
           },
           "content": {
             "total_articles": 40,
@@ -355,66 +431,66 @@
           "daily_7d": [
             {
               "date": "5/23",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 4,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/24",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 9,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 5,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 7,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 2,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 5,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 2,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 17,
+              "gsc_imp": 6,
+              "gsc_clk": 0,
+              "cta_clk": 3,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 7,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 3,
               "articles": 40,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 10,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 1,
               "articles": 40,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -443,9 +519,9 @@
           "label": "真人遊戲技術流",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 3,
+            "sessions_7d": 36,
+            "sessions_30d": 146,
             "series_30d": [
               0,
               0,
@@ -461,40 +537,40 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              22,
+              29,
+              12,
+              10,
+              7,
+              4,
+              10,
+              16,
+              4,
+              3,
+              6,
+              10,
+              5,
+              6,
+              3,
+              5
             ],
             "cta_series_7d": [
+              3,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              3,
+              4,
+              3,
+              3,
+              1
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.685,
+            "avg_duration_sec": 107,
+            "mobile_pct": 0.247,
             "sources": {
-              "organic": 0,
-              "direct": 0,
+              "organic": 0.01,
+              "direct": 0.95,
               "social": 0,
-              "referral": 0
+              "referral": 0.05
             }
           },
           "cta": {
@@ -505,22 +581,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 38
           },
           "content": {
             "total_articles": 40,
@@ -533,66 +634,66 @@
           "daily_7d": [
             {
               "date": "5/23",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 4,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 3,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/24",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 3,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 6,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 3,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 10,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 4,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 5,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
+              "cta_clk": 3,
               "articles": 40,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 6,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 3,
               "articles": 40,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 3,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 1,
               "articles": 40,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -623,9 +724,9 @@
           "label": "香港賽馬技術分析",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 13,
+            "sessions_7d": 48,
+            "sessions_30d": 125,
             "series_30d": [
               0,
               0,
@@ -641,40 +742,40 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              14,
+              15,
+              10,
+              11,
+              7,
+              2,
+              4,
+              14,
+              9,
+              3,
+              7,
+              7,
+              3,
+              6,
+              13,
+              2
             ],
             "cta_series_7d": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              7,
+              1,
+              3,
+              2,
+              1,
+              3,
+              4
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.664,
+            "avg_duration_sec": 125,
+            "mobile_pct": 0.272,
             "sources": {
-              "organic": 0,
-              "direct": 0,
-              "social": 0,
-              "referral": 0
+              "organic": 0.04,
+              "direct": 0.92,
+              "social": 0.02,
+              "referral": 0.02
             }
           },
           "cta": {
@@ -685,22 +786,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
-            "clicks_28d": 0,
-            "impressions_7d": 0,
-            "clicks_7d": 0,
-            "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "impressions_28d": 11,
+            "clicks_28d": 1,
+            "impressions_7d": 6,
+            "clicks_7d": 1,
+            "ctr": 0.0909,
+            "avg_position": 23.9,
+            "indexed_pages": 4,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                4,
+                0,
+                0,
+                1,
+                0,
+                1
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 30
           },
           "content": {
             "total_articles": 36,
@@ -713,66 +839,66 @@
           "daily_7d": [
             {
               "date": "5/23",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 9,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 7,
               "articles": 36,
               "gsc_pending": false
             },
             {
               "date": "5/24",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 3,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
               "articles": 36,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 7,
+              "gsc_imp": 1,
+              "gsc_clk": 0,
+              "cta_clk": 3,
               "articles": 36,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 7,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 2,
               "articles": 36,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 3,
+              "gsc_imp": 1,
+              "gsc_clk": 1,
+              "cta_clk": 1,
               "articles": 36,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 6,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 3,
               "articles": 36,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 13,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 4,
               "articles": 36,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -807,9 +933,9 @@
           "label": "老虎機遊戲解析",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 14,
+            "sessions_7d": 58,
+            "sessions_30d": 132,
             "series_30d": [
               0,
               0,
@@ -825,40 +951,40 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              15,
+              16,
+              8,
+              8,
+              5,
+              2,
+              10,
+              11,
+              5,
+              6,
+              8,
+              9,
+              10,
+              6,
+              14,
+              5
             ],
             "cta_series_7d": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              4,
+              3,
+              1,
+              3,
+              4,
+              3,
+              3
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.614,
+            "avg_duration_sec": 129,
+            "mobile_pct": 0.227,
             "sources": {
-              "organic": 0,
-              "direct": 0,
-              "social": 0,
-              "referral": 0
+              "organic": 0.02,
+              "direct": 0.9,
+              "social": 0.04,
+              "referral": 0.04
             }
           },
           "cta": {
@@ -869,22 +995,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 3,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 25
           },
           "content": {
             "total_articles": 33,
@@ -897,66 +1048,66 @@
           "daily_7d": [
             {
               "date": "5/23",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 5,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 4,
               "articles": 33,
               "gsc_pending": false
             },
             {
               "date": "5/24",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 6,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 3,
               "articles": 33,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 8,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
               "articles": 33,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 9,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 3,
               "articles": 33,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 10,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
+              "cta_clk": 4,
               "articles": 33,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 6,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 3,
               "articles": 33,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 14,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 3,
               "articles": 33,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -991,9 +1142,9 @@
           "label": "平台技術評測",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 11,
+            "sessions_7d": 38,
+            "sessions_30d": 138,
             "series_30d": [
               0,
               0,
@@ -1009,40 +1160,40 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              22,
+              23,
+              7,
+              6,
+              8,
+              1,
+              13,
+              20,
+              1,
+              4,
+              7,
+              7,
+              3,
+              5,
+              11,
+              3
             ],
             "cta_series_7d": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              1,
+              1,
+              4,
+              5,
+              2,
+              4,
+              5
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.645,
+            "avg_duration_sec": 122,
+            "mobile_pct": 0.288,
             "sources": {
-              "organic": 0,
-              "direct": 0,
-              "social": 0,
-              "referral": 0
+              "organic": 0.01,
+              "direct": 0.96,
+              "social": 0.02,
+              "referral": 0.01
             }
           },
           "cta": {
@@ -1053,22 +1204,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 36
           },
           "content": {
             "total_articles": 31,
@@ -1081,66 +1257,66 @@
           "daily_7d": [
             {
               "date": "5/23",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 1,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
               "articles": 31,
               "gsc_pending": false
             },
             {
               "date": "5/24",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 4,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 1,
               "articles": 31,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 7,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 4,
               "articles": 31,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 7,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
+              "cta_clk": 5,
               "articles": 31,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
-              "cta_clk": 0,
+              "sessions": 3,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
+              "cta_clk": 2,
               "articles": 31,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 5,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 4,
               "articles": 31,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 11,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 5,
               "articles": 31,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -1174,9 +1350,9 @@
           "label": "競技運動數據研究",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 11,
+            "sessions_7d": 63,
+            "sessions_30d": 63,
             "series_30d": [
               0,
               0,
@@ -1202,12 +1378,12 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              3,
+              24,
+              13,
+              12,
+              11,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -1218,14 +1394,14 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.968,
+            "avg_duration_sec": 1,
+            "mobile_pct": 0.206,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 0.97,
               "social": 0,
-              "referral": 0
+              "referral": 0.02
             }
           },
           "cta": {
@@ -1236,22 +1412,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
-            "clicks_28d": 0,
-            "impressions_7d": 0,
-            "clicks_7d": 0,
-            "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "impressions_28d": 4,
+            "clicks_28d": 1,
+            "impressions_7d": 4,
+            "clicks_7d": 1,
+            "ctr": 0.25,
+            "avg_position": 1.3,
+            "indexed_pages": 3,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 9
           },
           "content": {
             "total_articles": 8,
@@ -1265,8 +1466,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 8,
               "gsc_pending": false
@@ -1274,56 +1475,56 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 8,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 3,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 8,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 24,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 8,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 13,
+              "gsc_imp": 4,
+              "gsc_clk": 1,
               "cta_clk": 0,
               "articles": 8,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 12,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 8,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 11,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 8,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -1358,9 +1559,9 @@
           "label": "運動科學與表現",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 7,
+            "sessions_7d": 52,
+            "sessions_30d": 52,
             "series_30d": [
               0,
               0,
@@ -1387,11 +1588,11 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0
+              16,
+              17,
+              12,
+              7,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -1402,12 +1603,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.981,
+            "avg_duration_sec": 1,
+            "mobile_pct": 0.135,
             "sources": {
-              "organic": 0,
-              "direct": 0,
+              "organic": 0.02,
+              "direct": 0.96,
               "social": 0,
               "referral": 0
             }
@@ -1420,22 +1621,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 15
           },
           "content": {
             "total_articles": 15,
@@ -1449,8 +1675,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
@@ -1458,8 +1684,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
@@ -1467,47 +1693,47 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 16,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 17,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 12,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 7,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -1542,9 +1768,9 @@
           "label": "電競產業研究",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 15,
+            "sessions_7d": 52,
+            "sessions_30d": 52,
             "series_30d": [
               0,
               0,
@@ -1570,11 +1796,11 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
+              4,
+              6,
+              15,
+              12,
+              15,
               0
             ],
             "cta_series_7d": [
@@ -1586,14 +1812,14 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.962,
+            "avg_duration_sec": 2,
+            "mobile_pct": 0.077,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 0.96,
               "social": 0,
-              "referral": 0
+              "referral": 0.04
             }
           },
           "cta": {
@@ -1604,22 +1830,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 15
           },
           "content": {
             "total_articles": 15,
@@ -1633,8 +1884,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
@@ -1642,56 +1893,56 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 4,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 6,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 15,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 12,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 15,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -1719,9 +1970,9 @@
           "label": "電競選手數據庫",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 10,
+            "sessions_7d": 38,
+            "sessions_30d": 38,
             "series_30d": [
               0,
               0,
@@ -1748,11 +1999,11 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0
+              5,
+              15,
+              8,
+              10,
+              1
             ],
             "cta_series_7d": [
               0,
@@ -1763,14 +2014,14 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 1,
+            "avg_duration_sec": 1,
+            "mobile_pct": 0.105,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 0.97,
               "social": 0,
-              "referral": 0
+              "referral": 0.03
             }
           },
           "cta": {
@@ -1781,22 +2032,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 5,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 5,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 3.6,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 15
           },
           "content": {
             "total_articles": 15,
@@ -1810,8 +2086,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
@@ -1819,8 +2095,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
@@ -1828,47 +2104,47 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 5,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 15,
+              "gsc_imp": 5,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 8,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 10,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -1911,9 +2187,9 @@
           "label": "棋牌博弈論研究院",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 10,
+            "sessions_7d": 49,
+            "sessions_30d": 49,
             "series_30d": [
               0,
               0,
@@ -1939,12 +2215,12 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              2,
+              9,
+              17,
+              11,
+              10,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -1955,12 +2231,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.98,
+            "avg_duration_sec": 1,
+            "mobile_pct": 0.102,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -1973,22 +2249,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 15
           },
           "content": {
             "total_articles": 18,
@@ -2002,8 +2303,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 18,
               "gsc_pending": false
@@ -2011,56 +2312,56 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 18,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 2,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 18,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 9,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 18,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 17,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 18,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 11,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 18,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 10,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 18,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -2097,9 +2398,9 @@
           "label": "策略遊戲設計分析",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 10,
+            "sessions_7d": 42,
+            "sessions_30d": 42,
             "series_30d": [
               0,
               0,
@@ -2125,12 +2426,12 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              1,
+              6,
+              13,
+              12,
+              10,
+              1
             ],
             "cta_series_7d": [
               0,
@@ -2141,12 +2442,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "mobile_pct": 0.071,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -2159,22 +2460,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 8
           },
           "content": {
             "total_articles": 15,
@@ -2188,8 +2514,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
@@ -2197,56 +2523,56 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 1,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 6,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 13,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 15,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 12,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 10,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 15,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -2288,9 +2614,9 @@
           "label": "娛樂平台深度評測",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 4,
+            "sessions_7d": 53,
+            "sessions_30d": 53,
             "series_30d": [
               0,
               0,
@@ -2316,12 +2642,12 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              3,
+              4,
+              29,
+              13,
+              4,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -2332,12 +2658,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 1,
+            "avg_duration_sec": 1,
+            "mobile_pct": 0.113,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -2350,22 +2676,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 3,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 10
           },
           "content": {
             "total_articles": 14,
@@ -2379,8 +2730,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
@@ -2388,56 +2739,56 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 3,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 4,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 29,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 13,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 4,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -2465,9 +2816,9 @@
           "label": "概率與決策科學",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 8,
+            "sessions_7d": 48,
+            "sessions_30d": 48,
             "series_30d": [
               0,
               0,
@@ -2494,11 +2845,11 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0
+              11,
+              15,
+              14,
+              8,
+              1
             ],
             "cta_series_7d": [
               0,
@@ -2509,12 +2860,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.979,
+            "avg_duration_sec": 1,
+            "mobile_pct": 0.146,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -2527,22 +2878,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 10
           },
           "content": {
             "total_articles": 14,
@@ -2556,8 +2932,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
@@ -2565,8 +2941,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
@@ -2574,47 +2950,47 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 11,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 15,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 14,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 8,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -2649,9 +3025,9 @@
           "label": "亞洲電競文化",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 8,
+            "sessions_7d": 48,
+            "sessions_30d": 48,
             "series_30d": [
               0,
               0,
@@ -2677,12 +3053,12 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              1,
+              9,
+              17,
+              13,
+              8,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -2693,14 +3069,14 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.979,
+            "avg_duration_sec": 7,
+            "mobile_pct": 0.104,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 0.98,
               "social": 0,
-              "referral": 0
+              "referral": 0.02
             }
           },
           "cta": {
@@ -2711,22 +3087,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 14
           },
           "content": {
             "total_articles": 14,
@@ -2740,8 +3141,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
@@ -2749,56 +3150,56 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 1,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 9,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 17,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 13,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 8,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -2836,9 +3237,9 @@
           "label": "數字娛樂消費研究",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 22,
+            "sessions_7d": 62,
+            "sessions_30d": 62,
             "series_30d": [
               0,
               0,
@@ -2864,12 +3265,12 @@
               0,
               0,
               0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
+              4,
+              7,
+              20,
+              9,
+              22,
+              2
             ],
             "cta_series_7d": [
               0,
@@ -2880,12 +3281,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.984,
+            "avg_duration_sec": 1,
+            "mobile_pct": 0.145,
             "sources": {
-              "organic": 0,
-              "direct": 0,
+              "organic": 0.02,
+              "direct": 0.98,
               "social": 0,
               "referral": 0
             }
@@ -2898,22 +3299,47 @@
             "conversions_7d": 0
           },
           "gsc": {
-            "impressions_28d": 0,
+            "impressions_28d": 3,
             "clicks_28d": 0,
-            "impressions_7d": 0,
+            "impressions_7d": 3,
             "clicks_7d": 0,
             "ctr": 0,
-            "avg_position": 0,
-            "indexed_pages": 0,
+            "avg_position": 1,
+            "indexed_pages": 6,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
-            "total_urls": 0
+            "total_urls": 15
           },
           "content": {
             "total_articles": 14,
@@ -2927,8 +3353,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
@@ -2936,56 +3362,56 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/25",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 4,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/26",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 7,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/27",
-              "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "sessions": 20,
+              "gsc_imp": 3,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 14,
               "gsc_pending": false
             },
             {
               "date": "5/28",
-              "sessions": 0,
+              "sessions": 9,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 22,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 14,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {
@@ -3078,9 +3504,9 @@
           "label": "BDUK 主站",
           "role": "main",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 32,
+            "sessions_7d": 32,
+            "sessions_30d": 32,
             "series_30d": [
               0,
               0,
@@ -3110,8 +3536,8 @@
               0,
               0,
               0,
-              0,
-              0
+              32,
+              9
             ],
             "cta_series_7d": [
               0,
@@ -3120,16 +3546,16 @@
               0,
               0,
               0,
-              0
+              2
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.656,
+            "avg_duration_sec": 697,
+            "mobile_pct": 0.219,
             "sources": {
-              "organic": 0,
-              "direct": 0,
+              "organic": 0.16,
+              "direct": 0.78,
               "social": 0,
-              "referral": 0
+              "referral": 0.06
             }
           },
           "cta": {
@@ -3146,13 +3572,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 10,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -3169,8 +3620,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 171,
               "gsc_pending": false
@@ -3178,8 +3629,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 171,
               "gsc_pending": false
@@ -3187,8 +3638,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 171,
               "gsc_pending": false
@@ -3196,8 +3647,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 171,
               "gsc_pending": false
@@ -3205,8 +3656,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 171,
               "gsc_pending": false
@@ -3218,16 +3669,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 171,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 32,
               "gsc_imp": null,
               "gsc_clk": null,
-              "cta_clk": 0,
+              "cta_clk": 2,
               "articles": 171,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -3236,9 +3687,9 @@
           "label": "博彩統計中心",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 2,
+            "sessions_7d": 2,
+            "sessions_30d": 2,
             "series_30d": [
               0,
               0,
@@ -3268,7 +3719,7 @@
               0,
               0,
               0,
-              0,
+              2,
               0
             ],
             "cta_series_7d": [
@@ -3280,12 +3731,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -3304,13 +3755,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -3327,8 +3803,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 7,
               "gsc_pending": false
@@ -3336,8 +3812,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 7,
               "gsc_pending": false
@@ -3345,8 +3821,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 7,
               "gsc_pending": false
@@ -3354,8 +3830,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 7,
               "gsc_pending": false
@@ -3363,8 +3839,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 7,
               "gsc_pending": false
@@ -3376,16 +3852,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 7,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 2,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 7,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -3427,7 +3903,7 @@
               0,
               0,
               0,
-              0
+              2
             ],
             "cta_series_7d": [
               0,
@@ -3462,13 +3938,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -3485,8 +3986,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3494,8 +3995,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3503,8 +4004,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3512,8 +4013,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3521,8 +4022,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3534,7 +4035,7 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
@@ -3543,7 +4044,7 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -3552,9 +4053,9 @@
           "label": "賭場數據區",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 6,
+            "sessions_7d": 6,
+            "sessions_30d": 6,
             "series_30d": [
               0,
               0,
@@ -3584,8 +4085,8 @@
               0,
               0,
               0,
-              0,
-              0
+              6,
+              14
             ],
             "cta_series_7d": [
               0,
@@ -3596,12 +4097,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "mobile_pct": 0.167,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -3622,11 +4123,36 @@
             "avg_position": 0,
             "indexed_pages": 0,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -3643,8 +4169,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3652,8 +4178,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3661,8 +4187,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3670,8 +4196,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3679,8 +4205,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3692,16 +4218,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 6,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -3710,9 +4236,9 @@
           "label": "桌遊實驗室",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 7,
+            "sessions_7d": 7,
+            "sessions_30d": 7,
             "series_30d": [
               0,
               0,
@@ -3742,7 +4268,7 @@
               0,
               0,
               0,
-              0,
+              7,
               0
             ],
             "cta_series_7d": [
@@ -3754,12 +4280,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -3778,13 +4304,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -3801,8 +4352,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -3810,8 +4361,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -3819,8 +4370,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -3828,8 +4379,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -3837,8 +4388,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -3850,16 +4401,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 5,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 7,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 5,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -3868,9 +4419,9 @@
           "label": "賽馬分析",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 4,
+            "sessions_7d": 4,
+            "sessions_30d": 4,
             "series_30d": [
               0,
               0,
@@ -3900,8 +4451,8 @@
               0,
               0,
               0,
-              0,
-              0
+              4,
+              4
             ],
             "cta_series_7d": [
               0,
@@ -3912,12 +4463,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -3936,13 +4487,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -3959,8 +4535,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3968,8 +4544,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3977,8 +4553,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3986,8 +4562,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -3995,8 +4571,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4008,16 +4584,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 4,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -4026,9 +4602,9 @@
           "label": "賽道數據庫",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 25,
+            "sessions_7d": 25,
+            "sessions_30d": 25,
             "series_30d": [
               0,
               0,
@@ -4058,7 +4634,7 @@
               0,
               0,
               0,
-              0,
+              25,
               0
             ],
             "cta_series_7d": [
@@ -4070,12 +4646,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "bounce_rate": 0.8,
+            "avg_duration_sec": 4,
+            "mobile_pct": 0.24,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -4094,13 +4670,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -4117,8 +4718,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4126,8 +4727,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4135,8 +4736,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4144,8 +4745,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4153,8 +4754,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4166,16 +4767,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 25,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -4184,9 +4785,9 @@
           "label": "老虎機研究室",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 9,
+            "sessions_7d": 9,
+            "sessions_30d": 9,
             "series_30d": [
               0,
               0,
@@ -4216,8 +4817,8 @@
               0,
               0,
               0,
-              0,
-              0
+              9,
+              19
             ],
             "cta_series_7d": [
               0,
@@ -4228,12 +4829,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -4252,69 +4853,94 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
           },
           "content": {
-            "total_articles": 3,
-            "this_month": 3,
-            "this_week": 3,
+            "total_articles": 4,
+            "this_month": 4,
+            "this_week": 4,
             "sports_articles": 0,
-            "total_articles_inc_sports": 3
+            "total_articles_inc_sports": 4
           },
           "cwv": {},
           "daily_7d": [
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 3,
+              "articles": 4,
               "gsc_pending": false
             },
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 3,
+              "articles": 4,
               "gsc_pending": false
             },
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 3,
+              "articles": 4,
               "gsc_pending": false
             },
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 3,
+              "articles": 4,
               "gsc_pending": false
             },
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 3,
+              "articles": 4,
               "gsc_pending": false
             },
             {
@@ -4323,17 +4949,17 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 3,
-              "gsc_pending": false
+              "articles": 4,
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 9,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 3,
-              "gsc_pending": false
+              "articles": 4,
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -4342,9 +4968,9 @@
           "label": "老虎機索引",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 1,
+            "sessions_7d": 1,
+            "sessions_30d": 1,
             "series_30d": [
               0,
               0,
@@ -4374,7 +5000,7 @@
               0,
               0,
               0,
-              0,
+              1,
               0
             ],
             "cta_series_7d": [
@@ -4386,12 +5012,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -4410,69 +5036,94 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
           },
           "content": {
-            "total_articles": 4,
-            "this_month": 4,
-            "this_week": 4,
+            "total_articles": 5,
+            "this_month": 5,
+            "this_week": 5,
             "sports_articles": 0,
-            "total_articles_inc_sports": 4
+            "total_articles_inc_sports": 5
           },
           "cwv": {},
           "daily_7d": [
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 5,
               "gsc_pending": false
             },
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 5,
               "gsc_pending": false
             },
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 5,
               "gsc_pending": false
             },
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 5,
               "gsc_pending": false
             },
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
-              "articles": 4,
+              "articles": 5,
               "gsc_pending": false
             },
             {
@@ -4481,17 +5132,17 @@
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
-              "gsc_pending": false
+              "articles": 5,
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 1,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
-              "articles": 4,
-              "gsc_pending": false
+              "articles": 5,
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -4500,9 +5151,9 @@
           "label": "賭場審計區",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 2,
+            "sessions_7d": 2,
+            "sessions_30d": 2,
             "series_30d": [
               0,
               0,
@@ -4532,7 +5183,7 @@
               0,
               0,
               0,
-              0,
+              2,
               0
             ],
             "cta_series_7d": [
@@ -4544,12 +5195,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -4568,13 +5219,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -4591,8 +5267,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4600,8 +5276,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4609,8 +5285,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4618,8 +5294,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4627,8 +5303,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4640,16 +5316,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 2,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -4658,9 +5334,9 @@
           "label": "平台基準測試",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 7,
+            "sessions_7d": 7,
+            "sessions_30d": 7,
             "series_30d": [
               0,
               0,
@@ -4690,7 +5366,7 @@
               0,
               0,
               0,
-              0,
+              7,
               0
             ],
             "cta_series_7d": [
@@ -4702,12 +5378,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -4726,13 +5402,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -4749,8 +5450,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 2,
               "gsc_pending": false
@@ -4758,8 +5459,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 2,
               "gsc_pending": false
@@ -4767,8 +5468,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 2,
               "gsc_pending": false
@@ -4776,8 +5477,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 2,
               "gsc_pending": false
@@ -4785,8 +5486,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 2,
               "gsc_pending": false
@@ -4798,16 +5499,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 2,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 7,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 2,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -4816,9 +5517,9 @@
           "label": "電競博彩數據",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 9,
+            "sessions_7d": 9,
+            "sessions_30d": 9,
             "series_30d": [
               0,
               0,
@@ -4848,7 +5549,7 @@
               0,
               0,
               0,
-              0,
+              9,
               0
             ],
             "cta_series_7d": [
@@ -4860,12 +5561,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
+            "bounce_rate": 1,
+            "avg_duration_sec": 1,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -4884,13 +5585,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -4907,8 +5633,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4916,8 +5642,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4925,8 +5651,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4934,8 +5660,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4943,8 +5669,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -4956,16 +5682,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 9,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -4974,9 +5700,9 @@
           "label": "加密遊戲索引",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 1,
+            "sessions_7d": 1,
+            "sessions_30d": 1,
             "series_30d": [
               0,
               0,
@@ -5006,8 +5732,8 @@
               0,
               0,
               0,
-              0,
-              0
+              1,
+              1
             ],
             "cta_series_7d": [
               0,
@@ -5018,12 +5744,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -5042,13 +5768,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -5065,8 +5816,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5074,8 +5825,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5083,8 +5834,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5092,8 +5843,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5101,8 +5852,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5114,16 +5865,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 1,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -5132,9 +5883,9 @@
           "label": "賽事統計區",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 15,
+            "sessions_7d": 15,
+            "sessions_30d": 15,
             "series_30d": [
               0,
               0,
@@ -5164,8 +5915,8 @@
               0,
               0,
               0,
-              0,
-              0
+              15,
+              11
             ],
             "cta_series_7d": [
               0,
@@ -5176,12 +5927,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
-            "mobile_pct": 0,
+            "mobile_pct": 0.4,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -5200,13 +5951,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 3,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -5223,8 +5999,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5232,8 +6008,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5241,8 +6017,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5250,8 +6026,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5259,8 +6035,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5272,16 +6048,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 15,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -5290,9 +6066,9 @@
           "label": "電競成長實驗室",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 6,
+            "sessions_7d": 6,
+            "sessions_30d": 6,
             "series_30d": [
               0,
               0,
@@ -5322,8 +6098,8 @@
               0,
               0,
               0,
-              0,
-              0
+              6,
+              8
             ],
             "cta_series_7d": [
               0,
@@ -5334,12 +6110,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
-            "avg_duration_sec": 0,
+            "bounce_rate": 1,
+            "avg_duration_sec": 2,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -5358,13 +6134,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 1,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -5381,8 +6182,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -5390,8 +6191,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -5399,8 +6200,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -5408,8 +6209,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -5417,8 +6218,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 5,
               "gsc_pending": false
@@ -5430,16 +6231,16 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 5,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 6,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 5,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
@@ -5448,9 +6249,9 @@
           "label": "策略遊戲指南",
           "role": "satellite",
           "traffic": {
-            "sessions_today": 0,
-            "sessions_7d": 0,
-            "sessions_30d": 0,
+            "sessions_today": 1,
+            "sessions_7d": 1,
+            "sessions_30d": 1,
             "series_30d": [
               0,
               0,
@@ -5480,7 +6281,7 @@
               0,
               0,
               0,
-              0,
+              1,
               0
             ],
             "cta_series_7d": [
@@ -5492,12 +6293,12 @@
               0,
               0
             ],
-            "bounce_rate": 0,
+            "bounce_rate": 1,
             "avg_duration_sec": 0,
             "mobile_pct": 0,
             "sources": {
               "organic": 0,
-              "direct": 0,
+              "direct": 1,
               "social": 0,
               "referral": 0
             }
@@ -5516,13 +6317,38 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 0,
+            "indexed_pages": 2,
             "series_7d": {
-              "dates": [],
-              "impressions": [],
-              "clicks": []
+              "dates": [
+                "5/21",
+                "5/22",
+                "5/23",
+                "5/24",
+                "5/25",
+                "5/26",
+                "5/27"
+              ],
+              "impressions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "clicks": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             },
-            "top_keywords": []
+            "top_keywords": [],
+            "data_cutoff": "2026-05-27"
           },
           "sitemap": {
             "total_urls": 0
@@ -5539,8 +6365,8 @@
             {
               "date": "5/23",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5548,8 +6374,8 @@
             {
               "date": "5/24",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5557,8 +6383,8 @@
             {
               "date": "5/25",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5566,8 +6392,8 @@
             {
               "date": "5/26",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5575,8 +6401,8 @@
             {
               "date": "5/27",
               "sessions": 0,
-              "gsc_imp": null,
-              "gsc_clk": null,
+              "gsc_imp": 0,
+              "gsc_clk": 0,
               "cta_clk": 0,
               "articles": 4,
               "gsc_pending": false
@@ -5588,103 +6414,21 @@
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             },
             {
               "date": "5/29",
-              "sessions": 0,
+              "sessions": 1,
               "gsc_imp": null,
               "gsc_clk": null,
               "cta_clk": 0,
               "articles": 4,
-              "gsc_pending": false
+              "gsc_pending": true
             }
           ],
           "ai_crawlers": {}
         }
       }
     }
-  },
-  "alerts": [
-    {
-      "type": "traffic_drop",
-      "domain": "spheretap.com",
-      "message": "7日流量下跌 100%（1488→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "matchvangtage.com",
-      "message": "7日流量下跌 100%（69→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "tableedge.org",
-      "message": "7日流量下跌 100%（49→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "turf-pulse.com",
-      "message": "7日流量下跌 100%（49→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "spin-metrics.com",
-      "message": "7日流量下跌 100%（55→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "verifiedplays.com",
-      "message": "7日流量下跌 100%（47→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "matchdatalab.com",
-      "message": "7日流量下跌 100%（52→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "athlete-index.com",
-      "message": "7日流量下跌 100%（45→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "esports-intel.com",
-      "message": "7日流量下跌 100%（37→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "proplayerstat.com",
-      "message": "7日流量下跌 100%（28→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "tilestrategist.com",
-      "message": "7日流量下跌 100%（39→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "gamedesignhq.com",
-      "message": "7日流量下跌 100%（32→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "platformverdict.com",
-      "message": "7日流量下跌 100%（49→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "probdecision.com",
-      "message": "7日流量下跌 100%（40→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "asiaesportculture.com",
-      "message": "7日流量下跌 100%（40→0）"
-    },
-    {
-      "type": "traffic_drop",
-      "domain": "entertaintrendlab.com",
-      "message": "7日流量下跌 100%（40→0）"
-    }
-  ]
+  }
 }
