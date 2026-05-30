@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T13:47:22+08:00",
+  "generated_at": "2026-05-30T13:47:49+08:00",
   "groups": {
     "spheretap": {
       "name": "Spheretap 集團",
@@ -5951,7 +5951,7 @@
             "clicks_7d": 0,
             "ctr": 0,
             "avg_position": 0,
-            "indexed_pages": 3,
+            "indexed_pages": 2,
             "series_7d": {
               "dates": [
                 "5/21",
