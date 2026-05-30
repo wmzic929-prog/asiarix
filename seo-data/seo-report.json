@@ -5604,5 +5604,87 @@
         }
       }
     }
-  }
+  },
+  "alerts": [
+    {
+      "type": "traffic_drop",
+      "domain": "spheretap.com",
+      "message": "7日流量下跌 100%（1488→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "matchvangtage.com",
+      "message": "7日流量下跌 100%（69→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "tableedge.org",
+      "message": "7日流量下跌 100%（49→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "turf-pulse.com",
+      "message": "7日流量下跌 100%（49→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "spin-metrics.com",
+      "message": "7日流量下跌 100%（55→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "verifiedplays.com",
+      "message": "7日流量下跌 100%（47→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "matchdatalab.com",
+      "message": "7日流量下跌 100%（52→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "athlete-index.com",
+      "message": "7日流量下跌 100%（45→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "esports-intel.com",
+      "message": "7日流量下跌 100%（37→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "proplayerstat.com",
+      "message": "7日流量下跌 100%（28→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "tilestrategist.com",
+      "message": "7日流量下跌 100%（39→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "gamedesignhq.com",
+      "message": "7日流量下跌 100%（32→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "platformverdict.com",
+      "message": "7日流量下跌 100%（49→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "probdecision.com",
+      "message": "7日流量下跌 100%（40→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "asiaesportculture.com",
+      "message": "7日流量下跌 100%（40→0）"
+    },
+    {
+      "type": "traffic_drop",
+      "domain": "entertaintrendlab.com",
+      "message": "7日流量下跌 100%（40→0）"
+    }
+  ]
 }
