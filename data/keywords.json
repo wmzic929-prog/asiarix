@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-30",
+  "last_refreshed": "2026-05-31",
   "keywords": [
     {
       "id": 1,
@@ -1075,6 +1075,21 @@
       "trending_title": "【周潤發與童星溫情重逢】",
       "trending_source": "Google HK Trends",
       "relevance_score": 75
+    },
+    {
+      "id": 111,
+      "keyword": "NBA季後賽2026投注攻略",
+      "category": "優惠資訊",
+      "angle": "馬刺雷霆生死戰，把握最優賠率投注",
+      "image_theme": "dark NBA playoff betting arena 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-31",
+      "trending_title": "【NBA季後賽】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 92
     }
   ]
 }
