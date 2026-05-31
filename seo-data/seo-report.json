@@ -6469,5 +6469,12 @@
         }
       }
     }
-  }
+  },
+  "alerts": [
+    {
+      "type": "ranking_drop",
+      "domain": "esports-intel.com",
+      "message": "排名下滑 8 位（1→8.6）"
+    }
+  ]
 }
