@@ -197,7 +197,8 @@
             "this_month": 198,
             "this_week": 52,
             "sports_articles": 110,
-            "total_articles_inc_sports": 222
+            "total_articles_inc_sports": 222,
+            "this_28d": 196
           },
           "cwv": {},
           "daily_7d": [
@@ -437,7 +438,8 @@
             "this_month": 43,
             "this_week": 31,
             "sports_articles": 0,
-            "total_articles_inc_sports": 43
+            "total_articles_inc_sports": 43,
+            "this_28d": 43
           },
           "cwv": {},
           "daily_7d": [
@@ -650,7 +652,8 @@
             "this_month": 42,
             "this_week": 28,
             "sports_articles": 0,
-            "total_articles_inc_sports": 42
+            "total_articles_inc_sports": 42,
+            "this_28d": 42
           },
           "cwv": {},
           "daily_7d": [
@@ -867,7 +870,8 @@
             "this_month": 39,
             "this_week": 28,
             "sports_articles": 0,
-            "total_articles_inc_sports": 39
+            "total_articles_inc_sports": 39,
+            "this_28d": 39
           },
           "cwv": {},
           "daily_7d": [
@@ -1094,7 +1098,8 @@
             "this_month": 34,
             "this_week": 21,
             "sports_articles": 0,
-            "total_articles_inc_sports": 34
+            "total_articles_inc_sports": 34,
+            "this_28d": 34
           },
           "cwv": {},
           "daily_7d": [
@@ -1321,7 +1326,8 @@
             "this_month": 33,
             "this_week": 20,
             "sports_articles": 0,
-            "total_articles_inc_sports": 33
+            "total_articles_inc_sports": 33,
+            "this_28d": 33
           },
           "cwv": {},
           "daily_7d": [
