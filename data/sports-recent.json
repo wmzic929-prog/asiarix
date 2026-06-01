@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-football-uruguay-suarez-world-cup-squad",
+      "title": "烏拉圭放棄重召蘇亞雷斯 畢爾沙不留情面踢走球王",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-06-01",
+      "excerpt": "烏拉圭主教練畢爾沙公布世盃26人陣容，39歲射手蘇亞雷斯落選，一度盛傳的重召傳聞正式落空。前鋒線改由達爾文紐涅斯掛帥，H組將對陣西班牙、沙地阿拉伯及佛得角。",
+      "imageUrl": "/sports/img/2026-06-01-football-uruguay-suarez-world-cup-squad.jpg",
+      "imageAlt": "蘇亞雷斯國際邁阿密"
+    },
+    {
       "slug": "2026-06-01-football-arsenal-premier-league-victory-parade",
       "title": "阿仙奴英超勝利巡遊百萬球迷上街 闊別22年再奪冠軍",
       "category": "足球",
@@ -19,16 +29,6 @@
       "lead": "香港體育界迎來歷史性時刻！國際龍舟聯合會總部落戶香港，進一步鞏固了這顆東方之珠作為國際體育樞紐的領先地位。",
       "imageUrl": "https://images.pexels.com/photos/37251753/pexels-photo-37251753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Competitors in a dragon boat race paddling vigorously on Shing Mun River, Hong Kong."
-    },
-    {
-      "slug": "2026-05-31-hong-kong-dragon-boat-federation-relocation",
-      "headline": "龍舟總會落戶香港 體育樞紐地位升級",
-      "category": "綜合",
-      "emoji": " 🇭🇰",
-      "date": "2026-05-31",
-      "lead": "國際龍舟聯合會總部落戶香港，為本地體育界注入強大動力，進一步鞏固香港作為國際體育樞紐的領先地位，開創發展新篇章。",
-      "imageUrl": "https://images.pexels.com/photos/37251799/pexels-photo-37251799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Exciting dragon boat race featuring a team in pink paddling fiercely in Hong Kong's waters."
     }
   ]
 }
