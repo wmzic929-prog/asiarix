@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "why-withdrawal-slow-backend-process",
+      "title": "娛樂平台提款速度 | spheretap HK",
+      "category": "提款教學",
+      "date": "2026-06-01",
+      "excerpt": "你玩線上娛樂平台，係咪都試過提款等到天荒地老？閒閒哋幾粒鐘，有時甚至要等幾日，真係等到心慌慌。我哋統計過，原來六成以上嘅提款緩慢，都係後台流程同埋審核環節出咗問題。今日，我就同大家一齊深入探討，究竟點",
+      "imageUrl": "/blog/img/why-withdrawal-slow-backend-process.jpg"
+    },
+    {
       "slug": "usdt-deposit-speed-blockchain-mechanism",
       "title": "USDT入款速度",
       "category": "入款教學",
@@ -15,14 +23,6 @@
       "date": "2026-06-01",
       "excerpt": "你留意到好多平台都好吸引，有誘人嘅入款回贈。但係，提款嗰陣你又知唔知會有手續費？如果唔計埋呢啲隱藏成本，你以為賺到盡，實情可能只係「數字上」嘅回報。今次就等我哋深入淺出咁教你點樣精確計算，扣除所有手續",
       "imageUrl": "/blog/img/deposit-rebate-vs-withdrawal-fees-net-return.jpg"
-    },
-    {
-      "slug": "vip-program-roi-analysis",
-      "title": "VIP 計劃值唔值追？ROI 計算 + 機會成本全分析",
-      "category": "優惠教學",
-      "date": "2026-05-31",
-      "excerpt": "VIP 計劃係減少損失，唔係賺錢。本文用 ROI 公式同機會成本，逐級拆解 Bronze 至 Diamond 的真實回報率，月存低過 HK$5,000 的玩家追 VIP 往往唔合算，高頻玩家才真正受益。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/vip-program-roi-analysis.jpg"
     }
   ]
 }
