@@ -647,9 +647,9 @@
       "category": "入款教學",
       "angle": "區塊鏈確認機制原理，解釋加密貨幣入款速度優勢",
       "image_theme": "USDT blockchain fast confirmation mechanism bank comparison dark",
-      "status": "available",
-      "slug": "usdt-faster-than-bank-blockchain",
-      "used_date": null
+      "status": "used",
+      "slug": "usdt-deposit-speed-blockchain-mechanism",
+      "used_date": "2026-06-01"
     },
     {
       "id": 79,
