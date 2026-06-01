@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-football-germany-finland-4-0-world-cup-friendly",
+      "title": "德國世盃熱身4:0大掃芬蘭 安達夫梅開二度效率驚人",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-06-01",
+      "excerpt": "德國以4:0大勝芬蘭，安達夫梅開二度兼一助攻，8場國家隊比賽入6球效率驚人，正選位置幾乎穩了。穆斯亞拿左腳勁射完成第四球，德國備戰狀態令人期待。",
+      "imageUrl": "/sports/img/2026-06-01-football-germany-finland-4-0-world-cup-friendly.jpg",
+      "imageAlt": "德國熱身賽安達夫"
+    },
+    {
       "slug": "2026-06-01-hong-kong-sports-courses-guide-2023",
       "headline": "2023香港體育課程一覽",
       "category": "綜合",
@@ -19,26 +29,6 @@
       "excerpt": "美國世盃熱身賽以3:2勝塞內加爾，佩利錫一傳一射建功，科拿林巴路63分鐘射入致勝球。但沙迪奧文尼的梅開二度也令美國捏把冷汗，最終艱辛守住勝果。",
       "imageUrl": "/sports/img/2026-06-01-football-usa-senegal-3-2-world-cup-warm-up.jpg",
       "imageAlt": "美國塞內加爾世盃熱身賽"
-    },
-    {
-      "slug": "2026-06-01-tennis-mensik-french-open-first-grand-slam-quarterfinal",
-      "title": "文錫苦戰5盤淘汰盧比利夫 20歲捷克新星首闖大滿貫8強",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-06-01",
-      "excerpt": "捷克20歲新星文錫在法網苦戰5盤3小時45分，以6-3、7-6、4-6、2-6、6-3擊敗盧比利夫，首度晉身大滿貫8強，決勝局以Ace球完成創歷史的一役。",
-      "imageUrl": "/sports/img/2026-06-01-tennis-mensik-french-open-first-grand-slam-quarterfinal.jpg",
-      "imageAlt": "文錫法網8強"
-    },
-    {
-      "slug": "2026-06-01-football-de-bruyne-belgium-world-cup-2026",
-      "title": "迪布尼備戰第四屆世盃：感受不到壓力 享受大賽每一刻",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-06-01",
-      "excerpt": "比利時中場迪布尼接受訪問，以34歲之齡出戰人生第四屆世界盃，他坦言毫無壓力，目標只是享受大賽每一刻。黃金一代曾在2018奪季軍，四年前卻在分組賽出局。",
-      "imageUrl": "/sports/img/2026-06-01-football-de-bruyne-belgium-world-cup-2026.jpg",
-      "imageAlt": "迪布尼比利時世界盃"
     }
   ]
 }
