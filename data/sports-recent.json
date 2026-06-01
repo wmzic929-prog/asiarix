@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-football-slot-liverpool-dismissal-compensation",
+      "title": "史洛遭利物浦解僱獲賠800萬歐元 荷蘭媒體揭英超教練身價",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-06-01",
+      "excerpt": "荷蘭媒體揭露利物浦提前解僱史洛並賠800萬歐元，相當於他一年年薪。史洛屬英超教練第二梯隊，與阿迪達及愛德高同級，遠低於瓜迪奧拿的2400萬歐元頂薪。",
+      "imageUrl": "/sports/img/2026-06-01-football-slot-liverpool-dismissal-compensation.jpg",
+      "imageAlt": "史洛利物浦教練"
+    },
+    {
       "slug": "2026-06-01-football-uruguay-suarez-world-cup-squad",
       "title": "烏拉圭放棄重召蘇亞雷斯 畢爾沙不留情面踢走球王",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "阿仙奴周日舉行英超勝利巡遊，球會估計有多達百萬名槍迷湧上倫敦街頭慶祝。闊別22年後，槍手再度成為英超冠軍，領隊阿迪達與馬天尼利等球員同歡，現場氣氛極為熾熱。",
       "imageUrl": "/sports/img/2026-06-01-football-arsenal-premier-league-victory-parade.jpg",
       "imageAlt": "阿仙奴英超勝利巡遊"
-    },
-    {
-      "slug": "2026-06-01-hong-kong-dragon-boat-federation-hq",
-      "headline": "龍舟聯合會落戶香港 體育樞紐再升級",
-      "category": "綜合",
-      "emoji": "🇭🇰",
-      "date": "2026-06-01",
-      "lead": "香港體育界迎來歷史性時刻！國際龍舟聯合會總部落戶香港，進一步鞏固了這顆東方之珠作為國際體育樞紐的領先地位。",
-      "imageUrl": "https://images.pexels.com/photos/37251753/pexels-photo-37251753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Competitors in a dragon boat race paddling vigorously on Shing Mun River, Hong Kong."
     }
   ]
 }
