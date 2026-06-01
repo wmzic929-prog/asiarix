@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-tennis-mensik-french-open-first-grand-slam-quarterfinal",
+      "title": "文錫苦戰5盤淘汰盧比利夫 20歲捷克新星首闖大滿貫8強",
+      "category": "網球",
+      "emoji": "🎾",
+      "date": "2026-06-01",
+      "excerpt": "捷克20歲新星文錫在法網苦戰5盤3小時45分，以6-3、7-6、4-6、2-6、6-3擊敗盧比利夫，首度晉身大滿貫8強，決勝局以Ace球完成創歷史的一役。",
+      "imageUrl": "/sports/img/2026-06-01-tennis-mensik-french-open-first-grand-slam-quarterfinal.jpg",
+      "imageAlt": "文錫法網8強"
+    },
+    {
       "slug": "2026-06-01-football-de-bruyne-belgium-world-cup-2026",
       "title": "迪布尼備戰第四屆世盃：感受不到壓力 享受大賽每一刻",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "巴西在馬拉簡拿以6:2大炒巴拿馬，雲尼素斯2分鐘閃電破門，上半場卡斯美路頭球致勝，下半場連進四球奏凱，尼馬雖因傷缺陣仍在場邊打氣助威。",
       "imageUrl": "/sports/img/2026-06-01-football-brazil-panama-6-2-friendly-maracana.png",
       "imageAlt": "巴西巴拿馬熱身賽"
-    },
-    {
-      "slug": "2026-06-01-football-messi-argentina-world-cup-2026-injury",
-      "title": "美斯傷勢無礙！傳6月16日對阿爾及利亞可首仗披甲",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-06-01",
-      "excerpt": "阿根廷衛冕大軍抵達美國，球王美斯左腿腿筋傷勢已無大礙，據報可望在6月16日對阿爾及利亞的首場分組賽披甲，令一度擔憂他缺席的球迷鬆了一口氣。",
-      "imageUrl": "/sports/img/2026-06-01-football-messi-argentina-world-cup-2026-injury.jpg",
-      "imageAlt": "美斯阿根廷世界盃"
     }
   ]
 }
