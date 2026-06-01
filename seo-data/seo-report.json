@@ -116,11 +116,12 @@
             }
           },
           "cta": {
-            "clicks_today": 0,
-            "clicks_7d": 0,
+            "clicks_today": 8,
+            "clicks_7d": 57,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 310,
@@ -381,11 +382,12 @@
             }
           },
           "cta": {
-            "clicks_today": 0,
-            "clicks_7d": 0,
+            "clicks_today": 1,
+            "clicks_7d": 17,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 9,
@@ -593,11 +595,12 @@
             }
           },
           "cta": {
-            "clicks_today": 0,
-            "clicks_7d": 0,
+            "clicks_today": 3,
+            "clicks_7d": 17,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 5,
@@ -809,11 +812,12 @@
             }
           },
           "cta": {
-            "clicks_today": 0,
-            "clicks_7d": 0,
+            "clicks_today": 2,
+            "clicks_7d": 16,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 14,
@@ -1035,11 +1039,12 @@
             }
           },
           "cta": {
-            "clicks_today": 0,
-            "clicks_7d": 0,
+            "clicks_today": 2,
+            "clicks_7d": 19,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 8,
@@ -1261,11 +1266,12 @@
             }
           },
           "cta": {
-            "clicks_today": 0,
-            "clicks_7d": 0,
+            "clicks_today": 3,
+            "clicks_7d": 24,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 7,
@@ -1483,7 +1489,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 6,
@@ -1694,7 +1701,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 5,
@@ -1904,7 +1912,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 7,
@@ -2114,7 +2123,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 7,
@@ -2332,7 +2342,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 5,
@@ -2547,7 +2558,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 5,
@@ -2764,7 +2776,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 5,
@@ -2968,7 +2981,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 5,
@@ -3178,7 +3192,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 5,
@@ -3393,7 +3408,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 7,
@@ -3658,10 +3674,11 @@
           },
           "cta": {
             "clicks_today": 0,
-            "clicks_7d": 0,
+            "clicks_7d": 2,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -3844,7 +3861,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -4027,7 +4045,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -4210,7 +4229,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -4393,7 +4413,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -4576,7 +4597,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -4759,7 +4781,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -4942,7 +4965,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -5125,7 +5149,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -5308,7 +5333,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -5491,7 +5517,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -5674,7 +5701,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -5857,7 +5885,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -6040,7 +6069,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -6223,7 +6253,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
@@ -6406,7 +6437,8 @@
             "clicks_7d": 0,
             "unique_clicks_7d": 0,
             "conversions_today": 0,
-            "conversions_7d": 0
+            "conversions_7d": 0,
+            "clicks_28d": 0
           },
           "gsc": {
             "impressions_28d": 0,
