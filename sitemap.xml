@@ -420,6 +420,12 @@
 
   <!-- ═══ SPORTS ARTICLES ═══ -->
   <url>
+    <loc>https://spheretap.com/sports/2026-06-01-football-uruguay-suarez-world-cup-squad</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://spheretap.com/sports/2026-06-01-football-arsenal-premier-league-victory-parade</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
