@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-football-usa-senegal-3-2-world-cup-warm-up",
+      "title": "美國世盃熱身賽3:2擊退塞內加爾 佩利錫一傳一射定勝負",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-06-01",
+      "excerpt": "美國世盃熱身賽以3:2勝塞內加爾，佩利錫一傳一射建功，科拿林巴路63分鐘射入致勝球。但沙迪奧文尼的梅開二度也令美國捏把冷汗，最終艱辛守住勝果。",
+      "imageUrl": "/sports/img/2026-06-01-football-usa-senegal-3-2-world-cup-warm-up.jpg",
+      "imageAlt": "美國塞內加爾世盃熱身賽"
+    },
+    {
       "slug": "2026-06-01-tennis-mensik-french-open-first-grand-slam-quarterfinal",
       "title": "文錫苦戰5盤淘汰盧比利夫 20歲捷克新星首闖大滿貫8強",
       "category": "網球",
@@ -19,16 +29,6 @@
       "excerpt": "比利時中場迪布尼接受訪問，以34歲之齡出戰人生第四屆世界盃，他坦言毫無壓力，目標只是享受大賽每一刻。黃金一代曾在2018奪季軍，四年前卻在分組賽出局。",
       "imageUrl": "/sports/img/2026-06-01-football-de-bruyne-belgium-world-cup-2026.jpg",
       "imageAlt": "迪布尼比利時世界盃"
-    },
-    {
-      "slug": "2026-06-01-football-brazil-panama-6-2-friendly-maracana",
-      "title": "馬拉簡拿誓師！巴西大炒巴拿馬6:2 雲尼素斯2分鐘破門",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-06-01",
-      "excerpt": "巴西在馬拉簡拿以6:2大炒巴拿馬，雲尼素斯2分鐘閃電破門，上半場卡斯美路頭球致勝，下半場連進四球奏凱，尼馬雖因傷缺陣仍在場邊打氣助威。",
-      "imageUrl": "/sports/img/2026-06-01-football-brazil-panama-6-2-friendly-maracana.png",
-      "imageAlt": "巴西巴拿馬熱身賽"
     }
   ]
 }
