@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-football-de-bruyne-belgium-world-cup-2026",
+      "title": "迪布尼備戰第四屆世盃：感受不到壓力 享受大賽每一刻",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-06-01",
+      "excerpt": "比利時中場迪布尼接受訪問，以34歲之齡出戰人生第四屆世界盃，他坦言毫無壓力，目標只是享受大賽每一刻。黃金一代曾在2018奪季軍，四年前卻在分組賽出局。",
+      "imageUrl": "/sports/img/2026-06-01-football-de-bruyne-belgium-world-cup-2026.jpg",
+      "imageAlt": "迪布尼比利時世界盃"
+    },
+    {
       "slug": "2026-06-01-football-brazil-panama-6-2-friendly-maracana",
       "title": "馬拉簡拿誓師！巴西大炒巴拿馬6:2 雲尼素斯2分鐘破門",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "阿根廷衛冕大軍抵達美國，球王美斯左腿腿筋傷勢已無大礙，據報可望在6月16日對阿爾及利亞的首場分組賽披甲，令一度擔憂他缺席的球迷鬆了一口氣。",
       "imageUrl": "/sports/img/2026-06-01-football-messi-argentina-world-cup-2026-injury.jpg",
       "imageAlt": "美斯阿根廷世界盃"
-    },
-    {
-      "slug": "2026-06-01-football-arsenal-parade-ben-white-encambia-prank",
-      "title": "阿仙奴巡遊賓白惡搞恩卡比亞 迪勤懷斯即興Rap嗨翻全場",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-06-01",
-      "excerpt": "阿仙奴巡遊笑料百出，賓韋治惡搞恩卡比亞意外露臀囧事，迪勤懷斯帶頭Rap引爆全場，外借小將旺拿尼特意從馬賽回來同慶，展示槍手更衣室的超強凝聚力。",
-      "imageUrl": "/sports/img/2026-06-01-football-arsenal-parade-ben-white-encambia-prank.jpg",
-      "imageAlt": "阿仙奴巡遊球迷慶祝"
     }
   ]
 }
