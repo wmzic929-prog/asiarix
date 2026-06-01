@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "usdt-deposit-speed-blockchain-mechanism",
+      "title": "USDT入款速度",
+      "category": "入款教學",
+      "date": "2026-06-01",
+      "excerpt": "好多玩家都留意到，用USDT入款，簡直比銀行轉賬快得多。有時仲係即時到賬，簡直神速！呢種速度差異，關鍵喺加密貨幣背後獨特嘅區塊鏈技術。我哋將深入探討區塊鏈運作，解構USDT入款點解咁快，揭示速度優勢嘅",
+      "imageUrl": "/blog/img/usdt-deposit-speed-blockchain-mechanism.jpg"
+    },
+    {
       "slug": "deposit-rebate-vs-withdrawal-fees-net-return",
       "title": "博彩回贈與",
       "category": "優惠教學",
@@ -15,14 +23,6 @@
       "date": "2026-05-31",
       "excerpt": "VIP 計劃係減少損失，唔係賺錢。本文用 ROI 公式同機會成本，逐級拆解 Bronze 至 Diamond 的真實回報率，月存低過 HK$5,000 的玩家追 VIP 往往唔合算，高頻玩家才真正受益。",
       "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/vip-program-roi-analysis.jpg"
-    },
-    {
-      "slug": "license-comparison-curacao-mga-pagcor",
-      "title": "牌照等級差異：Curaçao vs MGA vs PAGCOR 玩家保障完全比較",
-      "category": "法律合規",
-      "date": "2026-05-31",
-      "excerpt": "Curaçao、MGA、PAGCOR 三大博彩牌照保障水平差異極大。MGA 馬爾他牌照玩家資金強制分離存放、爭議投訴有法定效力；PAGCOR 菲律賓牌照亞洲市場常見、中文支援完善；Curaçao 牌照門檻最低、玩家保障最弱。香港玩家選擇境外娛樂平台前，必須了解牌照等級差異。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/license-comparison-curacao-mga-pagcor.jpg"
     }
   ]
 }
