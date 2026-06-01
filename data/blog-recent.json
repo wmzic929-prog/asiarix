@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "license-comparison-curacao-mga-pagcor",
+      "title": "牌照等級差異：Curaçao vs MGA vs PAGCOR 玩家保障完全比較",
+      "category": "法律合規",
+      "date": "2026-05-31",
+      "excerpt": "Curaçao、MGA、PAGCOR 三大博彩牌照保障水平差異極大。MGA 馬爾他牌照玩家資金強制分離存放、爭議投訴有法定效力；PAGCOR 菲律賓牌照亞洲市場常見、中文支援完善；Curaçao 牌照門檻最低、玩家保障最弱。香港玩家選擇境外娛樂平台前，必須了解牌照等級差異。",
+      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/license-comparison-curacao-mga-pagcor.jpg"
+    },
+    {
       "slug": "nba-finals-spurs-knicks-betting-2026",
       "title": "2026 NBA 總決賽馬刺對尼克 體育投注攻略完整指南",
       "category": "優惠資訊",
@@ -15,14 +23,6 @@
       "date": "2026-05-30",
       "excerpt": "2026 歐冠決賽 PSG 對阿仙奴互射十二碼大巴黎 4-3 奪冠，成功衛冕。本文以今屆決賽為切入點，深入講解香港體育博彩平台選擇要點、賠率解讀技巧、KYC 驗證重要性，以及新手投注入門攻略，助你安全享受體育投注樂趣。",
       "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/ucl-final-psg-arsenal-betting-2026.jpg"
-    },
-    {
-      "slug": "crypto-gas-fee-deposit-guide",
-      "title": "加密貨幣入款Gas Fee計算原理與真實到賬成本分析",
-      "category": "undefined",
-      "date": "2026-05-29",
-      "excerpt": "加密貨幣入款100 USDT到娛樂平台，到賬竟然只有92 USDT——呢種情況唔係平台剋扣，而係Gas Fee搞鬼。ERC20網絡一次Gas Fee最高可達HK$200，TRC20同樣操作只需HK$5",
-      "imageUrl": "/blog/img/crypto-gas-fee-deposit-guide.jpg"
     }
   ]
 }
