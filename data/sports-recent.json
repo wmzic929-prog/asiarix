@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-football-messi-argentina-world-cup-2026-injury",
+      "title": "美斯傷勢無礙！傳6月16日對阿爾及利亞可首仗披甲",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-06-01",
+      "excerpt": "阿根廷衛冕大軍抵達美國，球王美斯左腿腿筋傷勢已無大礙，據報可望在6月16日對阿爾及利亞的首場分組賽披甲，令一度擔憂他缺席的球迷鬆了一口氣。",
+      "imageUrl": "/sports/img/2026-06-01-football-messi-argentina-world-cup-2026-injury.jpg",
+      "imageAlt": "美斯阿根廷世界盃"
+    },
+    {
       "slug": "2026-06-01-football-arsenal-parade-ben-white-encambia-prank",
       "title": "阿仙奴巡遊賓白惡搞恩卡比亞 迪勤懷斯即興Rap嗨翻全場",
       "category": "足球",
@@ -19,16 +29,6 @@
       "excerpt": "巴西世界盃球衣號碼分配出爐，雲尼素斯獲派7號，傳統10號由老將尼馬穿著，但其傷勢令首場出賽成疑。夏芬拿11號、卡斯美路5號，球隊以大勝巴拿馬熱身。",
       "imageUrl": "/sports/img/2026-06-01-football-brazil-world-cup-jersey-numbers-vinicius.jpg",
       "imageAlt": "巴西國家隊球衣"
-    },
-    {
-      "slug": "2026-06-01-badminton-an-se-young-singapore-open-champion",
-      "title": "安洗瑩新加坡羽球賽三度奪冠 決賽逆轉山口茜季內第五冠",
-      "category": "羽毛球",
-      "emoji": "🏸",
-      "date": "2026-06-01",
-      "excerpt": "韓國世界第一安洗瑩在新加坡公開賽決賽逆轉山口茜，決勝局曾落後16:19仍連取5分勝出，第3次稱霸新加坡賽，同時達成賽季第5冠，對山口茜更取得4連勝。",
-      "imageUrl": "/sports/img/2026-06-01-badminton-an-se-young-singapore-open-champion.jpg",
-      "imageAlt": "安洗瑩新加坡公開賽"
     }
   ]
 }
