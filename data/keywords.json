@@ -617,9 +617,9 @@
       "category": "優惠教學",
       "angle": "計算回贈扣除手續費後的真實淨回報率",
       "image_theme": "deposit bonus vs withdrawal fee net return calculation dark gold",
-      "status": "available",
-      "slug": "bonus-vs-fee-net-return",
-      "used_date": null
+      "status": "used",
+      "slug": "deposit-rebate-vs-withdrawal-fees-net-return",
+      "used_date": "2026-06-01"
     },
     {
       "id": 76,
