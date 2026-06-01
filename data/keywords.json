@@ -657,9 +657,9 @@
       "category": "提款教學",
       "angle": "揭示提款慢的後台技術及審核流程原因",
       "image_theme": "slow withdrawal backend process explained casino dark gold",
-      "status": "available",
-      "slug": "why-withdrawal-slow-explained",
-      "used_date": null
+      "status": "used",
+      "slug": "why-withdrawal-slow-backend-process",
+      "used_date": "2026-06-01"
     },
     {
       "id": 80,
