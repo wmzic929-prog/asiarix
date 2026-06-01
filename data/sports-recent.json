@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-hong-kong-sports-courses-guide-2023",
+      "headline": "2023香港體育課程一覽",
+      "category": "綜合",
+      "emoji": "🏃‍♂️",
+      "date": "2026-06-01",
+      "lead": "想喺體育界發展？定係想提升運動技巧？2023年香港體育課程懶人包，為你搜羅各項運動課程，助你裝備自己。",
+      "imageUrl": "https://images.pexels.com/photos/2310482/pexels-photo-2310482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Boys running on a track during a sunny day in New Territories, Hong Kong."
+    },
+    {
       "slug": "2026-06-01-football-usa-senegal-3-2-world-cup-warm-up",
       "title": "美國世盃熱身賽3:2擊退塞內加爾 佩利錫一傳一射定勝負",
       "category": "足球",
