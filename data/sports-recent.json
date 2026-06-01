@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-01-football-arsenal-premier-league-victory-parade",
+      "title": "阿仙奴英超勝利巡遊百萬球迷上街 闊別22年再奪冠軍",
+      "category": "足球",
+      "emoji": "⚽",
+      "date": "2026-06-01",
+      "excerpt": "阿仙奴周日舉行英超勝利巡遊，球會估計有多達百萬名槍迷湧上倫敦街頭慶祝。闊別22年後，槍手再度成為英超冠軍，領隊阿迪達與馬天尼利等球員同歡，現場氣氛極為熾熱。",
+      "imageUrl": "/sports/img/2026-06-01-football-arsenal-premier-league-victory-parade.jpg",
+      "imageAlt": "阿仙奴英超勝利巡遊"
+    },
+    {
       "slug": "2026-06-01-hong-kong-dragon-boat-federation-hq",
       "headline": "龍舟聯合會落戶香港 體育樞紐再升級",
       "category": "綜合",
@@ -19,66 +29,6 @@
       "lead": "國際龍舟聯合會總部落戶香港，為本地體育界注入強大動力，進一步鞏固香港作為國際體育樞紐的領先地位，開創發展新篇章。",
       "imageUrl": "https://images.pexels.com/photos/37251799/pexels-photo-37251799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "imageAlt": "Exciting dragon boat race featuring a team in pink paddling fiercely in Hong Kong's waters."
-    },
-    {
-      "slug": "2026-05-30-hong-kong-dragon-boat-federation-hq-boosts-sports-hub-status",
-      "headline": "龍舟總會落戶香港 體育樞紐地位升級",
-      "category": "綜合",
-      "emoji": "🇭🇰🏅",
-      "date": "2026-05-30",
-      "lead": "國際龍舟聯合會總部選址香港，立法會議員霍啟剛認為此舉將大幅提升香港作為國際體育樞紐的地位，並為本地體育產業帶來新機遇。",
-      "imageUrl": "https://images.pexels.com/photos/29388528/pexels-photo-29388528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Dynamic shot of a young man skillfully playing soccer on an urban court."
-    },
-    {
-      "slug": "2026-05-29-sport-event-planning-reform-hk",
-      "headline": "霍啟剛：古洞北劍擊館規劃看體育盛事化思維變革",
-      "category": "綜合",
-      "emoji": "🏟️",
-      "date": "2026-05-29",
-      "lead": "立法會議員霍啟剛以古洞北劍擊館規劃為引子，深入剖析香港體育盛事化發展的思維模式，強調場館規劃與賽事發展的緊密聯繫。",
-      "imageUrl": "https://images.pexels.com/photos/35102702/pexels-photo-35102702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Rugby players competing vigorously on a vibrant green field, showcasing teamwork and athleticism."
-    },
-    {
-      "slug": "2026-05-29-hong-kong-dragon-boat-federation-hq",
-      "headline": "龍舟聯合會總部選址香港 體育樞紐地位升級",
-      "category": "綜合",
-      "emoji": "🇭🇰🏅",
-      "date": "2026-05-29",
-      "lead": "香港體育界迎來歷史性時刻，國際龍舟聯合會總部正式落戶，進一步鞏固香港作為國際體育樞紐的領先地位，為本地體育產業發展注入新動力。",
-      "imageUrl": "https://images.pexels.com/photos/37004059/pexels-photo-37004059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "Energetic action shot of a soccer player kicking the ball during a match on a sunny day."
-    },
-    {
-      "slug": "2026-05-28-hong-kong-dragon-boat-federation-boosts-sports-hub-status",
-      "headline": "霍啟剛：龍舟聯合會落戶 香港體育樞紐再升級",
-      "category": "綜合",
-      "emoji": "🏅",
-      "date": "2026-05-28",
-      "lead": "國際龍舟聯合會正式宣布落戶香港，立法會議員霍啟剛認為，這項重大決定將進一步鞏固香港國際體育樞紐的地位，為本地體育產業發展注入強大動力。",
-      "imageUrl": "https://images.pexels.com/photos/33637333/pexels-photo-33637333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "imageAlt": "High-energy capture of a pole vaulter in action against a vibrant sky."
-    },
-    {
-      "slug": "2026-05-27-tennis-sinner-french-open-second-round",
-      "title": "法網球王冼拿首輪輕鬆晉級 連勝30場衝擊法網冠軍",
-      "category": "網球",
-      "emoji": "🎾",
-      "date": "2026-05-27",
-      "excerpt": "世界第一冼拿在法網首輪以6比1、6比3、6比4直落三盤過關，個人連勝達30場，衛冕冠軍Alcaraz缺席令他成奪冠大熱，衝擊全滿貫歷史成就。",
-      "imageUrl": "/sports/img/2026-05-27-tennis-sinner-french-open-second-round.jpg",
-      "imageAlt": "冼拿法網比賽"
-    },
-    {
-      "slug": "2026-05-27-football-mateta-crystal-palace-world-cup",
-      "title": "馬迪達轉會失敗逆境重生 助水晶宮入歐協聯決賽兼獲法國世盃入場券",
-      "category": "足球",
-      "emoji": "⚽",
-      "date": "2026-05-27",
-      "excerpt": "水晶宮前鋒馬迪達1月轉會失敗遭嘲笑，拒絕手術苦練重生，3月復出助球隊殺入歐協聯決賽，並被召入法國26人世盃陣容，書寫勵志逆轉故事。",
-      "imageUrl": "/sports/img/2026-05-27-football-mateta-crystal-palace-world-cup.jpg",
-      "imageAlt": "馬迪達水晶宮球場"
     }
   ]
 }
