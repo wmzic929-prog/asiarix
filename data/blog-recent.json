@@ -1,28 +1,28 @@
 {
   "articles": [
     {
-      "slug": "crypto-gas-fee-deposit-guide",
-      "title": "加密貨幣入款Gas Fee計算原理與真實到賬成本分析",
-      "category": "undefined",
-      "date": "2026-05-29",
-      "excerpt": "加密貨幣入款100 USDT到娛樂平台，到賬竟然只有92 USDT——呢種情況唔係平台剋扣，而係Gas Fee搞鬼。ERC20網絡一次Gas Fee最高可達HK$200，TRC20同樣操作只需HK$5",
-      "imageUrl": "/blog/img/crypto-gas-fee-deposit-guide.jpg"
+      "slug": "vip-program-roi-analysis",
+      "title": "VIP 計劃值唔值追？ROI 計算 + 機會成本全分析",
+      "category": "優惠教學",
+      "date": "2026-05-31",
+      "excerpt": "VIP 計劃係減少損失，唔係賺錢。本文用 ROI 公式同機會成本，逐級拆解 Bronze 至 Diamond 的真實回報率，月存低過 HK$5,000 的玩家追 VIP 往往唔合算，高頻玩家才真正受益。",
+      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/vip-program-roi-analysis.jpg"
     },
     {
-      "slug": "vip-points-cash-rate-comparison",
-      "title": "主流平台VIP積分換現金率算法與實際回報深度比較",
-      "category": "undefined",
-      "date": "2026-05-29",
-      "excerpt": "VIP積分係好多娛樂平台留住玩家嘅工具，但各平台換現金嘅實際回報差距可以去到6倍，識睇算法先唔蝕底。",
-      "imageUrl": "/blog/img/vip-points-cash-rate-comparison.jpg"
+      "slug": "license-comparison-curacao-mga-pagcor",
+      "title": "牌照等級差異：Curaçao vs MGA vs PAGCOR 玩家保障完全比較",
+      "category": "法律合規",
+      "date": "2026-05-31",
+      "excerpt": "Curaçao、MGA、PAGCOR 三大博彩牌照保障水平差異極大。MGA 馬爾他牌照玩家資金強制分離存放、爭議投訴有法定效力；PAGCOR 菲律賓牌照亞洲市場常見、中文支援完善；Curaçao 牌照門檻最低、玩家保障最弱。香港玩家選擇境外娛樂平台前，必須了解牌照等級差異。",
+      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/license-comparison-curacao-mga-pagcor.jpg"
     },
     {
-      "slug": "welcome-bonus-ev-calculation-guide",
-      "title": "迎新優惠期望值計算方法解析：香港博彩玩家的數學評估指南",
-      "category": "undefined",
-      "date": "2026-05-29",
-      "excerpt": "好多香港玩家見到100%迎新獎金就好興奮，但唔識計算期望值，做晒流水之後仲係蝕錢，白白為平台打工。",
-      "imageUrl": "/blog/img/welcome-bonus-ev-calculation-guide.jpg"
+      "slug": "nba-finals-spurs-knicks-betting-2026",
+      "title": "2026 NBA 總決賽馬刺對尼克 體育投注攻略完整指南",
+      "category": "優惠資訊",
+      "date": "2026-05-30",
+      "excerpt": "2026 NBA 總決賽馬刺對尼克正式開戰！溫班亞馬帶淚晉級，對陣 Brunson 領軍的紐約尼克。本文詳解 NBA Finals 體育投注基礎知識、賠率解讀及注種選擇，教香港球迷點樣透過持牌娛樂平台安全參與，把握今年最大體育投注盛事。",
+      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/nba-finals-spurs-knicks-betting-2026.jpg"
     }
   ]
 }

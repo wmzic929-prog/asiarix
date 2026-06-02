@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-29",
+  "last_refreshed": "2026-05-31",
   "keywords": [
     {
       "id": 1,
@@ -727,9 +727,9 @@
       "category": "法律合規",
       "angle": "三大主流牌照的玩家保障水平對比分析",
       "image_theme": "Curacao MGA PAGCOR license comparison player protection dark",
-      "status": "available",
+      "status": "used",
       "slug": "license-comparison-curacao-mga-pagcor",
-      "used_date": null
+      "used_date": "2026-05-31"
     },
     {
       "id": 87,
@@ -757,9 +757,9 @@
       "category": "優惠教學",
       "angle": "用 ROI 和機會成本分析 VIP 計劃的實際回報",
       "image_theme": "VIP program ROI analysis opportunity cost worth it gold dark",
-      "status": "available",
+      "status": "used",
       "slug": "vip-program-roi-analysis",
-      "used_date": null
+      "used_date": "2026-05-31"
     },
     {
       "id": 90,
@@ -1060,6 +1060,51 @@
       "trending_title": "【Comic-Con 2026】",
       "trending_source": "Google HK Trends",
       "relevance_score": 72
+    },
+    {
+      "id": 110,
+      "keyword": "賭神百家樂必勝技巧2026",
+      "category": "新手指南",
+      "angle": "借賭神IP切入百家樂入門策略",
+      "image_theme": "dark casino baccarat god of gamblers 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-30",
+      "trending_title": "【周潤發與童星溫情重逢】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 75
+    },
+    {
+      "id": 111,
+      "keyword": "NBA季後賽2026投注攻略",
+      "category": "優惠資訊",
+      "angle": "馬刺雷霆生死戰，把握最優賠率投注",
+      "image_theme": "dark NBA playoff betting arena 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-31",
+      "trending_title": "【NBA季後賽】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 92
+    },
+    {
+      "id": 112,
+      "keyword": "潘頓2026香港賽馬投注攻略",
+      "category": "新手指南",
+      "angle": "傳奇騎師2000勝帶你入門賽馬博彩",
+      "image_theme": "dark horse racing legend win 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-05-31",
+      "trending_title": "潘頓",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 80
     }
   ]
 }
