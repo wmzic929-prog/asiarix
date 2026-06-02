@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-05-31",
+  "last_refreshed": "2026-06-01",
   "keywords": [
     {
       "id": 1,
@@ -617,9 +617,9 @@
       "category": "優惠教學",
       "angle": "計算回贈扣除手續費後的真實淨回報率",
       "image_theme": "deposit bonus vs withdrawal fee net return calculation dark gold",
-      "status": "available",
-      "slug": "bonus-vs-fee-net-return",
-      "used_date": null
+      "status": "used",
+      "slug": "deposit-rebate-vs-withdrawal-fees-net-return",
+      "used_date": "2026-06-01"
     },
     {
       "id": 76,
@@ -647,9 +647,9 @@
       "category": "入款教學",
       "angle": "區塊鏈確認機制原理，解釋加密貨幣入款速度優勢",
       "image_theme": "USDT blockchain fast confirmation mechanism bank comparison dark",
-      "status": "available",
-      "slug": "usdt-faster-than-bank-blockchain",
-      "used_date": null
+      "status": "used",
+      "slug": "usdt-deposit-speed-blockchain-mechanism",
+      "used_date": "2026-06-01"
     },
     {
       "id": 79,
@@ -657,9 +657,9 @@
       "category": "提款教學",
       "angle": "揭示提款慢的後台技術及審核流程原因",
       "image_theme": "slow withdrawal backend process explained casino dark gold",
-      "status": "available",
-      "slug": "why-withdrawal-slow-explained",
-      "used_date": null
+      "status": "used",
+      "slug": "why-withdrawal-slow-backend-process",
+      "used_date": "2026-06-01"
     },
     {
       "id": 80,
@@ -677,9 +677,9 @@
       "category": "平台教育",
       "angle": "分析平台設計優惠的商業目標與用戶心理",
       "image_theme": "bonus design logic platform perspective business casino dark",
-      "status": "available",
-      "slug": "bonus-design-logic-platform-perspective",
-      "used_date": null
+      "status": "used",
+      "slug": "platform-rebate-design-logic",
+      "used_date": "2026-06-01"
     },
     {
       "id": 82,

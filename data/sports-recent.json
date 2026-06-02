@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "slug": "2026-06-02-sports-festival-family-fun-day-hong-kong",
+      "headline": "體育節親子運動會圓滿結束",
+      "category": "綜合",
+      "emoji": "🏃‍♀️👨‍👩‍👧‍👦",
+      "date": "2026-06-02",
+      "lead": "體育節親子運動會昨日（6月1日）於香港多個場地盛大舉行，吸引大量市民參與。運動員陳晞文亦與兒子一同享受運動樂趣，推廣健康生活。",
+      "imageUrl": "https://images.pexels.com/photos/32343083/pexels-photo-32343083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "imageAlt": "Dragon boat race with urban cityscape in the background, showcasing competitive teamwork."
+    },
+    {
       "slug": "2026-06-01-football-germany-finland-4-0-world-cup-friendly",
       "title": "德國世盃熱身4:0大掃芬蘭 安達夫梅開二度效率驚人",
       "category": "足球",

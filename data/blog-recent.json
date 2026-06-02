@@ -1,28 +1,28 @@
 {
   "articles": [
     {
-      "slug": "vip-program-roi-analysis",
-      "title": "VIP 計劃值唔值追？ROI 計算 + 機會成本全分析",
-      "category": "優惠教學",
-      "date": "2026-05-31",
-      "excerpt": "VIP 計劃係減少損失，唔係賺錢。本文用 ROI 公式同機會成本，逐級拆解 Bronze 至 Diamond 的真實回報率，月存低過 HK$5,000 的玩家追 VIP 往往唔合算，高頻玩家才真正受益。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/vip-program-roi-analysis.jpg"
+      "slug": "platform-rebate-design-logic",
+      "title": "娛樂平台回贈策略設計",
+      "category": "平台教育",
+      "date": "2026-06-01",
+      "excerpt": "你可能都留意到，唔少掂嘅娛樂平台，好似之前喺旺角西洋菜南街搞過大型宣傳嘅XXX平台咁，好多都話超過八成用戶因為優惠回贈而留低，玩埋一份。到底呢啲平台點解咁「豪爽」？今次我哋就由平台營運角度，深入拆解各",
+      "imageUrl": "/blog/img/platform-rebate-design-logic.jpg"
     },
     {
-      "slug": "license-comparison-curacao-mga-pagcor",
-      "title": "牌照等級差異：Curaçao vs MGA vs PAGCOR 玩家保障完全比較",
-      "category": "法律合規",
-      "date": "2026-05-31",
-      "excerpt": "Curaçao、MGA、PAGCOR 三大博彩牌照保障水平差異極大。MGA 馬爾他牌照玩家資金強制分離存放、爭議投訴有法定效力；PAGCOR 菲律賓牌照亞洲市場常見、中文支援完善；Curaçao 牌照門檻最低、玩家保障最弱。香港玩家選擇境外娛樂平台前，必須了解牌照等級差異。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/license-comparison-curacao-mga-pagcor.jpg"
+      "slug": "why-withdrawal-slow-backend-process",
+      "title": "娛樂平台提款速度 | spheretap HK",
+      "category": "提款教學",
+      "date": "2026-06-01",
+      "excerpt": "你玩線上娛樂平台，係咪都試過提款等到天荒地老？閒閒哋幾粒鐘，有時甚至要等幾日，真係等到心慌慌。我哋統計過，原來六成以上嘅提款緩慢，都係後台流程同埋審核環節出咗問題。今日，我就同大家一齊深入探討，究竟點",
+      "imageUrl": "/blog/img/why-withdrawal-slow-backend-process.jpg"
     },
     {
-      "slug": "nba-finals-spurs-knicks-betting-2026",
-      "title": "2026 NBA 總決賽馬刺對尼克 體育投注攻略完整指南",
-      "category": "優惠資訊",
-      "date": "2026-05-30",
-      "excerpt": "2026 NBA 總決賽馬刺對尼克正式開戰！溫班亞馬帶淚晉級，對陣 Brunson 領軍的紐約尼克。本文詳解 NBA Finals 體育投注基礎知識、賠率解讀及注種選擇，教香港球迷點樣透過持牌娛樂平台安全參與，把握今年最大體育投注盛事。",
-      "imageUrl": "https://raw.githubusercontent.com/wmzic929-prog/spheretap/main/blog/img/nba-finals-spurs-knicks-betting-2026.jpg"
+      "slug": "usdt-deposit-speed-blockchain-mechanism",
+      "title": "USDT入款速度",
+      "category": "入款教學",
+      "date": "2026-06-01",
+      "excerpt": "好多玩家都留意到，用USDT入款，簡直比銀行轉賬快得多。有時仲係即時到賬，簡直神速！呢種速度差異，關鍵喺加密貨幣背後獨特嘅區塊鏈技術。我哋將深入探討區塊鏈運作，解構USDT入款點解咁快，揭示速度優勢嘅",
+      "imageUrl": "/blog/img/usdt-deposit-speed-blockchain-mechanism.jpg"
     }
   ]
 }
