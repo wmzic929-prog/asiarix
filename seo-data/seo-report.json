@@ -6862,5 +6862,12 @@
         }
       }
     }
-  }
+  },
+  "alerts": [
+    {
+      "type": "ranking_drop",
+      "domain": "matchvangtage.com",
+      "message": "排名下滑 19 位（2.8→21.3）"
+    }
+  ]
 }
