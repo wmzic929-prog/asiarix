@@ -707,9 +707,9 @@
       "category": "新手指南",
       "angle": "新手制定入款上限的資金管理邏輯與方法",
       "image_theme": "bankroll management beginner deposit limit logic dark gold",
-      "status": "available",
-      "slug": "beginner-bankroll-management-logic",
-      "used_date": null
+      "status": "used",
+      "slug": "newbie-deposit-limit-strategy",
+      "used_date": "2026-06-02"
     },
     {
       "id": 85,
