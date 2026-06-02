@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-06-01",
+  "last_refreshed": "2026-06-02",
   "keywords": [
     {
       "id": 1,
@@ -1105,6 +1105,36 @@
       "trending_title": "潘頓",
       "trending_source": "Google HK Trends",
       "relevance_score": 80
+    },
+    {
+      "id": 113,
+      "keyword": "拉什福德體育博彩賠率2026",
+      "category": "優惠資訊",
+      "angle": "拉什福德疑回歸曼聯觸發足球博彩新賠率",
+      "image_theme": "dark football betting odds stadium 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-06-02",
+      "trending_title": "馬庫斯·拉什福德",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 82
+    },
+    {
+      "id": 114,
+      "keyword": "港珠澳大橋封路線上澳門賭場2026",
+      "category": "新手指南",
+      "angle": "大橋隧道封閉去唔到澳門改玩線上百家樂",
+      "image_theme": "dark online baccarat Macau casino bridge 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-06-02",
+      "trending_title": "港珠澳大橋",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 72
     }
   ]
 }
