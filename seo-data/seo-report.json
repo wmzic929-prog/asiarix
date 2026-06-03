@@ -7006,5 +7006,12 @@
         }
       }
     }
-  }
+  },
+  "alerts": [
+    {
+      "type": "ranking_drop",
+      "domain": "matchvangtage.com",
+      "message": "排名下滑 5 位（21.3→26.7）"
+    }
+  ]
 }
