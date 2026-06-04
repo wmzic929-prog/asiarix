@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-06-03",
+  "last_refreshed": "2026-06-04",
   "keywords": [
     {
       "id": 1,
@@ -1105,6 +1105,36 @@
       "trending_title": "潘頓",
       "trending_source": "Google HK Trends",
       "relevance_score": 80
+    },
+    {
+      "id": 113,
+      "keyword": "NBA馬刺尼克2026賽事博彩攻略",
+      "category": "優惠資訊",
+      "angle": "NBA季後賽賠率分析助部署博彩策略",
+      "image_theme": "dark NBA playoffs betting odds 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-06-04",
+      "trending_title": "【馬刺對尼克賽事】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 90
+    },
+    {
+      "id": 114,
+      "keyword": "世界盃2026足球博彩C朗賠率分析",
+      "category": "優惠資訊",
+      "angle": "C朗世盃紀錄帶動足球博彩新熱潮",
+      "image_theme": "dark World Cup football Ronaldo betting 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-06-04",
+      "trending_title": "【C朗世盃紀錄】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 82
     }
   ]
 }
