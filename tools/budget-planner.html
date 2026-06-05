@@ -1,0 +1,813 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+  <meta name="format-detection" content="telephone=no">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TQCSL891XL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TQCSL891XL');
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KHMKPNV9');</script>
+
+  <title>理性娛樂預算規劃 – 健康消費指數計算器 | Spheretap</title>
+  <meta name="description" content="免費娛樂預算規劃工具：設定每月娛樂預算，計算健康消費指數、每月建議參與次數及止損建議，支援理性娛樂習慣。">
+  <link rel="canonical" href="https://spheretap.com/tools/budget-planner">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="理性娛樂預算規劃 | Spheretap">
+  <meta property="og:description" content="設定每月娛樂預算，即時計算健康消費指數及建議次數，支援理性娛樂。">
+  <meta property="og:url" content="https://spheretap.com/tools/budget-planner">
+  <meta property="og:locale" content="zh_HK">
+  <meta property="og:site_name" content="spheretap">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "理性娛樂預算規劃",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "url": "https://spheretap.com/tools/budget-planner",
+    "description": "設定每月娛樂預算，計算健康消費指數、每月建議參與次數及止損建議，支援理性娛樂習慣。",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "HKD" },
+    "publisher": { "@type": "Organization", "name": "spheretap", "url": "https://spheretap.com/" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "每月娛樂預算應該設定多少才健康？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "建議每月娛樂預算不超過月收入的5%，且不影響生活必要支出（租金、餐食、交通等）。例如月收入HK$20,000，娛樂預算上限建議約HK$1,000。最重要的是預先設定固定金額，視作消費而非投資。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "每場消費上限應如何設定？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "建議每場上限不超過月預算的10%，這樣每月可參與約10次且風險可控。例如月預算HK$2,000，每場上限建議HK$200。上限設定在月預算25%以下屬健康範圍，超過25%則風險偏高。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "什麼是健康消費指數？如何計算？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "健康消費指數以每場上限佔月預算的比率衡量。比率低於10%（綠色）為健康消費；10%–25%（黃色）需留意；超過25%（紅色）建議調整。計算公式：比率 = 每場上限 ÷ 月預算 × 100%。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "什麼是止損點？應該設定在什麼金額？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "止損點是每場預先設定的最大損失上限，觸及即停止當場參與。本工具建議止損點設為每場上限的50%，即輸掉上限金額的一半便停止。例如每場上限HK$200，止損點為HK$100。止損點幫助避免情緒性連續損失。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --purple:        #6b3ff6;
+      --purple-dark:   #4f28d4;
+      --purple-light:  #8b5cf6;
+      --purple-ultra:  #a78bfa;
+      --purple-glow:   rgba(107,63,246,.28);
+      --bg:            #ffffff;
+      --bg-alt:        #f5f3ff;
+      --bg-dark:       #0d0b2e;
+      --bg-dark2:      #13103a;
+      --text:          #0d1440;
+      --text-muted:    #6b7db3;
+      --text-light:    #475569;
+      --border:        #e2d9ff;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%);
+      border-bottom: 2px solid var(--purple);
+      padding: 12px 20px;
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      position: sticky; top: 0; z-index: 200;
+    }
+    .header-nav {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none;
+      padding: 7px 14px; border-radius: 20px;
+      border: 1px solid rgba(255,255,255,.2); white-space: nowrap;
+      transition: color .2s, border-color .2s;
+    }
+    .header-nav:hover { color: var(--purple-ultra); border-color: var(--purple-light); }
+    .header-nav-active { color: var(--purple-ultra); border-color: rgba(107,63,246,.5); background: rgba(107,63,246,.15); }
+    .header-nav-sports { background: rgba(107,63,246,.18); border-color: rgba(107,63,246,.45); color: var(--purple-ultra); }
+    .header-nav-group {
+      flex: 1; min-width: 0;
+      display: flex; gap: 6px; align-items: center;
+      overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      padding: 0 4px;
+    }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm {
+      background: var(--purple);
+      color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px;
+      text-decoration: none; white-space: nowrap; flex-shrink: 0;
+      border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit;
+      box-shadow: 0 4px 16px var(--purple-glow); letter-spacing: .02em;
+      transition: box-shadow .2s, transform .15s;
+    }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--purple-glow); transform: scale(1.03); }
+
+    /* ── TOOL HERO ── */
+    .tool-hero {
+      background: linear-gradient(155deg, var(--bg-dark2) 0%, #0a0820 50%, #1a0b4a 100%);
+      padding: 60px 20px 52px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .tool-hero::before {
+      content: '';
+      position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(107,63,246,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .tool-hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(34,197,94,.15); border: 1px solid rgba(34,197,94,.35);
+      border-radius: 20px; padding: 5px 16px;
+      font-size: 11.5px; font-weight: 700; color: #86efac;
+      letter-spacing: .06em; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .tool-hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(32px, 7vw, 56px); font-weight: 900;
+      color: #fff; text-transform: uppercase; line-height: 1.05;
+      margin-bottom: 12px;
+    }
+    .tool-hero h1 em { font-style: normal; color: #86efac; }
+    .tool-hero p { font-size: 14px; color: rgba(255,255,255,.6); max-width: 520px; margin: 0 auto; }
+
+    /* ── TOOL BODY ── */
+    .tool-body {
+      background: var(--bg);
+      padding: 48px 20px 64px;
+    }
+
+    .tool-card {
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: 24px;
+      padding: 36px 32px;
+      max-width: 860px;
+      margin: 0 auto;
+      box-shadow: 0 4px 24px rgba(107,63,246,.07), 0 1px 4px rgba(0,0,0,.04);
+    }
+    @media (max-width: 480px) {
+      .tool-card { padding: 24px 16px; }
+    }
+
+    .tool-section-label {
+      font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--purple); margin-bottom: 16px;
+    }
+
+    .tool-input-group { margin-bottom: 20px; }
+    .tool-input-group label {
+      display: block; font-size: 13.5px; font-weight: 600; color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .tool-input-with-prefix-wrap {
+      display: flex; align-items: stretch;
+    }
+    .tool-input-prefix {
+      display: flex; align-items: center;
+      height: 52px; padding: 0 14px;
+      background: var(--bg-alt); border: 1.5px solid var(--border);
+      border-right: none; border-radius: 12px 0 0 12px;
+      font-size: 14px; font-weight: 600; color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
+    .tool-select, .tool-input {
+      height: 52px;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      font-size: 16px;
+      color: var(--text);
+      background: var(--bg);
+      font-family: inherit;
+      padding: 0 16px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+      width: 100%;
+    }
+    .tool-input-with-prefix {
+      border-radius: 0 12px 12px 0;
+      flex: 1;
+    }
+    .tool-select:focus, .tool-input:focus {
+      border-color: var(--purple);
+      box-shadow: 0 0 0 3px rgba(107,63,246,.12);
+    }
+
+    .tool-btn {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; height: 52px;
+      background: var(--purple); color: #fff;
+      font-size: 16px; font-weight: 700;
+      border: none; border-radius: 12px;
+      cursor: pointer; font-family: inherit;
+      box-shadow: 0 4px 16px var(--purple-glow);
+      transition: background .15s, transform .12s, box-shadow .15s;
+      margin-top: 8px;
+    }
+    .tool-btn:hover { background: var(--purple-dark); box-shadow: 0 6px 24px var(--purple-glow); }
+    .tool-btn:active { transform: scale(.97); }
+
+    .tool-btn-secondary {
+      background: none; border: 1.5px solid var(--border);
+      color: var(--text-muted); font-size: 13px;
+      width: auto; height: 36px; padding: 0 16px;
+      margin: 12px auto 0; display: block;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: border-color .2s, color .2s;
+    }
+    .tool-btn-secondary:hover { border-color: var(--purple); color: var(--purple); background: none; box-shadow: none; }
+
+    .tool-divider {
+      border: none; border-top: 1px solid var(--border);
+      margin: 28px 0;
+    }
+
+    /* Results */
+    .tool-results { display: none; }
+    .tool-results.visible { display: block; }
+
+    .tool-results-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    @media (min-width: 540px) {
+      .tool-results-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .result-card {
+      border-radius: 14px; padding: 18px 14px;
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .result-card-label {
+      font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+      opacity: .75; margin-bottom: 8px;
+    }
+    .result-card-value {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(22px, 4vw, 30px); font-weight: 900;
+      line-height: 1;
+    }
+    .result-card-sub { font-size: 11px; opacity: .65; margin-top: 5px; }
+
+    .rc-purple { background: rgba(107,63,246,.1); border: 1.5px solid rgba(107,63,246,.2); color: var(--purple-dark); }
+    .rc-purple .result-card-value { color: var(--purple); }
+    .rc-blue { background: rgba(59,130,246,.08); border: 1.5px solid rgba(59,130,246,.2); color: #1e40af; }
+    .rc-blue .result-card-value { color: #3b82f6; }
+    .rc-orange { background: rgba(249,115,22,.08); border: 1.5px solid rgba(249,115,22,.2); color: #9a3412; }
+    .rc-orange .result-card-value { color: #f97316; }
+
+    /* Health banner */
+    .health-banner {
+      border-radius: 14px; padding: 18px 20px;
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 16px;
+    }
+    .health-banner.hb-green { background: rgba(34,197,94,.1); border: 1.5px solid rgba(34,197,94,.3); }
+    .health-banner.hb-yellow { background: rgba(234,179,8,.1); border: 1.5px solid rgba(234,179,8,.3); }
+    .health-banner.hb-red { background: rgba(239,68,68,.1); border: 1.5px solid rgba(239,68,68,.3); }
+    .health-dot { font-size: 28px; flex-shrink: 0; }
+    .health-text strong { display: block; font-size: 15px; font-weight: 700; color: var(--text); }
+    .health-text span { font-size: 12.5px; color: var(--text-muted); line-height: 1.5; }
+
+    /* Responsible gaming quote */
+    .rg-quote {
+      background: linear-gradient(135deg, rgba(34,197,94,.06) 0%, rgba(107,63,246,.06) 100%);
+      border: 1px solid rgba(34,197,94,.2);
+      border-radius: 14px;
+      padding: 18px 20px;
+      text-align: center;
+      font-size: 14px;
+      font-style: italic;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    .rg-quote::before { content: '"'; font-size: 24px; color: #16a34a; line-height: 0; vertical-align: -8px; margin-right: 4px; }
+    .rg-quote::after { content: '"'; font-size: 24px; color: #16a34a; line-height: 0; vertical-align: -8px; margin-left: 4px; }
+
+    .rg-hotline {
+      background: rgba(239,68,68,.05);
+      border: 1px solid rgba(239,68,68,.15);
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 10px;
+    }
+    .rg-hotline strong { color: #ef4444; }
+
+    .tool-disclaimer {
+      font-size: 11px; color: #94a3b8; line-height: 1.7;
+      margin-top: 20px; padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Desktop layout */
+    @media (min-width: 900px) {
+      .tool-desktop-layout {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        gap: 32px;
+        align-items: start;
+      }
+    }
+
+    /* Section labels */
+    .section-eyebrow {
+      font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+      color: var(--purple); margin-bottom: 10px;
+    }
+    .section-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(28px, 5vw, 42px); font-weight: 900;
+      color: var(--text); text-transform: uppercase; line-height: 1.1;
+      margin-bottom: 8px;
+    }
+
+    /* Tips section */
+    .tips-section {
+      background: var(--bg-alt);
+      padding: 48px 20px 56px;
+      border-top: 1px solid var(--border);
+    }
+    .tips-section .section-title { margin-bottom: 24px; }
+    .tips-grid {
+      display: grid; grid-template-columns: 1fr;
+      gap: 12px; max-width: 860px; margin: 0 auto;
+    }
+    @media (min-width: 640px) { .tips-grid { grid-template-columns: repeat(3, 1fr); } }
+    .tip-card {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: 16px; padding: 22px 18px;
+      box-shadow: 0 1px 4px rgba(107,63,246,.05);
+    }
+    .tip-icon { font-size: 28px; margin-bottom: 10px; }
+    .tip-title { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .tip-desc { font-size: 12.5px; color: var(--text-muted); line-height: 1.6; }
+
+    /* Related articles */
+    .tool-related {
+      background: var(--bg);
+      padding: 48px 20px 56px;
+      border-top: 1px solid var(--border);
+    }
+    .tool-related .section-title { margin-bottom: 24px; }
+    .tool-related-grid {
+      display: grid; grid-template-columns: 1fr;
+      gap: 14px; max-width: 860px; margin: 0 auto;
+    }
+    @media (min-width: 640px) {
+      .tool-related-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    .tool-related-card {
+      background: var(--bg-alt); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px 18px;
+      text-decoration: none; color: inherit;
+      display: flex; flex-direction: column; gap: 8px;
+      box-shadow: 0 1px 4px rgba(107,63,246,.06);
+      transition: border-color .2s, transform .2s;
+    }
+    .tool-related-card:hover { border-color: var(--purple); transform: translateY(-2px); }
+    .trc-cat { font-size: 10.5px; font-weight: 700; color: var(--purple); letter-spacing: .05em; text-transform: uppercase; }
+    .trc-title { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.4; }
+    .trc-link { font-size: 12px; color: var(--purple); font-weight: 600; margin-top: auto; }
+
+    /* Footer */
+    .footer-main {
+      background: var(--bg-dark);
+      color: rgba(255,255,255,.65);
+      padding: 0 20px;
+      font-size: 13px;
+    }
+    .footer-top {
+      display: grid; grid-template-columns: 1fr;
+      gap: 32px; padding: 48px 0 40px;
+      max-width: 1100px; margin: 0 auto;
+    }
+    @media (min-width: 640px) {
+      .footer-top { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .footer-top { grid-template-columns: 2fr 1fr 1fr 1fr; }
+    }
+    .footer-big-links { display: flex; flex-wrap: wrap; gap: 12px; }
+    .footer-big-links a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 28px; font-weight: 900; color: rgba(255,255,255,.3);
+      text-decoration: none; text-transform: uppercase; line-height: 1;
+      transition: color .2s;
+    }
+    .footer-big-links a:hover { color: var(--purple-ultra); }
+    .footer-col-title { font-weight: 700; color: #fff; margin-bottom: 14px; font-size: 13px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .footer-links a { color: rgba(255,255,255,.55); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: var(--purple-ultra); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.08); margin: 0; }
+    .footer-bottom {
+      max-width: 1100px; margin: 0 auto;
+      padding: 20px 0; display: flex; flex-wrap: wrap;
+      justify-content: space-between; gap: 12px;
+      font-size: 12px; color: rgba(255,255,255,.35);
+    }
+    .footer-bottom a { color: rgba(255,255,255,.45); text-decoration: none; margin-left: 16px; transition: color .2s; }
+    .footer-bottom a:hover { color: var(--purple-ultra); }
+
+    .tool-btn-share {
+      background: rgba(34,197,94,.08); border: 1.5px solid rgba(34,197,94,.25);
+      color: #16a34a; font-size: 13px; font-weight: 700;
+      width: 100%; height: 40px;
+      margin: 10px 0 0; display: none;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: background .2s, border-color .2s;
+    }
+    .tool-btn-share:hover { background: rgba(34,197,94,.15); border-color: #16a34a; }
+  </style>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHMKPNV9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="../index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="../LOGO.svg" alt="spheretap" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="../blog.html" class="header-nav">攻略中心</a>
+    <a href="../blog/newbie-guide.html" class="header-nav">新手指南</a>
+    <a href="../blog/bonuses.html" class="header-nav">優惠資訊</a>
+    <a href="odds-converter.html" class="header-nav">指數換算</a>
+    <a href="bonus-planner.html" class="header-nav">禮遇規劃</a>
+    <a href="budget-planner.html" class="header-nav header-nav-active">預算管理</a>
+    <a href="../sports.html" class="header-nav header-nav-sports">體育新聞</a>
+  </nav>
+  <a href="../index.html#cta" class="btn-sm" onclick="window.location='../index.html'">領取禮遇 🎁</a>
+</header>
+
+<!-- HERO -->
+<section class="tool-hero">
+  <div class="tool-hero-badge">📋 理性娛樂</div>
+  <h1>娛樂預算<em>規劃</em></h1>
+  <p>設定每月娛樂預算，智能評估健康消費指數<br>支援理性娛樂，對自己負責</p>
+</section>
+
+<!-- TOOL BODY -->
+<div class="tool-body">
+  <div class="tool-card">
+    <div class="tool-desktop-layout">
+
+      <!-- Input Side -->
+      <div class="tool-input-side">
+        <p class="tool-section-label">輸入預算</p>
+
+        <div class="tool-input-group">
+          <label for="monthlyBudget">每月娛樂預算</label>
+          <div class="tool-input-with-prefix-wrap">
+            <span class="tool-input-prefix">HK$</span>
+            <input type="number" id="monthlyBudget" class="tool-input tool-input-with-prefix"
+              placeholder="例如：2000" inputmode="decimal" min="0" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="tool-input-group">
+          <label for="sessionLimit">每場消費上限</label>
+          <div class="tool-input-with-prefix-wrap">
+            <span class="tool-input-prefix">HK$</span>
+            <input type="number" id="sessionLimit" class="tool-input tool-input-with-prefix"
+              placeholder="例如：200" inputmode="decimal" min="0" autocomplete="off">
+          </div>
+          <p style="font-size:11.5px;color:var(--text-muted);margin-top:6px;">建議單場上限不超過月預算的 25%</p>
+        </div>
+
+        <button class="tool-btn" onclick="calculateBudget()">
+          📋 立即規劃
+        </button>
+        <button class="tool-btn-secondary" onclick="resetTool()">重置</button>
+      </div>
+
+      <!-- Result Side -->
+      <div class="tool-result-side">
+        <div id="results" class="tool-results">
+          <p class="tool-section-label">規劃結果</p>
+
+          <!-- Health Index Banner -->
+          <div id="healthBanner" class="health-banner hb-green">
+            <div class="health-dot" id="healthDot">🟢</div>
+            <div class="health-text">
+              <strong id="healthTitle">健康消費</strong>
+              <span id="healthDesc">單場上限在月預算的合理範圍內，消費模式健康</span>
+            </div>
+          </div>
+
+          <!-- 3 Result Cards -->
+          <div class="tool-results-grid cols-3">
+            <div class="result-card rc-purple">
+              <div class="result-card-label">每月建議次數</div>
+              <div class="result-card-value" id="resSessions">—</div>
+              <div class="result-card-sub">次 / 月</div>
+            </div>
+            <div class="result-card rc-blue">
+              <div class="result-card-label">每日預算參考</div>
+              <div class="result-card-value" id="resDaily">—</div>
+              <div class="result-card-sub">HKD / 日</div>
+            </div>
+            <div class="result-card rc-orange">
+              <div class="result-card-label">建議止損點</div>
+              <div class="result-card-value" id="resStopLoss">—</div>
+              <div class="result-card-sub">HKD / 場</div>
+            </div>
+          </div>
+
+          <!-- Responsible Gaming Quote -->
+          <div class="rg-quote">
+            娛樂是生活的調劑，設定預算是對自己負責的表現。
+          </div>
+
+          <div class="rg-hotline">
+            如需協助，可聯絡問題賭徒輔導熱線：<strong>1834 633</strong>（賭博輔導熱線）
+          </div>
+          <button class="tool-btn-share" id="shareBtn" onclick="shareResult()">📋 複製預算計劃</button>
+        </div>
+
+        <div id="placeholder" style="padding:40px 0; text-align:center; color:var(--text-muted);">
+          <div style="font-size:48px;margin-bottom:12px;">📋</div>
+          <p style="font-size:14px;">填入每月預算及單場上限，即可規劃</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="tool-divider">
+    <p class="tool-disclaimer">⚠️ 此工具計算結果僅供資料參考，不構成任何財務建議。請根據平台官方條款為準。本站支持理性娛樂，18歲以上方可參與。如認為娛樂消費已影響日常生活，請尋求專業輔導協助。</p>
+  </div>
+</div>
+
+<!-- PRINCIPLE SECTION -->
+<section style="background:var(--bg);padding:48px 20px 52px;border-top:1px solid var(--border);">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">預算管理原理</p>
+    <h2 class="section-title" style="color:var(--text);margin-bottom:20px;">理性娛樂預算管理完整指南</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:32px;">
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">💰 預算設定的黃金法則</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">理性娛樂的核心是把娛樂消費視作生活開支的一部分。建議參考<strong style="color:var(--text)">50/30/20法則</strong>：50%必要支出、30%個人消費（含娛樂）、20%儲蓄。娛樂預算應從30%中分配，且預先固定金額，用完即止，絕不動用儲蓄或借貸。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">📊 健康消費指數計算</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">健康消費指數以<strong style="color:var(--text)">單場上限 ÷ 月預算</strong>計算：低於10%（🟢）風險可控，每月可參與約10次；10%–25%（🟡）需留意頻率；超過25%（🔴）單次損失過重，建議調低每場上限。降低每場上限比減少月預算更能有效控制風險。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">🛑 止損點的科學依據</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">止損點建議設為單場上限的50%，原因是行為心理學研究顯示連續損失後人們更容易做出衝動決策（「追損效應」）。當損失達上限一半時停止，可保留另一半預算用於下次，同時切斷追損衝動。<strong style="color:var(--text)">預先決定比當下判斷更理性。</strong></p>
+      </div>
+    </div>
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--text);text-transform:uppercase;margin-bottom:14px;">常見問題</h3>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">月預算用完了，可以追加嗎？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">強烈建議不要。月預算用完是停止的信號，而非追加的信號。追加預算是問題娛樂習慣的早期警示。如發現自己頻繁有衝動追加，建議與朋友傾談或聯絡輔導熱線1834 633。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">贏錢後是否可以增加投注金額？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">建議不要偏離原定計劃。贏錢後增加注碼是常見的「賭徒謬誤」之一。理性做法是贏利後繼續按原定每場上限進行，或提前停止以鎖定收益。記住：娛樂的目的是享受過程，而非追求最大化收益。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">如何知道自己的娛樂習慣是否健康？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">健康的娛樂習慣特徵：預算在計劃範圍內、輸贏後情緒穩定、不影響工作和家庭關係、沒有隱瞞消費。如果你開始感到無法控制、需要增加預算才有滿足感，或影響到日常生活，建議尋求專業輔導協助。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS SECTION -->
+<section class="tips-section">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">理性娛樂貼士</p>
+    <h2 class="section-title" style="color:var(--text);">健康娛樂三原則</h2>
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="tip-icon">⏰</div>
+        <div class="tip-title">設定時間上限</div>
+        <p class="tip-desc">每次娛樂前設定計時器，時間到即停止。避免沉迷影響日常生活作息，保持工作和娛樂的健康平衡。</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">💰</div>
+        <div class="tip-title">固定預算不超支</div>
+        <p class="tip-desc">每月預先設定娛樂預算，視作消費而非投資。當月預算用完即止，絕對不借錢娛樂，保護個人財務健康。</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🧘</div>
+        <div class="tip-title">娛樂為主不追損</div>
+        <p class="tip-desc">娛樂的目的是享受樂趣，輸損時請停下休息。追求翻本往往適得其反，保持平常心才是長期享樂的關鍵。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED ARTICLES -->
+<section class="tool-related">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">相關攻略</p>
+    <h2 class="section-title">延伸閱讀</h2>
+    <div class="tool-related-grid">
+      <a href="../blog/newbie-guide.html" class="tool-related-card">
+        <span class="trc-cat">新手指南</span>
+        <p class="trc-title">新手必讀：理性參與體育娛樂</p>
+        <span class="trc-link">閱讀攻略 →</span>
+      </a>
+      <a href="bonus-planner.html" class="tool-related-card">
+        <span class="trc-cat">工具</span>
+        <p class="trc-title">禮遇規劃計算器：評估達成難度</p>
+        <span class="trc-link">使用工具 →</span>
+      </a>
+      <a href="odds-converter.html" class="tool-related-card">
+        <span class="trc-cat">工具</span>
+        <p class="trc-title">體育指數換算：HK/歐洲/美式</p>
+        <span class="trc-link">使用工具 →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="../blog.html">攻略</a>
+      <a href="../blog.html">優惠</a>
+      <a href="../privacy.html">私隱</a>
+      <a href="../terms.html">條款</a>
+    </div>
+    <div>
+      <p class="footer-col-title">工具中心</p>
+      <ul class="footer-links">
+        <li><a href="odds-converter.html">📊 體育指數換算</a></li>
+        <li><a href="bonus-planner.html">🎁 禮遇規劃計算器</a></li>
+        <li><a href="budget-planner.html">📋 娛樂預算規劃</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">攻略分類</p>
+      <ul class="footer-links">
+        <li><a href="../blog.html">📚 全部攻略</a></li>
+        <li><a href="../blog/welcome-bonus-guide.html">🎁 迎新獎勵</a></li>
+        <li><a href="../blog/newbie-guide.html">🎯 新手指南</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">快捷連結</p>
+      <ul class="footer-links">
+        <li><a href="../index.html">🏠 首頁</a></li>
+        <li><a href="../sports.html">⚽ 體育新聞</a></li>
+        <li><a href="../about.html">ℹ️ 關於我們</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>&copy; 2026 spheretap. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span>
+      <a href="../blog.html">攻略中心</a>
+      <a href="../privacy.html">私隱政策</a>
+      <a href="../terms.html">使用條款</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  function calculateBudget() {
+    const monthlyBudget = parseFloat(document.getElementById('monthlyBudget').value);
+    const sessionLimit = parseFloat(document.getElementById('sessionLimit').value);
+
+    if (isNaN(monthlyBudget) || monthlyBudget <= 0) { shakeInput('monthlyBudget'); return; }
+    if (isNaN(sessionLimit) || sessionLimit <= 0) { shakeInput('sessionLimit'); return; }
+    if (sessionLimit > monthlyBudget) {
+      shakeInput('sessionLimit');
+      return;
+    }
+
+    const sessionsPerMonth = Math.floor(monthlyBudget / sessionLimit);
+    const dailyBudget = Math.round(monthlyBudget / 30);
+    const stopLoss = Math.round(sessionLimit * 0.5);
+    const ratio = sessionLimit / monthlyBudget;
+
+    let healthClass, healthDot, healthTitle, healthDesc;
+    if (ratio <= 0.1) {
+      healthClass = 'hb-green';
+      healthDot = '🟢';
+      healthTitle = '健康消費';
+      healthDesc = '單場上限在月預算的合理範圍內，消費模式健康';
+    } else if (ratio <= 0.25) {
+      healthClass = 'hb-yellow';
+      healthDot = '🟡';
+      healthTitle = '請留意';
+      healthDesc = '單場上限佔月預算比例偏高，建議適當降低每場上限';
+    } else {
+      healthClass = 'hb-red';
+      healthDot = '🔴';
+      healthTitle = '建議調整';
+      healthDesc = '單場上限超過月預算的25%，風險較高，強烈建議降低單場上限';
+    }
+
+    document.getElementById('resSessions').textContent = sessionsPerMonth;
+    document.getElementById('resDaily').textContent = 'HK$' + dailyBudget.toLocaleString();
+    document.getElementById('resStopLoss').textContent = 'HK$' + stopLoss.toLocaleString();
+
+    const banner = document.getElementById('healthBanner');
+    banner.className = 'health-banner ' + healthClass;
+    document.getElementById('healthDot').textContent = healthDot;
+    document.getElementById('healthTitle').textContent = healthTitle;
+    document.getElementById('healthDesc').textContent = healthDesc;
+
+    document.getElementById('results').classList.add('visible');
+    document.getElementById('placeholder').style.display = 'none';
+    document.getElementById('shareBtn').style.display = 'block';
+  }
+
+  function shakeInput(id) {
+    const el = document.getElementById(id);
+    el.style.borderColor = '#ef4444';
+    el.style.boxShadow = '0 0 0 3px rgba(239,68,68,.12)';
+    setTimeout(() => { el.style.borderColor = ''; el.style.boxShadow = ''; }, 2000);
+  }
+
+  function resetTool() {
+    document.getElementById('monthlyBudget').value = '';
+    document.getElementById('sessionLimit').value = '';
+    document.getElementById('results').classList.remove('visible');
+    document.getElementById('placeholder').style.display = '';
+    document.getElementById('shareBtn').style.display = 'none';
+  }
+
+  function shareResult() {
+    const sessions = document.getElementById('resSessions').textContent;
+    const daily = document.getElementById('resDaily').textContent;
+    const stopLoss = document.getElementById('resStopLoss').textContent;
+    const health = document.getElementById('healthTitle').textContent;
+    const text = `📋 娛樂預算規劃結果\n每月建議次數：${sessions}次  |  每日參考：${daily}\n止損點：${stopLoss}  |  ${health}\n\n—— spheretap.com 理性娛樂預算規劃工具`;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('shareBtn');
+      btn.textContent = '✅ 已複製！';
+      setTimeout(() => { btn.textContent = '📋 複製預算計劃'; }, 2000);
+    });
+  }
+</script>
+</body>
+</html>
