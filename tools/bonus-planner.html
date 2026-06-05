@@ -1,0 +1,823 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+  <meta name="format-detection" content="telephone=no">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TQCSL891XL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TQCSL891XL');
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KHMKPNV9');</script>
+
+  <title>禮遇規劃計算器 – 即時評估達成條件難度 | Spheretap</title>
+  <meta name="description" content="免費禮遇規劃計算器：輸入禮遇金額與達成條件倍數，即時計算需完成總金額、每日建議目標及達成難度評估。">
+  <link rel="canonical" href="https://spheretap.com/tools/bonus-planner">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="禮遇規劃計算器 | Spheretap">
+  <meta property="og:description" content="輸入禮遇金額與達成條件，即時計算每日目標與難度評估。">
+  <meta property="og:url" content="https://spheretap.com/tools/bonus-planner">
+  <meta property="og:locale" content="zh_HK">
+  <meta property="og:site_name" content="spheretap">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "禮遇規劃計算器",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "url": "https://spheretap.com/tools/bonus-planner",
+    "description": "輸入禮遇金額與達成條件倍數，即時計算需完成總金額、每日建議目標及達成難度評估。",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "HKD" },
+    "publisher": { "@type": "Organization", "name": "spheretap", "url": "https://spheretap.com/" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "禮遇達成條件倍數（流水要求）是什麼？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "達成條件倍數即流水要求（Wagering Requirement），代表需完成禮遇金額乘以該倍數的投注額後才能提取獎金。例如禮遇HK$500、20倍條件，即需完成HK$10,000的投注流水才能提款。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何判斷一個禮遇是否值得參與？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "輸入禮遇金額、達成倍數和有效天數，計算每日需達到的目標金額。每日目標低於HK$300屬低難度（容易完成）；HK$300-$800為中等；超過HK$800難度較高，需評估是否符合個人預算和時間。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "達成條件倍數越低越好嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "是的，倍數越低代表流水要求越少，禮遇越容易完成。一般而言，15倍以下屬較優惠條件，20-25倍為市場常見水平，30倍以上則需要較多時間和預算才能達成。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "有效天數如何影響禮遇達成難度？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "有效天數越短，每日需達到的目標金額越高，難度越大。例如同樣HK$10,000流水要求，14天有效期每日約需HK$714，但若只有7天則每日需HK$1,428，難度相差一倍。建議優先選擇有效期較長的禮遇。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --purple:        #6b3ff6;
+      --purple-dark:   #4f28d4;
+      --purple-light:  #8b5cf6;
+      --purple-ultra:  #a78bfa;
+      --purple-glow:   rgba(107,63,246,.28);
+      --bg:            #ffffff;
+      --bg-alt:        #f5f3ff;
+      --bg-dark:       #0d0b2e;
+      --bg-dark2:      #13103a;
+      --text:          #0d1440;
+      --text-muted:    #6b7db3;
+      --text-light:    #475569;
+      --border:        #e2d9ff;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, 'PingFang HK', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      background: linear-gradient(90deg, var(--bg-dark) 0%, var(--bg-dark2) 100%);
+      border-bottom: 2px solid var(--purple);
+      padding: 12px 20px;
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      position: sticky; top: 0; z-index: 200;
+    }
+    .header-nav {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 13px; font-weight: 700; color: rgba(255,255,255,.75); text-decoration: none;
+      padding: 7px 14px; border-radius: 20px;
+      border: 1px solid rgba(255,255,255,.2); white-space: nowrap;
+      transition: color .2s, border-color .2s;
+    }
+    .header-nav:hover { color: var(--purple-ultra); border-color: var(--purple-light); }
+    .header-nav-active { color: var(--purple-ultra); border-color: rgba(107,63,246,.5); background: rgba(107,63,246,.15); }
+    .header-nav-sports { background: rgba(107,63,246,.18); border-color: rgba(107,63,246,.45); color: var(--purple-ultra); }
+    .header-nav-group {
+      flex: 1; min-width: 0;
+      display: flex; gap: 6px; align-items: center;
+      overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      padding: 0 4px;
+    }
+    .header-nav-group::-webkit-scrollbar { display: none; }
+    .btn-sm {
+      background: var(--purple);
+      color: #fff; font-size: 13px; font-weight: 900; padding: 10px 18px; border-radius: 50px;
+      text-decoration: none; white-space: nowrap; flex-shrink: 0;
+      border: 2px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit;
+      box-shadow: 0 4px 16px var(--purple-glow); letter-spacing: .02em;
+      transition: box-shadow .2s, transform .15s;
+    }
+    .btn-sm:hover { box-shadow: 0 6px 24px var(--purple-glow); transform: scale(1.03); }
+
+    /* ── TOOL HERO ── */
+    .tool-hero {
+      background: linear-gradient(155deg, var(--bg-dark2) 0%, #0a0820 50%, #1a0b4a 100%);
+      padding: 60px 20px 52px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .tool-hero::before {
+      content: '';
+      position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(107,63,246,.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .tool-hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(107,63,246,.2); border: 1px solid rgba(107,63,246,.4);
+      border-radius: 20px; padding: 5px 16px;
+      font-size: 11.5px; font-weight: 700; color: var(--purple-ultra);
+      letter-spacing: .06em; text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .tool-hero h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(32px, 7vw, 56px); font-weight: 900;
+      color: #fff; text-transform: uppercase; line-height: 1.05;
+      margin-bottom: 12px;
+    }
+    .tool-hero h1 em { font-style: normal; color: var(--purple-ultra); }
+    .tool-hero p { font-size: 14px; color: rgba(255,255,255,.6); max-width: 520px; margin: 0 auto; }
+
+    /* ── TOOL BODY ── */
+    .tool-body {
+      background: var(--bg);
+      padding: 48px 20px 64px;
+    }
+
+    .tool-card {
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: 24px;
+      padding: 36px 32px;
+      max-width: 860px;
+      margin: 0 auto;
+      box-shadow: 0 4px 24px rgba(107,63,246,.07), 0 1px 4px rgba(0,0,0,.04);
+    }
+    @media (max-width: 480px) {
+      .tool-card { padding: 24px 16px; }
+    }
+
+    .tool-section-label {
+      font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--purple); margin-bottom: 16px;
+    }
+
+    .tool-input-group { margin-bottom: 20px; }
+    .tool-input-group label {
+      display: block; font-size: 13.5px; font-weight: 600; color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .tool-input-with-prefix-wrap {
+      display: flex; align-items: stretch;
+    }
+    .tool-input-prefix {
+      display: flex; align-items: center;
+      height: 52px; padding: 0 14px;
+      background: var(--bg-alt); border: 1.5px solid var(--border);
+      border-right: none; border-radius: 12px 0 0 12px;
+      font-size: 14px; font-weight: 600; color: var(--text-muted);
+      flex-shrink: 0;
+    }
+    .tool-input-suffix {
+      display: flex; align-items: center;
+      height: 52px; padding: 0 14px;
+      background: var(--bg-alt); border: 1.5px solid var(--border);
+      border-left: none; border-radius: 0 12px 12px 0;
+      font-size: 14px; font-weight: 600; color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
+    .tool-select, .tool-input {
+      height: 52px;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      font-size: 16px;
+      color: var(--text);
+      background: var(--bg);
+      font-family: inherit;
+      padding: 0 16px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+      width: 100%;
+    }
+    .tool-input-with-prefix {
+      border-radius: 0 12px 12px 0;
+      flex: 1;
+    }
+    .tool-input-with-suffix {
+      border-radius: 12px 0 0 12px;
+      flex: 1;
+    }
+    .tool-select:focus, .tool-input:focus {
+      border-color: var(--purple);
+      box-shadow: 0 0 0 3px rgba(107,63,246,.12);
+    }
+
+    .tool-btn {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; height: 52px;
+      background: var(--purple); color: #fff;
+      font-size: 16px; font-weight: 700;
+      border: none; border-radius: 12px;
+      cursor: pointer; font-family: inherit;
+      box-shadow: 0 4px 16px var(--purple-glow);
+      transition: background .15s, transform .12s, box-shadow .15s;
+      margin-top: 8px;
+    }
+    .tool-btn:hover { background: var(--purple-dark); box-shadow: 0 6px 24px var(--purple-glow); }
+    .tool-btn:active { transform: scale(.97); }
+
+    .tool-btn-secondary {
+      background: none; border: 1.5px solid var(--border);
+      color: var(--text-muted); font-size: 13px;
+      width: auto; height: 36px; padding: 0 16px;
+      margin: 12px auto 0; display: block;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: border-color .2s, color .2s;
+    }
+    .tool-btn-secondary:hover { border-color: var(--purple); color: var(--purple); background: none; box-shadow: none; }
+
+    .tool-divider {
+      border: none; border-top: 1px solid var(--border);
+      margin: 28px 0;
+    }
+
+    /* Results */
+    .tool-results { display: none; }
+    .tool-results.visible { display: block; }
+
+    .tool-results-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    @media (min-width: 540px) {
+      .tool-results-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .result-card {
+      border-radius: 14px; padding: 18px 14px;
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .result-card-label {
+      font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+      opacity: .75; margin-bottom: 8px;
+    }
+    .result-card-value {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(22px, 4vw, 30px); font-weight: 900;
+      line-height: 1;
+    }
+    .result-card-sub { font-size: 11px; opacity: .65; margin-top: 5px; }
+
+    .rc-purple { background: rgba(107,63,246,.1); border: 1.5px solid rgba(107,63,246,.2); color: var(--purple-dark); }
+    .rc-purple .result-card-value { color: var(--purple); }
+    .rc-blue { background: rgba(59,130,246,.08); border: 1.5px solid rgba(59,130,246,.2); color: #1e40af; }
+    .rc-blue .result-card-value { color: #3b82f6; }
+
+    .diff-banner {
+      border-radius: 14px; padding: 16px 20px;
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 16px;
+    }
+    .diff-banner.easy { background: rgba(34,197,94,.1); border: 1.5px solid rgba(34,197,94,.3); }
+    .diff-banner.medium { background: rgba(234,179,8,.1); border: 1.5px solid rgba(234,179,8,.3); }
+    .diff-banner.hard { background: rgba(239,68,68,.1); border: 1.5px solid rgba(239,68,68,.3); }
+    .diff-icon { font-size: 28px; flex-shrink: 0; }
+    .diff-text strong { display: block; font-size: 15px; font-weight: 700; color: var(--text); }
+    .diff-text span { font-size: 12.5px; color: var(--text-muted); line-height: 1.5; }
+
+    .tool-disclaimer {
+      font-size: 11px; color: #94a3b8; line-height: 1.7;
+      margin-top: 20px; padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Desktop layout */
+    @media (min-width: 900px) {
+      .tool-desktop-layout {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        gap: 32px;
+        align-items: start;
+      }
+    }
+
+    /* Section labels */
+    .section-eyebrow {
+      font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+      color: var(--purple); margin-bottom: 10px;
+    }
+    .section-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(28px, 5vw, 42px); font-weight: 900;
+      color: var(--text); text-transform: uppercase; line-height: 1.1;
+      margin-bottom: 8px;
+    }
+
+    /* Reference table */
+    .ref-table-wrap {
+      background: var(--bg);
+      padding: 48px 20px;
+      border-top: 1px solid var(--border);
+    }
+    .ref-table {
+      width: 100%; border-collapse: collapse;
+      font-size: 13px; margin: 20px 0;
+      max-width: 860px;
+    }
+    .ref-table th {
+      background: var(--bg-alt); padding: 10px 14px;
+      font-weight: 700; color: var(--text); text-align: left;
+      border-bottom: 2px solid var(--border);
+    }
+    .ref-table td {
+      padding: 10px 14px; border-bottom: 1px solid var(--border);
+      color: var(--text-light);
+    }
+    .ref-table tr:last-child td { border-bottom: none; }
+    .ref-table tr:hover td { background: var(--bg-alt); }
+
+    /* Related articles */
+    .tool-related {
+      background: var(--bg-alt);
+      padding: 48px 20px 56px;
+      border-top: 1px solid var(--border);
+    }
+    .tool-related .section-title { margin-bottom: 24px; }
+    .tool-related-grid {
+      display: grid; grid-template-columns: 1fr;
+      gap: 14px; max-width: 860px; margin: 0 auto;
+    }
+    @media (min-width: 640px) {
+      .tool-related-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    .tool-related-card {
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px 18px;
+      text-decoration: none; color: inherit;
+      display: flex; flex-direction: column; gap: 8px;
+      box-shadow: 0 1px 4px rgba(107,63,246,.06);
+      transition: border-color .2s, transform .2s;
+    }
+    .tool-related-card:hover { border-color: var(--purple); transform: translateY(-2px); }
+    .trc-cat { font-size: 10.5px; font-weight: 700; color: var(--purple); letter-spacing: .05em; text-transform: uppercase; }
+    .trc-title { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.4; }
+    .trc-link { font-size: 12px; color: var(--purple); font-weight: 600; margin-top: auto; }
+
+    /* Footer */
+    .footer-main {
+      background: var(--bg-dark);
+      color: rgba(255,255,255,.65);
+      padding: 0 20px;
+      font-size: 13px;
+    }
+    .footer-top {
+      display: grid; grid-template-columns: 1fr;
+      gap: 32px; padding: 48px 0 40px;
+      max-width: 1100px; margin: 0 auto;
+    }
+    @media (min-width: 640px) {
+      .footer-top { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .footer-top { grid-template-columns: 2fr 1fr 1fr 1fr; }
+    }
+    .footer-big-links { display: flex; flex-wrap: wrap; gap: 12px; }
+    .footer-big-links a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 28px; font-weight: 900; color: rgba(255,255,255,.3);
+      text-decoration: none; text-transform: uppercase; line-height: 1;
+      transition: color .2s;
+    }
+    .footer-big-links a:hover { color: var(--purple-ultra); }
+    .footer-col-title { font-weight: 700; color: #fff; margin-bottom: 14px; font-size: 13px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .footer-links a { color: rgba(255,255,255,.55); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: var(--purple-ultra); }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.08); margin: 0; }
+    .footer-bottom {
+      max-width: 1100px; margin: 0 auto;
+      padding: 20px 0; display: flex; flex-wrap: wrap;
+      justify-content: space-between; gap: 12px;
+      font-size: 12px; color: rgba(255,255,255,.35);
+    }
+    .footer-bottom a { color: rgba(255,255,255,.45); text-decoration: none; margin-left: 16px; transition: color .2s; }
+    .footer-bottom a:hover { color: var(--purple-ultra); }
+
+    .tool-btn-share {
+      background: rgba(107,63,246,.08); border: 1.5px solid var(--border);
+      color: var(--purple); font-size: 13px; font-weight: 700;
+      width: 100%; height: 40px;
+      margin: 10px 0 0; display: none;
+      border-radius: 12px; cursor: pointer; font-family: inherit;
+      transition: background .2s, border-color .2s;
+    }
+    .tool-btn-share:hover { background: rgba(107,63,246,.16); border-color: var(--purple); }
+  </style>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHMKPNV9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="../index.html" style="display:inline-flex;align-items:center;text-decoration:none;flex-shrink:0;">
+    <img src="../LOGO.svg" alt="spheretap" style="height:40px;width:auto;max-width:160px;object-fit:contain;display:block;">
+  </a>
+  <nav class="header-nav-group" aria-label="攻略分類">
+    <a href="../blog.html" class="header-nav">攻略中心</a>
+    <a href="../blog/newbie-guide.html" class="header-nav">新手指南</a>
+    <a href="../blog/bonuses.html" class="header-nav">優惠資訊</a>
+    <a href="odds-converter.html" class="header-nav">指數換算</a>
+    <a href="bonus-planner.html" class="header-nav header-nav-active">禮遇規劃</a>
+    <a href="budget-planner.html" class="header-nav">預算管理</a>
+    <a href="../sports.html" class="header-nav header-nav-sports">體育新聞</a>
+  </nav>
+  <a href="../index.html#cta" class="btn-sm" onclick="window.location='../index.html'">領取禮遇 🎁</a>
+</header>
+
+<!-- HERO -->
+<section class="tool-hero">
+  <div class="tool-hero-badge">🎁 最受歡迎工具</div>
+  <h1>禮遇規劃<em>計算器</em></h1>
+  <p>輸入禮遇金額與達成條件倍數<br>即時計算每日目標金額及難度評估</p>
+</section>
+
+<!-- TOOL BODY -->
+<div class="tool-body">
+  <div class="tool-card">
+    <div class="tool-desktop-layout">
+
+      <!-- Input Side -->
+      <div class="tool-input-side">
+        <p class="tool-section-label">輸入條件</p>
+
+        <div class="tool-input-group">
+          <label for="bonusAmount">禮遇金額</label>
+          <div class="tool-input-with-prefix-wrap">
+            <span class="tool-input-prefix">HK$</span>
+            <input type="number" id="bonusAmount" class="tool-input tool-input-with-prefix"
+              placeholder="例如：500" inputmode="decimal" min="0" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="tool-input-group">
+          <label for="conditionMultiple">達成條件倍數</label>
+          <div class="tool-input-with-prefix-wrap">
+            <input type="number" id="conditionMultiple" class="tool-input tool-input-with-suffix"
+              placeholder="例如：20" inputmode="decimal" min="1" autocomplete="off">
+            <span class="tool-input-suffix">倍</span>
+          </div>
+        </div>
+
+        <div class="tool-input-group">
+          <label for="validDays">有效天數</label>
+          <div class="tool-input-with-prefix-wrap">
+            <input type="number" id="validDays" class="tool-input tool-input-with-suffix"
+              placeholder="例如：14" inputmode="decimal" min="1" max="365" autocomplete="off">
+            <span class="tool-input-suffix">天</span>
+          </div>
+        </div>
+
+        <button class="tool-btn" onclick="calculateBonus()">
+          🎁 立即計算
+        </button>
+        <button class="tool-btn-secondary" onclick="resetTool()">重置</button>
+      </div>
+
+      <!-- Result Side -->
+      <div class="tool-result-side">
+        <div id="results" class="tool-results">
+          <p class="tool-section-label">計算結果</p>
+
+          <div id="diffBanner" class="diff-banner easy">
+            <div class="diff-icon" id="diffIcon">🟢</div>
+            <div class="diff-text">
+              <strong id="diffTitle">達成難度低</strong>
+              <span id="diffDesc">每日目標金額較低，按時完成機會高</span>
+            </div>
+          </div>
+
+          <div class="tool-results-grid cols-3">
+            <div class="result-card rc-purple">
+              <div class="result-card-label">需完成總金額</div>
+              <div class="result-card-value" id="resTotal">—</div>
+              <div class="result-card-sub">HKD</div>
+            </div>
+            <div class="result-card rc-blue">
+              <div class="result-card-label">每日建議目標</div>
+              <div class="result-card-value" id="resDaily">—</div>
+              <div class="result-card-sub">HKD / 日</div>
+            </div>
+            <div class="result-card" id="diffCard" style="background:rgba(34,197,94,.08);border:1.5px solid rgba(34,197,94,.2);">
+              <div class="result-card-label">達成難度</div>
+              <div class="result-card-value" id="resDiff" style="color:#16a34a;">🟢</div>
+              <div class="result-card-sub" id="resDiffLabel">低</div>
+            </div>
+          </div>
+          <button class="tool-btn-share" id="shareBtn" onclick="shareResult()">📋 複製計劃結果</button>
+        </div>
+
+        <div id="placeholder" style="padding:40px 0; text-align:center; color:var(--text-muted);">
+          <div style="font-size:48px;margin-bottom:12px;">🎁</div>
+          <p style="font-size:14px;">填入禮遇金額及條件，即可評估</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="tool-divider">
+    <p class="tool-disclaimer">⚠️ 此工具計算結果僅供資料參考，不構成任何財務建議。請根據平台官方條款為準。本站支持理性娛樂，18歲以上方可參與。如認為娛樂消費已影響日常生活，請尋求專業輔導協助。</p>
+  </div>
+</div>
+
+<!-- REFERENCE TABLE -->
+<section class="ref-table-wrap">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">參考數據</p>
+    <h2 class="section-title" style="margin-bottom:6px;">常見達成條件參考表</h2>
+    <p style="font-size:13px;color:var(--text-muted);margin-bottom:4px;">以下數字為示例，實際以各平台條款為準</p>
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th>達成條件倍數</th>
+          <th>HK$500 禮遇</th>
+          <th>HK$1,000 禮遇</th>
+          <th>14日每日目標（500）</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>15 倍</td>
+          <td>HK$7,500</td>
+          <td>HK$15,000</td>
+          <td>HK$536 / 日 🟡</td>
+        </tr>
+        <tr>
+          <td>20 倍</td>
+          <td>HK$10,000</td>
+          <td>HK$20,000</td>
+          <td>HK$714 / 日 🟡</td>
+        </tr>
+        <tr>
+          <td>25 倍</td>
+          <td>HK$12,500</td>
+          <td>HK$25,000</td>
+          <td>HK$893 / 日 🔴</td>
+        </tr>
+        <tr>
+          <td>30 倍</td>
+          <td>HK$15,000</td>
+          <td>HK$30,000</td>
+          <td>HK$1,071 / 日 🔴</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size:11px;color:#94a3b8;">🟢 每日&lt;300 = 低難度 &nbsp;|&nbsp; 🟡 300-800 = 中等 &nbsp;|&nbsp; 🔴 &gt;800 = 較高難度</p>
+  </div>
+</section>
+
+<!-- PRINCIPLE SECTION -->
+<section style="background:var(--bg);padding:48px 20px 52px;border-top:1px solid var(--border);">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">禮遇解讀指南</p>
+    <h2 class="section-title" style="color:var(--text);margin-bottom:20px;">如何評估禮遇是否值得參與</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:32px;">
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">📐 流水要求計算公式</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">需完成流水 = 禮遇金額 × 達成倍數。例如禮遇HK$500、20倍條件：<strong style="color:var(--purple)">$500 × 20 = $10,000流水</strong>。在有效期14天內完成，每日目標約HK$714。這是評估禮遇難度的核心計算。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">🎯 難度評估標準</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;"><strong style="color:#16a34a">低難度（🟢）</strong>：每日目標低於HK$300，一般正常參與即可完成；<strong style="color:#ca8a04">中等（🟡）</strong>：HK$300–$800，需適量規劃；<strong style="color:#ef4444">較高難度（🔴）</strong>：超過HK$800，建議評估個人預算後再決定。</p>
+      </div>
+      <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:14px;padding:18px 22px;">
+        <h3 style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:7px;">💡 選擇禮遇的實用原則</h3>
+        <p style="font-size:13px;color:var(--text-muted);line-height:1.7;">優先考慮：①倍數低於20倍；②有效期14天以上；③每日目標不超過你願意投入的金額。高額禮遇不一定划算，關鍵是達成難度與禮遇金額的性價比。</p>
+      </div>
+    </div>
+    <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--text);text-transform:uppercase;margin-bottom:14px;">常見問題</h3>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">15倍和30倍的禮遇，哪個更值得？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">15倍條件通常更值得，因為流水要求只有30倍的一半，完成難度低一倍。即使禮遇金額較小，15倍的禮遇往往比高額但30倍的禮遇更容易獲得實際收益。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">有效期只有7天的禮遇值得參與嗎？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">視乎每日目標是否可接受。用計算器計算後，如果7天有效期的每日目標超過HK$800，屬高難度，建議謹慎評估是否符合個人預算計劃再決定。</p>
+      </details>
+      <details style="background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:14px 18px;">
+        <summary style="font-size:13.5px;font-weight:700;color:var(--text);cursor:pointer;list-style:none;">流水要求可以用不同遊戲完成嗎？</summary>
+        <p style="font-size:12.5px;color:var(--text-muted);line-height:1.7;margin-top:9px;">各平台條款不同，部分平台的某些遊戲類型（如真人娛樂、電子遊戲）對流水的計算比率各異，可能只計算50%或甚至不計算。請以平台官方條款為準，本計算器計算的是總流水需求。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED ARTICLES -->
+<section class="tool-related">
+  <div style="max-width:860px;margin:0 auto;">
+    <p class="section-eyebrow">相關攻略</p>
+    <h2 class="section-title" style="color:var(--text);">延伸閱讀</h2>
+    <div class="tool-related-grid">
+      <a href="../blog/bonuses.html" class="tool-related-card">
+        <span class="trc-cat">優惠資訊</span>
+        <p class="trc-title">最新迎新禮遇一覽</p>
+        <span class="trc-link">查看優惠 →</span>
+      </a>
+      <a href="../blog/newbie-guide.html" class="tool-related-card">
+        <span class="trc-cat">新手指南</span>
+        <p class="trc-title">新手必讀：如何善用迎新禮遇</p>
+        <span class="trc-link">閱讀攻略 →</span>
+      </a>
+      <a href="budget-planner.html" class="tool-related-card">
+        <span class="trc-cat">工具</span>
+        <p class="trc-title">娛樂預算規劃：健康消費指數</p>
+        <span class="trc-link">使用工具 →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="footer-big-links">
+      <a href="../blog.html">攻略</a>
+      <a href="../blog.html">優惠</a>
+      <a href="../privacy.html">私隱</a>
+      <a href="../terms.html">條款</a>
+    </div>
+    <div>
+      <p class="footer-col-title">工具中心</p>
+      <ul class="footer-links">
+        <li><a href="odds-converter.html">📊 體育指數換算</a></li>
+        <li><a href="bonus-planner.html">🎁 禮遇規劃計算器</a></li>
+        <li><a href="budget-planner.html">📋 娛樂預算規劃</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">攻略分類</p>
+      <ul class="footer-links">
+        <li><a href="../blog.html">📚 全部攻略</a></li>
+        <li><a href="../blog/welcome-bonus-guide.html">🎁 迎新獎勵</a></li>
+        <li><a href="../blog/newbie-guide.html">🎯 新手指南</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">快捷連結</p>
+      <ul class="footer-links">
+        <li><a href="../index.html">🏠 首頁</a></li>
+        <li><a href="../sports.html">⚽ 體育新聞</a></li>
+        <li><a href="../about.html">ℹ️ 關於我們</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
+    <span>&copy; 2026 spheretap. All rights reserved. &nbsp;|&nbsp; 🔞 18+ only</span>
+    <span>
+      <a href="../blog.html">攻略中心</a>
+      <a href="../privacy.html">私隱政策</a>
+      <a href="../terms.html">使用條款</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  function calculateBonus() {
+    const bonusAmount = parseFloat(document.getElementById('bonusAmount').value);
+    const conditionMultiple = parseFloat(document.getElementById('conditionMultiple').value);
+    const validDays = parseFloat(document.getElementById('validDays').value);
+
+    if (isNaN(bonusAmount) || bonusAmount <= 0) { shakeInput('bonusAmount'); return; }
+    if (isNaN(conditionMultiple) || conditionMultiple <= 0) { shakeInput('conditionMultiple'); return; }
+    if (isNaN(validDays) || validDays <= 0) { shakeInput('validDays'); return; }
+
+    const totalToComplete = bonusAmount * conditionMultiple;
+    const dailyTarget = totalToComplete / validDays;
+
+    let difficulty, diffIcon, diffTitle, diffDesc, diffClass, diffCardStyle, diffValColor;
+    if (dailyTarget < 300) {
+      difficulty = '低';
+      diffIcon = '🟢';
+      diffTitle = '達成難度低';
+      diffDesc = '每日目標金額較低，按時完成機會高';
+      diffClass = 'easy';
+      diffCardStyle = 'background:rgba(34,197,94,.08);border:1.5px solid rgba(34,197,94,.2);';
+      diffValColor = '#16a34a';
+    } else if (dailyTarget <= 800) {
+      difficulty = '中等';
+      diffIcon = '🟡';
+      diffTitle = '達成難度中等';
+      diffDesc = '需要適量參與，建議合理分配每日時間';
+      diffClass = 'medium';
+      diffCardStyle = 'background:rgba(234,179,8,.08);border:1.5px solid rgba(234,179,8,.2);';
+      diffValColor = '#ca8a04';
+    } else {
+      difficulty = '較高';
+      diffIcon = '🔴';
+      diffTitle = '達成難度較高';
+      diffDesc = '每日目標較高，請評估是否符合個人預算';
+      diffClass = 'hard';
+      diffCardStyle = 'background:rgba(239,68,68,.08);border:1.5px solid rgba(239,68,68,.2);';
+      diffValColor = '#ef4444';
+    }
+
+    document.getElementById('resTotal').textContent = 'HK$' + Math.round(totalToComplete).toLocaleString();
+    document.getElementById('resDaily').textContent = 'HK$' + Math.round(dailyTarget).toLocaleString();
+    document.getElementById('resDiff').textContent = diffIcon;
+    document.getElementById('resDiff').style.color = diffValColor;
+    document.getElementById('resDiffLabel').textContent = difficulty;
+    document.getElementById('diffCard').setAttribute('style', diffCardStyle);
+
+    const banner = document.getElementById('diffBanner');
+    banner.className = 'diff-banner ' + diffClass;
+    document.getElementById('diffIcon').textContent = diffIcon;
+    document.getElementById('diffTitle').textContent = diffTitle;
+    document.getElementById('diffDesc').textContent = diffDesc;
+
+    document.getElementById('results').classList.add('visible');
+    document.getElementById('placeholder').style.display = 'none';
+    document.getElementById('shareBtn').style.display = 'block';
+  }
+
+  function shakeInput(id) {
+    const el = document.getElementById(id);
+    el.style.borderColor = '#ef4444';
+    el.style.boxShadow = '0 0 0 3px rgba(239,68,68,.12)';
+    setTimeout(() => { el.style.borderColor = ''; el.style.boxShadow = ''; }, 2000);
+  }
+
+  function resetTool() {
+    document.getElementById('bonusAmount').value = '';
+    document.getElementById('conditionMultiple').value = '';
+    document.getElementById('validDays').value = '';
+    document.getElementById('results').classList.remove('visible');
+    document.getElementById('placeholder').style.display = '';
+    document.getElementById('shareBtn').style.display = 'none';
+  }
+
+  function shareResult() {
+    const total = document.getElementById('resTotal').textContent;
+    const daily = document.getElementById('resDaily').textContent;
+    const diff = document.getElementById('resDiffLabel').textContent;
+    const text = `🎁 禮遇規劃結果\n需完成流水：${total}\n每日建議目標：${daily}（難度：${diff}）\n\n—— spheretap.com 禮遇規劃計算器`;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('shareBtn');
+      btn.textContent = '✅ 已複製！';
+      setTimeout(() => { btn.textContent = '📋 複製計劃結果'; }, 2000);
+    });
+  }
+</script>
+</body>
+</html>
