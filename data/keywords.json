@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-06-05",
+  "last_refreshed": "2026-06-06",
   "keywords": [
     {
       "id": 1,
@@ -1135,6 +1135,36 @@
       "trending_title": "【C朗世盃紀錄】",
       "trending_source": "Google HK Trends",
       "relevance_score": 82
+    },
+    {
+      "id": 115,
+      "keyword": "馬刺尼克總決賽2026賠率分析",
+      "category": "優惠資訊",
+      "angle": "總決賽賠率即時追蹤，把握最佳入注時機",
+      "image_theme": "dark basketball finals betting odds 2026",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-06-06",
+      "trending_title": "【Spurs vs Knicks 總決賽戰況】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 92
+    },
+    {
+      "id": 116,
+      "keyword": "NBA總決賽2026投注攻略",
+      "category": "新手指南",
+      "angle": "特朗普現身MSG造勢，尼克主場能否封王",
+      "image_theme": "dark NBA finals MSG arena sports bet",
+      "status": "available",
+      "slug": null,
+      "used_date": null,
+      "trending": true,
+      "trending_date": "2026-06-06",
+      "trending_title": "【NBA總決賽｜特朗普將現身麥迪遜廣場】",
+      "trending_source": "Google HK Trends",
+      "relevance_score": 78
     }
   ]
 }
